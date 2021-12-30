@@ -3,14 +3,12 @@ name: Wansoo Kim
 image: images/김완수교수님.png
 role: lead
 aliases:
-  - J. Chen
-  - Jianxu
+  - Wansoo
 links:
   home-page: www.naver.com
   google-scholar: HdolpOgAAAAJ
   email: wansookim@hanyang.ac.kr
-  instagram: joon_hyun_hpf
-  facebook: 김준현
+
 ---
 
 
