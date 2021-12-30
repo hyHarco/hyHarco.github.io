@@ -7,7 +7,7 @@ nav:
 
 # <i class="fas fa-envelope"></i>Contact
 
-[Hanyang University](https://ieng.hanyang.ac.kr/)  
+Our LAB belongs to [Hanyang University](https://ieng.hanyang.ac.kr/)  
 [Hanyang Graduated School](http://www.grad.hanyang.ac.kr/)
 
 {%
