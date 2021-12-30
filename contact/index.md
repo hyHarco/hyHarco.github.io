@@ -15,7 +15,7 @@ Our lab is part of the [Hanyang University](https://ieng.hanyang.ac.kr/)
   icon=""
   text="Email"
   tooltip=""
-  link=wansookim@hanyang.ac.kr
+  link= "wansookim@hanyang.ac.kr"
   style="button"
 %}
 {%
