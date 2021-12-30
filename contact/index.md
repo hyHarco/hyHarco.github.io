@@ -7,7 +7,8 @@ nav:
 
 # <i class="fas fa-envelope"></i>Contact
 
-Our lab is part of the [Hanyang University](https://ieng.hanyang.ac.kr/)
+[Hanyang University](https://ieng.hanyang.ac.kr/)
+[Hanyang Graduated School](http://www.grad.hanyang.ac.kr/)
 
 {%
   include link.html
@@ -41,8 +42,8 @@ Our lab is part of the [Hanyang University](https://ieng.hanyang.ac.kr/)
 {% include section.html %}
 
 # Address 
-- 경기 안산시 상록구 한양대학로 55 (우)15588
-- 55, Hanyangdaehak-ro, Sangnok-gu, Ansan-si, Gyeonggi-do, Republic of Korea
+경기 안산시 상록구 한양대학로 55 (우)15588
+55, Hanyangdaehak-ro, Sangnok-gu, Ansan-si, Gyeonggi-do, Republic of Korea
 {:.center}
 
 <!-- * 카카오맵 - 지도퍼가기 -->
