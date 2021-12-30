@@ -6,9 +6,7 @@ nav:
 ---
 
 
-
-# <i class="fas fa-microscope"></i>Research1
-# <i class="fas fa-search"></i>Team
+# <i class="fas fa-search"></i>HARCO LAB Members
 
 
 
