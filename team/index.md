@@ -5,7 +5,9 @@ nav:
   tooltip: About our team
 ---
 
-# <i class="fas fa-We are building a team with diverse background and expertises, from software enigneering, machine learning, image analysis, data analysis to micr0scopy and computational biomedical modeling. users"></i>Team
+
+
+# <i class="fas fa-search"></i>Team
 
 
 
