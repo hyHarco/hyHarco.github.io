@@ -17,7 +17,11 @@ Please also check out our blog posts on [Reference link1](https://mmv-lab.github
   image="images/research1.jpg"
   text=blabla
 %}
-
+{%
+  include feature.html
+  image="images/research1-2.jpg"
+  text=blabla
+%}
 
 
 
