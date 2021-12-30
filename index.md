@@ -7,13 +7,14 @@ title: Home
 My research interests are in Physical human-robot interaction (pHRI), human-robot collaboration, Shared Control, Ergonomics, Human modeling, Feedback devices, and powered exoskeleton robot.
 
 I am currently looking for a Post-doc., undergraduate students (PhD), and engineers motivated to solve problems in the exoskeleton robot and cobot.
+
 please send your CV to my Email address :: wansookim@hanyang.ac.kr
 
 {:.center}
 
 {% include section.html full=true %}
 
-{% include banner.html image="images/banner.svg" %}
+{% include banner.html image="images/Frontimg.png" %}
 
 {% include section.html %}
 
@@ -21,7 +22,7 @@ please send your CV to my Email address :: wansookim@hanyang.ac.kr
 
 {% capture text %}
 
-AI-based microscopy machine vision is a highly multi-disciplinary field. There are so many fanscinating problems to explore and study.
+This is Our Research~~~~ explanation Bla bla
 
 [See our research landscape &nbsp;→](research)
 {:.center}
@@ -29,13 +30,22 @@ AI-based microscopy machine vision is a highly multi-disciplinary field. There a
 
 {%
   include feature.html
-  image="images/research2.svg"
+  image="images/reserch1.jpg"
   link="research"
   headline="Our Research"
   text=text
 %}
 
-{% capture text %}
+
+
+
+
+
+
+
+
+
+<!-- {% capture text %}
 
 Our group is fully commited to open science, such as open source softwares/packages, public datasets, open access publications. We believe open science can lead to impactful big science.
 
@@ -65,4 +75,4 @@ We are building a team with diverse background and expertises, from software eni
   link="team"
   headline="Our Team"
   text=text
-%}
+%} -->
