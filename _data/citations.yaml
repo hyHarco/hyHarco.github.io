@@ -133,41 +133,20 @@
   image: ../images/MICCAI.png
   tags:
   - image segmentation
+
 - id: doi:https://doi.org/10.1016/j.cels.2021.05.001
-  title: 'Cell states beyond transcriptomics: Integrating structural organization
-    and gene expression in hiPSC-derived cardiomyocytes'
+  title: A Flexible Robotics-Inspired Computational Model of Compressive Loading on the Human Spine
   authors:
-  - Kaytlyn A. Gerbin
-  - Tanya Grancharova
-  - Rory M. Donovan-Maiye
-  - Melissa C. Hendershott
-  - Helen G. Anderson
-  - Jackson M. Brown
-  - Jianxu Chen
-  - Stephanie Q. Dinh
-  - Jamie L. Gehring
-  - Gregory R. Johnson
-  - HyeonWoo Lee
-  - Aditya Nath
-  - Angelique M. Nelson
-  - M. Filip Sluzewski
-  - Matheus P. Viana
-  - Calysta Yan
-  - Rebecca J. Zaunbrecher
-  - Kimberly R. Cordes Metzler
-  - Nathalie Gaudreault
-  - Theo A. Knijnenburg
-  - Susanne M. Rafelski
-  - Julie A. Theriot
-  - Ruwanthi N. Gunawardane
-  publisher: Cell Systems
+  - Ventura, L.
+  - Lorenzini, M.
+  - Kim, W., & Ajoudani, A. 
+  publisher: IEEE Robotics and Automation Letters
   date: '2021-06-01'
   link: https://doi.org/gktgdk
   image: images/logoimg.png
   tags:
-  - caridomyocyte
-  - analysis and modeling
-  - image segmentation
+
+
 - id: url:https://papers.nips.cc/paper/2016/hash/4dcf435435894a4d0972046fc566af76-Abstract.html
   title: Combining Fully Convolutional and Recurrent Neural Networks for 3D Biomedical
     Image Segmentation
