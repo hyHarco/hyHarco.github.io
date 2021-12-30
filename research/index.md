@@ -16,7 +16,6 @@ Please also check out our blog posts on [Reference link1](https://mmv-lab.github
 {%
   include feature.html
   image="images/research1.jpg"
-  link="research"
   text=blabla
 %}
 
@@ -34,6 +33,5 @@ Please also check out our blog posts on [Reference link1](https://www.naver.com/
 {%
   include feature.html
   image="images/research2.jpg"
-  link="research"
   text=blabla
 %}
