@@ -1,15 +1,14 @@
 ---
-name: people_3
-image: images/unknown.svg
+name: 나일론 머스크
+image: images/ilon.png
 description: IT/Software
 role: programmer
 aliases:
-  - F. Cited
-  - F Cited
+  - doge
 links:
   home-page: felixcited.com
   email: felix@cited.com
   twitter: felixcited
 ---
 
-TBA by new member
+Father of doge

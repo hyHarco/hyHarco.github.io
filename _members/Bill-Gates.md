@@ -1,6 +1,6 @@
 ---
-name: people_4
-image: images/unknown.svg
+name: Bill-Gates
+image: images/billgates.png
 description: Ph.D. Researcher
 role: phd
 aliases:
@@ -12,4 +12,4 @@ links:
   github: anne-chovie
 ---
 
-TBA by new member
+Our Team Member

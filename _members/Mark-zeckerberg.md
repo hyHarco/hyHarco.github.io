@@ -1,6 +1,6 @@
 ---
-name: people_2
-image: images/unknown.svg
+name: mark zuckerberg
+image: images/mark.png
 description: Ph.D. Researcher
 role: phd
 aliases:
@@ -12,4 +12,4 @@ links:
   github: anne-chovie
 ---
 
-TBA by new member
+facebook man
