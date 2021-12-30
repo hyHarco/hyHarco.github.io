@@ -2,9 +2,12 @@
 title: Home
 ---
 
-# synergize AI, machine vision and microscopy 
+# Lab. overview 
 
-AI-based microscopy machine vision research is a highly interdisciplinary field requiring good knowledge of machine learning, computer vision, microscopy and the associated biomedical applications. We develop new deep learning and computer vision algorithms driven by real biomedical applications for R&D. We also generalize or productionize existing algorithms for high-dimenstional microscopy images, so that biomedical researchers are accesible to more the high-end AI algorithms. Currently, our focus is applications arose from whole-body or whole-organ imaging using lightsheet flurorescence microscopy (LSFM). But, the methods and tools are mostly generalizable for other modalities. In our group, we are building a diverse team with different expertises and embrace extensive internal and external collaborations.
+My research interests are in Physical human-robot interaction (pHRI), human-robot collaboration, Shared Control, Ergonomics, Human modeling, Feedback devices, and powered exoskeleton robot.
+
+I am currently looking for a Post-doc., undergraduate students (PhD), and engineers motivated to solve problems in the exoskeleton robot and cobot.
+please send your CV to my Email address :: wansookim@hanyang.ac.kr
 
 {:.center}
 
