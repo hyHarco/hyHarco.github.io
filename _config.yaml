@@ -2,10 +2,10 @@
 
 # site properties and page defaults
 title: Hanyang HARCO LAB
-description: Webpage of Jianxu Chen's group
-logo: images/lab_logo.svg
+description: Webpage of HARCO
+logo: images/logoimg.png
 header: images/background.png
-footer: images/background.jpg
+footer: images/background.png
 baseurl: 
 
 # site social media and other links
