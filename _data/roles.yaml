@@ -1,0 +1,16 @@
+lead:
+  icon: fas fa-microscope
+  text: Group Leader
+
+postdoc:
+  icon: fas fa-glasses
+  text: Postdoctoral Researcher
+
+phd:
+  icon: fas fa-graduation-cap
+  text: PhD Student
+
+programmer:
+  icon: fas fa-code
+  text: IT/Software
+

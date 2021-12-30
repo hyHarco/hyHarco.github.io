@@ -1,0 +1,35 @@
+- name: SOFTWARE - 3D cell cycle classifier
+  group: previous
+  image: images/mitotic.png
+  link: https://github.com/AllenCell/image_classifier_3d
+  description: mitotic classifier
+
+- name: SOFTWARE - Iterative ML segmentation for 3D microscopy images
+  group: previous
+  image: images/segmenter_ml.png
+  link: https://github.com/AllenCell/aics-ml-segmentation
+  description: This is the ML part of Allen Cell and Structure Segmenter software
+
+- name: SOFTWARE - Classic image segmentation for 3D microscopy images
+  group: previous
+  image: images/segmenter_classic.png
+  link: https://github.com/AllenCell/aics-segmentation
+  description: This is the classic part of Allen Cell and Structure Segmenter software
+
+- name: Data - 3D single cell dataset with cell stage annotation 
+  group: previous
+  image: images/variance.png
+  link: https://open.quiltdata.com/b/allencell/packages/aics/hipsc_single_cell_image_dataset
+  description: Dataset used to train the 3D mitotic classif
+
+- name: ZeroCostDL4Mic
+  group: others
+  image: https://henriqueslab.github.io/images/ZeroCostDL4Mic.jpg
+  link: https://github.com/HenriquesLab/ZeroCostDL4Mic
+  description: A collection of self-explanatory Jupyter Notebooks for Google Colab that features an easy-to-use graphical user interface. A good resource for learning deep learning applications in microscopy image analysis.
+
+- name: napari
+  group: others
+  image: images/napari.png
+  link: https://napari.org/
+  description: A fast, interactive, multi-dimensional image viewer for Python, designed for browsing, annotating, and analyzing large multi-dimensional images

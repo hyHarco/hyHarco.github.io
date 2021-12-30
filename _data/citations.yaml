@@ -1,0 +1,408 @@
+# GENERATED AUTOMATICALLY, DO NOT EDIT
+
+- id: doi:10.1109/BIBM49941.2020.9313428
+  title: Unlabeled Data Guided Semi-supervised Histopathology Image Segmentation
+  authors:
+  - Hongxiao Wang
+  - Hao Zheng
+  - Jianxu Chen
+  - Lin Yang
+  - Yizhe Zhang
+  - Danny Z. Chen
+  publisher: IEEE BIBM
+  date: '2020-12-16'
+  link: https://doi.org/gkspnj
+  image: ../images/he.png
+  tags:
+  - histopathology image
+  - image transformation
+  - image segmentation
+  - unlabeled data
+- id: doi:10.1109/CBMS49503.2020.00069
+  title: 'InTracker: An Integrated Detector-Tracker Framework for Cell Detection and
+    Tracking'
+  authors:
+  - Peixian Liang
+  - Jianxu Chen
+  - Yizhe Zhang
+  - Hongxiao Wang
+  - Hao Zheng
+  - Pengfei Gu
+  - Danny Chen
+  publisher: IEEE CBMS
+  date: '2020-07-01'
+  link: https://doi.org/gkspnk
+  image: ../images/cbms.png
+  tags:
+  - cell tracking
+- id: doi:https://doi.org/10.1101/491035
+  title: 'The Allen Cell and Structure Segmenter: a new open source toolkit for segmenting
+    3D intracellular structures in fluorescence microscopy images'
+  authors:
+  - Jianxu Chen
+  - Liya Ding
+  - Matheus P. Viana
+  - HyeonWoo Lee
+  - M. Filip Sluezwski
+  - Benjamin Morris
+  - Melissa C. Hendershott
+  - Ruian Yang
+  - Irina A. Mueller
+  - Susanne M. Rafelski
+  publisher: bioRxiv
+  date: '2020-12-13'
+  link: https://doi.org/gkspnm
+  image: https://www.allencell.org/uploads/8/1/9/9/81996008/icon-segmenter2_orig.png
+  extra-links:
+  - type: website
+    link: https://www.allencell.org/segmenter.html
+  - type: source
+    link: https://github.com/AllenCell/aics-ml-segmentation
+    text: ML segmentation source
+  - type: source
+    link: https://github.com/AllenCell/aics-segmentation
+    text: classic segmentation source
+  tags:
+  - image segmentation
+  - 3D
+  - tool
+- id: doi:10.1109/ISBI.2019.8759430
+  title: 'Cascade Decoder: A Universal Decoding Method For Biomedical Image Segmentation'
+  authors:
+  - Peixian Liang
+  - Jianxu Chen
+  - Hao Zheng
+  - Lin Yang
+  - Yizhe Zhang
+  - Danny Z. Chen
+  publisher: IEEE ISBI
+  date: '2019-04-01'
+  link: https://doi.org/gkspnn
+  image: ../images/isbi.png
+  tags:
+  - image segmentation
+  - 3D
+- id: doi:https://doi.org/10.1609/aaai.v33i01.33015901
+  title: Biomedical Image Segmentation via Representative Annotation
+  authors:
+  - Hao Zheng
+  - Lin Yang
+  - Jianxu Chen
+  - Jun Han
+  - Yizhe Zhang
+  - Peixian Liang
+  - Zhuo Zhao
+  - Chaoli Wang
+  - Danny Z. Chen
+  publisher: AAAI
+  date: '2019-07-17'
+  link: https://doi.org/ghkj3s
+  image: ../images/aaai.png
+  tags:
+  - image segmentation
+  - efficient annotation
+- id: doi:10.1109/ISBI.2018.8363724
+  title: A new registration approach for dynamic analysis of calcium signals in organs
+  authors:
+  - Peixian Liang
+  - Jianxu Chen
+  - Pavel A. Brodskiy
+  - Qinfeng Wu
+  - Yejia Zhang
+  - Yizhe Zhang
+  - Lin Yang
+  - Jeremiah J. Zartman
+  - Danny Z. Chen
+  publisher: IEEE ISBI
+  date: '2018-04-01'
+  link: https://doi.org/gkspqm
+  image: ../images/isbi.png
+  tags:
+  - image registration
+- id: doi:https://doi.org/10.1007/978-3-319-66185-8_3
+  title: Neuron Segmentation Using Deep Complete Bipartite Networks
+  authors:
+  - Jianxu Chen
+  - Sreya Banerjee
+  - Abhinav Grama
+  - Walter J. Scheirer
+  - Danny Z. Chen
+  publisher: MICCAI
+  date: '2017-01-01'
+  link: https://doi.org/gkspqn
+  image: ../images/MICCAI.png
+  tags:
+  - image segmentation
+- id: doi:https://doi.org/10.1016/j.cels.2021.05.001
+  title: 'Cell states beyond transcriptomics: Integrating structural organization
+    and gene expression in hiPSC-derived cardiomyocytes'
+  authors:
+  - Kaytlyn A. Gerbin
+  - Tanya Grancharova
+  - Rory M. Donovan-Maiye
+  - Melissa C. Hendershott
+  - Helen G. Anderson
+  - Jackson M. Brown
+  - Jianxu Chen
+  - Stephanie Q. Dinh
+  - Jamie L. Gehring
+  - Gregory R. Johnson
+  - HyeonWoo Lee
+  - Aditya Nath
+  - Angelique M. Nelson
+  - M. Filip Sluzewski
+  - Matheus P. Viana
+  - Calysta Yan
+  - Rebecca J. Zaunbrecher
+  - Kimberly R. Cordes Metzler
+  - Nathalie Gaudreault
+  - Theo A. Knijnenburg
+  - Susanne M. Rafelski
+  - Julie A. Theriot
+  - Ruwanthi N. Gunawardane
+  publisher: Cell Systems
+  date: '2021-06-01'
+  link: https://doi.org/gktgdk
+  image: https://www.allencell.org/uploads/8/1/9/9/81996008/cellsystems-cover-fish-aics-cos-2-final-thumb_2.png
+  tags:
+  - caridomyocyte
+  - analysis and modeling
+  - image segmentation
+- id: url:https://papers.nips.cc/paper/2016/hash/4dcf435435894a4d0972046fc566af76-Abstract.html
+  title: Combining Fully Convolutional and Recurrent Neural Networks for 3D Biomedical
+    Image Segmentation
+  authors:
+  - J. Chen
+  - L. Yang
+  - Y. Zhang
+  - M. Alber
+  - D. Chen
+  publisher: NeurIPS
+  date: '2016-12-05'
+  link: https://proceedings.neurips.cc/paper/2016/file/4dcf435435894a4d0972046fc566af76-Paper.pdf
+  image: ../images/nips.png
+  tags:
+  - recurrent neural network
+  - image segmentation
+- id: doi:10.1128/JB.00184-19
+  title: Single Cells Exhibit Differing Behavioral Phases during Early Stages of Pseudomonas
+    aeruginosa Swarming
+  authors:
+  - Chinedu S. Madukoma
+  - Peixian Liang
+  - Aleksandar Dimkovikj
+  - Jianxu Chen
+  - Shaun W. Lee
+  - Danny Z. Chen
+  - Joshua D. Shrout
+  publisher: Journal of Bacteriology
+  date: '2019-10-01'
+  link: https://doi.org/gktgdm
+  image: https://journals.asm.org/cms/10.1128/JB.00184-19/asset/1a011f2b-63f1-4345-b9b7-c2046a493bfc/assets/graphic/jb.00184-19-f0003.jpeg
+  tags:
+  - cell tracking
+  - analysis and modeling
+  - bacteria
+- id: doi:10.1016/j.bpj.2019.01.007
+  title: Decoding Calcium Signaling Dynamics during Drosophila Wing Disc Development
+  authors:
+  - Pavel A. Brodskiy
+  - Qinfeng Wu
+  - Dharsan K. Soundarrajan
+  - Francisco J. Huizar
+  - Jianxu Chen
+  - Peixian Liang
+  - Cody Narciso
+  - Megan K. Levis
+  - Ninfamaria Arredondo-Walsh
+  - Danny Z. Chen
+  - Jeremiah J. Zartman
+  publisher: Biophysical Journal
+  date: '2019-02-01'
+  link: https://doi.org/gktgdn
+  image: https://marlin-prod.literatumonline.com/cms/attachment/aa948b9d-5119-43c5-8bd7-a12cc5331c0d/gr4.jpg
+  tags:
+  - image registration
+  - analysis and modeling
+- id: doi:10.1016/j.matbio.2016.10.007
+  title: Compression-induced structural and mechanical changes of fibrin-collagen
+    composites
+  authors:
+  - O.V. Kim
+  - R.I. Litvinov
+  - J. Chen
+  - D.Z. Chen
+  - J.W. Weisel
+  - M.S. Alber
+  publisher: Matrix Biology
+  date: '2017-07-01'
+  link: https://doi.org/gktgdp
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0945053X16302517-gr8.sml
+  tags:
+  - image segmentation
+  - analysis and modeling
+- id: doi:10.1109/TMI.2016.2548490
+  title: A Hybrid Approach for Segmentation and Tracking of Myxococcus Xanthus Swarms
+  authors:
+  - Jianxu Chen
+  - Mark S. Alber
+  - Danny Z. Chen
+  publisher: IEEE Transactions on Medical Imaging
+  date: '2016-09-01'
+  link: https://doi.org/gktgdq
+  image: ../images/myxo.png
+  tags:
+  - image segmentation
+  - cell tracking
+- id: doi:10.1103/PhysRevLett.117.028301
+  title: "Kinetic Transition Networks for the Thomson Problem and Smale\u2019s Seventh\
+    \ Problem"
+  authors:
+  - Dhagash Mehta
+  - Jianxu Chen
+  - Danny Z. Chen
+  - Halim Kusumaatmaja
+  - David J. Wales
+  publisher: Physical Review Letters
+  date: '2016-07-06'
+  link: https://doi.org/gktgdr
+  image: https://journals.aps.org/prl/article/10.1103/PhysRevLett.117.028301/figures/2/thumbnail
+  tags:
+  - analysis and modeling
+- id: doi:10.1109/TIFS.2016.2535901
+  title: Iris Recognition Based on Human-Interpretable Features
+  authors:
+  - Jianxu Chen
+  - Feng Shen
+  - Danny Ziyi Chen
+  - Patrick J. Flynn
+  publisher: IEEE Transactions on Information Forensics and Security
+  date: '2016-07-01'
+  link: https://doi.org/f8jtrt
+  image: ../images/iris.png
+  tags:
+  - human-in-the-loop
+  - image recognition
+  - forensics
+- id: doi:https://doi.org/10.1007/978-3-319-66179-7_46
+  title: 'Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image
+    Segmentation'
+  authors:
+  - Lin Yang
+  - Yizhe Zhang
+  - Jianxu Chen
+  - Siyuan Zhang
+  - Danny Z. Chen
+  publisher: MICCAI
+  date: '2017-01-01'
+  link: https://doi.org/gkqs4p
+  image: ../images/MICCAI.png
+  tags:
+  - image segmentation
+  - human-in-the-loop
+- id: doi:https://doi.org/10.1007/978-3-319-66179-7_47
+  title: Deep Adversarial Networks for Biomedical Image Segmentation Utilizing Unannotated
+    Images
+  authors:
+  - Yizhe Zhang
+  - Lin Yang
+  - Jianxu Chen
+  - Maridel Fredericksen
+  - David P. Hughes
+  - Danny Z. Chen
+  publisher: MICCAI
+  date: '2017-01-01'
+  link: https://doi.org/gktgds
+  image: ../images/MICCAI.png
+  tags:
+  - image segmentation
+  - unlabeled data
+- id: doi:https://doi.org/10.1145/3061639.3062297
+  title: Optimizing Memory Efficiency for Convolution Kernels on Kepler GPUs
+  authors:
+  - Xiaoming Chen
+  - Jianxu Chen
+  - Danny Z. Chen
+  - Xiaobo Sharon Hu
+  publisher: ACM Design Automation Conference
+  date: '2017-06-18'
+  link: https://doi.org/gktgvn
+  image: ../images/gpu.png
+  tags:
+  - hardware/software co-design
+- id: doi:10.1109/ISBI.2016.7493426
+  title: Segmentation and tracking of Pseudomonas aeruginosa for cell dynamics analysis
+    in time-lapse images
+  authors:
+  - Jianxu Chen
+  - Yiqing Cai
+  - Chen Wei
+  - Lin Yang
+  - Mark S. Alber
+  - Danny Z. Chen
+  publisher: IEEE ISBI
+  date: '2016-04-01'
+  link: https://doi.org/gktgvp
+  image: ../images/pseudo.png
+  tags:
+  - image segmentation
+  - cell tracking
+- id: doi:https://doi.org/10.1007/978-3-319-24574-4_34
+  title: A Hybrid Approach for Segmentation and Tracking of Myxococcus Xanthus Swarms
+  authors:
+  - Jianxu Chen
+  - Shant Mahserejian
+  - Mark Alber
+  - Danny Z. Chen
+  publisher: MICCAI
+  date: '2015-01-01'
+  link: https://doi.org/gktgvq
+  image: ../images/MICCAI.png
+  tags:
+  - image segmentation
+  - cell tracking
+- id: doi:10.1109/ISBA.2015.7126352
+  title: Iris recognition based on human-interpretable features
+  authors:
+  - Jianxu Chen
+  - Feng Shen
+  - Danny Z. Chen
+  - Patrick J. Flynn
+  publisher: IEEE International Conference on Identity, Security, and Behavior Analysis
+  date: '2015-03-01'
+  link: https://doi.org/gktgvr
+  image: ../images/iris.png
+  tags:
+  - human-in-the-loop
+  - image recognition
+  - forensics
+- id: doi:https://doi.org/10.1007/978-3-319-10470-6_15
+  title: "A Matching Model Based on Earth Mover\u2019s Distance for Tracking Myxococcus\
+    \ Xanthus"
+  authors:
+  - Jianxu Chen
+  - Cameron W. Harvey
+  - Mark S. Alber
+  - Danny Z. Chen
+  publisher: MICCAI
+  date: '2014-01-01'
+  link: https://doi.org/gktgvs
+  image: ../images/MICCAI.png
+  tags:
+  - cell tracking
+- id: doi:10.1109/CBMS.2014.62
+  title: An Automated Approach for Fibrin Network Segmentation and Structure Identification
+    in 3D Confocal Microscopy Images
+  authors:
+  - Jianxu Chen
+  - Oleg V. Kim
+  - Rustem I. Litvinov
+  - John W. Weisel
+  - Mark S. Alber
+  - Danny Z. Chen
+  publisher: IEEE CBMS
+  date: '2014-05-01'
+  link: https://doi.org/gktgvt
+  image: ../images/fibrin.png
+  tags:
+  - image segmentation
