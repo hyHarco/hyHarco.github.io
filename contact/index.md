@@ -7,7 +7,7 @@ nav:
 
 # <i class="fas fa-envelope"></i>Contact
 
-[Hanyang University](https://ieng.hanyang.ac.kr/)
+[Hanyang University](https://ieng.hanyang.ac.kr/)  
 [Hanyang Graduated School](http://www.grad.hanyang.ac.kr/)
 
 {%
