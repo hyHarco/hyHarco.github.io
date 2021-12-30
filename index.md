@@ -43,7 +43,7 @@ This is Our Research~~~~ explanation Bla bla
 
 {% capture text %}
 
-We are building a team with diverse background and expertises, from software enigneering, machine learning, image analysis, data analysis to microscopy and computational biomedical modeling. 
+This is Our Team Member
 
 [Meet our team &nbsp;→](team)
 {:.center}
