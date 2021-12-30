@@ -37,16 +37,8 @@ nav:
 %}
 {:.center}
 
-{% include section.html background="images/banner.svg" dark=true%}
+{% include section.html background="images/WantedYOU.png" dark=true%}
 
 We are actively looking for top talents.
-{%
-  include link.html
-  icon="fas fa-hands-helping"
-  text="Join the Team"
-  link="join"
-  style="button"
-%}
-{:.center}
 
 {% include section.html %}
