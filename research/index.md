@@ -5,7 +5,7 @@ nav:
   tooltip: research landscape
 ---
 
-# <i class="fas fa-microscope"></i>Reserch1
+# <i class="fas fa-microscope"></i>Research1
 
 
 This is a First Reasearch
@@ -24,7 +24,7 @@ Please also check out our blog posts on [Reference link1](https://mmv-lab.github
 #
 #
 #
-# <i class="fas fa-microscope"></i>Reserch2
+# <i class="fas fa-microscope"></i>Research2
 
 
 This is a Second Reasearch
