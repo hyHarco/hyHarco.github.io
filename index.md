@@ -18,23 +18,26 @@ please send your CV to my Email address :: wansookim@hanyang.ac.kr
 
 {% include section.html %}
 
-# Highlights
+
+
+
+<!-- # Our Research
 
 {% capture text %}
 
 This is Our Research~~~~ explanation Bla bla
 
-[See our research landscape &nbsp;→](research)
+[to see, Click here &nbsp;→](research)
 {:.center}
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/reserch1.jpg"
+  image="images/research1.jpg"
   link="research"
-  headline="Our Research"
+  headline="Research1"
   text=text
-%}
+%} -->
 
 
 
