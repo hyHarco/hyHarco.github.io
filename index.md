@@ -21,7 +21,7 @@ please send your CV to my Email address :: wansookim@hanyang.ac.kr
 
 
 
-<!-- # Our Research
+# Our Research
 
 {% capture text %}
 
@@ -37,11 +37,25 @@ This is Our Research~~~~ explanation Bla bla
   link="research"
   headline="Research1"
   text=text
-%} -->
+%}
 
 
 
+{% capture text %}
 
+We are building a team with diverse background and expertises, from software enigneering, machine learning, image analysis, data analysis to microscopy and computational biomedical modeling. 
+
+[Meet our team &nbsp;→](team)
+{:.center}
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/team.svg"
+  link="team"
+  headline="Our Team"
+  text=text
+%} 
 
 
 
@@ -64,18 +78,4 @@ Our group is fully commited to open science, such as open source softwares/packa
   text=text
 %}
 
-{% capture text %}
-
-We are building a team with diverse background and expertises, from software enigneering, machine learning, image analysis, data analysis to microscopy and computational biomedical modeling. 
-
-[Meet our team &nbsp;→](team)
-{:.center}
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/team.svg"
-  link="team"
-  headline="Our Team"
-  text=text
-%} -->
+-->
