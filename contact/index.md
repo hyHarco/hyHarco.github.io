@@ -42,9 +42,15 @@ nav:
 {% include section.html %}
 
 # Address 
-경기 안산시 상록구 한양대학로 55 (우)15588
+
+경기 안산시 상록구 한양대학로 55 (우)15588  
 55, Hanyangdaehak-ro, Sangnok-gu, Ansan-si, Gyeonggi-do, Republic of Korea
 {:.center}
+{% endcapture %}
+
+
+
+
 
 <!-- * 카카오맵 - 지도퍼가기 -->
 <!-- 1. 지도 노드 -->
