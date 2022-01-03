@@ -23,7 +23,7 @@ layout: default
 {%- assign aliases = "" | split: ',' -%}
 
 {%- if page.aliases.first -%}
-  {%- assign aliases = aliases | concat: page.aliases -%}
+  {%- assign aliases = aliases | concat: page.aliases -%}  
 {%- elsif page.aliases -%}
   {%- assign aliases = aliases | push: page.aliases -%}
 {%- elsif page.title -%}

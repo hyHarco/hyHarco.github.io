@@ -18,12 +18,16 @@ nav:
   component="portrait"
   filters="tier: first" 
 %}
+{:.center}
+
 {%
   include list.html
   data="members"
   component="portrait"
   filters="tier: second" 
 %}
+
+
 {%
   include list.html
   data="members"

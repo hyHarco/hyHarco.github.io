@@ -6,6 +6,7 @@ aliases:
   - Hamsy
 links:
   email: hcpretty99@hanyang.ac.kr
+tier: second
 
 ---
 
