@@ -31,7 +31,7 @@ nav:
   filters="tier: " 
 %}
 
-{:.center}
+
 
 {% include section.html background="images/WantedYOU.png" dark=true%}
 
@@ -43,6 +43,7 @@ We are actively looking for top talents.
   link="contact"
   style="button"
 %}
+{:.center}
 
 {% include section.html %}
 
