@@ -1,8 +1,7 @@
 ---
 name: Wansoo Kim
 image: images/김완수교수님.png
-role: lead
-description: Leader
+description: Team Leader
 aliases:
   - Wansoo
 links:
