@@ -2,7 +2,6 @@
 name: Seoyeon Ham
 image: images/함서연.jpg
 description: Postdoc Researcher
-role: postdoc
 aliases:
   - Hamsy
 links:

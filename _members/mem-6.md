@@ -2,7 +2,6 @@
 name: people_5
 image: images/unknown.svg
 description: IT/Software
-role: programmer
 aliases:
   - A. Chovie
   - A Chovie

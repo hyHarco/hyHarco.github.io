@@ -2,7 +2,6 @@
 name: 나일론 머스크
 image: images/ilon.png
 description: IT/Software
-role: programmer
 aliases:
   - doge
 links:
