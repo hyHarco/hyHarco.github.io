@@ -3,17 +3,16 @@
 # site properties and page defaults
 title: Hanyang HARCO LAB
 description: Webpage of HARCO
-logo: images/logoimg.png
+# logo: images/logoimg.png
 header: images/background.png
 footer: images/background.png
 baseurl: 
 
 # site social media and other links
 links:
-  email: jianxuchen.ai@gmail.com
-  google-scholar: HdolpOgAAAAJ
-  github: mmv-lab
-  twitter: JianxuChen
+  email: wansookim@hanyang.ac.kr
+  google-scholar: https://scholar.google.com/citations?user=07u_E8wAAAJ&hl=ko
+  github: hyHarco
 
 # automatic citations
 auto-cite:
