@@ -23,4 +23,10 @@ Human ergonomics
 Industrial Robot
 
 
+# Lectures
+- [COE3052] Engineering Mathematics II (English).  
+- [ROB3001] Introduction to Robotics, 로봇공학 입문 (Korean)   
+- [ELE3004] Control Engineering, 제어공학 (Korean)  
+
+
 See [full CV](../asset/CV_Jianxu.pdf)  CV파일을 건네받으면 업로드
