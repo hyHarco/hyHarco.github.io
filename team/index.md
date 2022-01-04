@@ -9,28 +9,49 @@ nav:
 # <i class="fas fa-search"></i>HARCO LAB Members
 
 
-
 {% include section.html %}
 
+# Leader
 {%
   include list.html
   data="members"
   component="portrait"
   filters="tier: first" 
 %}
+
+# Postdoc Researcher
 {%
   include list.html
   data="members"
   component="portrait"
   filters="tier: second" 
 %}
+
+
+# Ph.D Researcher
 {%
   include list.html
   data="members"
   component="portrait"
-  filters="tier: " 
+  filters="tier: third " 
 %}
 
+
+# MS Researcher
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters="tier: fourth " 
+%}
+
+# BS Researcher
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters="tier: fifth " 
+%}
 
 
 {% include section.html background="images/WantedYOU.png" dark=true%}

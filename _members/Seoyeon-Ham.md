@@ -1,12 +1,12 @@
 ---
 name: Seoyeon Ham
 image: images/함서연.jpg
-description: Postdoc Researcher
+description: BS Student
 aliases:
   - Hamsy
 links:
   email: hcpretty99@hanyang.ac.kr
-tier: second
+tier: fifth
 
 ---
 
