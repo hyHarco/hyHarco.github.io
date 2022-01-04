@@ -1,6 +1,6 @@
 ---
 name: Donggyu Lee
-image: images/이동규.svg
+image: images/이동규.jpg
 description: BS Student
 aliases:
   - dong dong
