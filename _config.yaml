@@ -3,7 +3,7 @@
 # site properties and page defaults
 title: Hanyang HARCO LAB
 description: Webpage of HARCO
-logo: images/HYU_symbol.ai
+logo: 
 header: images/background.png
 footer: images/background.png
 baseurl: 
