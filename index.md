@@ -2,13 +2,12 @@
 title: Home
 ---
 
-# Lab. overview 
 {%
   include feature.html
   image="images/logoimg.png"
   text=blabla
 %}
-My research interests are in Physical human-robot interaction (pHRI), human-robot collaboration, Shared Control, Ergonomics, Human modeling, Feedback devices, and powered exoskeleton robot.
+Our research interests are in Physical human-robot interaction (pHRI), human-robot collaboration, Shared Control, Ergonomics, Human modeling, Feedback devices, and powered exoskeleton robot.
 
 I am currently looking for a Post-doc., undergraduate students (PhD), and engineers motivated to solve problems in the exoskeleton robot and cobot.
 
