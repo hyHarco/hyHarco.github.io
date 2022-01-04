@@ -45,6 +45,7 @@ Our LAB belongs to [Hanyang University](https://ieng.hanyang.ac.kr/)
 
 경기 안산시 상록구 한양대학로 55 (우)15588    
 55, Hanyangdaehak-ro, Sangnok-gu, Ansan-si, Gyeonggi-do, Republic of Korea
+Office: 한양대학교 ERICA 5공학관 518호(교수 사무실), 521호(연구실)
 {:.center}
 
 
