@@ -1,7 +1,7 @@
 ---
 name: Seoyeon Ham
 image: images/함서연.jpg
-description: BS Student
+description: BS Research
 aliases:
   - Hamsy
 links:
