@@ -6,7 +6,7 @@ aliases:
   - Hamsy
 links:
   email: hcpretty99@hanyang.ac.kr
-tier: fifth
+tier: fourth
 
 ---
 Research Topic: Soft Robotics, Wearable & Rehabilitation Robots. and Gait Analysis.
