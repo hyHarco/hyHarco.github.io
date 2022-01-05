@@ -9,6 +9,8 @@ links:
 tier: fourth
 
 ---
+Email: hcpretty99@hanyang.ac.kr
+
 Research Topic: Soft Robotics, Wearable & Rehabilitation Robots. and Gait Analysis.
 
 # Education
