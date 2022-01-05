@@ -1,7 +1,7 @@
 ---
 name: Seoyeon Ham
 image: images/함서연.jpg
-description: BS Research
+description: M.S Candidate
 aliases:
   - Hamsy
 links:
@@ -9,6 +9,7 @@ links:
 tier: fifth
 
 ---
+Research Topic: Soft Robotics, Wearable & Rehabilitation Robots. and Gait Analysis.
 
- B.S. candidate in the Department of Robotics Engineering,Hanyang University.   
-Her research interest is Wearable & Rehabilitation Robots. Soft Robotics, and Gait Analysis.
+# Education
+- B.S. Robotics Engineering, Hanyang University (2018 ~ 2021)

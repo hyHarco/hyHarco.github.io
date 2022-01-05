@@ -1,7 +1,7 @@
 ---
 name: mark zuckerberg
 image: images/mark.png
-description: Ph.D. Researcher
+description: Ph.D. Candidate
 aliases:
   - A. Chovie
   - A Chovie

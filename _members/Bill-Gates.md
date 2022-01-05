@@ -1,7 +1,7 @@
 ---
 name: Bill-Gates
 image: images/billgates.png
-description: Ph.D. Researcher
+description: Ph.D. Candidate
 aliases:
   - A. Chovie
   - A Chovie

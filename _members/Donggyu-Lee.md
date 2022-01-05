@@ -1,7 +1,7 @@
 ---
 name: Donggyu Lee
 image: images/이동규.jpg
-description: BS Research
+description: B.S. Candidate
 aliases:
   - dong dong
 links:
