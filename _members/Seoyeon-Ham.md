@@ -9,7 +9,7 @@ links:
 tier: fourth
 
 ---
-Research Topic: Soft Robotics, Wearable & Rehabilitation Robots. and Gait Analysis.
+Research Topic: Soft Robotics, Wearable & Rehabilitation Robots, and Gait Analysis.
 
 # Education
 - B.S. Robotics Engineering, Hanyang University (2018 ~ 2021)
