@@ -11,8 +11,6 @@ links:
 tier: first
 
 ---
-
-
 Hanyang Univ | Dept of robotics | Assistant professor.
 Team Leader of Harco LAB
 
