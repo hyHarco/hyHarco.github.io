@@ -14,4 +14,5 @@ Research Topic: Soft Robotics, Wearable & Rehabilitation Robots, and Gait Analys
 - Email : hcpretty99@hanyang.ac.kr
 
 # Education
-- B.S. Robotics Engineering, Hanyang University (2018 ~ 2022)
+- 2022 | B.S. Robotics Engineering, Hanyang University 
+- 2022~present | M.S. Candidate

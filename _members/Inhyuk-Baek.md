@@ -14,4 +14,6 @@ Research Topic: Manipulation planning, Robot motion
 
 
 # Education
-- M.S. Hanyang Graduated School(~2022)
+- 2015.02 | B.S. Electronic Systems Engineering, Hanyang University
+- 2017.02 | M.S. Interdisciplinary Engineering Systems, Hanyang University
+- 2022.02 | Ph.D. Mechatronics Engineering, Hanyang University
