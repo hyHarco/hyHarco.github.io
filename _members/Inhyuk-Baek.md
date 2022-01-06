@@ -1,6 +1,6 @@
 ---
 name: Inhyuk Baek
-image: #images/백인혁.png
+image: images/백인혁.png
 description: Ph.D Candidate
 aliases:
   - Back
