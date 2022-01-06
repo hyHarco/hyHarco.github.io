@@ -13,9 +13,5 @@ tier: Third
 Research Topic: Manipulation planning, Robot motion  
 
 
-- Telephone (office): +82 31 400 4062
-- FAX (office): +82 31 406 6398
-- Mobile phone: +82 10 7228 2049
-
 # Education
 - M.S. Hanyang Graduated School(~2022)
