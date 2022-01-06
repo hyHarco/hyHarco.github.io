@@ -4,7 +4,7 @@ title: Home
 
 {%
   include feature.html
-  image="images/logoimg.png"
+  image="images/harc.png"
   text=blabla
 %}
 Our research interests are in Physical human-robot interaction (pHRI), human-robot collaboration, Shared Control, Ergonomics, Human modeling, Feedback devices, and powered exoskeleton robot.
