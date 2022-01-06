@@ -12,6 +12,6 @@ tier: third
 Research Topic : Wearable & Rehabilitation Robots
 
 # Education
-- 2019 | B.S. Mechanical Engineering, Hanyang University 
-- 2021 | M.S. Mechatronics Engineering, Hanyang University 
-- 2021~present | Ph.D. Candidate at Hanyang Univ
+- (2019) B.S. Mechanical Engineering, Hanyang University 
+- (2021) M.S. Mechatronics Engineering, Hanyang University 
+- (2021~present) Ph.D. Candidate at Hanyang Univ
