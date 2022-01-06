@@ -7,7 +7,7 @@ aliases:
 links:
   home-page: http://cnrlab.re.kr/
   email: bih0702@hanyang.ac.kr
-tier: Third
+tier: third
 
 ---
 Research Topic: Manipulation planning, Robot motion  
