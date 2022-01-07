@@ -1,7 +1,7 @@
 ---
 name: Seoyeon Ham
 image: images/함서연.jpg
-description: M.S. Candidate
+description: M.S. Researcher
 aliases:
   - Hamsy
 links:

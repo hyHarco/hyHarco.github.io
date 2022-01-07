@@ -19,7 +19,7 @@ nav:
   filters="tier: first" 
 %}
 
-# Post-doc Researcher
+# Post-doc Candidate
 {%
   include list.html
   data="members"
@@ -28,7 +28,7 @@ nav:
 %}
 
 
-# Ph.D. Researcher
+# Ph.D. Candidate
 {%
   include list.html
   data="members"
@@ -37,7 +37,7 @@ nav:
 %}
 
 
-# M.S. Researcher
+# M.S. Candidate
 {%
   include list.html
   data="members"
@@ -45,7 +45,7 @@ nav:
   filters="tier: fourth " 
 %}
 
-# B.S. Researcher
+# B.S. Candidate
 {%
   include list.html
   data="members"
