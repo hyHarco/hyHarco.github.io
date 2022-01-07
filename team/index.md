@@ -11,7 +11,7 @@ nav:
 
 {% include section.html %}
 
-# Leader
+# Team Leader
 {%
   include list.html
   data="members"
@@ -19,7 +19,7 @@ nav:
   filters="tier: first" 
 %}
 
-# Postdoc Researcher
+# Post-doc Researcher
 {%
   include list.html
   data="members"
@@ -28,7 +28,7 @@ nav:
 %}
 
 
-# Ph.D Researcher
+# Ph.D. Researcher
 {%
   include list.html
   data="members"
@@ -37,7 +37,7 @@ nav:
 %}
 
 
-# MS Researcher
+# M.S. Researcher
 {%
   include list.html
   data="members"
@@ -45,7 +45,7 @@ nav:
   filters="tier: fourth " 
 %}
 
-# BS Researcher
+# B.S. Researcher
 {%
   include list.html
   data="members"

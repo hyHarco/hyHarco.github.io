@@ -1,7 +1,7 @@
 ---
 name: Wansoo Kim
 image: images/김완수교수님.png
-description: Team Leader
+description: Principal Investigator
 aliases:
   - Wansoo
 links:

@@ -1,7 +1,7 @@
 ---
 name: Seoyeon Ham
 image: images/함서연.jpg
-description: M.S Candidate
+description: M.S. Candidate
 aliases:
   - Hamsy
 links:
@@ -14,5 +14,5 @@ Research Topic: Soft Robotics, Wearable & Rehabilitation Robots, and Gait Analys
 - Email : hcpretty99@hanyang.ac.kr
 
 # Education
-- 2022 | B.S. Robotics Engineering, Hanyang University 
-- 2022~present | M.S. Candidate
+- (2022.02) B.S. Robotics Engineering, Hanyang University 
+- (2022~present) M.S. Candidate

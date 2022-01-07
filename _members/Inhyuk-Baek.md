@@ -1,7 +1,7 @@
 ---
 name: Inhyuk Baek
 image: images/백인혁.png
-description: Postdoc Researcher
+description: Post-doc Researcher
 aliases:
   - Back
 links:
