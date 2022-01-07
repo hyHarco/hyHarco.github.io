@@ -2,7 +2,7 @@
 title: Data
 nav:
   order: 5
-  tooltip: Software, datasets, and more
+  tooltip: Reference Data, Link, S/W
 ---
 
 # <i class="fas fa-tools"></i> Our Reference Data
