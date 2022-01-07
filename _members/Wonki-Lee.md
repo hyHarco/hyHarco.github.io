@@ -1,7 +1,7 @@
 ---
 name: Wonki Lee
 image: images/리원치.jpg
-description: Ph.D. Candidate
+description: Ph.D. Researcher
 aliases:
   - Lee
 links:
