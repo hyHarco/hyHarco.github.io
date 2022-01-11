@@ -1,6 +1,6 @@
 ---
 name: LE BAO
-image: images/리원치.jpg
+image: images/바오러.jpg
 description: Ph.D. Student
 aliases:
   - BaoLe
