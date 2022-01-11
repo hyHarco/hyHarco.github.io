@@ -19,7 +19,7 @@ nav:
   filters="tier: first" 
 %}
 
-# Post-doc Candidate
+# Post-doc Reasearch
 {%
   include list.html
   data="members"
@@ -28,7 +28,7 @@ nav:
 %}
 
 
-# Ph.D. Candidate
+# Ph.D. Student
 {%
   include list.html
   data="members"
