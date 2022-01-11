@@ -7,7 +7,6 @@ aliases:
 links:
   google-scholar: https://scholar.google.com/citations?user=07u_E8wAAAJ&hl=ko
   email: wansookim@hanyang.ac.kr
-  github: harco-wansookim
 tier: first
 
 ---
@@ -29,7 +28,7 @@ Team Leader of Harco LAB
 
 
   
-   
-    
+
+
 See [CV](../asset/WansooKim_CV.pdf)
 - Email: wansookim@hanyang.ac.kr
