@@ -15,7 +15,7 @@ tier: fourth
 
 # Education
 - (2022.02) B.S. Robotics Engineering, Hanyang University 
-- (2022~present) M.S. Candidate
+- (2022.03~present) M.S. Candidate
 
 # Research
 - Soft Robotics

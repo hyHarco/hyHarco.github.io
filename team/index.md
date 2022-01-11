@@ -19,7 +19,7 @@ nav:
   filters="tier: first" 
 %}
 
-# Post-doc Reasearch
+# Post-doc Reasearcher
 {%
   include list.html
   data="members"

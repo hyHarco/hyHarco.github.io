@@ -5,20 +5,21 @@ description: Principal Investigator
 aliases:
   - Wansoo
 links:
-  home-page: www.naver.com
   google-scholar: https://scholar.google.com/citations?user=07u_E8wAAAJ&hl=ko
   email: wansookim@hanyang.ac.kr
+  github: harco-wansookim
 tier: first
 
 ---
+
 Hanyang Univ | Dept of robotics | Assistant professor.
 Team Leader of Harco LAB
 
 
-Exoskeleton Robot
-Human Robot Interaction & Control
-Human ergonomics
-Industrial Robot
+- Exoskeleton Robot
+- Human Robot Interaction & Control
+- Human ergonomics
+- Industrial Robot
 
 
 # Lectures
@@ -27,4 +28,5 @@ Industrial Robot
 - [ELE3004] Control Engineering, 제어공학 (Korean)  
 
 
-See [full CV](../asset/CV_Jianxu.pdf)  CV파일을 건네받으면 업로드
+See [full CV](../asset/WansooKim_CV.pdf)  CV파일을 건네받으면 업로드
+- Email: wansookim@hanyang.ac.kr

@@ -6,7 +6,6 @@ aliases:
   - dong dong
 links:
   email: gyu2391@gmail.com
-  github: 
 tier: fifth
 ---
 - Research interests:

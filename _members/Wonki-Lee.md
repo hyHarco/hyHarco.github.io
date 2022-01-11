@@ -10,6 +10,7 @@ tier: third
 ---
 
 - Research interests: Wearable & Rehabilitation Robots
+- Email: lwqaxx@gmail.com
 
 # Education
 - (2019.8) B.S. Mechanical Engineering, Hanyang University 
