@@ -28,5 +28,8 @@ Team Leader of Harco LAB
 - [ELE3004] Control Engineering, 제어공학 (Korean)  
 
 
-See [full CV](../asset/WansooKim_CV.pdf)  CV파일을 건네받으면 업로드
+  
+   
+    
+See [CV](../asset/WansooKim_CV.pdf)
 - Email: wansookim@hanyang.ac.kr
