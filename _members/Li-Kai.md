@@ -1,6 +1,6 @@
 ---
 name: LIKAI
-image: images/리카이.jpg
+image: images/리카이.png
 description: M.S. Researcher
 aliases:
   - likai
