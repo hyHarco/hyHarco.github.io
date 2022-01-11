@@ -9,10 +9,13 @@ links:
 tier: fourth
 
 ---
-Research Topic: Soft Robotics, Wearable & Rehabilitation Robots, and Gait Analysis.  
+Interesting Fields: Soft Robotics, Wearable & Rehabilitation Robots, and Gait Analysis.  
 - [CV](https://sites.google.com/hanyang.ac.kr/hamseoyeoncv/%ED%99%88)  
 - Email : hcpretty99@hanyang.ac.kr
 
 # Education
 - (2022.02) B.S. Robotics Engineering, Hanyang University 
 - (2022~present) M.S. Candidate
+
+# Research
+- Soft Robotics

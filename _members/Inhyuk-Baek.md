@@ -9,7 +9,7 @@ links:
 tier: second
 
 ---
-Research Topic: Manipulation planning, Robot motion  
+Interesting Fields : Manipulation planning, Robot motion  
 
 
 # Education
