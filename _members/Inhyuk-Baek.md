@@ -9,7 +9,7 @@ links:
 tier: second
 
 ---
-Interesting Fields : Manipulation planning, Robot motion  
+- Research interests: Manipulation planning, Robot motion  
 
 
 # Education

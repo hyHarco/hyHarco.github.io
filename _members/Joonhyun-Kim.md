@@ -9,7 +9,7 @@ links:
 tier: fifth
 ---
 
-Interesting Fields: A.I, Impedence Control, Wearable Robot, GAIT Analysis
+- Research interests: A.I, Impedence Control, Wearable Robot, GAIT Analysis
 - Email : ralwnsgus4715@gmail.com
 
 # Education

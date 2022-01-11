@@ -9,7 +9,7 @@ links:
 tier: third
 ---
 
-Interesting Fields : Wearable & Rehabilitation Robots
+- Research interests: Wearable & Rehabilitation Robots
 
 # Education
 - (2019.8) B.S. Mechanical Engineering, Hanyang University 
