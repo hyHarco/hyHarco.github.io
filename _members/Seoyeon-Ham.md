@@ -18,4 +18,5 @@ tier: fourth
 - (2022.03~present) M.S. Candidate
 
 # Research
+- KSME CONFERENCE BIOENGINEERING DIVISION/ Reliability of 3-degrees of freedom passive wrist stiffness measurement using active robotic apparatus.
 - Soft Robotics
