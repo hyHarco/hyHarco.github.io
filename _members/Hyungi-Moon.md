@@ -1,6 +1,6 @@
 ---
 name: Hyungi Moon
-image: images/example.png
+image: images/문현기.jpg
 description: Ph.D. Researcher
 links:
   email: ahskem@naver.com
