@@ -10,7 +10,7 @@ tier: fourth
 
 ---
 - Research interests: Soft Robotics, Wearable & Rehabilitation Robots, and Gait Analysis.  
-- [CV](../asset/WansooKim_CV.pdf)
+- [CV](https://sites.google.com/hanyang.ac.kr/hamseoyeoncv/%ED%99%88)
 - Email : hcpretty99@hanyang.ac.kr
 
 # Education
