@@ -5,8 +5,11 @@ description: B.S. Researcher
 aliases:
   - dong dong
 links:
-  email: gyu2391@gmail.com
+  email: dong2391@hanyang.ac.kr
 tier: fifth
 ---
-- Research interests:
-Ling ding dong
+- Research interests: Exoskeleton Robots, Impedence Control
+- Email: dong2391@hanyang.ac.kr
+
+# Education
+- (2019~) B.S. Robotics Engineering, Hanyang University
