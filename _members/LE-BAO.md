@@ -1,7 +1,7 @@
 ---
 name: LE BAO
 image: images/바오러.jpg
-description: Ph.D. Student
+description: Ph.D. Researcher
 aliases:
   - BaoLe
 links:

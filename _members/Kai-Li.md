@@ -1,5 +1,5 @@
 ---
-name: LIKAI
+name: KAI LI
 image: images/리카이.png
 description: M.S. Researcher
 aliases:
@@ -9,8 +9,8 @@ links:
 tier: fourth
 ---
 
-- Research interests: Mobile Robots
-- Email: baole@hanyang.ac.kr
+- Research interests: Intelligent Mobile Robots and Algorithms
+- Email: likai5289@hnayang.ac.kr  
 
 # Education
 - (2020.8)  B.S. Mechanical Engineering，Hanyang University
