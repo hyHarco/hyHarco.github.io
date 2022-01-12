@@ -1,5 +1,5 @@
 ---
-name: KAI LI
+name: Kai Li
 image: images/리카이.png
 description: M.S. Researcher
 aliases:
