@@ -9,7 +9,7 @@ links:
 tier: third
 ---
 
-- Research interests: Robot Control
+- Research interests: Sliding mode control, Sensor fusion and applications
 - Email: baole@hanyang.ac.kr
 
 # Education
