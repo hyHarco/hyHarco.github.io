@@ -14,7 +14,7 @@ tier: fourth
 
 # Education
 - (2020.8)  B.S. Mechanical Engineering，Hanyang University
-- (2020.9~perdent )  M.S. Mechatronics Engineering，Hanyang University
+- (2020.9~present)  M.S. Mechatronics Engineering，Hanyang University
 
 # Research
 - Intelligent follow mobile robot
