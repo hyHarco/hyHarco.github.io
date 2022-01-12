@@ -1,6 +1,6 @@
 ---
 name: Taeyhang Lim
-image: images/example.png
+image: images/임태양.png
 description: B.S. Researcher
 links:
   email: jennetlim98@gmail.com
