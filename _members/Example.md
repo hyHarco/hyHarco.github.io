@@ -15,12 +15,23 @@ tier: second
 - (2018.08) B.S. Electronic Engineering, Daegu University
 - (2020.08) M.S. Electronic Engineering, Pusan National University
 - (2020.09~present) Ph.D. Candidate Mechatronics Engineering, Hanyang University    
-(졸업년도, 월, 학위까지 기재하여 보내주세요)
+(위 예시처럼 졸업년도, 월, 학위까지 기재하여 보내주세요)
 
 # Research
 - Research Experience를 적어서 보내주세요  
   
+    
+   
+    
+     
+
+
+
+
+ㅡㅡㅡㅡ여기까지는 공통ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ  
+
+
+
   
-ㅡㅡㅡㅡ여기까지는 공통.  
-  
+    
 이후 내용은 각자 추가하고싶은 내용을 보내주시면 반영해드리겠습니다
