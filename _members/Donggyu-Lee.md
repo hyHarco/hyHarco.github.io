@@ -12,4 +12,4 @@ tier: fifth
 - Email: dong2391@hanyang.ac.kr
 
 # Education
-- (2019~) B.S. Robotics Engineering, Hanyang University
+- (2019~present) B.S. Robotics Engineering, Hanyang University
