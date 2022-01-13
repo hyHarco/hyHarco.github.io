@@ -6,9 +6,6 @@ nav:
 ---
 
 
-# <i class="fas fa-search"></i>HARCO LAB Members
-
-
 {% include section.html %}
 
 # Team Leader
