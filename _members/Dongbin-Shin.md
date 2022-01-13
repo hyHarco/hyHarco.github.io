@@ -31,5 +31,3 @@ tier: second
   Framework study for improving mutual stability between humans and wearable robots
 - 2021.11.01~2022.12.31  
   Machine Automation for Road Construction
-  
-
