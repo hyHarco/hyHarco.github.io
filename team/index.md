@@ -34,7 +34,7 @@ nav:
 %}
 
 
-# M.S. Candidate
+# M.S. Student
 {%
   include list.html
   data="members"
@@ -42,7 +42,7 @@ nav:
   filters="tier: fourth " 
 %}
 
-# B.S. Candidate
+# B.S. Student
 {%
   include list.html
   data="members"
