@@ -16,6 +16,7 @@ tier: second
 - (2015.02) B.S. Electronic Systems Engineering, Hanyang University
 - (2017.02) M.S. Interdisciplinary Engineering Systems, Hanyang University
 - (2022.02) Ph.D. Mechatronics Engineering, Hanyang University
+- (2019.12~2020.06) KU Leuven (Diepenbeek), Student for International Scholar Faculty of Engineering Technology
 - (2022.03~present) Postdoc Researcher
 
 # Research
