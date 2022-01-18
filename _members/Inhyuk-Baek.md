@@ -10,10 +10,12 @@ tier: second
 
 ---
 - Research interests: Manipulation planning, Robot motion  
-
+- Email : bih0702@hanyang.ac.kr
 
 # Education
 - (2015.02) B.S. Electronic Systems Engineering, Hanyang University
 - (2017.02) M.S. Interdisciplinary Engineering Systems, Hanyang University
 - (2022.02) Ph.D. Mechatronics Engineering, Hanyang University
 - (2022.03~present) Postdoc Researcher
+
+# Research
