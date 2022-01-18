@@ -15,21 +15,16 @@ tier: third
 - (2012.03~present) Master's and PhD Integrated Course, Mechanical Engineering, Hanyang University
 
 # Research
-- 2010~2015  
-Development of Wearable Robot for Industrial Labor Support  
-Human Robot Interaction based Upper limb exoskeleton control  
-- 2013~2016  
-High responsive control technology of a lower-limb exoskeleton under rough terrain  
-Human motion analysis sensor mockup design  
-Human motion data analysis  
-- 2015~2018  
-Development of a power assist device for a fireman to rescue humans  
-Multifunctional gripper design  
-Power assist manipulator control  
-Sensor signal processing board development  
-- 2015~2020  
-Development of Integrated Control System in Special Purpose Machinery for the Application for Disaster  
-Haptic Device System Design    
-- 2018~2020  
-Integrated motion control technology of high-payload upper and lower extremity muscle strengthening robot   
-Lower limb exoskeleton modeling and simulation  
+- Development of Wearable Robot for Industrial Labor Support  
+  Human Robot Interaction based Upper limb exoskeleton control  
+- High responsive control technology of a lower-limb exoskeleton under rough terrain  
+  Human motion analysis sensor mockup design  
+  Human motion data analysis  
+- Development of a power assist device for a fireman to rescue humans  
+  Multifunctional gripper design  
+  Power assist manipulator control   
+  Sensor signal processing board development  
+- Development of Integrated Control System in Special Purpose Machinery for the Application for Disaster  
+  Haptic Device System Design    
+- Integrated motion control technology of high-payload upper and lower extremity muscle strengthening robot   
+  Lower limb exoskeleton modeling and simulation  

@@ -13,3 +13,8 @@ tier: fourth
 - Email: nakjh321@hanyang.ac.kr
 
 # Education
+- (2021.02) B.S. Intelligent Robotics Department, Mokwon University
+- (2022.03~present) 
+
+# Research
+- Teleoperations-based tactile implementation system
