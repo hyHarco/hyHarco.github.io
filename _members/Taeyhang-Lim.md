@@ -12,4 +12,4 @@ tier: fourth
 
 # Education
 - (2020.04) B.S. Life Sciences (major in Neuroscience; minor in Psychology & Physiology), University of Toronto
-- (2022.03~present) M.S. Hanyang university    
+- (2022.03~present) M.S. Department of Convergence Robot System, Hanyang university    

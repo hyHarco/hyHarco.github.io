@@ -11,7 +11,8 @@ tier: fourth
 - Email : km01049@hanyang.ac.kr
 
 # Education
-- (2020.09~present) M.S. Mechatronics Engineering Hanyang University
+- (2019.02) B.S. Department of Avionic electronics engineering, Kyungwoon university
+- (2020.09~present) M.S. Mechatronics Engineering, Hanyang University
 
     
      
