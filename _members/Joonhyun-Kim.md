@@ -18,5 +18,4 @@ tier: fifth
 # Research
 - Active & Hybrid Exoskeleton Robot Impedence Control (R&D 인력 양성사업)
 - Car Suspension Stewart Platform Control (Hyundai 자동차 과제)
-- A.I. Machine Learning 
-- Neural Network
+- A.I. Machine Learning, Neural Network
