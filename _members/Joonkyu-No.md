@@ -19,5 +19,6 @@ tier: second
 - Research Assistant at Cim & Robotics Lab, Prof. Changsoo Han, Hanyang niversity, Republic of Korea
 - Development a lower-limb exoskeleton robot for soldiers & labor power augmentation (HEXAR-CR)
 - Development a remote simulator for the excavator based on virtual interaction
-
+  
+   
   
