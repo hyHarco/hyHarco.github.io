@@ -17,17 +17,10 @@ tier: second
 - (2022.03~present) Postdoc Researcher
 
 # Research
-- 2015.09.01~2016.08.31  
-  Development of ankle module for gait rehabilitation robot to prevent foot drop in hemiplegic patients
-- 2016.06.29~2018.06.28  
-  Development of exoskeleton robot capable of gait rehabilitation/assistance for hemiplegic patients
-- 2018.08.01~2019.01.31  
-  Development of wearer context aware technology based on deep learning
-- 2019.06.01~2020.01.31  
-  Development of the stable and active gait determination algorithm based on artificial intelligence
-- 2019.10.17~2022.10.16  
-  Development of healthcare service and medical robot device using artificial intelligence technology
-- 2021.08.01~2022.02.28  
-  Framework study for improving mutual stability between humans and wearable robots
-- 2021.11.01~2022.12.31  
-  Machine Automation for Road Construction
+- 2015~2016 |  Development of ankle module for gait rehabilitation robot to prevent foot drop in hemiplegic patients  
+- 2016~2018 |  Development of exoskeleton robot capable of gait rehabilitation/assistance for hemiplegic patients
+- 2018~2019 |  Development of wearer context aware technology based on deep learning
+- 2019~2020 |  Development of the stable and active gait determination algorithm based on artificial intelligence
+- 2019~2022 |  Development of healthcare service and medical robot device using artificial intelligence technology
+- 2021~2022 |  Framework study for improving mutual stability between humans and wearable robots
+- 2021~2022 |  Machine Automation for Road Construction
