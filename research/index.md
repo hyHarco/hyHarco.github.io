@@ -22,12 +22,6 @@ This is a First Reasearch
   text=blabla
 %} --> 
 
-
-
-
-
-
- <!-- <script src="https://bibbase.org/show?bib=https://github.com/hyHarco/hyHarco.github.io/Journal.bib&jsonp=1"></script>  -->
   
   
   
