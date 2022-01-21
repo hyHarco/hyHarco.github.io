@@ -4,8 +4,8 @@ nav:
   order: 2
   tooltip: Our Research
 ---
-
-
+{% include showbib.html %}
+<!-- 
 # <i class="fas fa-microscope"></i>Research1
 This is a First Reasearch
 
@@ -20,18 +20,18 @@ This is a First Reasearch
   include feature.html
   image="images/research1-2.jpg"
   text=blabla
-%} -->
+%} --> 
 
 
 
-{% include showbib.html %}
+
 
 
  <!-- <script src="https://bibbase.org/show?bib=https://github.com/hyHarco/hyHarco.github.io/Journal.bib&jsonp=1"></script>  -->
   
   
   
-  
+<!--   
 
 # <i class="fas fa-microscope"></i>Research2
 This is a Second Reasearch
@@ -43,4 +43,4 @@ Please also check out our blog posts on [Reference link1](https://www.naver.com/
   include feature.html
   image="images/research2.jpg"
   text=blabla
-%} -->
+%} --> -->
