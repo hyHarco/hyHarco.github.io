@@ -11,7 +11,7 @@ This is a First Reasearch
 
 [링크1](https://sites.google.com/hanyang.ac.kr/harco-lab/home) Stewart Platform~
 
-{%
+<!-- {%
   include feature.html
   image="images/research1.jpg"
   text=blabla
@@ -20,10 +20,14 @@ This is a First Reasearch
   include feature.html
   image="images/research1-2.jpg"
   text=blabla
-%}
+%} -->
 
-  
-<script src="https://bibbase.org/show?bib=https://github.com/hyHarco/hyHarco.github.io/Journal.bib&jsonp=1"></script> 
+
+
+{% include showbib.html %}
+
+
+ <!-- <script src="https://bibbase.org/show?bib=https://github.com/hyHarco/hyHarco.github.io/Journal.bib&jsonp=1"></script>  -->
   
   
   
@@ -33,10 +37,10 @@ This is a First Reasearch
 This is a Second Reasearch
 
 Please also check out our blog posts on [Reference link1](https://www.naver.com/), such as [Reference link2](https://www.yahoo.com/), [example](https://www.youtube.com/), etc.
-
+<!-- 
 
 {%
   include feature.html
   image="images/research2.jpg"
   text=blabla
-%}
+%} -->
