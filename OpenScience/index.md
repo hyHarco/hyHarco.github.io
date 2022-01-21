@@ -1,11 +1,11 @@
 ---
-title: Data
+title: News
 nav:
   order: 5
   tooltip: Reference Data, Link, S/W
 ---
 
-# <i class="fas fa-tools"></i> Our Reference Data
+# <i class="fas fa-tools"></i> News
 
 bla bla~~
 
