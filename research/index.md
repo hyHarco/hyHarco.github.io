@@ -4,7 +4,12 @@ nav:
   order: 2
   tooltip: Our Research
 ---
-{% include showbib.html %}
+<!-- {% include showbib.html %} -->
+
+<code>
+<script src="https://bibbase.org/show?bib=https://github.com/hyHarco/hyHarco.github.io/Journal.bib&jsonp=1"></script>
+</code>
+
 <!-- 
 # <i class="fas fa-microscope"></i>Research1
 This is a First Reasearch
@@ -37,4 +42,4 @@ Please also check out our blog posts on [Reference link1](https://www.naver.com/
   include feature.html
   image="images/research2.jpg"
   text=blabla
-%} --> -->
+%} -->
