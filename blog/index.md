@@ -2,22 +2,14 @@
 title: Publication
 nav:
   order: 3
-  tooltip: recent updates, articles and posts
+  tooltip: Our Journals
 ---
 
 # <i class="fas fa-feather-alt"></i> Publication
-
-{% include section.html %}
-
-{% include search-box.html %}
-
-{% include search-info.html %}
-
-{% include list.html data="citations" component="citation" style="rich" %}
-
-
-
-
+    
+<code>
+<script src="https://bibbase.org/show?bib=https://hyHarco.github.io/Journal.bib&jsonp=1"></script>
+</code>
 
 
 
