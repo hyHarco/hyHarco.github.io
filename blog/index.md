@@ -5,7 +5,7 @@ nav:
   tooltip: Our Journals
 ---
 
-# <i class="fas fa-feather-alt"></i> Publication
+# <i class="fas fa-feather-alt"></i> Journal
     
 <code>
 <script src="https://bibbase.org/show?bib=https://hyHarco.github.io/Journal.bib&jsonp=1"></script>
