@@ -24,7 +24,7 @@ please send your CV to my Email address :: wansookim@hanyang.ac.kr
 
 
 
-
+<!-- 
 # Our Research
 
 {% capture text %}
@@ -61,7 +61,7 @@ This is Our Team Member
   link="team"
   headline="Our Team"
   text=text
-%} 
+%}  -->
 
 
 
