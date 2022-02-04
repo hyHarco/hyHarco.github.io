@@ -9,10 +9,10 @@ baseurl:
 
 
 # site social media and other links
-links:
-  email: wansookim@hanyang.ac.kr
-  google-scholar: https://scholar.google.com/citations?user=07u_E8wAAAJ&hl=ko
-  github: hyHarco
+# links:
+#   email: wansookim@hanyang.ac.kr
+#   google-scholar: https://scholar.google.com/citations?user=07u_E8wAAAJ&hl=ko
+#   github: hyHarco
 
 # automatic citations
 auto-cite:
