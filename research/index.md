@@ -21,19 +21,6 @@ exoexo
   text="This is our lab's research1
   This is our lab's research1
   This is our lab's research1
-  This is our lab's research1
-  This is our lab's research1
-  This is our lab's research1
-  This is our lab's research1
-  This is our lab's research1
-  This is our lab's research1
-  This is our lab's research1
-  This is our lab's research1
-  This is our lab's research1
-  This is our lab's research1
-  This is our lab's research1
-  This is our lab's research1
-  This is our lab's research1
   This is our lab's research1"
 %}
 
