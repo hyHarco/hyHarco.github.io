@@ -13,7 +13,7 @@ nav:
 exoexo
 
 {%
-  include feature.html
+  include feature_imgleft.html
   image="images/research1.jpg"
   link="research"
   headline="Research1"
