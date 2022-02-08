@@ -17,7 +17,7 @@ nav:
   headline="R"
   text="This is our lab's research1"
 %}
-
+Explanation [click here](https://www.naver.com)
 {% include section.html %}
 
 # Collaborative robot
