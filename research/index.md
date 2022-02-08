@@ -1,5 +1,5 @@
 ---
-title: Project
+title: Research
 nav:
   order: 2
   tooltip: Our Research
@@ -8,11 +8,18 @@ nav:
 # <i class="fas fa-search"></i> Research
 
 
-# Research 1
+# Exoskeleton robot
+{% include list.html component="card" data="tools" filters="group: featured" %}
+exoexo
+{% include section.html %}
 
-
-# Research 2
-
-
+# Collaborative robot
+{% include list.html component="card" data="tools" filters="group: featured" %}
+{% include section.html %}
+colcol
+# Human Modeling
+{% include list.html component="card" data="tools" filters="group: featured" %}
+{% include section.html %}
+humhum
 
 
