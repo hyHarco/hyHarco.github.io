@@ -11,12 +11,22 @@ nav:
 # Exoskeleton robot
 {% include list.html component="card" data="tools" filters="group: featured" %}
 exoexo
+
+{%
+  include feature.html
+  image="images/research1.jpg"
+  link="research"
+  headline="Research1"
+  text=text
+%}
+
 {% include section.html %}
 
 # Collaborative robot
 {% include list.html component="card" data="tools" filters="group: featured" %}
-{% include section.html %}
 colcol
+{% include section.html %}
+
 # Human Modeling
 {% include list.html component="card" data="tools" filters="group: featured" %}
 {% include section.html %}
