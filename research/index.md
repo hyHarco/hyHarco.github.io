@@ -10,8 +10,6 @@ nav:
 
 # Exoskeleton robot
 {% include list.html component="card" data="tools" filters="group: featured" %}
-exoexo
-
 {%
   include feature_imgleft.html
   image="images/research1.jpg"
