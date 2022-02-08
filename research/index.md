@@ -17,8 +17,10 @@ exoexo
   image="images/research1.jpg"
   link="Research"
   headline="R"
-  <!-- style="float: left;" -->
   text="This is our lab's research1
+  This is our lab's research1
+  This is our lab's research1
+  This is our lab's research1
   This is our lab's research1
   This is our lab's research1
   This is our lab's research1"
