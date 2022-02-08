@@ -8,7 +8,12 @@ nav:
 # <i class="fas fa-search"></i> Research
 
 
-# Exoskeleton robot
+# Collaborative robot
+
+
+{% include section.html %}
+
+## project 1
 {% include list.html component="card" data="tools" filters="group: featured" %}
 {%
   include feature_imgleft.html
@@ -20,7 +25,17 @@ nav:
 Explanation [click here](https://www.naver.com)
 {% include section.html %}
 
-# Collaborative robot
+## project 2
+
+{% include section.html %}
+
+
+
+# Exoskeleton robot
+
+{% include section.html %}
+
+## project 1
 {% include list.html component="card" data="tools" filters="group: featured" %}
 colcol
 {% include section.html %}
