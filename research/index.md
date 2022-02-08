@@ -15,9 +15,9 @@ exoexo
 {%
   include feature_imgleft.html
   image="images/research1.jpg"
-  link="research"
-  headline="Research1"
-  text=text
+  link="Research"
+  headline="R"
+  text="으어어어어어어"
 %}
 
 {% include section.html %}
