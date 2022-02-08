@@ -1,5 +1,5 @@
 ---
-title: Research
+title: Project
 nav:
   order: 2
   tooltip: Our Research
