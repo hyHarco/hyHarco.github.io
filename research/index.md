@@ -17,13 +17,13 @@ exoexo
   image="images/research1.jpg"
   link="Research"
   headline="R"
-  text="This is our lab's research1
-  This is our lab's research1
-  This is our lab's research1
-  This is our lab's research1
-  This is our lab's research1
-  This is our lab's research1
-  This is our lab's research1"
+  text="This is our lab's research1  
+  This is our lab's research1  
+  This is our lab's research1  
+  This is our lab's research1  
+  This is our lab's research1  
+  This is our lab's research1  
+  This is our lab's research1  "
 %}
 
 {% include section.html %}
