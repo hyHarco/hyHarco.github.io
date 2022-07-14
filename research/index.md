@@ -6,14 +6,9 @@ nav:
 ---
 
 # <i class="fas fa-search"></i> Research
-
-
-# Collaborative robot
-
-
 {% include section.html %}
 
-## Exoskeleton Robot Research
+# Exoskeleton Robot Research
 {% include list.html component="card" data="tools" filters="group: featured" %}
 {%
   include feature_imgleft.html
@@ -25,7 +20,7 @@ nav:
 Explanation [click here](https://www.naver.com)
 {% include section.html %}
 
-## Mobile Manipulator Research
+# Mobile Manipulator Research
 
 
 
