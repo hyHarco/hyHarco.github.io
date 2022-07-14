@@ -6,6 +6,7 @@ nav:
 ---
 
 # <i class="fas fa-envelope"></i>Contact
+## waiting for your talent
 {%
   include link.html
   type="email"
