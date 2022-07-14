@@ -17,12 +17,12 @@ nav:
   headline="HeadLines"
   text="This is Our EXO ROBOT"
 %}
-Explanation Explanation Explanation Explanation Explanation Explanation Explanation     
-and ~~~~ [Extra Link](https://www.naver.com)
+Explanation Explanation Explanation Explanation Explanation Explanation Explanation Explanation Explanation Explanation     
+and ~~~~ [External Link](https://www.naver.com)
 {% include section.html %}
 
 # Mobile Manipulator Research
-{% include list.html component="card" data="tools" filters="group: research_mobile_manipulator" %}
+
 {%
   include feature_imgleft.html
   image="images/mobile_Manipulator_Temp.png"
@@ -30,8 +30,9 @@ and ~~~~ [Extra Link](https://www.naver.com)
   headline="HeadLines"
   text="This is Our Mobile Manipulator Platform"
 %}
-Explanation   
-and ~~~~ [Extra Link](https://www.naver.com)
+{% include list.html component="card" data="tools" filters="group: research_mobile_manipulator" %}
+Explanation Explanation Explanation Explanation Explanation Explanation Explanation Explanation Explanation Explanation   
+and ~~~~ [External Link](https://www.naver.com)
 {% include section.html %}
 
 
