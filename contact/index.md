@@ -6,7 +6,6 @@ nav:
 ---
 
 # <i class="fas fa-envelope"></i>Contact
-
 {%
   include link.html
   type="email"
