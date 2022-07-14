@@ -21,9 +21,6 @@ Explanation [click here](https://www.naver.com)
 {% include section.html %}
 
 # Mobile Manipulator Research
-
-
-
 {% include section.html %}
 
 
