@@ -13,7 +13,7 @@ nav:
 
 {% include section.html %}
 
-## project 1
+## Exoskeleton Robot Research
 {% include list.html component="card" data="tools" filters="group: featured" %}
 {%
   include feature_imgleft.html
@@ -25,24 +25,14 @@ nav:
 Explanation [click here](https://www.naver.com)
 {% include section.html %}
 
-## project 2
+## Mobile Manipulator Research
+
+
 
 {% include section.html %}
 
 
 
-# Exoskeleton robot
 
-{% include section.html %}
-
-## project 1
-{% include list.html component="card" data="tools" filters="group: featured" %}
-colcol
-{% include section.html %}
-
-# Human Modeling
-{% include list.html component="card" data="tools" filters="group: featured" %}
-{% include section.html %}
-humhum
 
 
