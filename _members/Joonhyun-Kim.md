@@ -9,7 +9,6 @@ links:
   home-page: https://roboharco12.tistory.com/
 tier: fifth
 ---
-
 - Research interests: A.I, Impedence Control, Wearable Robot, GAIT Analysis
 - Email : ralwnsgus4715@gmail.com
 
