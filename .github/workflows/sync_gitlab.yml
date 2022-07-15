@@ -24,9 +24,9 @@ jobs:
       
       - name: Set remote repository
         env: # Retrieve env variable from GiGHub secrets
-          gitlab_url: ${{ secrets.TARGET_URL }}
-          gitlab_username: ${{ secrets.TARGET_USERNAME }}
-          gitlab_token: ${{ secrets.TARGET_TOKEN }}
+          gitlab_url: https://gitlab.com/harcoROBOT/hyHarco-github-io
+          gitlab_username: HarcoLAB
+          gitlab_token: glpat-Nw9ftV_EHsApohUDB-H6
         run: | # 토큰을 조합해서 저렇게 URL을 만들면 비번없이 push가 됩니다.
           git remote add gitlab https://${gitlab_username}:${gitlab_token}@${gitlab_url#https://};
       - name: Force push everthing
