@@ -6,9 +6,6 @@ nav:
 ---
 
 # <i class="fas fa-search"></i> Research
-  
-Harco lab's main research themes
-Exoskeleton Robot and Mobile Manipulator Robot.
 
 {% include section.html %}
 # Exoskeleton Robot Project
