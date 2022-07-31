@@ -1,6 +1,6 @@
 ---
 title: Young Researcher Program-2022.03.01
-author: Wansoo-Kim
+author: Wansoo Kim
 member: Harco_Lab
 ---
 

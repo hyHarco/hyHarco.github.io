@@ -13,17 +13,20 @@ Exoskeleton Robot and Mobile Manipulator Robot.
 {% include section.html %}
 # Exoskeleton Robot Project
 <!-- {% include list.html component="card" data="tools" filters="group: featured" %} -->
+{% capture text %}
+The shape of a human body is different in all the populations of the world.  
+One of the most difficult things about properly controlling exoskeleton robots is that they need to be able to be controlled flexibly, depending on the diversity of these individuals.  
+In our lab, we understand this diversity with AI technology, and we're working on how to use it appropriately for robot control. 
+{:.center}
+{% endcapture %}
 {%
   include feature.html
   image="images/Voucher_Res.png"
   headline="AI Lower Exoskeleton Robot Control Project"
-  text="A Study on the Development of Personalized Gait Control Solution for Lower Exoskeleton Robot"
+  text="text"
 %}
 
-The shape of a human body is different in all the populations of the world.  
-One of the most difficult things about properly controlling exoskeleton robots is that they need to be able to be controlled flexibly, depending on the diversity of these individuals.  
-  
-In our lab, we understand this diversity with AI technology, and we're working on how to use it appropriately for robot control.    
+   
 <!-- [External Link](https://www.naver.com) -->
 {% include section.html %}
 
@@ -46,7 +49,7 @@ and ~~~~ [External Link](https://www.naver.com)
 # Other Project
 {%
   include feature.html
-  image="images/research2.png"
+  image="images/research2.jpg"
   headline="Other Projects"
   text="this is Example"
 %}
