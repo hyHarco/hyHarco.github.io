@@ -3,7 +3,7 @@ name: Wansoo Kim
 image: images/김완수교수님.png
 description: Principal Investigator
 aliases:
-  - Wansoo
+  - Wansoo Kim
 links:
   google-scholar: https://scholar.google.com/citations?user=07u_E8wAAAJ&hl=ko
   email: wansookim@hanyang.ac.kr
