@@ -14,7 +14,7 @@ nav:
   include list.html
   data="posts"
   component="post-excerpt"
-  filters="member: kim" 
+  filters="member: Harco_LAb" 
 %}
 
 {% include section.html %}

@@ -17,6 +17,13 @@ nav:
   headline="HeadLines"
   text="This is Our EXO ROBOT"
 %}
+{%
+  include figure.html
+  image="images/research1.jpg"
+  caption="image_explanation"
+%}
+
+
 Explanation Explanation Explanation Explanation Explanation Explanation Explanation Explanation Explanation Explanation     
 and ~~~~ [External Link](https://www.naver.com)
 {% include section.html %}
