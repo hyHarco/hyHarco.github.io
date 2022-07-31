@@ -14,9 +14,8 @@ Exoskeleton Robot and Mobile Manipulator Robot.
 # Exoskeleton Robot Project
 <!-- {% include list.html component="card" data="tools" filters="group: featured" %} -->
 {% capture text %}
-The shape of a human body is different in all the populations of the world.  
-One of the most difficult things about properly controlling exoskeleton robots is that they need to be able to be controlled flexibly, depending on the diversity of these individuals.  
-In our lab, we understand this diversity with AI technology, and we're working on how to use it appropriately for robot control. 
+The shape of a human body is different in all the populations of the world. One of the most difficult things about properly controlling exoskeleton robots is that they need to be controlled flexibly, depending on the diversity of these individuals.  
+In our lab, we analyze this diversity through AI technology, and are working on how to use it appropriately for robot control. 
 {:.center}
 {% endcapture %}
 {%
