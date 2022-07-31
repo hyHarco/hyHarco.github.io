@@ -18,6 +18,13 @@ Prof. Wansoo Kim recently received a 5-year (2022.03-2027.02) research grant fro
 {% include section.html %}
 
 
+{%
+  include list.html
+  data="posting"
+  component="card"
+  filters="tier: test" 
+%}
+
 <!-- ## News Name
 
 Example List
