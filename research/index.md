@@ -17,11 +17,39 @@ nav:
   headline="HeadLines"
   text="This is Our EXO ROBOT"
 %}
+
+
+{% capture col1 %}
 {%
   include figure.html
   image="images/research1.jpg"
   caption="image_explanation"
 %}
+{% endcapture %}
+{% capture col2 %}
+{%
+  include figure.html
+  image="images/research1.jpg"
+  caption="Department of Metaphor"
+%}
+{% endcapture %}
+{% include two-col.html col1=col1 col2=col2 %}
+
+{% capture col3 %}
+{%
+  include figure.html
+  image="images/research1.jpg"
+  caption="image_explanation"
+%}
+{% endcapture %}
+{% capture col4 %}
+{%
+  include figure.html
+  image="images/research1.jpg"
+  caption="Department of Metaphor"
+%}
+{% endcapture %}
+{% include two-col.html col3=col3 col4=col4 %}
 
 
 Explanation Explanation Explanation Explanation Explanation Explanation Explanation Explanation Explanation Explanation     
