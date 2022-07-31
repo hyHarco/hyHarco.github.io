@@ -4,8 +4,8 @@ tags:
   - object detection
   - instance segmentation
   - basic concepts
-author: Jianxu Chen
-member: jianxu-chen
+author: kim
+member: kim
 ---
 
 post work-in-progress
