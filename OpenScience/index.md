@@ -13,8 +13,7 @@ nav:
 {%
   include list.html
   data="posts"
-  component="post-excerpt"
-  filters="member: Harco_Lab" 
+  component="post-excerpt" 
 %}
 
 {% include section.html %}
