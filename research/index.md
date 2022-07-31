@@ -23,7 +23,7 @@ In our lab, we understand this diversity with AI technology, and we're working o
   include feature.html
   image="images/Voucher_Res.png"
   headline="AI Lower Exoskeleton Robot Control Project"
-  text="text"
+  text=text
 %}
 
    
