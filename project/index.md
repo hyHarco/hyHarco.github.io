@@ -11,7 +11,7 @@ nav:
 {% include section.html %}
 
 
-## Voucher Project - 22.04~23.12  
+## Voucher Project - 22.04 ~ 23.12  
 {% capture text %}
 Purpose of Our Projects, introduction
 
@@ -23,6 +23,7 @@ Purpose of Our Projects, introduction
   text=text
 %}
 Supported by  
+{:.center}
 {%
   include feature.html
   image="images/project1_support.png"
@@ -48,7 +49,7 @@ Supported by
 {% include section.html %}
 
 
-## Hyundai Mobis - Mobile Manipulator
+## Hyundai Mobis Mobile Manipulator - 22.08 ~ 24.04
 {% capture text %}
 This is Our Mobile Manipulator Project
 {% endcapture %}
@@ -58,13 +59,11 @@ This is Our Mobile Manipulator Project
   tooltip="Mobis Project"
   text=text
 %}
-{% capture text %}
 Supported by 
 {:.center}
-{% endcapture %}
 {%
   include feature.html
-  image="images/mobis_temp.png"
+  image="images/mobis_support.png"
   text=text
 %}
 
