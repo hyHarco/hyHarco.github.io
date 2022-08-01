@@ -22,7 +22,7 @@ nav:
   icon=""
   text="Call"
   tooltip=""
-  link="+1-555-867-5309"
+  link="010-5059-5195"
   style="button"
 %}
 {%
