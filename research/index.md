@@ -18,6 +18,7 @@ In our lab, we're studying how to analyze these variations with AI technology an
 {%
   include feature.html
   image="images/Voucher_Res.png"
+  link="https://hyharco.github.io/project/"
   headline="AI Lower Exoskeleton Robot Control Project"
   text=text
 %}

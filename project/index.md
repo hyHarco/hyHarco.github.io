@@ -5,13 +5,14 @@ nav:
   tooltip: HARCO Lab's Project
 ---
 
-# <i class="fas fa-tools"></i> HARCO LAB News
-{% include search-info.html %}
+
 {% include section.html %}
 
 
+# Voucher Project
+
 {%
-  include list.html
+  include feature.html
   data="posts"
   component="post-excerpt" 
 %}
@@ -19,6 +20,17 @@ nav:
 {% include section.html %}
 
 
+# Voucher Project
+
+{%
+  include feature.html
+  data="posts"
+  component="post-excerpt" 
+%}
+
+
+
+{% include section.html %}
 
 <!-- ## News Name
 
