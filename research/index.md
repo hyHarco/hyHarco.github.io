@@ -8,7 +8,7 @@ nav:
 # <i class="fas fa-search"></i> Research
 
 {% include section.html %}
-# Exoskeleton Robot Project
+# Exoskeleton Robot Research
 <!-- {% include list.html component="card" data="tools" filters="group: featured" %} -->
 {% capture text %}
 The shape of a human body is different in all the populations of the world. One of the most difficult things about properly controlling exoskeleton robots is that they need to be controlled flexibly, depending on the diversity of these individuals.  
@@ -27,7 +27,7 @@ In our lab, we're studying how to analyze these variations with AI technology an
 {% include section.html %}
 
 
-# Mobile Manipulator Project
+# Mobile Manipulator Research
 {%
   include feature.html
   image="images/mobile_Manipulator_Temp.png"
