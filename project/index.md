@@ -23,6 +23,11 @@ This is Our Exoskeleton Robot Project
 %}
 Supported by 
 {%
+  include feature.html
+  image="images/hexar.png"
+  text=text
+%}
+<!-- {%
   include gallery.html
   style="square"
 
@@ -34,7 +39,7 @@ Supported by
 
   image3="images/kuka_innovation.png"
   tooltip3="After winning the KUKA INNOVATION AWARD 2018"
-%}
+%} -->
   
   
   
