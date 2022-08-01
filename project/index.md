@@ -31,9 +31,9 @@ Supported by
 
   image2="images/harc.png"
   tooltip2="harcolab"
-<!-- 
+
   image3="images/kuka_innovation.png"
-  tooltip3="After winning the KUKA INNOVATION AWARD 2018" -->
+  tooltip3="After winning the KUKA INNOVATION AWARD 2018"
 %}
   
   
