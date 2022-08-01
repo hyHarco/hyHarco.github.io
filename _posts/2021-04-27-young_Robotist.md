@@ -1,5 +1,5 @@
 ---
-title: Young Robot Engineer - W.S.Kim
+title: Young Robot Engineer - W.Kim
 author: Wansoo Kim
 member: Wansoo-Kim
 ---

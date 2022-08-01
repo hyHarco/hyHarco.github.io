@@ -24,7 +24,7 @@ In our lab, we're studying how to analyze these variations with AI technology an
   text=text
 %}
 
-[Voucher Project](https://hyharco.github.io/project/#voucher-project---2204--2312)
+- [Voucher Project](https://hyharco.github.io/project/#voucher-project---2204--2312)
 {% include section.html %}
   
   
@@ -43,8 +43,8 @@ Contents
   headline="Mobile Manipulator Project"
   text=text
 %}
-[Hyundai Mobis - Mobile Manipulator Project](https://hyharco.github.io/project/#hyundai-mobis-mobile-manipulator---2208--2404)   
-[Development of Safety Guidelines Algorithm for Mobile Cooperative Robots](https://hyharco.github.io/project/#safety-guidelines-algorithm-for-mobile-cooperative-robots---2207--2209)
+- [Hyundai Mobis - Mobile Manipulator Project](https://hyharco.github.io/project/#hyundai-mobis-mobile-manipulator---2208--2404)   
+- [Development of Safety Guidelines Algorithm for Mobile Cooperative Robots](https://hyharco.github.io/project/#safety-guidelines-algorithm-for-mobile-cooperative-robots---2207--2209)
 
 <!-- 외부 링크를 넣고싶다면 -->
 <!-- {% include list.html component="card" data="tools" filters="group: research_mobile_manipulator" %} -->
