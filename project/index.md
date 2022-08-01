@@ -9,7 +9,7 @@ nav:
 
 ## Voucher Project - 22.04 ~ 23.12  
 {% capture text %}
-Purpose of Our Projects, introduction
+Purpose of Our Projects, introduction<!-- 수정해야할 부분 -->
 {% endcapture %}
 {%
   include feature.html
@@ -46,7 +46,7 @@ Supported by
 
 ## Hyundai Mobis Mobile Manipulator - 22.08 ~ 24.04
 {% capture text %}
-Purpose of Our Projects, introduction
+Purpose of Our Projects, introduction<!-- 수정해야할 부분 -->
 {% endcapture %}
 {%
   include feature.html
@@ -66,7 +66,7 @@ Supported by
 
 ## Safety Guidelines Algorithm for Mobile Cooperative Robots - 22.07 ~ 22.09
 {% capture text %}
-Purpose of Our Projects, introduction
+Purpose of Our Projects, introduction<!-- 수정해야할 부분 -->
 {% endcapture %}
 {%
   include feature.html

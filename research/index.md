@@ -11,13 +11,15 @@ nav:
 {% include section.html %}
 # Exoskeleton Robot Research
 {% capture text %}
+
+<!-- 채워주셔야할 부분 -->
 The shape of a human body is different in all the populations of the world. One of the most difficult things about properly controlling exoskeleton robots is that they need to be controlled flexibly, depending on the diversity of these individuals.  
 In our lab, we're studying how to analyze these variations with AI technology and use it appropriately for robot control
-<!-- {:.center} -->
+
 {% endcapture %}
 {%
   include feature.html
-  image="images/Voucher_Res.png"
+  image="images/Voucher_Res.png"  <!-- 이미지는 images 폴더에 저장후, 파일경로를 왼쪽처럼 적어주시면 됩니다. -->
   headline="AI Lower Exoskeleton Robot Control Project"
   text=text
 %}
@@ -31,21 +33,19 @@ In our lab, we're studying how to analyze these variations with AI technology an
   
 # Mobile Manipulator Research
 {% capture text %}
+<!-- 채워주셔야할 부분 -->
 Contents 
 
-<!-- {:.center} -->
 {% endcapture %}
 {%
   include feature.html
-  image="images/mobile_Manipulator_Temp.png"
+  image="images/mobile_Manipulator_Temp.png"<!-- 이미지는 images 폴더에 저장후, 파일경로를 왼쪽처럼 적어주시면 됩니다. -->
   headline="Mobile Manipulator Project"
   text=text
 %}
 - [Hyundai Mobis - Mobile Manipulator Project](https://hyharco.github.io/project/#hyundai-mobis-mobile-manipulator---2208--2404)   
 - [Development of Safety Guidelines Algorithm for Mobile Cooperative Robots](https://hyharco.github.io/project/#safety-guidelines-algorithm-for-mobile-cooperative-robots---2207--2209)
 
-<!-- 외부 링크를 넣고싶다면 -->
-<!-- {% include list.html component="card" data="tools" filters="group: research_mobile_manipulator" %} -->
 {% include section.html %}
 
 
