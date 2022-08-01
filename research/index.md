@@ -43,8 +43,8 @@ Contents
   headline="Mobile Manipulator Project"
   text=text
 %}
-[Hyundai Mobis - Mobile Manipulator Project](https://hyharco.github.io/project/#hyundai-mobis-mobile-manipulator---2208--2404)
-[Development of Safety Guidelines Algorithm for Mobile Cooperative Robots](https://hyharco.github.io/project/)
+[Hyundai Mobis - Mobile Manipulator Project](https://hyharco.github.io/project/#hyundai-mobis-mobile-manipulator---2208--2404)   
+[Development of Safety Guidelines Algorithm for Mobile Cooperative Robots](https://hyharco.github.io/project/#safety-guidelines-algorithm-for-mobile-cooperative-robots---2207--2209)
 
 <!-- 외부 링크를 넣고싶다면 -->
 <!-- {% include list.html component="card" data="tools" filters="group: research_mobile_manipulator" %} -->
