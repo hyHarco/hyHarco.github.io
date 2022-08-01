@@ -34,7 +34,7 @@ Supported by
   
   
   
-  ## Hyundai Mobis - Mobile Manipulator
+## Hyundai Mobis - Mobile Manipulator
 {% capture text %}
 This is Our Mobile Manipulator Project
 {% endcapture %}
