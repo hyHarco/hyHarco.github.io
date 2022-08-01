@@ -1,7 +1,7 @@
 ---
 title: Project
 nav:
-  order: 6
+  order: 3
   tooltip: HARCO Lab's Project
 ---
 

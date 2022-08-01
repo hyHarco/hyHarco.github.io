@@ -1,7 +1,7 @@
 ---
 title: News
 nav:
-  order: 5
+  order: 6
   tooltip: HARCO News
 ---
 
