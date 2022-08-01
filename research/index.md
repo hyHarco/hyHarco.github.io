@@ -8,8 +8,6 @@ nav:
 # <i class="fas fa-search"></i> Research
 
 
-
-
 {% include section.html %}
 # Exoskeleton Robot Research
 {% capture text %}
