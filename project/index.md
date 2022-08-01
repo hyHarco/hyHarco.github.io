@@ -21,16 +21,25 @@ This is Our Exoskeleton Robot Project
   tooltip="voucher Project"
   text=text
 %}
-{% capture text %}
 Supported by 
-{:.center}
-{% endcapture %}
 {%
   include feature.html
   image="images/hexar.png"
   text=text
 %}
-  
+{%
+  include gallery.html
+  style="square"
+
+  image1="images/hexar.png"
+  tooltip1="Hexar Humancare"
+
+  image2="images/harc.png"
+  tooltip2="harcolab"
+<!-- 
+  image3="images/kuka_innovation.png"
+  tooltip3="After winning the KUKA INNOVATION AWARD 2018" -->
+%}
   
   
   
