@@ -17,7 +17,7 @@ This is Our Exoskeleton Robot Project
 {% endcapture %}
 {%
   include feature.html
-  image="images/voucher_temp"
+  image="images/voucher_temp.png"
   tooltip="voucher Project"
   text=text
 %}
@@ -30,7 +30,7 @@ This is Our Exoskeleton Robot Project
 {% endcapture %}
 {%
   include feature.html
-  image="images/mobis_temp"
+  image="images/mobis_temp.png"
   tooltip="Mobis Project"
   text=text
 %}
