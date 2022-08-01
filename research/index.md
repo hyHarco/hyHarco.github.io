@@ -19,7 +19,7 @@ In our lab, we're studying how to analyze these variations with AI technology an
 {% endcapture %}
 {%
   include feature.html
-  image="images/Voucher_Res.png"  <!-- 이미지는 images 폴더에 저장후, 파일경로를 왼쪽처럼 적어주시면 됩니다. -->
+  image="images/Voucher_Res.png"  
   headline="AI Lower Exoskeleton Robot Control Project"
   text=text
 %}
@@ -39,7 +39,7 @@ Contents
 {% endcapture %}
 {%
   include feature.html
-  image="images/mobile_Manipulator_Temp.png"<!-- 이미지는 images 폴더에 저장후, 파일경로를 왼쪽처럼 적어주시면 됩니다. -->
+  image="images/mobile_Manipulator_Temp.png"
   headline="Mobile Manipulator Project"
   text=text
 %}
