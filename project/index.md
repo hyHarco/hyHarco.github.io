@@ -6,15 +6,10 @@ nav:
 ---
 
 
-{% include section.html %}
-# 2022
-{% include section.html %}
-
 
 ## Voucher Project - 22.04 ~ 23.12  
 {% capture text %}
 Purpose of Our Projects, introduction
-
 {% endcapture %}
 {%
   include feature.html
@@ -51,7 +46,7 @@ Supported by
 
 ## Hyundai Mobis Mobile Manipulator - 22.08 ~ 24.04
 {% capture text %}
-This is Our Mobile Manipulator Project
+Purpose of Our Projects, introduction
 {% endcapture %}
 {%
   include feature.html
@@ -64,11 +59,5 @@ Supported by
 {%
   include feature.html
   image="images/mobis_support.png"
-  text=text
 %}
 
-{% include section.html %}
-
-# 2021
-
-{% include section.html %}
