@@ -26,7 +26,7 @@ This is Our Exoskeleton Robot Project
 
 ## Hyundai Mobis - Mobile Manipulator
 {% capture text %}
-This is Our Exoskeleton Robot Project
+This is Our Exoskeleton Mobile Manipulator Project
 {% endcapture %}
 {%
   include feature.html
