@@ -27,12 +27,11 @@ In our lab, we're studying how to analyze these variations with AI technology an
 
 [Voucher Project](https://hyharco.github.io/project/#voucher-project)
 {% include section.html %}
-
-
-
-
-
-
+  
+  
+  
+  
+  
 # Mobile Manipulator Research
 {% capture text %}
 Contents 
