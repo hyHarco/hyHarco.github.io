@@ -20,12 +20,11 @@ In our lab, we're studying how to analyze these variations with AI technology an
 {%
   include feature.html
   image="images/Voucher_Res.png"
-  link="https://hyharco.github.io/project/"
   headline="AI Lower Exoskeleton Robot Control Project"
   text=text
 %}
 
-[Voucher Project](https://hyharco.github.io/project/#voucher-project)
+[Voucher Project](https://hyharco.github.io/project/#voucher-project---2204--2312)
 {% include section.html %}
   
   
@@ -41,11 +40,10 @@ Contents
 {%
   include feature.html
   image="images/mobile_Manipulator_Temp.png"
-  link="https://hyharco.github.io/research/"
   headline="Mobile Manipulator Project"
   text=text
 %}
-[Hyundai Mobis - Mobile Manipulator Project](https://hyharco.github.io/project/#hyundai-mobis---mobile-manipulator)
+[Hyundai Mobis - Mobile Manipulator Project](https://hyharco.github.io/project/#hyundai-mobis-mobile-manipulator---2208--2404)
 
 
 <!-- 외부 링크를 넣고싶다면 -->

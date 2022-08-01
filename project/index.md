@@ -51,6 +51,7 @@ Purpose of Our Projects, introduction
 {%
   include feature.html
   image="images/mobile_Manipulator_Temp.png"
+  link="https://www.youtube.com/watch?v=qF8hS3q49YA"
   tooltip="Mobis Project"
   text=text
 %}
