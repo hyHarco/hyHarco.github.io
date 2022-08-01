@@ -9,36 +9,37 @@ nav:
 {% include section.html %}
 
 
-# Voucher Project
+# 2022
 
+## Voucher Project
+{% capture text %}
+This is Our Exoskeleton Robot Project
+{% endcapture %}
 {%
   include feature.html
-  data="posts"
-  component="post-excerpt" 
-%}
-
-{% include section.html %}
-
-
-# Voucher Project
-
-{%
-  include feature.html
-  data="posts"
-  component="post-excerpt" 
+  image="images/voucher_temp"
+  tooltip="voucher Project"
+  text=text
 %}
 
 
 
+## Hyundai Mobis - Mobile Manipulator
+{% capture text %}
+This is Our Exoskeleton Robot Project
+{% endcapture %}
+{%
+  include feature.html
+  image="images/mobis_temp"
+  tooltip="Mobis Project"
+  text=text
+%}
+
+
 {% include section.html %}
 
-<!-- ## News Name
+# 2021
 
-Example List
-{% include list.html component="card" data="tools" filters="group: previous" %}
+
 
 {% include section.html %}
-
-## Site or Datas
-
-{% include list.html component="card" data="tools" filters="group: others" %} -->
