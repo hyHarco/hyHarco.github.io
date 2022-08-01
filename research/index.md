@@ -43,7 +43,7 @@ and ~~~~ [External Link](https://www.naver.com)
 {% include section.html %}
 
 
-# Other Project
+# Other Research
 {%
   include feature.html
   image="images/research2.jpg"
