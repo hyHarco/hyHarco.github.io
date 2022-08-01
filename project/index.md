@@ -25,7 +25,6 @@ Supported by
 {%
   include feature.html
   image="images/hexar.png"
-  text=text
 %}
 <!-- {%
   include gallery.html
