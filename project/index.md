@@ -7,13 +7,14 @@ nav:
 
 
 {% include section.html %}
-
-
 # 2022
+{% include section.html %}
 
-## Voucher Project
+
+## Voucher Project - 22.04~23.12  
 {% capture text %}
-This is Our Exoskeleton Robot Project
+Purpose of Our Projects, introduction
+
 {% endcapture %}
 {%
   include feature.html
@@ -21,11 +22,14 @@ This is Our Exoskeleton Robot Project
   tooltip="voucher Project"
   text=text
 %}
-Supported by 
+Supported by  
 {%
   include feature.html
-  image="images/hexar.png"
+  image="images/project1_support.png"
 %}
+
+
+
 <!-- {%
   include gallery.html
   style="square"
@@ -41,7 +45,9 @@ Supported by
 %} -->
   
   
-  
+{% include section.html %}
+
+
 ## Hyundai Mobis - Mobile Manipulator
 {% capture text %}
 This is Our Mobile Manipulator Project
@@ -65,7 +71,5 @@ Supported by
 {% include section.html %}
 
 # 2021
-
-
 
 {% include section.html %}
