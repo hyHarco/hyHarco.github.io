@@ -21,20 +21,38 @@ This is Our Exoskeleton Robot Project
   tooltip="voucher Project"
   text=text
 %}
-
-
-
-## Hyundai Mobis - Mobile Manipulator
 {% capture text %}
-This is Our Exoskeleton Mobile Manipulator Project
+Supported by 
+{:.center}
+{% endcapture %}
+{%
+  include feature.html
+  image="images/hexar.png"
+  text=text
+%}
+  
+  
+  
+  
+  ## Hyundai Mobis - Mobile Manipulator
+{% capture text %}
+This is Our Mobile Manipulator Project
+{% endcapture %}
+{%
+  include feature.html
+  image="images/mobile_Manipulator_Temp.png"
+  tooltip="Mobis Project"
+  text=text
+%}
+{% capture text %}
+Supported by 
+{:.center}
 {% endcapture %}
 {%
   include feature.html
   image="images/mobis_temp.png"
-  tooltip="Mobis Project"
   text=text
 %}
-
 
 {% include section.html %}
 

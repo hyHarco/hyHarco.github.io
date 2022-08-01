@@ -7,9 +7,11 @@ nav:
 
 # <i class="fas fa-search"></i> Research
 
+
+
+
 {% include section.html %}
 # Exoskeleton Robot Research
-<!-- {% include list.html component="card" data="tools" filters="group: featured" %} -->
 {% capture text %}
 The shape of a human body is different in all the populations of the world. One of the most difficult things about properly controlling exoskeleton robots is that they need to be controlled flexibly, depending on the diversity of these individuals.  
 In our lab, we're studying how to analyze these variations with AI technology and use it appropriately for robot control
@@ -23,26 +25,43 @@ In our lab, we're studying how to analyze these variations with AI technology an
   text=text
 %}
 
-   
-<!-- [External Link](https://www.naver.com) -->
+[Voucher Project](https://hyharco.github.io/project/#voucher-project)
 {% include section.html %}
 
 
+
+
+
+
 # Mobile Manipulator Research
+{% capture text %}
+Contents 
+
+<!-- {:.center} -->
+{% endcapture %}
 {%
   include feature.html
   image="images/mobile_Manipulator_Temp.png"
   link="https://hyharco.github.io/research/"
-  headline="HeadLines"
-  text="This is Our Mobile Manipulator Platform"
+  headline="Mobile Manipulator Project"
+  text=text
 %}
-{% include list.html component="card" data="tools" filters="group: research_mobile_manipulator" %}
+[Hyundai Mobis - Mobile Manipulator Project](https://hyharco.github.io/project/#hyundai-mobis---mobile-manipulator)
 
-Explanation Explanation Explanation Explanation Explanation Explanation Explanation Explanation Explanation Explanation   
-and ~~~~ [External Link](https://www.naver.com)
+
+<!-- 외부 링크를 넣고싶다면 -->
+<!-- {% include list.html component="card" data="tools" filters="group: research_mobile_manipulator" %} -->
 {% include section.html %}
 
 
+
+
+
+
+
+
+
+<!-- 
 # Other Research
 {%
   include feature.html
@@ -69,14 +88,4 @@ and ~~~~ [External Link](https://www.naver.com)
 {% include two-col.html col1=col1 col2=col2 %}
 
 
-
-
-<!-- {%
-  include feature_imgleft.html
-  image="images/harco_drive.png"
-  link="http://hyu-harco.myds.me:5000/#/signin"
-%} -->
-
-
-
-
+ -->
