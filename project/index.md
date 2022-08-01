@@ -1,8 +1,8 @@
 ---
-title: News
+title: Project
 nav:
-  order: 5
-  tooltip: HARCO News
+  order: 6
+  tooltip: HARCO Lab's Project
 ---
 
 # <i class="fas fa-tools"></i> HARCO LAB News
