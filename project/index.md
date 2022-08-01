@@ -62,3 +62,20 @@ Supported by
   image="images/mobis_support.png"
 %}
 
+{% include section.html %}
+
+## Safety Guidelines Algorithm for Mobile Cooperative Robots - 22.07 ~ 22.09
+{% capture text %}
+Purpose of Our Projects, introduction
+{% endcapture %}
+{%
+  include feature.html
+  image="images/mobile_Project2_pseudo.png"
+  text=text
+%}
+Supported by 
+{:.center}
+{%
+  include feature.html
+  image="images/support3.png"
+%}
