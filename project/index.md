@@ -7,7 +7,8 @@ nav:
 
 
 
-## Hyundai Mobis Mobile Manipulator - 22.08 ~ 24.04
+## Hyundai Mobis Mobile Manipulator 
+### 22.08 ~ 24.04
 {% capture text %}
 Purpose of Our Projects, introduction
 {% endcapture %}
@@ -28,13 +29,14 @@ Supported by
 
 
 
-## Safety Guidelines Algorithm for Mobile Cooperative Robots - 22.07 ~ 22.09
+## Safety Guidelines Algorithm for Mobile Cooperative Robots 
+### 22.07 ~ 22.09
 {% capture text %}
-Purpose of Our Projects, introduction
+Based on the development of the Whole-body control algorithm of mobile cooperative robot (mobile manipulator), this project is designed to increase the utilization of robots and improve the efficiency of operation in the workplace.
 {% endcapture %}
 {%
   include feature.html
-  image="images/mobile_Project2_pseudo.png"
+  image="images/dgist_image.png"
   text=text
 %}
 Supported by 
@@ -48,7 +50,8 @@ Supported by
 
 
 
-## Voucher Project - 22.04 ~ 23.12  
+## Voucher Project 
+### 22.04 ~ 23.12  
 {% capture text %}
 Purpose of Our Projects, introduction
 {% endcapture %}
@@ -68,8 +71,8 @@ Supported by
 
 
 
-## Human-Robot Collaboration Technology 
-## Considering Ergonomic Prediction Behavior - 22.03 ~ 27.02  
+## Human-Robot Collaboration Technology Considering Ergonomic Prediction Behavior 
+### 22.03 ~ 27.02  
 {% capture text %}
 This project aims to develop ergonomic human-robot collaboration technology that can predict workers' ergonomic conditions in short, medium and long term in a dynamic human-robot-environment in real time and improve risk factors through collaboration with robots.
 {% endcapture %}
