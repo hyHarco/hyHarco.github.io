@@ -69,7 +69,7 @@ Supported by
 
 
 ## Human-Robot Collaboration Technology 
-### Considering Ergonomic Prediction Behavior - 22.03 ~ 27.02  
+## Considering Ergonomic Prediction Behavior - 22.03 ~ 27.02  
 {% capture text %}
 This project aims to develop ergonomic human-robot collaboration technology that can predict workers' ergonomic conditions in short, medium and long term in a dynamic human-robot-environment in real time and improve risk factors through collaboration with robots.
 {% endcapture %}
