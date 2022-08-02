@@ -10,10 +10,11 @@ nav:
 ## Hyundai Mobis Mobile Manipulator Whole Body Control
 ### 22.08 ~ 24.04
 {% capture text %}
-The project aims to develop Whole-body control using Redundant Degree of Freedom in mobile manipulators so that workers can perform tasks reliably.
-- Control to mitigate impact when contact with the environment occurs.
-- Develop a dynamic decision algorithm in which the order of tasks is determined by priority.
-- An algorithm in which the behavior of a robot is determined by human work will or environmental changes.
+The project aims to develop Whole-body control using Redundant Degree of Freedom in mobile manipulators so that workers can perform tasks reliably.  
+The contents that our lab is developing are as follows.  
+-Control method for mitigating impact when contact with the environment occurs.  
+-Develop a dynamic decision algorithm in which the order of tasks is determined by priority.  
+-An algorithm in which the behavior of a robot is determined by human work will or environmental changes.  
 {% endcapture %}
 {%
   include feature.html
@@ -73,7 +74,7 @@ Supported by
 
 
 
-## Human-Robot Collaboration Technology Considering Ergonomic Prediction Behavior 
+## HRI Technology Considering Ergonomic Prediction Behavior 
 ### 22.03 ~ 27.02  
 {% capture text %}
 This project aims to develop ergonomic human-robot collaboration technology that can predict workers' ergonomic conditions in short, medium and long term in a dynamic human-robot-environment in real time and improve risk factors through collaboration with robots.
