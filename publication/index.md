@@ -8,12 +8,7 @@ nav:
 # <i class="fas fa-feather-alt"></i> Journal
 
 <code>
-<script src="https://bibbase.org/show?bib=https://hyHarco.github.io/Journal_WKim.bib&jsonp=1"></script>
-</code>
-
-
-<code>
-<script src="https://bibbase.org/show?bib=https://hyHarco.github.io/Journal_Baoleo.bib&jsonp=1"></script>
+<script src="https://bibbase.org/show?bib=https://hyHarco.github.io/Journal.bib&jsonp=1"></script>
 </code>
 
 
