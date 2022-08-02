@@ -14,8 +14,8 @@ Purpose of Our Projects, introduction
 {%
   include feature.html
   image="images/mobile_Manipulator_Temp.png"
+  headline="Hyundai Mobis Mobile Manipulator Control Project"
   link="https://www.youtube.com/watch?v=qF8hS3q49YA"
-  tooltip="Mobis Project"
   text=text
 %}
 Supported by 
@@ -36,7 +36,8 @@ Purpose of Our Projects, introduction
 {%
   include feature.html
   image="images/mobile_Project2_pseudo.png"
-  headline="Development of Control Algorithm and Simulator for Developing Safety Guidelines for Mobile Cooperative Robots"
+  headline="Development of Control Algorithm and Simulator  
+  for Developing Safety Guidelines for Mobile Cooperative Robots"
   text=text
 %}
 Supported by 
@@ -58,8 +59,8 @@ Purpose of Our Projects, introduction
 {%
   include feature.html
   image="images/voucher_temp.png"
-  headline="Personalized walking control solution for exoskeleton robot of lower extremity"
-  tooltip="voucher Project"
+  headline="Personalized walking control solution  
+  for exoskeleton robot of lower extremity"
   text=text
 %}
 Supported by  
