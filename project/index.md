@@ -7,15 +7,17 @@ nav:
 
 
 
-## Hyundai Mobis Mobile Manipulator 
+## Hyundai Mobis Mobile Manipulator Whole Body Control
 ### 22.08 ~ 24.04
 {% capture text %}
-Purpose of Our Projects, introduction
+The project aims to develop Whole-body control using Redundant Degree of Freedom in mobile manipulators so that workers can perform tasks reliably.
+- Control to mitigate impact when contact with the environment occurs.
+- Develop a dynamic decision algorithm in which the order of tasks is determined by priority.
+- An algorithm in which the behavior of a robot is determined by human work will or environmental changes.
 {% endcapture %}
 {%
   include feature.html
   image="images/mobile_Manipulator_Temp.png"
-  link="https://www.youtube.com/watch?v=qF8hS3q49YA"
   text=text
 %}
 Supported by 
