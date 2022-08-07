@@ -10,15 +10,15 @@ Our research interests are in Physical human-robot interaction (pHRI), human-rob
 
 I am currently looking for a Post-doc., undergraduate students (PhD), and engineers motivated to solve problems in the exoskeleton robot and cobot.
 
-<!-- please send your CV to my Email address :: wansookim@hanyang.ac.kr -->
+please send your CV to my Email address :: wansookim@hanyang.ac.kr
 
 {:.center}
 
 {% include section.html full=true %}
-
+<!-- 
 {% include banner.html image="images/Frontimg.png" %}
 
-{% include section.html %}
+{% include section.html %} -->
 
 
 
