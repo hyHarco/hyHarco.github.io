@@ -28,6 +28,10 @@ data="posts"
 filters="group: past" %}
 
 {% include section.html %}
+
+
+
+
 <!-- 
 ## Hyundai Mobis Mobile Manipulator Whole Body Control
 ### 22.08 ~ 24.04
