@@ -2,6 +2,7 @@
 title: Young Robot Engineer - W.Kim
 author: Wansoo Kim
 member: Wansoo-Kim
+group: news
 ---
 
 /Excerpts from "Robot Newspaper"  

@@ -5,8 +5,30 @@ nav:
   tooltip: HARCO Lab's Project
 ---
 
+# <i class="fas fa-search"></i> Projects
 
+Ongoing projects and past projects.
 
+{% include search-info.html %}
+
+{% include section.html %}
+
+## Ongoing Projects
+{% include list.html 
+component="card-info" 
+data="posts" 
+filters="group: ongoing" %}
+
+{% include section.html %}
+
+## Past Projects
+{% include list.html 
+component="card-info" 
+data="posts" 
+filters="group: past" %}
+
+{% include section.html %}
+<!-- 
 ## Hyundai Mobis Mobile Manipulator Whole Body Control
 ### 22.08 ~ 24.04
 {% capture text %}
@@ -91,7 +113,7 @@ Supported by
   image="images/sinjin_support.png"
 %}
 
-{% include section.html %}
+{% include section.html %} -->
 
 
 

@@ -14,6 +14,7 @@ nav:
   include list.html
   data="posts"
   component="post-excerpt" 
+  filters="group: news"
 %}
 
 {% include section.html %}

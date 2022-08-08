@@ -1,26 +1,8 @@
-- name: SOFTWARE - 3D cell cycle classifier
-  group: previous
-  image: images/mitotic.png
+- name: M0bile-manipulator Whole-body control
+  group: ongoing
+  image: images/mobile_Manipulator_Temp.png
   link: https://github.com/AllenCell/image_classifier_3d
-  description: mitotic classifier
-
-- name: SOFTWARE - Iterative ML segmentation for 3D microscopy images
-  group: previous
-  image: images/segmenter_ml.png
-  link: https://github.com/AllenCell/aics-ml-segmentation
-  description: This is the ML part of Allen Cell and Structure Segmenter software
-
-- name: SOFTWARE - Classic image segmentation for 3D microscopy images
-  group: previous
-  image: images/segmenter_classic.png
-  link: https://github.com/AllenCell/aics-segmentation
-  description: This is the classic part of Allen Cell and Structure Segmenter software
-
-- name: Data - 3D single cell dataset with cell stage annotation 
-  group: previous
-  image: images/variance.png
-  link: https://open.quiltdata.com/b/allencell/packages/aics/hipsc_single_cell_image_dataset
-  description: Dataset used to train the 3D mitotic classif
+  description: The project aims to develop Whole-body control using Redundant Degree of Freedom in mobile manipulators so that workers can perform tasks reliably.  
 
 - name: ZeroCostDL4Mic
   group: others
