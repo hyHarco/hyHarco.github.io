@@ -26,6 +26,9 @@
 
 {%- assign items = year.items -%}
 
+{%- if years.size > 1 -%}
+  <h3 id="{{ year.name }}">{{ year.name }}</h3>
+  {%- assign items = items | sort: "date" | reverse -%}
 {%- endif -%}
 
 {%- for d in items -%}
