@@ -22,7 +22,11 @@
 
 {%- assign years = data | group_by_exp: "d", "d.date | date: '%Y'" | sort: "name" | reverse -%}
 
+{%- for year in years -%}
 
+{%- assign items = year.items -%}
+
+{%- endif -%}
 
 {%- for d in items -%}
 
