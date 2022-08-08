@@ -14,7 +14,7 @@ Ongoing projects and past projects.
 {% include section.html %}
 
 ## Ongoing Projects
-{% include list.html 
+{% include list_test.html 
 component="card-info" 
 data="posts" 
 filters="group: ongoing" %}
@@ -22,7 +22,7 @@ filters="group: ongoing" %}
 {% include section.html %}
 
 ## Past Projects
-{% include list.html 
+{% include list_test.html 
 component="card-info" 
 data="posts" 
 filters="group: past" %}
