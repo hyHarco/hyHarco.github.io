@@ -1,7 +1,11 @@
 ---
-title: Young Researcher Program-2022.03.01
+title: Young Researcher Program
+tags:
+  - project
+  - ergonomics
 author: Wansoo Kim
 member: Wansoo-Kim
+group: news
 ---
 
 
