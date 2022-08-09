@@ -9,7 +9,7 @@ links:
   home-page: https://roboharco12.tistory.com/
 tier: fifth
 ---
-- Research interests: A.I, Impedence Control, Wearable Robot, GAIT Analysis
+- Research interests: Machine Learning, Deep Learning, Impedence Control, Wearable Robot, GAIT Analysis
 - Email : ralwnsgus4715@gmail.com
 
 # Education
@@ -17,5 +17,4 @@ tier: fifth
 
 # Research
 - Active & Hybrid Exoskeleton Robot Impedence Control 
-- Car Suspension Stewart Platform Control 
-- A.I. Machine Learning, Neural Network
+- Development of suspension device for Automobile using Stewart Platform
