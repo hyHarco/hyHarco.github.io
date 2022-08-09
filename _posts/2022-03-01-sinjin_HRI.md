@@ -1,6 +1,6 @@
 ---
 title: Intelligent Human Robot Collaboration Technology Considering Ergonomic Prediction Behavior
-image: images/voucher_temp.png
+image: images/sinjin.png
 group: ongoing  # Use filter tags as 'ongoing', 'past', 'etc'
 tags:
   - PROJECT
