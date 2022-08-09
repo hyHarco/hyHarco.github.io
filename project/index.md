@@ -13,7 +13,7 @@ Ongoing projects and past projects.
 
 {% include section.html %}
 
-## Ongoing Projects
+## Ongoing Projectsss
 {% include list.html 
 component="card-info" 
 data="posts" 
