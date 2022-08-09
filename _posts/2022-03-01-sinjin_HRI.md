@@ -16,7 +16,7 @@ This project aims to develop ergonomic human-robot collaboration technology that
 
 {%
   include feature.html
-  image="images/voucher_temp.png"
+  image="images/sinjin.png"
   text=text
 %}
 Funded by 
