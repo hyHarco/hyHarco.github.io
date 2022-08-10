@@ -26,5 +26,5 @@ Funded by
 {:.center}
 {%
   include feature.html
-  image="images/hexar_support.png"
+  image="images/Hexar_support.png"
 %}
