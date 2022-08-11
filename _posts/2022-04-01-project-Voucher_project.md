@@ -1,30 +1,31 @@
 ---
-title: Development of Personalized Walking Control Solution for Lower Body Exoskeleton Robot
-image: images/voucher_temp.png
-group: ongoing  # Use filter tags as 'ongoing', 'past', 'etc'
-tags:
-  - PROJECT
-  - Ergonomics
-  - Exoskeleton
-  - AI
-fund: HEXAR Human Care
-date_start: 2022-04-01
-date_end: 2023-12-31
+title: Development of Solution Technology for Personalized Gait Control and Performance Evaluation of Lower-limb Robotic Exoskeleton through Artificial Intelligence/Big Data
+image: images/voucher_project.png
+group: ongoing 
+tags: 
+  - Exoskeleton robot
+  - Robot control
+  - Artificial intelligence
+  - Big data
+  - Personalization
+fund: Institute for Information & communication Technology Planning & evaluation(IITP)
+date_start: 2020-04-28 
+date_end: 2022-12-31 
 role: Coordinator
 ---
 
-Explanation
-
+This is a voucher project that supports R&D by university institution to develop technology of domestic small and medium-sized enterprise. By providing gait integrated solution technology, we want to develop robot control technology and AI-based personalized gait parameter generation algorithm.
 
 
 {%
   include feature.html
-  image="images/voucher_temp.png"
+  image="images/iitp_research.png"
   text=text
 %}
+
 Funded by 
 {:.center}
 {%
   include feature.html
-  image="images/Hexar_support.png"
+  image="images/iitp_support.png"
 %}
