@@ -7,8 +7,8 @@ aliases:
 links:
   email: ralwnsgus4715@gmail.com
   home-page: https://roboharco12.tistory.com/
+  github: krex4715
 tier: fifth
-github: krex4715
 ---
 - Research interests: Machine Learning, Deep Learning, Impedence Control, Wearable Robot, GAIT Analysis
 - Email : ralwnsgus4715@gmail.com
