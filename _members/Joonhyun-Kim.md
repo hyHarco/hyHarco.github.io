@@ -10,6 +10,7 @@ links:
   github: krex4715
 tier: fifth
 ---
+
 - Research interests: Machine Learning, Deep Learning, Impedence Control, Wearable Robot, GAIT Analysis
 - Email : ralwnsgus4715@gmail.com
 
