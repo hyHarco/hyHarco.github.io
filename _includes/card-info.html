@@ -1,10 +1,10 @@
 {%- if include.style == "small" -%}
-  {%- assign width = 100 -%}
+  {%- assign width = 200 -%}
 {%- else -%}
-  {%- assign width = 100 -%}
+  {%- assign width = 350 -%}
 {%- endif -%}
 
-{%- assign placeholder = "images/placeholder.svg" | relative_url -%}
+<!-- {%- assign placeholder = "images/placeholder.svg" | relative_url -%} -->
 
 {%- if include.link -%}
   {%- assign tag = "a" -%}
@@ -13,7 +13,7 @@
 {%- endif -%}
 
 {::nomarkdown}
-<span class="card" style="--width: {{ width }}px">
+<span class="card" style="--width: {{ width*3 }}px">
   <{{ tag }} href="{{ include.link | relative_url }}" class="card_image">
     <img
       src="{{ include.image | relative_url }}"
