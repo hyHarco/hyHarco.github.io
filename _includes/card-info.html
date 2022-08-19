@@ -4,7 +4,7 @@
   {%- assign width = 350 -%}
 {%- endif -%}
 
-<!-- {%- assign placeholder = "images/placeholder.svg" | relative_url -%} -->
+{%- assign placeholder = "images/placeholder.svg" | relative_url -%}
 
 {%- if include.link -%}
   {%- assign tag = "a" -%}
@@ -30,9 +30,8 @@
 
     {%- if include.date_start && include.date_end -%}
       <span style="white-space: pre-line">
-        <div <i class="far fa-calendar-alt">
-        <!-- <span>{{- include.date_start | date: "%B, %Y" -}}&nbsp;-&nbsp;{{- include.date_end | date: "%B, %Y" -}}</span> -->
-        {{- include.date_start | date: "%B, %Y" -}}&nbsp;-&nbsp;{{- include.date_end | date: "%B, %Y" -}}</i></div>
+        <i class="far fa-calendar-alt"></i>
+        <span>{{- include.date_start | date: "%B, %Y" -}}&nbsp;-&nbsp;{{- include.date_end | date: "%B, %Y" -}}</span>
       </span>
     {%- endif -%}
 
