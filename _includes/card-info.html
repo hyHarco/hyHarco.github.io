@@ -30,9 +30,9 @@
 
     {%- if include.date_start && include.date_end -%}
       <span style="white-space: pre-line">
-        <i class="far fa-calendar-alt">
+        <div <i class="far fa-calendar-alt">
         <!-- <span>{{- include.date_start | date: "%B, %Y" -}}&nbsp;-&nbsp;{{- include.date_end | date: "%B, %Y" -}}</span> -->
-        {{- include.date_start | date: "%B, %Y" -}}&nbsp;-&nbsp;{{- include.date_end | date: "%B, %Y" -}}</i>
+        {{- include.date_start | date: "%B, %Y" -}}&nbsp;-&nbsp;{{- include.date_end | date: "%B, %Y" -}}</i></div>
       </span>
     {%- endif -%}
 
