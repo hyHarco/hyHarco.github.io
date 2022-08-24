@@ -18,8 +18,9 @@ and based on these, I am working on a project to apply them to robot control and
 The ultimate goal of my research is to make the AI robot agent that performs a specific tasks through reinforcement learning,   
 and to this end, I am studying various robot Control Methods(Impedance Control, Admittance Control) and AI algorithms.
    
-   
-   
+
+    
+     
 - Email : ralwnsgus4715@gmail.com
 
 - Research interests  
