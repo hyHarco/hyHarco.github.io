@@ -12,8 +12,8 @@ tier: fifth
 ---
 
 I'm interested in AI and robot control theory.
-I have experience in supervised learning using classical machine learning techniques and deep learning theory,  
-and based on these, I am working on a project to apply them to robot control and optimize various parameters.    
+I have experience in supervised learning using Classical ML/DL techniques,  
+and based on these, I am working on a project to apply them to Robot Control and Optimize various parameters.    
      
 The ultimate goal of my research is to make the AI robot agent that performs a specific tasks through reinforcement learning,   
 and to this end, I am studying various robot Control Methods(Impedance Control, Admittance Control) and AI algorithms.
