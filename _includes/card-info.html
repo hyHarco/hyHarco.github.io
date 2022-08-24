@@ -4,7 +4,7 @@
   {%- assign width = 350 -%}
 {%- endif -%}
 
-{%- assign placeholder = "images/placeholder.svg" | relative_url -%}
+<!-- {%- assign placeholder = "images/placeholder.svg" | relative_url -%} -->
 
 {%- if include.link -%}
   {%- assign tag = "a" -%}
@@ -45,7 +45,6 @@
         <i class="fas fa-user-edit"></i>
         <span>{{ include.role | strip_html | truncate: 500 }}</span>
       </span>
-      <!-- <br> -->
     {%- endif -%}
 
     {%- if include.fund -%}
@@ -53,7 +52,6 @@
         <i class="fas fa-funnel-dollar"></i>
         <span>{{ include.fund | strip_html | truncate: 500 }}</span>
       </span>
-      <!-- <br> -->
     {%- endif -%}
 
 

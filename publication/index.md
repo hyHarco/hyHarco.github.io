@@ -7,34 +7,7 @@ nav:
 
 # <i class="fas fa-feather-alt"></i> Journal
 
-<code>
-<script src="https://bibbase.org/show?bib=https://hyHarco.github.io/Journal.bib&jsonp=1"></script>
-</code>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<script src="https://bibbase.org/show?bib=https://hyHarco.github.io/Journal.bib&nocache=0&owner=none&theme=default&groupby=type&sort=-year&folding=1&jsonp=1"></script>
 
 
 <!-- ## See us on Twitter
