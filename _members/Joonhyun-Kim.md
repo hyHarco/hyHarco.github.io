@@ -15,8 +15,8 @@ I'm interested in AI and robot control theory.
 I have experience in supervised learning using classical machine learning techniques and deep learning theory,  
 and based on these, I am working on a project to apply them to robot control and optimize various parameters.    
      
-The ultimate goal of my research is to implement the AI robot agent that performs a specific tasks through reinforcement learning,   
-and to this end, I am studying various robot control methods and artificial intelligence algorithms.
+The ultimate goal of my research is to make the AI robot agent that performs a specific tasks through reinforcement learning,   
+and to this end, I am studying various robot Control Methods(Impedance Control, Admittance Control) and AI algorithms.
    
    
    
