@@ -22,7 +22,7 @@ nav:
   icon=""
   text="Call"
   tooltip=""
-  link="010-5059-5195"
+  link="031-400-4062"
   style="button"
 %}
 {%
