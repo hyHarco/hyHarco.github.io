@@ -27,6 +27,7 @@ and to this end, I am studying various robot Control Methods(Impedance Control, 
   Machine/Deep Learning, Reinforcement Learning
   Impedence Control, Wearable Robot, GAIT Analysis
 
+- [CV](https://sites.google.com/view/joonhyun-kim-cv/%ED%99%88)
 
 # Education
 - (2017~present) B.S. Robotics Engineering, Hanyang University 
