@@ -3,8 +3,8 @@ title: Participated in the IROS 2022 International Conference in Kyoto
 tags:
   - conference
   - IEEE
-author: Joonhyun Kim
-member: Joonhyun-Kim
+author: Wansoo Kim
+member: Wansoo-Kim
 group: news
 ---
 
