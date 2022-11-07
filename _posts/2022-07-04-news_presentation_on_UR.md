@@ -3,8 +3,8 @@ title: PRESENTATION ON INTERNATIONAL UR 2022
 tags:
   - conference
   - exoskeleton
-author: Wansoo Kim
-member: Wansoo-Kim
+author: LE BAO
+member: LE-BAO
 group: news
 ---
 
