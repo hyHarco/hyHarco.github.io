@@ -2,7 +2,6 @@
 title: PRESENTATION ON INTERNATIONAL UR 2022
 tags:
   - conference
-  - exoskeleton
 author: LE BAO
 member: LE-BAO
 group: news
@@ -16,6 +15,7 @@ This work was supported by the National Research Foundation of Korea(NRF) grant 
   include feature.html
   image="images/P_NEWS/UR2022_회의현장.jpg"
 %}
+
 
 
 
