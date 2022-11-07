@@ -1,7 +1,7 @@
 ---
 name: Taeyhang Lim
 image: images/임태양.png
-description: B.S. Researcher
+description: M.S. Researcher
 links:
   email: jennetlim98@gmail.com
 tier: fourth
