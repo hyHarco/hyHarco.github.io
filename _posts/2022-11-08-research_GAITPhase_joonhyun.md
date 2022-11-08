@@ -1,5 +1,5 @@
 ---
-title: Damping Parameter Optimization
+title: GAIT Phase Prediction
 image: images/jh_research1.png
 tags:
   - GAIT Phase
