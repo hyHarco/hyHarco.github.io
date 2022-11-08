@@ -5,7 +5,7 @@ nav:
   tooltip: HARCO News
 ---
 
-# <i class="fas fa-tools"></i> **HARCO LAB News**
+# <i class="fas fa-bell"></i> **HARCO LAB News**
 {% include search-info.html %}
 {% include section.html %}
 
