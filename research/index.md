@@ -13,7 +13,7 @@ we have various motion capture equipment such as **Optitrack**, **Xsens**, **Axi
 also, we have **Franka Panda Robot Arm**, **Mobile Manipulator** and **Holo Lenz**
 
     
-We can provide various support for research with these a lot of equipment.
+We can provide various support for research with these equipment.
 
 {% include section.html %}
 # **Exoskeleton Robot Research**
