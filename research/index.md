@@ -5,7 +5,7 @@ nav:
   tooltip: Our Research
 ---
 
-# <i class="fas fa-search"></i> Research
+# <i class="fas fa-search"></i> **Research**
 
 
 

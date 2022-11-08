@@ -5,7 +5,7 @@ nav:
   tooltip: HARCO Lab's Project
 ---
 
-# <i class="fas fa-search"></i> Projects
+# <i class="fas fa-search"></i> **Projects**
 
 Ongoing projects and past projects.
 
