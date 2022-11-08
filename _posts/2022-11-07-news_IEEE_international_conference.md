@@ -53,11 +53,11 @@ ethics, human factors, and philosophy.
 <https://ieee-arso.org/>
 
 **Important dates**   
-Nov 30th 2022     Deadline for Organized Session Proposals
-Dec 15th 2022     Notification of Organized Session Acceptance
-Jan 31th 2023      Deadline for Initial Paper Submission
-Apr 1st 2023        Notification of Paper Acceptance
-Apr 30th 2023      Deadline for Final Paper Submission   
+Nov 30th 2022     Deadline for Organized Session Proposals    
+Dec 15th 2022     Notification of Organized Session Acceptance    
+Jan 31th 2023      Deadline for Initial Paper Submission    
+Apr 1st 2023        Notification of Paper Acceptance    
+Apr 30th 2023      Deadline for Final Paper Submission       
 
 
 ***
