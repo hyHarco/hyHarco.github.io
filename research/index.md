@@ -8,6 +8,24 @@ nav:
 # <i class="fas fa-search"></i> Research
 
 
+
+Ongoing projects and past projects.
+
+{% include search-info.html %}
+
+{% include section.html %}
+
+## Ongoing Projects
+{% include list.html 
+component="card-info" 
+data="posts" 
+filters="group: research" %}
+
+{% include section.html %}
+
+
+
+
 {% include section.html %}
 # Exoskeleton Robot Research
 {% capture text %}
@@ -56,32 +74,3 @@ Contents
 
 
 
-
-<!-- 
-# Other Research
-{%
-  include feature.html
-  image="images/research2.jpg"
-  headline="Other Projects"
-  text="this is Example"
-%}
-
-
-{% capture col1 %}
-{%
-  include figure.html
-  image="images/Exorobot_Research_Temp.png"
-  caption="Example Image"
-%}
-{% endcapture %}
-{% capture col2 %}
-{%
-  include figure.html
-  image="images/mobile_Manipulator_Temp.png"
-  caption="image_explanation"
-%}
-{% endcapture %}
-{% include two-col.html col1=col1 col2=col2 %}
-
-
- -->
