@@ -9,6 +9,7 @@ links:
 tier: fifth
 ---
 - Research interests: Exoskeleton Robots, Impedence Control
+- [CV](../asset/DonggyuLee_cv.pdf)  
 - Email: dong2391@hanyang.ac.kr
 
 # Education
