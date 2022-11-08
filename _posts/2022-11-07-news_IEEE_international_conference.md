@@ -15,8 +15,10 @@ Advanced Robotics and Its Social Impacts (ARSO 2023) that will take
 place in Berlin, Germany, June 5th-7th 2023, in conjunction with ICRA’23.
 Contributions for papers and organized sessions are now open (accepted
 papers will be published in the conference proceedings and on IEEE Xplore).   
-   
-*** Summary ***
+
+***
+
+**Summary**
 Advanced robots are expected to enter in promising applications in our
 future society and bring substantial impacts. The increasing
 implementation of AI-based components even broadens their fields of
@@ -24,9 +26,12 @@ application. To ensure that these impacts are positively reflected,
 today, we need to extend views not only on technical aspects but also on
 social challenges that we might face, which include safety, regulation,
 ethics, human factors, and philosophy.   
+   
 
 
-*** Topics of interest ***
+***
+
+**Topics of interest**
  * Human-robot interaction in physical & psychological aspects
  * Safety standards for advanced robots & autonomous systems
  * Legal and ethical issues for advanced robots
@@ -41,19 +46,22 @@ ethics, human factors, and philosophy.
  * Robotics & autonomous driving
  * Bio-inspired robotics
  * Soft and wearable robotics    
-   
-    
-*** Conference website ***
+
+
+*** 
+**Conference website**  
 https://ieee-arso.org/    
 
-*** Important dates ***
+**Important dates**
 Nov 30th 2022     Deadline for Organized Session Proposals
 Dec 15th 2022     Notification of Organized Session Acceptance
 Jan 31th 2023      Deadline for Initial Paper Submission
 Apr 1st 2023        Notification of Paper Acceptance
 Apr 30th 2023      Deadline for Final Paper Submission   
 
-*** Organizing committee ***
+
+***
+**Organizing committee**
 General Chair: Sascha Wischniewski (Federal Institute for Occupational
 Safety and Health – BAuA, Germany)
 Program Chairs: Serena Ivaldi (INRIA, France) - Arash Ajoudani (IIT,
