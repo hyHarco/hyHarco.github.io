@@ -7,12 +7,22 @@ nav:
 
 # <i class="fas fa-chalkboard-teacher"></i> **Lectures**
 
+<i class="fas fa-thumbtack"></i>  _professor W. Kim's Lectures_
 
-
-
+{% include section.html %}
 
 ***
+## _2022_
 
+**_[강의코드]_** **강의명**     
+시간    
+**_[강의코드]_** **강의명**     
+시간     
+**_[강의코드]_** **강의명**    
+시간     
+    
+     
+***
 ## _2021_
 
 **_[COE3052]_** **Engineering Mathematics II (English)**    
@@ -25,3 +35,5 @@ nav:
 
 
 ***
+
+{% include section.html %}
