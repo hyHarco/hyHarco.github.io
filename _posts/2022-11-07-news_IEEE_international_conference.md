@@ -31,7 +31,7 @@ ethics, human factors, and philosophy.
 
 ***
 
-**Topics of interest**
+**Topics of interest**   
  * Human-robot interaction in physical & psychological aspects
  * Safety standards for advanced robots & autonomous systems
  * Legal and ethical issues for advanced robots
@@ -49,10 +49,10 @@ ethics, human factors, and philosophy.
 
 
 *** 
-**Conference website**  
-https://ieee-arso.org/    
+**Conference website**    
+<https://ieee-arso.org/>
 
-**Important dates**
+**Important dates**   
 Nov 30th 2022     Deadline for Organized Session Proposals
 Dec 15th 2022     Notification of Organized Session Acceptance
 Jan 31th 2023      Deadline for Initial Paper Submission
