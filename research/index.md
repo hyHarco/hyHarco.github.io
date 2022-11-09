@@ -7,9 +7,9 @@ nav:
 
 # <i class="fas fa-search"></i> **Research**
 
-Our lab has a lot of equipment for research.
 
-we have various motion capture equipment such as **Optitrack**, **Xsens**, **Axis Neuron**, and also has a motion analysis software **Anybody S/W**, **foot pressure measurement equipment**, and **Force Plate**.
+
+Our lab has various motion capture equipment such as **Optitrack**, **Xsens**, **Axis Neuron**, and also has a motion analysis software **Anybody S/W**, **foot pressure measurement equipment**, and **Force Plate**.
 also, we have **Franka Panda Robot Arm**, **Mobile Manipulator** and **Holo Lenz**
 
     
@@ -41,7 +41,8 @@ filters="group: research_1" %}
 #### *related_project*    
 
 - [Voucher Project](https://hyharco.github.io/project/#voucher-project)
-- [Human-Robot Collaboration Technology Considering Ergonomic Prediction Behavior](https://hyharco.github.io/project/#hri-technology-considering-ergonomic-prediction-behavior)
+- [Human-Robot Collaboration Technology Considering Ergonomic Prediction Behavior](https://hyharco.github.io/project/#hri-technology-considering-ergonomic-prediction-behavior)   
+
 ***
 
 
