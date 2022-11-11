@@ -5,15 +5,14 @@ nav:
   tooltip: HARCO Lab's Project
 ---
 
-# <i class="fas fa-robot"></i> **Projects**
+# <i class="fas fa-lightbulb"></i> **Projects**
 
-Ongoing projects and past projects.
 
 {% include search-info.html %}
 
 {% include section.html %}
 
-## Ongoing Projects
+## <i class="fas fa-paper-plane"></i> *Ongoing Projects*
 {% include list.html 
 component="card-info" 
 data="posts" 
@@ -21,7 +20,7 @@ filters="group: ongoing" %}
 
 {% include section.html %}
 
-## Past Projects
+## <i class="far fa-paper-plane"></i> *Past Projects*
 {% include list.html 
 component="card-info" 
 data="posts" 

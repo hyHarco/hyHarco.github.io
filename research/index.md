@@ -5,7 +5,7 @@ nav:
   tooltip: Our Research
 ---
 
-# <i class="fas fa-search"></i> **Research**
+# <i class="fas fa-robot"></i> **Research**
 
 
 
@@ -13,7 +13,9 @@ Our lab has various motion capture equipment such as **Optitrack**, **Xsens**, *
 also, we have **Franka Panda Robot Arm**, **Mobile Manipulator** and **Holo Lenz**
 
     
-We can provide various support for research with these equipment.
+We can provide various support for research with these equipment.    
+The main research robot platforms in our lab are **Mobile Manipulators** and **Exoskeleton Robots**.
+
 
 {% include section.html %}
 # **Exoskeleton Robot Research**
@@ -31,17 +33,17 @@ In our lab, we're studying how to analyze these variations with AI technology an
 %}
 
 ***
-#### *Our Researches*    
+#### <i class="fas fa-archive"></i> *Our Researches*    
 {% include list.html 
 component="card-info"
 data="posts" 
 filters="group: research_1" %}
 
 ***
-#### *related_project*    
+#### <i class="fas fa-code-branch"></i> *related project*    
 
-- **[Development of Healthcare Service and Medical Robot Using Artificial Intelligence](http://harco.hanyang.ac.kr/2022/04/28/project-voucher_project.html)**
-- **[Human-Robot Collaboration Technology Considering Ergonomic Prediction Behavior](http://harco.hanyang.ac.kr/2022/03/01/project-sinjin_HRI.html)**    
+- **[Development of Solution Technology for Personalized Gait Control and Performance Evaluation of Lower-limb Robotic Exoskeleton through Artificial Intelligence/Big Data](http://harco.hanyang.ac.kr/2022/04/28/project-voucher_iitp_gait_project.html)**
+- **[Development of Healthcare Service and Medical Robot using Artificial Intelligence](http://harco.hanyang.ac.kr/2022/04/28/project-khidi_project.html)**    
 
 
 
@@ -71,17 +73,17 @@ Contents
 
 ***
    
-#### *Our Researches*       
+#### <i class="fas fa-archive"></i> *Our Researches*       
 {% include list.html 
 component="card-info"
 data="posts" 
 filters="group: research_2" %}   
 ***
 
-#### *related_project*     
-- **[Hyundai Mobis - Mobile Manipulator Project](https://hyharco.github.io/project/#hyundai-mobis-mobile-manipulator-whole-body-control)**    
-- **[Development of Safety Guidelines Algorithm for Mobile Cooperative Robots](https://hyharco.github.io/project/#safety-guidelines-algorithm-for-mobile-cooperative-robots)**     
-
+#### <i class="fas fa-code-branch"></i> *related project*     
+- **[Hyundai Mobis Mobile Manipulator Whole Body Control](http://harco.hanyang.ac.kr/2022/08/01/project_Mobis_MobileManipulator.html)**    
+- **[Towards Ergonomics-based Human-Robot Collaboration with Intelligent Anticipatory Behaviours](http://harco.hanyang.ac.kr/2022/03/01/project_nrf_youngresearcher.html)**     
+- **[Development Service of Systemic Control Algorithm for Development of Safety Guidelines for Mobile Cooperative Robot Workshop](http://harco.hanyang.ac.kr/2022/10/13/project-dgist_safety_guidline.html)**   
 
 ***   
 
