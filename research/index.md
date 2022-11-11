@@ -40,14 +40,10 @@ filters="group: research_1" %}
 ***
 #### *related_project*    
 
-<<<<<<< HEAD
 - **[Development of Healthcare Service and Medical Robot Using Artificial Intelligence](http://harco.hanyang.ac.kr/2022/04/28/project-voucher_project.html)**
 - **[Human-Robot Collaboration Technology Considering Ergonomic Prediction Behavior](http://harco.hanyang.ac.kr/2022/03/01/project-sinjin_HRI.html)**    
 
-=======
-- [Voucher Project](https://hyharco.github.io/project/#voucher-project)
-- [Human-Robot Collaboration Technology Considering Ergonomic Prediction Behavior](https://hyharco.github.io/project/#hri-technology-considering-ergonomic-prediction-behavior)   
->>>>>>> 4fde4a95a8ac88d8a47c10d0db9747c9797a4471
+
 
 ***
 
