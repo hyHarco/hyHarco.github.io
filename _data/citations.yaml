@@ -133,20 +133,21 @@
   image: ../images/MICCAI.png
   tags:
   - image segmentation
-
 - id: doi:https://doi.org/10.1016/j.cels.2021.05.001
-  title: A Flexible Robotics-Inspired Computational Model of Compressive Loading on the Human Spine
+  title: A Flexible Robotics-Inspired Computational Model of Compressive Loading on
+    the Human Spine
   authors:
   - Ventura, L.
   - Lorenzini, M.
-  - Kim, W., & Ajoudani, A. 
+  - Kim, W., & Ajoudani, A.
   publisher: IEEE Robotics and Automation Letters
   date: '2021-06-01'
   link: https://doi.org/gktgdk
-  image: images/logoimg.png
+  image: https://www.allencell.org/uploads/8/1/9/9/81996008/cellsystems-cover-fish-aics-cos-2-final-thumb_2.png
   tags:
-
-
+  - caridomyocyte
+  - analysis and modeling
+  - image segmentation
 - id: url:https://papers.nips.cc/paper/2016/hash/4dcf435435894a4d0972046fc566af76-Abstract.html
   title: Combining Fully Convolutional and Recurrent Neural Networks for 3D Biomedical
     Image Segmentation
