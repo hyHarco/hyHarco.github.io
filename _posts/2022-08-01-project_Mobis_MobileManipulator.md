@@ -14,10 +14,11 @@ role: Coordinator
 ---
 
 The project aims to develop Whole-body control using Redundant Degree of Freedom in mobile manipulators so that workers can perform tasks reliably.  
-The contents that our lab is developing are as follows.  
--Control method for mitigating impact when contact with the environment occurs.  
--Develop a dynamic decision algorithm in which the order of tasks is determined by priority.  
--An algorithm in which the behavior of a robot is determined by human work will or environmental 
+The contents that our lab is developing are as follows.    
+    
+- Control method for mitigating impact when contact with the environment occurs.  
+- Develop a dynamic decision algorithm in which the order of tasks is determined by priority.  
+- An algorithm in which the behavior of a robot is determined by human work will or environment
 
 {%
   include feature.html
