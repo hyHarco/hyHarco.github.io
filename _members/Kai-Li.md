@@ -9,12 +9,9 @@ links:
 tier: fourth
 ---
 
-- Research interests: Intelligent Mobile Robots and Algorithms
-- Email: likai5289@hnayang.ac.kr  
+#### **Research intersts** 
+- *Intelligent Mobile Robots and Algorithms*
 
-# Education
-- (2020.8)  B.S. Mechanical Engineering，Hanyang University
-- (2020.9~present)  M.S. Mechatronics Engineering，Hanyang University
-
-# Research
-- Intelligent follow mobile robot
+#### **Education**
+- *(2020.8)  B.S. Mechanical Engineering，Hanyang University*
+- *(2020.9~present)  M.S. Mechatronics Engineering，Hanyang University*

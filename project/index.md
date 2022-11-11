@@ -5,7 +5,7 @@ nav:
   tooltip: HARCO Lab's Project
 ---
 
-# <i class="fas fa-laptop-code"></i> **Projects**
+# <i class="fas fa-robot"></i> **Projects**
 
 Ongoing projects and past projects.
 

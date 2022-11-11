@@ -4,11 +4,11 @@ nav:
   order: 1
   tooltip: About our team
 ---
-
+# <i class="fas fa-user-friends"></i>**Harco Lab Members**
 
 {% include section.html %}
 
-# **Team Leader**
+## **Team Leader**
 {%
   include list.html
   data="members"
@@ -16,7 +16,7 @@ nav:
   filters="tier: first" 
 %}
 
-# **Post-doc Reasearcher**
+## **Post-doc Reasearcher**
 {%
   include list.html
   data="members"
@@ -25,7 +25,7 @@ nav:
 %}
 
 
-# **Ph.D. Student**
+## **Ph.D. Student**
 {%
   include list.html
   data="members"
@@ -34,7 +34,7 @@ nav:
 %}
 
 
-# **M.S. Student**
+## **M.S. Student**
 {%
   include list.html
   data="members"
@@ -42,7 +42,7 @@ nav:
   filters="tier: fourth " 
 %}
 
-# **B.S. Student**
+## **B.S. Student**
 {%
   include list.html
   data="members"

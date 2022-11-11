@@ -9,14 +9,15 @@ links:
   github: jangjaepil
 tier: fifth
 ---
-- Email : jaepill9@naver.com
-- Research interests: Impedance Control, Motor, Stability Analysis
+#### **Research intersts**
+- *Impedance Control* 
+- *Motor / Manipulation*
+- *Stability Analysis*
 
 
 
-# Education
-- (2017~present) B.S. Robotics Engineering, Hanyang University 
+#### **Education**
+- *(2017~present) B.S. Robotics Engineering, Hanyang University*
 
-# Research
-- Impedance Control
-- Manipulator
+#### **Projects**
+- *Development of Solution FOR Personalized GAIT Control and Performance Evaluation of Lower-limb Robotic Exoskeleton Through Artificial Intelligence / Big Data*

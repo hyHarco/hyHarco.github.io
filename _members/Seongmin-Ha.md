@@ -10,11 +10,7 @@ links:
 tier: fourth
 ---
 
-- Research interests: Ankle rehabilitation, Impedence Control
-- Email : gktjdals9416@hanyang.ac.kr
+#### **Research intersts** 
+- *Ankle rehabilitation*
+- *Impedence Control*
 
-# Education
--  M.S. Candidate
-
-# Research
-- 
