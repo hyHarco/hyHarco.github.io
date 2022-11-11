@@ -29,7 +29,7 @@ This study attempted to solve these problems by conducting learning based on dat
 
 ***
 **related project** 
-- [voucher project](http://harco.hanyang.ac.kr/2022/04/28/project-iitp_gait_project.html)   
+- [Development of Solution Technology for Personalized Gait Control and Performance Evaluation of Lower-limb Robotic Exoskeleton through Artificial Intelligence/Big Data](http://harco.hanyang.ac.kr/2022/04/28/project-voucher_iitp_gait_project.html)   
    
 ***
 **Conference**   
