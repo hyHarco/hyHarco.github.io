@@ -28,8 +28,7 @@ This study includes the use of ultra-wideband sensors to identify the 3D traject
 ***
 
 **Conference**   
-- 
-[**_UR-2022_**](../asset/Bao-2022-A-sensor-fusion-strategy-for-indoor.pdf)
+- **[UR-2022](https://drive.google.com/file/d/1OaUkSvexy9ymZh9ZhfKBLBIa1F-e6UNG/view?usp=sharing)**
 
 
 ***
