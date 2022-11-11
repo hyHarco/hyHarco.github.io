@@ -11,28 +11,30 @@ links:
 tier: fifth
 ---
 
+
 I'm interested in AI and robot control theory.
 I have experience in supervised learning using Classical ML/DL techniques,  
 and based on these, I am working on a project to apply them to Robot Control and Optimize various parameters.    
      
 The ultimate goal of my research is to make the AI robot agent that performs a specific tasks through reinforcement learning,   
-and to this end, I am studying various robot Control Methods(Impedance Control, Admittance Control) and AI algorithms.
-   
+and to this end, I am studying various robot Control Methods(Impedance Control, Admittance Control) and AI algorithms.    
 
+#### ***[CV](https://sites.google.com/view/joonhyun-kim-cv/%ED%99%88)***
     
-     
-- Email : ralwnsgus4715@gmail.com
 
-- Research interests  
-  Machine/Deep Learning, Reinforcement Learning
-  Impedence Control, Wearable Robot, GAIT Analysis
+#### **Research interests**
+- *Machine/Deep Learning*
+- *Reinforcement Learning*
+- *Impedence Control*
+- *Wearable Robot*
+- *GAIT Analysis*
 
-- [CV](https://sites.google.com/view/joonhyun-kim-cv/%ED%99%88)
 
-# Education
-- (2017~present) B.S. Robotics Engineering, Hanyang University 
 
-# Research
-- Active & Hybrid Exoskeleton Robot Impedence Control 
-- Development of suspension device for Automobile using Stewart Platform
-- DEVELOPMENT OF SOLUTION TECHNOLOGY FOR PERSONALIZED GAIT CONTROL AND PERFORMANCE EVALUATION OF LOWER-LIMB ROBOTIC EXOSKELETON THROUGH ARTIFICIAL INTELLIGENCE/BIG DATA
+#### **Education**
+- *(2017~present) B.S. Robotics Engineering, Hanyang University* 
+
+#### **Projects**
+- *Active & Hybrid Exoskeleton Robot Impedence Control* 
+- *Development of suspension device for Automobile using Stewart Platform*
+- *Development of Solution FOR Personalized GAIT Control and Performance Evaluation of Lower-limb Robotic Exoskeleton Through Artificial Intelligence / Big Data*

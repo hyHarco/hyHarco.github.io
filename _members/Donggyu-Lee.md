@@ -8,9 +8,13 @@ links:
   email: dong2391@hanyang.ac.kr
 tier: fifth
 ---
-- Research interests: Exoskeleton Robots, Impedence Control
-- [CV](../asset/DonggyuLee_cv.pdf)  
-- Email: dong2391@hanyang.ac.kr
 
-# Education
-- (2019~present) B.S. Robotics Engineering, Hanyang University
+#### ***[CV](../asset/DonggyuLee_cv.pdf)***   
+
+#### **Research intersts**
+- *Exoskeleton Robots*
+- *Impedence Control*
+
+
+#### **Education**
+- *(2019~present) B.S. Robotics Engineering, Hanyang University

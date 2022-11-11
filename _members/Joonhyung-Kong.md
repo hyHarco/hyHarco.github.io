@@ -8,13 +8,14 @@ links:
   email: nakjh321@hanyang.ac.kr
 tier: fourth
 ---
+#### **Research intersts**
+- *Exoskeleton Robot*
+- *Hard Ware Design*
+- *Active & Passive Hybrid Control*
 
-- Research interests: Exoskeleton Robot, GAIT Analysis, Active & Passive Hybrid Control
-- Email: nakjh321@hanyang.ac.kr
+#### **Education**
+- *(2021.02) B.S. Intelligent Robotics Department, Mokwon University*
+- *(2022.03~present)*
 
-# Education
-- (2021.02) B.S. Intelligent Robotics Department, Mokwon University
-- (2022.03~present) 
-
-# Research
-- Teleoperations-based tactile implementation system
+#### **Projects**
+- *Development of Solution FOR Personalized GAIT Control and Performance Evaluation of Lower-limb Robotic Exoskeleton Through Artificial Intelligence / Big Data*
