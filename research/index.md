@@ -40,8 +40,10 @@ filters="group: research_1" %}
 ***
 #### *related_project*    
 
-- [Voucher Project](https://hyharco.github.io/project/#voucher-project)
-- [Human-Robot Collaboration Technology Considering Ergonomic Prediction Behavior](https://hyharco.github.io/project/#hri-technology-considering-ergonomic-prediction-behavior)
+- **[Development of Healthcare Service and Medical Robot Using Artificial Intelligence](http://harco.hanyang.ac.kr/2022/04/28/project-voucher_project.html)**
+- **[Human-Robot Collaboration Technology Considering Ergonomic Prediction Behavior](http://harco.hanyang.ac.kr/2022/03/01/project-sinjin_HRI.html)**    
+
+
 ***
 
 
@@ -66,15 +68,22 @@ Contents
   text=text
 %}
 
+***
+   
 #### *Our Researches*       
 {% include list.html 
 component="card-info"
 data="posts" 
-filters="group: research_2" %}
+filters="group: research_2" %}   
+***
 
 #### *related_project*     
-- [Hyundai Mobis - Mobile Manipulator Project](https://hyharco.github.io/project/#hyundai-mobis-mobile-manipulator-whole-body-control)   
-- [Development of Safety Guidelines Algorithm for Mobile Cooperative Robots](https://hyharco.github.io/project/#safety-guidelines-algorithm-for-mobile-cooperative-robots)
+- **[Hyundai Mobis - Mobile Manipulator Project](https://hyharco.github.io/project/#hyundai-mobis-mobile-manipulator-whole-body-control)**    
+- **[Development of Safety Guidelines Algorithm for Mobile Cooperative Robots](https://hyharco.github.io/project/#safety-guidelines-algorithm-for-mobile-cooperative-robots)**     
+
+
+***   
+
 
 {% include section.html %}
 

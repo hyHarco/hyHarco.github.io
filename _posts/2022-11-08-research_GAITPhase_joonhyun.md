@@ -34,7 +34,7 @@ This study attempted to solve these problems by conducting learning based on dat
 ***
 **Conference**   
 - 
-[**_kspe (Korean Society for Precision Engineering) Conference)_**](https://drive.google.com/file/d/1p5hMve-M4tQ8fD1xHreyuUOgk3CVtTga/view)
+[**_kspe (Korean Society for Precision Engineering) Conference_**](https://drive.google.com/file/d/1p5hMve-M4tQ8fD1xHreyuUOgk3CVtTga/view)
 
 
 ***
