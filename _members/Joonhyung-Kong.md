@@ -12,10 +12,13 @@ tier: fourth
 - *Exoskeleton Robot*
 - *Hard Ware Design*
 - *Active & Passive Hybrid Control*
+- *GAIT Analysis*
 
 #### **Education**
 - *(2021.02) B.S. Intelligent Robotics Department, Mokwon University*
 - *(2022.03~present)*
 
 #### **Projects**
-- *Development of Solution FOR Personalized GAIT Control and Performance Evaluation of Lower-limb Robotic Exoskeleton Through Artificial Intelligence / Big Data*
+- *Teleoperation-based tactile implementation system*
+- *Active passive hybrid joint system using planetary gears*
+- *Remote Hand Rehabilitation System with Pneumatic System*
