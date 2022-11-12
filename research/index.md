@@ -18,19 +18,18 @@ The main research robot platforms in our lab are **Mobile Manipulators** and **E
 
 
 {% include section.html %}
-# **Exoskeleton Robot Research**
-{% capture text %}
 
+
+
+
+
+# <i class="fas fa-crosshairs"></i> **Exoskeleton Robot Research**
+
+
+### *AI Lower Exoskeleton Robot Control Project*    
 The shape of a human body is different in all the populations of the world. One of the most difficult things about properly controlling exoskeleton robots is that they need to be controlled flexibly, depending on the diversity of these individuals.  
 In our lab, we're studying how to analyze these variations with AI technology and use it appropriately for robot control
 
-{% endcapture %}
-{%
-  include feature.html
-  image="images/Voucher_Res.png"  
-  headline="AI Lower Exoskeleton Robot Control Project"
-  text=text
-%}
 
 ***
 #### <i class="fas fa-archive"></i> *Our Researches*    
@@ -59,17 +58,10 @@ filters="group: research_1" %}
   
   
   
-# **Mobile Manipulator Research**
-{% capture text %}
-Contents 
+# <i class="fas fa-crosshairs"></i> **Mobile Manipulator Research**
 
-{% endcapture %}
-{%
-  include feature.html
-  image="images/mobile_Manipulator_Temp.png"
-  headline="Mobile Manipulator Project"
-  text=text
-%}
+### *Mobile Manipulator Project*
+Our lab is studying robot manipulator control, which seeks to interact with humans.
 
 ***
    

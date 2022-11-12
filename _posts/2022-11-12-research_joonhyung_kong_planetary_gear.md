@@ -3,7 +3,7 @@ title: Active Passive Hybrid Joint System Using Planetary Gears
 image: images/kong_jh_research1.png
 tags:
   - Lower-limb Exoskeleton robot
-  - H / W Design
+  - H / W Modeling
 author: Joonhyung Kong
 member: Joonhyung-Kong
 group: research_1
