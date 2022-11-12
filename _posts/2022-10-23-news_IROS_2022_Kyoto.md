@@ -13,7 +13,7 @@ Prof W. Kim , S. M. Ha , L. Bao , K. Li, T. Lee, J. S. Lee attended the IROS 202
 
 
 {%
-  include feature.html
+  include figure.html
   image="images/P_NEWS/IROS_2022_kyoto.jpg"
 %}
 

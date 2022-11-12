@@ -13,7 +13,7 @@ At the 2022 Fall Korean Society for Precision Engineering Conference (KSPE) (Dae
 J. H. Kim conducted a poster presentation on an algorithm that determines a person's GAIT phase using an Convolutional Neural Network (CNN).
 
 {%
-  include feature.html
+  include figure.html
   image="images/P_NEWS/daegu_exco_kspe.png"
 %}
 
