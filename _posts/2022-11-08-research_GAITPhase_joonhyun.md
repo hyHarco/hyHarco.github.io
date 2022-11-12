@@ -1,5 +1,5 @@
 ---
-title: GAIT Phase Prediction
+title: Development of the IMU Based GAIT Phase Prediction Model using CNN Model
 image: images/jh_research1.png
 tags:
   - GAIT Phase
@@ -13,18 +13,17 @@ group: research_1
 ***
 
 **Summary**
-CNN is a widely used artificial neural network in the field of computer vision, which captures characteristic distribution changes in data and is used to learn the rpresentation of images.   
+Convolutional Neural Network(CNN) is a widely used model in the field of Computer Vision, an artificial neural network model that captures characteristic changes in data through convolutional filters and performs various predictions.    
+
+Researcher [*Joon-hyun Kim*](http://harco.hanyang.ac.kr/members/Joonhyun-Kim.html) developed a model that predicts the GAIT phase of exoskeleton robot wearer using CNN.
     
-The problem with the existing GAIT Phase research is that because Prediction was conducted with data collected from constant walking speed and topography, there is a lack of coping with the complex environment in which people are active.
-   
-This study attempted to solve these problems by conducting learning based on data collected from various terrain and speed environments.
+When he created the model, he organized the data collection environment into various terrain (Level Ground Walk, Stair Ascent, Stair Descent) and various speeds (70-130 bpm) to make the model strong in various environmental changes.
 
 ***
 
 **Topic**    
  * GAIT Phase
  * Convolutional Neural Network
- * Transfer Learning
 
 
 ***
@@ -38,6 +37,14 @@ This study attempted to solve these problems by conducting learning based on dat
 
 
 ***
+{%
+  include figure.html
+  image="images/jh_research1.png"
+  caption="CNN Filtering"
+%}
+
+
+
 
 {% capture col1 %}
 {%
@@ -54,3 +61,7 @@ This study attempted to solve these problems by conducting learning based on dat
 %}
 {% endcapture %}
 {% include two-col.html col1=col1 col2=col2 %}
+
+
+
+

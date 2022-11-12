@@ -16,7 +16,7 @@ group: research_1
 The TSA system is an actuator that can produce linear motion through twisting of the thread, which converts the rotational motion of the motor into linear motion.     
 It does not take up much space, and it can be used as an actuator suitable for exoskeleton robots because it can generate a lot of power even with a small and weak motor.    
 
-Researcher Dongcheol Shin is is currently developing mathematical modeling through Hook's law by measuring the change in stiffness according to the motor rotation of TSA, and Additionally, based on the experimental results that the change in stiffness depends on the spacing of the threads, he would like to create a device that controls the change in stiffness according to the spacing of the threads.
+Researcher [*Dongcheol Shin*](http://harco.hanyang.ac.kr/members/Dongcheol-Shin.html) is is currently developing mathematical modeling through Hook's law by measuring the change in stiffness according to the motor rotation of TSA, and Additionally, based on the experimental results that the change in stiffness depends on the spacing of the threads, he would like to create a device that controls the change in stiffness according to the spacing of the threads.
 
 
 ***

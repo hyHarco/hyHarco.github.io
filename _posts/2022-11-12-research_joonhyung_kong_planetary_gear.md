@@ -46,7 +46,7 @@ The active/passive mode of the gearbox changes depending on the motor restraint,
 {% capture col2 %}
 {%
   include figure.html
-  image="images/kong_jh_research2.png"
+  image="images/kong_jh_research1_interior.png"
   caption="Planetary Gear Interior View"
 %}
 {% endcapture %}
