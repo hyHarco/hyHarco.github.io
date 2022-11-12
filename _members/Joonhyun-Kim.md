@@ -35,6 +35,7 @@ and to this end, I am studying various robot Control Methods(Impedance Control, 
 - *(2017~present) B.S. Robotics Engineering, Hanyang University* 
 
 #### **Projects**
-- *Active & Hybrid Exoskeleton Robot Impedence Control* 
-- *Development of suspension device for Automobile using Stewart Platform*
+- *Development of the Stewart Platform Suspension Algorithm for Automobile*
 - *Development of Solution FOR Personalized GAIT Control and Performance Evaluation of Lower-limb Robotic Exoskeleton Through Artificial Intelligence / Big Data*
+- *Development of the IMU Based GAIT Phase Prediction Model using CNN Model*
+- *Development of Damping & Spring Coefficient Selecting Algorithm using Actor-Critic Reinforcement Learning Model*
