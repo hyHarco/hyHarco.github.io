@@ -10,13 +10,13 @@ tags:
   - Personalization
 fund: Institute for Information & communication Technology Planning & evaluation(IITP)
 date_start: 2020-04-01 
-date_end: 2022-12-31 
+date_end: 2023-12-31 
 role: Coordinator
 ---
 
 
 ***    
-**<i class="fas fa-sync"></i> Period : 2020-04-01 ~ 2022-12-31**   
+**<i class="fas fa-sync"></i> Period : 2020-04-01 ~ 2023-12-31**   
 **<i class="fas fa-won-sign"></i> Total Budget : 908,400,000**    
 
 ***     
