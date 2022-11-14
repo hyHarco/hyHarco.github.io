@@ -79,7 +79,7 @@ role: Coordinator
 * [**Dongbin Shin**](http://harco.hanyang.ac.kr/members/Dongbin-Shin.html)  : *Project Manager*
 * [**Joonhyun Kim**](http://harco.hanyang.ac.kr/members/Joonhyun-Kim.html)   : *(S/W) AI Engineering, Optization, Data collection*
 * [**Jaepil Jang**](http://harco.hanyang.ac.kr/members/JaePil-Jang.html)   : *(S/W) Impedance Control, Stability Analysis*
-* [**Joonhyung Kong**](http://harco.hanyang.ac.kr/members/Joonhyung-Kong.html)   : *Setting up experimental environments, building embedded systems*
+* [**Joonhyung Kong**](http://harco.hanyang.ac.kr/members/Joonhyung-Kong.html)   : *(H/W) Setting up experimental environments, building embedded systems*
 * [**Dongcheol Shin**](http://harco.hanyang.ac.kr/members/Dongcheol-Shin.html)   : *(H/W) Setting up terrain and experimental environment equipment*
 
 ***    
