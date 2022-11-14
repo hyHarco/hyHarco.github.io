@@ -37,13 +37,13 @@ When he created the model, he organized the data collection environment into var
 
 
 ***
+
+
 {%
   include figure.html
   image="images/jh_research1.png"
   caption="CNN Filtering"
 %}
-
-
 
 
 {% capture col1 %}
