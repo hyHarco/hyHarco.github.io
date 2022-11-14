@@ -17,7 +17,7 @@ role: Coordinator
 
 ***    
 **<i class="fas fa-sync"></i> Period : 2020-04-01 ~ 2023-12-31**   
-**<i class="fas fa-won-sign"></i> Total Budget : 908,400,000**    
+**<i class="fas fa-won-sign"></i> Total Budget : 908,400,000 원**    
 
 ***     
 #### <i class="fas fa-edit"></i>  **Goal of This Project**
