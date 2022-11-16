@@ -39,10 +39,43 @@ To achieve **the Five Scientific Goals (SO)** of this study, **Five Work Package
 - **(WP.4)** : Behavior Prediction and Sharing Control Using Artificial Intelligence.
 - **(WP.5)** : Integration of human-robot collaboration system considering human engineering,   
 Experiments on the developed ergonomic model,   
-Building an open database with sensor data.   
+Building an open database with sensor data.      
 
 
 ***    
+{%
+  include figure.html
+  image="images/sinjin_project_1.png"
+  caption="by Monitoring the joint load variation and Providing Feedback to guide towards erogonics pose,    
+  robot can control the robotic partner's Assistive behavior to minimize the overloading Effects"
+%}     
+
+{% capture col1 %}
+{%
+  include figure.html
+  image="images/sinjin_project_2.png"
+  caption="Overloading Torque Detection"
+%}
+{% endcapture %}
+{% capture col2 %}
+{%
+  include figure.html
+  image="images/sinjin_project_3.png"
+  caption="Multi-human mobile-robot ergonomic control framework"
+%}
+{% endcapture %}
+{% include two-col.html col1=col1 col2=col2 %}   
+
+***    
+
+#### **<i class="fas fa-user-circle"></i> Participating Researchers**
+* [**Wansoo Kim**](http://harco.hanyang.ac.kr/members/Wansoo-Kim.html)
+* [**Inhyuk Baek**](http://harco.hanyang.ac.kr/members/Inhyuk-Baek.html)
+* [**Bao Leo**](http://harco.hanyang.ac.kr/members/LE-BAO.html)
+* [**Dongcheol Shin**](http://harco.hanyang.ac.kr/members/Dongcheol-Shin.html)
+* [**Joonhyung Kong**](http://harco.hanyang.ac.kr/members/Joonhyung-Kong.html)
+
+***
 
 #### **<i class="fas fa-money-bill-wave-alt"></i> Funding**
 Funded by 
