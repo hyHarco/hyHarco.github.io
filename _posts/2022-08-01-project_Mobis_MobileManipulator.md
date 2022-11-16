@@ -69,7 +69,6 @@ role: Coordinator
 ***
 
 #### **<i class="fas fa-money-bill-wave-alt"></i> Funding**
-{:.center}
 {%
   include feature.html
   image="images/mobis_support.png"

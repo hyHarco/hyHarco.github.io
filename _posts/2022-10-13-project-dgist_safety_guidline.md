@@ -13,7 +13,7 @@ role: Coordinator
 
 ***    
 **<i class="fas fa-sync"></i> Period : 2022.07.15 ~ 2022.10.13**   
-**<i class="fas fa-won-sign"></i> Total Budget : 22,000,000 원**    
+**<i class="fas fa-won-sign"></i> Total Budget : 20,000,000 원**    
 
 ***     
 #### <i class="fas fa-edit"></i>  **Goal of This Project**
@@ -78,7 +78,7 @@ role: Coordinator
 ***
 
 #### **<i class="fas fa-money-bill-wave-alt"></i> Funding**
-{:.center}
+
 {%
   include feature.html
   image="images/dgist_support.png"

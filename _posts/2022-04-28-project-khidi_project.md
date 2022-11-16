@@ -3,18 +3,22 @@ title: Development of Healthcare Service and Medical Robot using Artificial Inte
 image: images/project.png 
 group: ongoing  
 tags: 
-  - Global researcher
-  - Exoskeleton robot
+  - Medical Robot
   - Artificial Intelligence
-  - Rehabilitation
+  - Healthcare
+  - Big Data
 fund: Korea Health Industry Development Institute(KHIDI)  
-date_start: 2019-10-17 
-date_end: 2023-12-31 
+date_start: 2019-09-01 
+date_end: 2023-12-31
 role: Co-investigator
 ---
 
+**<i class="fas fa-sync"></i> Period : 2022-03-01 ~ 2027-02-28**   
+**<i class="fas fa-won-sign"></i> Total Budget : 818,000,000 원**   
 
-This project aims to train global researchers to collaborate with the foreign organizations. We are conducting the research on the topic of the rehabiliation exoskeleton robot and artificial intelligence technology.
+
+#### <i class="fas fa-edit"></i>  **Goal of This Project**
+Development of ergonomic human-robot collaboration technology that can predict human engineering status of workers in real time and improve risk factors through collaboration with robots. 
 
 
 {%
