@@ -69,7 +69,7 @@ role: Coordinator
 ***    
 #### **<i class="fas fa-user-circle"></i> Participating Researchers**
 * [**Wansoo Kim**](http://harco.hanyang.ac.kr/members/Wansoo-Kim.html)   : **_Principal Investigator_**  
-* [**Inhyuk Baek**](http://harco.hanyang.ac.kr/members/Inhyuk-Baek.html)   : *Project Manager ,  Control Algorithm Development*
+* [**Inhyuk Baek**](http://harco.hanyang.ac.kr/members/Inhyuk-Baek.html)   : *(S/W) Project Manager ,  Control Algorithm Development*
 * [**Seungmin Choi**](http://harco.hanyang.ac.kr/members/Seungmin-Choi.html)   : *(S/W) Control Algorithm Development*
 
 
