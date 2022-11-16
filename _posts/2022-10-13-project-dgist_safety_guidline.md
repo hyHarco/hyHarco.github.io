@@ -6,8 +6,8 @@ tags:
   - Human Robot Collaborate
   - Mobile Manipulator
 fund: Institute for Information & communication Technology Planning & evaluation(IITP)
-date_start: 2020-04-28 
-date_end: 2022-12-31 
+date_start: 2022.07.15
+date_end: 2022.10.13
 role: Coordinator
 ---
 

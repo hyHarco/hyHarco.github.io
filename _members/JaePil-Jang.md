@@ -13,7 +13,7 @@ tier: fifth
 - *Impedance Control* 
 - *Motor / Manipulation*
 - *Stability Analysis*
-
+- *Modern Control Theory*
 
 
 #### **Education**
