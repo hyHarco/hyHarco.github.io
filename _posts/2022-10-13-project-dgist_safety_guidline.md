@@ -41,10 +41,6 @@ role: Coordinator
 - Development of a location-based Whole Body control algorithm model.
 - Deriving Control Inputs for Whole Body Control of Mobile and Cooperative Robots.
 - Development of a Foldbody Control Algorithm Considering Singularity in the Work Area.
-{%
-  include figure.html
-  image="images/dgist_project_1.png"
-%}
 
 
 
@@ -62,7 +58,7 @@ role: Coordinator
 {% capture col2 %}
 {%
   include figure.html
-  image="images/dgist_image.png"
+  image="images/dgist_project_3.png"
   caption = "Ex2 ) Keeping the distal end at the same point"
 %}
 {% endcapture %}
