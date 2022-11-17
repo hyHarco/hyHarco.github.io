@@ -78,8 +78,7 @@ Building an open database with sensor data.
 ***
 
 #### **<i class="fas fa-money-bill-wave-alt"></i> Funding**
-Funded by 
-{:.center}
+
 {%
   include feature.html
   image="images/sinjin_support.png"
