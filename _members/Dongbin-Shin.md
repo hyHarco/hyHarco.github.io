@@ -5,7 +5,6 @@ description: Post-doc Researcher
 links:
   email: sdbin225@hanyang.ac.kr
 tier: second
-
 ---
 #### **Research intersts**
 - *Exoskeleton robot*
@@ -27,3 +26,4 @@ tier: second
 - *Development of healthcare service and medical robot device using artificial intelligence technology*
 - *Framework study for improving mutual stability between humans and wearable robots*
 - *Machine Automation for Road Construction*
+
