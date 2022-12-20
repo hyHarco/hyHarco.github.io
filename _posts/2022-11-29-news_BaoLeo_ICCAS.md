@@ -1,10 +1,10 @@
 ---
-title: Presentation on International Conference UR 2022 
+title: Presentation on International Conference ICCAS 2022 
 tags:
   - conference
   - Mobile Robot
-author: LEO BAO
-member: LEO-BAO
+author: Kai Li
+member: Kai-Li
 group: news
 ---
 
