@@ -29,7 +29,7 @@ This study includes the use of ultra-wideband sensors to identify the 3D traject
 
 **Conference**   
 - **[UR-2022](https://drive.google.com/file/d/1OaUkSvexy9ymZh9ZhfKBLBIa1F-e6UNG/view?usp=sharing)**
-
+- **[ICCAS-2022](https://drive.google.com/file/d/12AGqmmROQpIHvd-IWWwh4fsHG8A6UA00/view?usp=sharing)**
 
 ***
 
