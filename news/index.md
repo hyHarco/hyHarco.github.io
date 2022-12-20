@@ -13,7 +13,7 @@ nav:
 {%
   include list.html
   data="posts"
-  component="post-excerpt" 
+  component="post-excerpt_test" 
   filters="group: news"
 %}
 
