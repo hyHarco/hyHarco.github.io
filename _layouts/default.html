@@ -29,7 +29,7 @@
           document.body.appendChild(el);
 
           setTimeout(() =>{
-            body.removeChild(el);
+            document.body.removeChild(el);
             makeSnowflakes()
           }, (duration + delay) * 1000);
       }
