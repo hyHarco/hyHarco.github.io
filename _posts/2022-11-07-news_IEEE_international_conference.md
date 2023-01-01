@@ -1,5 +1,5 @@
 ---
-title: CfP 19th IEEE International Conference on Advanced Robotics and Its Social Impacts (ARSO 2023)
+title: ◉ CfP 19th IEEE International Conference on Advanced Robotics and Its Social Impacts (ARSO 2023) ◉
 tags:
   - conference
   - human robot interaction

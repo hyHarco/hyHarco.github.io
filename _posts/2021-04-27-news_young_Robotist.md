@@ -1,5 +1,5 @@
 ---
-title: Young Robot Engineer - W.Kim
+title: ◉ Young Robot Engineer - W.Kim ◉
 author: Wansoo Kim
 member: Wansoo-Kim
 group: news
@@ -16,21 +16,6 @@ Born in 1986, he graduated from Bucheon High School, graduated from Hanyang Univ
 Major areas of interest include cooperative robots or physical human-robot interactions (pHRI), human-robot collaboration, public control, ergonomics, human modeling, feedback devices, and exoskeleton robots. During his time at IIT, he participated in the Horizon-2020 project "SOPHIA" and the European Research Association project "Ergo-lean", and contributed to the development of a number of exoskeleton robot research (wearable robots for industrial field worker support) in Korea. He won the 2014 ICCAS Best Paper Presentation Award, the 2015 Hanyang University Best Doctor Paper Award, the 2018 KUKA Innovation Award, and the 2019 Italian Solution Award.  
 ...
 
-
-
-<!-- {%
-  include gallery.html
-  style="square"
-
-  image1="images/young_robotist.png"
-  tooltip1="HRI(Human Robot Interaction) Technical Classification"
-
-  image2="images/young_robotist1.png"
-  tooltip2="Ergonomic human-robot collaboration control"
-
-  image3="images/kuka_innovation.png"
-  tooltip3="After winning the KUKA INNOVATION AWARD 2018"
-%} -->
 
 {% capture col1 %}
 {%
