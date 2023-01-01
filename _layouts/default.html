@@ -7,5 +7,36 @@
     </main>
     {% include footer.html %}
     {% include tooltip.html %}
+
+
+
+    <script>
+      const MIN_DURATION = 10;
+
+      function makeSnowflakes() {
+          const el = document.createElement("div");
+          const delay = Math.random() * 10;
+          const initialOpacity = Math.random();
+          const duration = Math.random()*20 + MIN_DURATION;
+
+          el.classList.add("snowflake");
+          el.style.zIndex="1";
+          el.style.marginLeft = `${Math.random() * window.screen.width}px`;
+          el.style.animationDelay = `${delay}s`;
+          el.style.opacity = initialOpacity;
+          el.style.animation = `fall ${duration}s linear`;
+
+          document.body.appendChild(el);
+
+          setTimeout(() =>{
+            body.removeChild(el);
+            makeSnowflakes()
+          }, (duration + delay) * 1000);
+      }
+
+      for (let index =0; index<100; index++){
+          setTimeout(makeSnowflakes,500*index);
+      }
+    </script>
   </body>
 </html>
