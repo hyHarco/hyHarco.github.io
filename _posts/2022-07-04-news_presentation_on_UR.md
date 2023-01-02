@@ -1,5 +1,5 @@
 ---
-title: PRESENTATION ON INTERNATIONAL UR 2022
+title: Presentation On International UR 2022
 tags:
   - conference
 author: LE BAO
@@ -12,7 +12,7 @@ At the 2022 19th International Conference on Ubiquitous Robots (UR) (Jeju, Korea
 This work was supported by the National Research Foundation of Korea(NRF) grant funded by the Korea government(MSIT) (No. 2022R1C1C1008306), and Le Bao is grateful for financial support of the China Scholarship Council(CSC) (No. 202108260014).
 
 {%
-  include feature.html
+  include figure.html
   image="images/P_NEWS/UR2022_회의현장.jpg"
 %}
 
