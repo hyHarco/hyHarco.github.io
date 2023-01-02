@@ -1,5 +1,5 @@
 ---
-title: ◉ Young Researcher Program ◉
+title: Young Researcher Program
 tags:
   - project
   - ergonomics

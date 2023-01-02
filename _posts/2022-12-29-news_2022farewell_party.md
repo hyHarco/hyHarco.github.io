@@ -1,5 +1,5 @@
 ---
-title: ◉ A Farewell Party in 2022 ◉
+title: A Farewell Party in 2022
 author: Joonhyun Kim
 member: Joonhyun-Kim
 group: news

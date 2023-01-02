@@ -1,5 +1,5 @@
 ---
-title: ◉ Participated in the IROS 2022 International Conference in Kyoto ◉
+title: Participated in the IROS 2022 International Conference in Kyoto
 tags:
   - conference
   - IEEE

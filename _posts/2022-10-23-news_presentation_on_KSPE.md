@@ -1,5 +1,5 @@
 ---
-title: ◉ Presentation On KSPE (Korean Society for Precision Engineering) Conference ◉
+title: Presentation On KSPE (Korean Society for Precision Engineering) Conference
 tags:
   - conference
   - exoskeleton

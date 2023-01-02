@@ -1,5 +1,5 @@
 ---
-title: ◉ Presentation on International Conference ICCAS 2022 ◉
+title: Presentation on International Conference ICCAS 2022
 tags:
   - conference
   - Mobile Robot

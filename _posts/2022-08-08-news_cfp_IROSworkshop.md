@@ -1,5 +1,5 @@
 ---
-title: ◉ 5th Full-day Workshop on Ergonomic Human-Robot Collaboration-How Cognitive and Physical Aspects Come Together at IROS2022 ◉
+title: 5th Full-day Workshop on Ergonomic Human-Robot Collaboration-How Cognitive and Physical Aspects Come Together at IROS2022
 tags:
   - workshop
   - ergonomics

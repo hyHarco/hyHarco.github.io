@@ -1,5 +1,5 @@
 ---
-title: ◉ PRESENTATION ON INTERNATIONAL UR 2022 ◉
+title: PRESENTATION ON INTERNATIONAL UR 2022
 tags:
   - conference
 author: LE BAO
