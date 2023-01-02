@@ -1,5 +1,6 @@
 ---
 title: Development of Solution Technology for Personalized Gait Control and Performance Evaluation of Lower-limb Robotic Exoskeleton through Artificial Intelligence/Big Data
+mintitle : Personalized Gait Control Exoskeleton Robot
 image: images/iitp_research.png
 group: ongoing 
 tags: 
@@ -8,7 +9,7 @@ tags:
   - Artificial intelligence
   - Big data
   - Personalization
-fund: Institute for Information & communication Technology Planning & evaluation(IITP)
+fund: IITP
 date_start: 2020-04-01 
 date_end: 2023-12-31 
 role: Coordinator
@@ -89,6 +90,7 @@ role: Coordinator
 {%
   include feature.html
   image="images/iitp_support.png"
+  link='https://www.iitp.kr/main.it'
 %}
 
 

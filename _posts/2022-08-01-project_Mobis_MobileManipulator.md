@@ -1,5 +1,6 @@
 ---
 title: Hyundai Mobis Mobile Manipulator Whole Body Control
+mintitle: Mobile Manipulator Whole Body Control
 image: images/mobis_project.png
 group: ongoing  # Use filter tags as 'ongoing', 'past', 'etc'
 tags:
@@ -72,5 +73,6 @@ role: Coordinator
 {%
   include feature.html
   image="images/mobis_support.png"
+  link='https://www.mobis.co.kr/kr/index.do'
 %}   
 ***   

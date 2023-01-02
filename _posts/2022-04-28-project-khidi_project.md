@@ -1,5 +1,6 @@
 ---
 title: Development of Healthcare Service and Medical Robot using Artificial Intelligence
+mintitle : AI Healthcare Service Robot
 image: images/khidi_research.png 
 group: ongoing  
 tags: 
@@ -7,7 +8,7 @@ tags:
   - Artificial Intelligence
   - Healthcare
   - Big Data
-fund: Korea Health Industry Development Institute(KHIDI)  
+fund: KHIDI
 date_start: 2019-09-01 
 date_end: 2023-12-31
 role: Co-investigator
@@ -57,4 +58,5 @@ To solve this problem, we will conduct a joint project with overseas institution
 {%
   include feature.html
   image="images/khidi_support.png"
+  link='https://www.khidi.or.kr/kps'
 %}

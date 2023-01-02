@@ -1,11 +1,12 @@
 ---
 title: Development Service of Systemic Control Algorithm for Development of Safety Guidelines for Mobile Cooperative Robot Workshop
+mintitle : Safety Guidelines for Mobile Cooperative Robot Workshop
 image: images/dgist_image.png
 group: past 
 tags: 
   - Human Robot Collaborate
   - Mobile Manipulator
-fund: Institute for Information & communication Technology Planning & evaluation(IITP)
+fund: DGIST
 date_start: 2022.07.15
 date_end: 2022.10.13
 role: Coordinator
@@ -82,5 +83,6 @@ role: Coordinator
 {%
   include feature.html
   image="images/dgist_support.png"
+  link='https://www.dgist.ac.kr/kr/'
 %}   
 ***   

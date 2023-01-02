@@ -1,5 +1,6 @@
 ---
 title: Towards Ergonomics-based Human-Robot Collaboration with Intelligent Anticipatory Behaviours
+mintitle : Towards Ergonomics Based HRI
 image: images/sinjin_project_2.png
 group: ongoing  # Use filter tags as 'ongoing', 'past', 'etc'
 tags:
@@ -8,7 +9,7 @@ tags:
   - Mobile-manipulator
   - Exoskeleton
   - Haptic
-fund: National Research Foundation of Korea(NRF)  
+fund: NRF  
 date_start: 2022-03-01
 date_end: 2027-02-28
 role: Coordinator
@@ -82,4 +83,7 @@ Building an open database with sensor data.
 {%
   include feature.html
   image="images/sinjin_support.png"
+  link='https://www.nrf.re.kr/index'
 %}
+
+***

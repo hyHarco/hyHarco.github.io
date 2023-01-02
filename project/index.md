@@ -8,8 +8,6 @@ nav:
 # <i class="fas fa-lightbulb"></i> **Projects**
 
 
-{% include search-info.html %}
-
 {% include section.html %}
 
 ## <i class="fas fa-paper-plane"></i> *Ongoing Projects*
