@@ -1,0 +1,73 @@
+{%- if include.style == "small" -%}
+  {%- assign width = 200 -%}
+{%- else -%}
+  {%- assign width = 250 -%}
+{%- endif -%}
+
+<!-- {%- assign placeholder = "images/placeholder.svg" | relative_url -%} -->
+
+{%- if include.link -%}
+  {%- assign tag = "a" -%}
+{%- else -%}
+  {%- assign tag = "span" -%}
+{%- endif -%}
+
+{::nomarkdown}
+
+<head>
+  <style>
+  div{
+  text-align: left;
+  }
+  </style>
+  </head>
+
+
+<span class="card" style="--width: {{ width }}px">
+  <span class="card_text">
+    {%- if include.title -%}
+      <{{ tag }} href="{{ include.link | relative_url }}" {% if include.tooltip %}data-tooltip="{{ include.tooltip }}"{% endif %} class="card_name">
+        {{- include.title -}}
+      </{{ tag }}>
+    {%- endif -%}
+  </span>
+
+  <{{ tag }} href="{{ include.link | relative_url }}" class="card_image">
+    <img
+      src="{{ include.image | relative_url }}"
+      onerror="this.src = '{{ placeholder }}'; this.onerror = null;"
+      loading="lazy"
+    >
+  </{{ tag }}>
+  
+  <span class=""card_text>
+    {%- if include.date_start && include.date_end -%}
+      <div>
+        <i class="far fa-calendar-alt"></i>   <span>{{- include.date_start | date: "%B, %Y" -}}&nbsp;~ &nbsp;{{- include.date_end | date: "%B, %Y" -}}</span>
+      </div>
+    {%- endif -%}
+
+    {%- if include.role -%}
+    <div>
+
+      <i class="fas fa-user-edit"></i>   <span>{{ include.role | strip_html | truncate: 500 }}</span>
+    </div>
+    {%- endif -%}
+
+    {%- if include.fund -%}
+    <div>
+      <i class="fas fa-funnel-dollar"></i>   <span>{{ include.fund | strip_html | truncate: 500 }}</span>
+    </div>
+    {%- endif -%}
+
+    {%- if include.description -%}
+      {{- include.description | markdownify -}}
+    {%- endif -%}
+
+    {%- if include.tag or include.repo -%}
+      {%- include tags.html tags=include.tags repo=include.repo -%}      
+    {%- endif -%}
+  </span>
+
+</span>
+{:/}

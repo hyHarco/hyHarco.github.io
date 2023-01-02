@@ -1,5 +1,5 @@
 ---
-title: Development of the IMU Based GAIT Phase Prediction Model using CNN Model
+title: IMU Based GAIT Phase Prediction in CNN Model 
 image: images/jh_research1.png
 tags:
   - GAIT Phase

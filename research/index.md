@@ -34,7 +34,7 @@ In our lab, we're studying how to analyze these variations with AI technology an
 ***
 #### <i class="fas fa-archive"></i> *Our Researches*    
 {% include list.html 
-component="card-info"
+component="card-info_2"
 data="posts" 
 filters="group: research_1" %}
 
@@ -67,7 +67,7 @@ Our lab is studying robot manipulator control, which seeks to interact with huma
    
 #### <i class="fas fa-archive"></i> *Our Researches*       
 {% include list.html 
-component="card-info"
+component="card-info_2"
 data="posts" 
 filters="group: research_2" %}   
 ***
