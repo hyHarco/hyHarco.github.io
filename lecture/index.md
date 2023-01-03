@@ -7,7 +7,7 @@ nav:
 
 # <i class="fas fa-chalkboard-teacher"></i> **Lectures**
 
-<i class="fas fa-book-reader"></i>  _professor W. Kim's Lectures_    
+<i class="fas fa-book-reader"></i>  _professor_ [_W. Kim_](http://harco.hanyang.ac.kr/members/Wansoo-Kim.html)_'s Lectures_    
 
 {% include section.html %}
 
