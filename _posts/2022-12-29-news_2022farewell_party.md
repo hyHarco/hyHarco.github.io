@@ -5,9 +5,7 @@ member: Joonhyun-Kim
 group: news
 ---
 
-On December 29, **_A Year-End Party_** was held to wrap up 2022.
-
-
+On December 29, **_A Year-End Party_** was held to wrap up 2022. <i class="fas fa-glass-cheers"></i> 
 
 
 {%
