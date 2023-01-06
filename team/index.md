@@ -16,6 +16,7 @@ nav:
   filters="tier: first" 
 %}
 
+***
 ## **Post-doc Reasearcher**
 {%
   include list.html
@@ -24,7 +25,7 @@ nav:
   filters="tier: second" 
 %}
 
-
+***
 ## **Ph.D. Student**
 {%
   include list.html
@@ -33,7 +34,7 @@ nav:
   filters="tier: third " 
 %}
 
-
+***
 ## **M.S. Student**
 {%
   include list.html
@@ -42,12 +43,25 @@ nav:
   filters="tier: fourth " 
 %}
 
+***
 ## **B.S. Student**
 {%
   include list.html
   data="members"
   component="portrait"
   filters="tier: fifth " 
+%}
+
+
+
+{% include section.html %}
+
+## <i class="fas fa-user-graduate"></i> **Alumni**
+{%
+  include list.html
+  data="members"
+  component="portrait"
+  filters="tier: alumni" 
 %}
 
 

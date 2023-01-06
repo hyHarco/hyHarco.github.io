@@ -1,10 +1,10 @@
 ---
-name: Dongbin Shin
+name: Dongbin Shin  
 image: images/신동빈.png
-description: Post-doc Researcher
+description: Post-doc alumni
 links:
   email: sdbin225@hanyang.ac.kr
-tier: second
+tier: alumni
 ---
 #### **Research intersts**
 - *Exoskeleton robot*
