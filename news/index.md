@@ -2,7 +2,7 @@
 title: News
 nav:
   order: 6
-  tooltip: HARCO News
+  tooltip: News
 ---
 
 # <i class="fas fa-bell"></i> **HARCO LAB News**

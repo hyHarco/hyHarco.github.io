@@ -2,7 +2,7 @@
 title: Research
 nav:
   order: 2
-  tooltip: Our Research
+  tooltip: HARCO Lab's Research
 ---
 
 # <i class="fas fa-robot"></i> **Research**

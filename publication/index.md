@@ -2,7 +2,7 @@
 title: Publication
 nav:
   order: 4
-  tooltip: Our Journals
+  tooltip: Journals
 ---
 
 # <i class="fas fa-inbox"></i> **Journal**
