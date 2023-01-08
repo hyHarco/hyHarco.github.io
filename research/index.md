@@ -60,7 +60,7 @@ filters="group: research_1" %}
 # <i class="fas fa-crosshairs"></i> **Mobile Manipulator Research**
 
 ### *Mobile Manipulator Project*
-In our lab, research on mobile manipulators is being conducted in various ways under the theme of Human-Robot Interaction (HRI)
+In our lab, research on mobile manipulators is being conducted in various ways under the theme of Human-Robot Interaction (HRI).
 Working with mobile manipulator robots and workers can make it easier to perform tasks, or they can do certain tasks on behalf of people.
 
 ***
