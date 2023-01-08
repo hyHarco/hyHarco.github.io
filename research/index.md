@@ -7,14 +7,13 @@ nav:
 
 # <i class="fas fa-robot"></i> **Research**
 
-
-
-Our lab has various motion capture equipment such as **Optitrack**, **Xsens**, **Axis Neuron**, and also has a motion analysis software **Anybody S/W**, **foot pressure measurement equipment**, and **Force Plate**.
-also, we have **Franka Panda Robot Arm**, **Mobile Manipulator** and **Holo Lenz**
+Our laboratory has **Mobile Manipulators** and **Exoskeleton Robots** as our main research themes, and we have a variety of equipment necessary for this. We can provide various support for research with these equipment.
+{%
+  include figure.html
+  image="images/Equipment_list.png"
+%}
 
     
-We can provide various support for research with these equipment.    
-The main research robot platforms in our lab are **Mobile Manipulators** and **Exoskeleton Robots**.
 
 
 {% include section.html %}
@@ -61,7 +60,8 @@ filters="group: research_1" %}
 # <i class="fas fa-crosshairs"></i> **Mobile Manipulator Research**
 
 ### *Mobile Manipulator Project*
-Our lab is studying robot manipulator control, which seeks to interact with humans.
+In our lab, research on mobile manipulators is being conducted in various ways under the theme of Human-Robot Interaction (HRI)
+Working with mobile manipulator robots and workers can make it easier to perform tasks, or they can do certain tasks on behalf of people.
 
 ***
    
