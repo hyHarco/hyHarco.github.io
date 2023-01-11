@@ -16,4 +16,4 @@ Using Lidar to Realize Mapping, Positioning and Path Planning of Mobile Robots
 
 #### **Education**
 - *(2020.08) B.S. Mechanical Engineering，Hanyang University*
-- *(2020.09~2022.06) M.S. Mechatronics Engineering，Hanyang University*
+- *(2022.08) M.S. Mechatronics Engineering，Hanyang University*
