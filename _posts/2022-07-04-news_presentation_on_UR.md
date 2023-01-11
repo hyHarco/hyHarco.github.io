@@ -2,8 +2,8 @@
 title: Presentation On International UR 2022
 tags:
   - conference
-author: LE BAO
-member: LE-BAO
+author: Le Bao
+member: Le-Bao
 group: news
 ---
 
