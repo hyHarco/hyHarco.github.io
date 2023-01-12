@@ -3,10 +3,9 @@ name: Yushin Choi
 image: images/최유신.jpg
 description: B.S. Researcher
 aliases:
-  - jjp
+  - Yushin
 links:
-  email: jaepill9@naver.com
-  github: jangjaepil
+  email: yougod0728@gmail.com
 tier: fifth
 ---
 #### **Research intersts**
