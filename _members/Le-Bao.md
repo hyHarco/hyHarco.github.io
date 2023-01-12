@@ -1,5 +1,5 @@
 ---
-name: LE BAO
+name: Le Bao
 image: images/바오러.jpg
 description: Ph.D. Researcher
 aliases:

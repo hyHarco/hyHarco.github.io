@@ -1,6 +1,6 @@
 ---
 name: Jaepil Jang
-image: images/jaepil.png
+image: images/장재필.png
 description: B.S. Researcher
 aliases:
   - jjp
