@@ -6,6 +6,7 @@ aliases:
   - Yushin
 links:
   email: yougod0728@gmail.com
+  github : yougod6
 tier: fifth
 ---
 #### **Research intersts**
