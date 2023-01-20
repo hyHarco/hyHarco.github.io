@@ -1,0 +1,87 @@
+
+
+[name="slide"] {display: none;}
+.slidebox {max-width: 1000px;width: 100%; height: 100%; margin: 0% auto;}
+.slidebox img {max-width: 100%;}
+.slidebox .slidelist {
+    white-space: nowrap;
+    font-size: 0;
+    overflow: hidden;
+}
+.slidebox .slideitem {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 100px;
+    width: 100%;
+    transition: all .35s;
+}
+.slidebox .slideitem  label{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-30%);
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+label.left{
+    left: 100px;
+    background-color: black;
+    opacity: 0.01;
+    /* background-image: url('../images/arrow/left_arrow.png'); */
+    background-position: center center;
+    background-size: 30%;
+    background-repeat: no-repeat;
+}
+label.right{
+    right: 100px;
+    background-color: black;
+    opacity: 0.01;
+    /* background-image: url('../images/arrow/right_arrow.png'); */
+    background-position: center center;
+    background-size: 30%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+[id="slide01"]:checked ~ .slidelist .slideitem {transform: translateX(0); animation:slide01 100s infinite}
+[id="slide02"]:checked ~ .slidelist .slideitem {transform: translateX(-100%);}
+[id="slide03"]:checked ~ .slidelist .slideitem {transform: translateX(-200%);}
+[id="slide04"]:checked ~ .slidelist .slideitem {transform: translateX(-300%);}
+[id="slide05"]:checked ~ .slidelist .slideitem {transform: translateX(-400%);}
+[id="slide06"]:checked ~ .slidelist .slideitem {transform: translateX(-500%);}
+[id="slide07"]:checked ~ .slidelist .slideitem {transform: translateX(-600%);}
+[id="slide08"]:checked ~ .slidelist .slideitem {transform: translateX(-700%);}
+
+
+@keyframes slide01 {
+    0% {left: 0%;}
+
+    10.5% {left: 0%;}
+    12.5% {left: -100%;}
+
+    23% {left: -100%;}
+    25% {left: -200%;}
+    
+    35.5% {left: -200%;}
+    37.5% {left: -300%;}
+
+    48% {left: -300%;}
+    50% {left: -400%;}
+
+    60% {left: -400%;}
+    62.5% {left: -500%;}
+
+    73% {left: -500%;}
+    75% {left: -600%;}
+
+    85.5% {left: -600%;}
+    87.5% {left: -700%;}
+
+    98% {left: -700%;}
+    100% {left: 0%;}
+}

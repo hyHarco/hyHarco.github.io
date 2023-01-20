@@ -13,7 +13,7 @@ Our laboratory has **Mobile Manipulators** and **Exoskeleton Robots** as our mai
   image="images/Equipment_list.png"
 %}
 
-    
+
 
 
 {% include section.html %}

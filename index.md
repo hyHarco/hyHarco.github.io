@@ -14,9 +14,11 @@ please send your CV to my Email address :: wansookim@hanyang.ac.kr
 
 {:.center}
 
+<!-- {% include sliding.html %} -->
+
 {% include section.html full=true %}
 
-<!-- {% include figure.html image="images/banner_temp.png" %} -->
+
 
 {% include section.html %}
 
