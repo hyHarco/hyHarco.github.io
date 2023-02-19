@@ -7,7 +7,7 @@ aliases:
 links:
   email: jaepill9@naver.com
   github: jangjaepil
-tier: fifth
+tier: fourth
 ---
 #### **Research intersts**
 - *Impedance Control* 

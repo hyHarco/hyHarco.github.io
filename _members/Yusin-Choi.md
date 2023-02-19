@@ -7,7 +7,7 @@ aliases:
 links:
   email: yougod0728@gmail.com
   github : yougod6
-tier: fifth
+tier: fourth
 ---
 #### **Research intersts**
 - *Impedance Control* 

@@ -7,7 +7,7 @@ aliases:
 links:
   email: min9317love@hanyang.ac.kr
   github: sm3304love
-tier: fifth
+tier: fourth
 ---
 I am interested in Physical Human Robot Interaction (PHRI), which utilizes control theory and robotics. Using Robotics and classical control theory, we are working on a project to implement force control of robots and apply various control techniques.    
      
