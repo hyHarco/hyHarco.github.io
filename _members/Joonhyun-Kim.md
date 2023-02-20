@@ -6,7 +6,7 @@ aliases:
   - krex
 links:
   email: ralwnsgus4715@gmail.com
-  home-page: https://roboharco12.tistory.com/
+  home-page: https://krex4715.github.io/
   github: krex4715
 tier: fourth
 ---
@@ -16,9 +16,6 @@ I'm interested in AI and robot control theory.
 I have experience in supervised learning using Classical ML/DL techniques,  
 and based on these, I am working on a project to apply them to Robot Control and Optimize various parameters.    
      
-The ultimate goal of my research is to make the AI robot agent that performs a specific tasks through reinforcement learning,   
-and to this end, I am studying various robot Control Methods(Impedance Control, Admittance Control) and AI algorithms.    
-
 #### ***[CV](https://sites.google.com/view/joonhyun-kim-cv/%ED%99%88)***
     
 
@@ -32,10 +29,13 @@ and to this end, I am studying various robot Control Methods(Impedance Control, 
 
 
 #### **Education**
-- *(2017~present) B.S. Robotics Engineering, Hanyang University* 
+- *(2017.03~2023.02) B.S. Robotics Engineering, Hanyang University(ERICA)* 
+- *(2023.03~present) M.S. Candidate, Applied Artificial Intelligence, Hanyang University(Seoul)* 
+
+
+
 
 #### **Projects**
 - *Development of the Stewart Platform Suspension Algorithm for Automobile*
 - *Development of Solution FOR Personalized GAIT Control and Performance Evaluation of Lower-limb Robotic Exoskeleton Through Artificial Intelligence / Big Data*
 - *Development of the IMU Based GAIT Phase Prediction Model using CNN Model*
-- *Development of Damping & Spring Coefficient Selecting Algorithm using Actor-Critic Reinforcement Learning Model*
