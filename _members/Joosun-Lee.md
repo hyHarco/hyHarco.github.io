@@ -1,7 +1,7 @@
 ---
 name: Joosun Lee
 image: images/이주선.jpg
-description: M.S. Researcher
+description: Ph.D. Researcher
 links:
   email: km01049@hanyang.ac.kr
 tier: third
