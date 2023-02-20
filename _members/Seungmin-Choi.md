@@ -1,7 +1,7 @@
 ---
 name: Seungmin Choi
 image: images/최승민.png
-description: B.S. Researcher
+description: M.S. Researcher
 aliases:
   - seungmini
 links:

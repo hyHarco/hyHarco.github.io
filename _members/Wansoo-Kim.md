@@ -5,8 +5,9 @@ description: Principal Investigator
 aliases:
   - Wansoo Kim
 links:
-  google-scholar: https://scholar.google.com/citations?user=07u_E8wAAAJ&hl=ko
+  google-scholar: https://scholar.google.co.kr/citations?user=o7u_E8wAAAAJ&hl=ko
   email: wansookim@hanyang.ac.kr
+  cv: ../asset/WansooKim_CV.pdf
 #  github: harco-wansookim
 tier: first
 
@@ -15,7 +16,6 @@ tier: first
 - Name: Wansoo Kim, Ph.D.
 - Affilitation: Robotics Department Hanyang Univ. ERICA 
 - Position: Assistant professor, Team Leader of Harco LAB  
-- Curriculum Vitae: [CV](../asset/WansooKim_CV.pdf)  
 
 # Scientific Education
 - (*Mar.2008 - Feb.2015*) Doctor of Philosophy in Mechanical Engineering, Hanyang University, Seoul, Republic of Korea

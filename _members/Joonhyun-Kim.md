@@ -1,13 +1,14 @@
 ---
 name: Joonhyun Kim
 image: images/김준현.png
-description: B.S. Researcher
+description: M.S. Researcher
 aliases:
   - krex
 links:
   email: ralwnsgus4715@gmail.com
   home-page: https://krex4715.github.io/
   github: krex4715
+  cv: https://sites.google.com/view/joonhyun-kim-cv/%ED%99%88
 tier: fourth
 ---
 
@@ -15,8 +16,8 @@ tier: fourth
 I'm interested in AI and robot control theory.
 I have experience in supervised learning using Classical ML/DL techniques,  
 and based on these, I am working on a project to apply them to Robot Control and Optimize various parameters.    
-     
-#### ***[CV](https://sites.google.com/view/joonhyun-kim-cv/%ED%99%88)***
+   
+   
     
 
 #### **Research interests**

@@ -42,6 +42,12 @@ search:
   tooltip: Search
   link: $LINK
 
+cv:
+  icon: fa fa-info-circle
+  text: Curriculum Vitae
+  tooltip: CV
+  link: $LINK
+
 # social media
 
 orcid:
@@ -54,7 +60,7 @@ google-scholar:
   icon: fab fa-google
   text: Google Scholar
   tooltip: Google Scholar
-  link: https://scholar.google.com/citations?hl=en&user=$LINK
+  link: $LINK
 
 github:
   icon: fab fa-github
