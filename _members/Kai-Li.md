@@ -1,7 +1,7 @@
 ---
 name: Kai Li
 image: images/리카이.png
-description: M.S. Researcher
+description: Ph.D. Researcher
 aliases:
   - likai
 links:

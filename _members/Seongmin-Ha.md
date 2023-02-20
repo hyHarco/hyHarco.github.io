@@ -1,7 +1,7 @@
 ---
 name: Seongmin Ha
 image: images/하성민.png
-description: M.S. Researcher
+description: Ph.D. Researcher
 aliases:
   - doge
 links:
