@@ -12,9 +12,13 @@ tier: fourth
 #### ***[CV](../asset/DonggyuLee_cv.pdf)***   
 
 #### **Research intersts**
-- *Exoskeleton Robots*
-- *Impedence Control*
+- *Human Robot Cooperation*
+- *Ergonomics*
+- *Mobile Manipulator*
+- *Exoskeleton Robot*
+- *Impedance Control*
 
 
 #### **Education**
-- *(2019~present) B.S. Robotics Engineering, Hanyang University
+- *(2019.02~2023.02) B.S. Robotics Engineering, Hanyang University(ERICA)*
+- *(2023.03~present) B.S.  Integrated M.S./Ph.D. Mechatronics Engineering, Hanyang University(Seoul)*

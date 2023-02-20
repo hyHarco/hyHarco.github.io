@@ -17,7 +17,9 @@ tier: fourth
 
 
 #### **Education**
-- *(2017~present) B.S. Robotics Engineering, Hanyang University*
+- *(2019.02~2023.02) B.S. Robotics Engineering, Hanyang University(ERICA)*
+- *(2023.03~present) B.S. Dept. of Convergence Robot System, Hanyang University(Seoul)*
+
 
 #### **Projects**
 - *Development of Solution FOR Personalized GAIT Control and Performance Evaluation of Lower-limb Robotic Exoskeleton Through Artificial Intelligence / Big Data*
