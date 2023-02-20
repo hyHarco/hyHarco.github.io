@@ -1,5 +1,5 @@
 ---
-title: a Graduation Ceremony for undergraduate researchers
+title: A Graduation Ceremony for undergraduate researchers
 author: Joonhyun Kim
 member: Joonhyun-Kim
 group: news
