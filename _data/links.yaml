@@ -48,6 +48,13 @@ cv:
   tooltip: CV
   link: $LINK
 
+blog:
+  icon: fa fa-bold
+  text: Blog
+  tooltip: Blog
+  link: $LINK
+
+
 # social media
 
 orcid:
