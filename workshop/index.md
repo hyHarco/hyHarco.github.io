@@ -1,7 +1,7 @@
 ---
 title: Workshops
 nav:
-  order: 7
+  order: 8
   tooltip: Workshops
 ---
 
