@@ -2,6 +2,7 @@
 .event_container {
     display: grid;
     grid-template-columns: 30% 1fr;
+    grid-template-rows: 100%;
     grid-gap: 10px;
-    grid-row-gap: 80px;
+
 }
