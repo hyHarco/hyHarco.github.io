@@ -1,5 +1,5 @@
 ---
-title: Project
+title: Projects
 nav:
   order: 3
   tooltip: HARCO Lab's Project
