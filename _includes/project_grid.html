@@ -1,0 +1,78 @@
+
+
+***
+
+
+{::nomarkdown}
+
+
+<head>
+  <style>
+  div{
+  text-align: left;
+  }
+  </style>
+</head>
+
+
+
+
+
+<link rel="stylesheet" href="/css/project_grid.css">
+
+
+
+<div class="event_container">
+
+  <a href="{{ include.link | relative_url }}" class="card_image">
+    <img
+      src="{{ include.image | relative_url }}"
+      style="height: 200px; width: 300px;"
+    >
+  </a>
+
+  <div class="items">
+    {%- if include.mintitle -%}
+      {%- if include.group == "ongoing" -%}
+        <i class="fa fa-play-circle" aria-hidden="true"></i>
+        <a href="{{ include.link | relative_url }}" {% if include.tooltip %}data-tooltip="{{ include.tooltip }}"{% endif %} class="card_name">
+          {{- include.mintitle -}}
+        </a>
+      {%- else if include.group == "past" -%}
+        <i class="far fa-play-circle" aria-hidden="true"></i>
+        <a href="{{ include.link | relative_url }}" {% if include.tooltip %}data-tooltip="{{ include.tooltip }}"{% endif %} class="card_name">
+          {{- include.mintitle -}}
+        </a>
+      {%- endif -%}
+      
+    {%- endif -%}
+    
+    <br>
+    {%- if include.date_start && include.date_end -%}
+      <i class="far fa-calendar-alt"></i> &nbsp;{{- include.date_start | date: "%B, %Y" -}}&nbsp;~ &nbsp;{{- include.date_end | date: "%B, %Y" -}}
+    {%- endif -%}
+
+    {%- if include.connection_link -%}
+      <i class="fa fa-link" aria-hidden="true"></i>&nbsp;
+      <a href="{{ include.connection_link | relative_url }}">
+        {{- include.connection_link -}}
+      </a>
+    {%- endif -%}
+
+    <br>
+    {%- if include.role -%}
+      <i class="fas fa-user-edit"></i> {{ include.role | strip_html | truncate: 500 }}
+    {%- endif -%}
+    <br>
+    {%- if include.fund -%}
+      <i class="fas fa-funnel-dollar"></i>   <span>{{ include.fund | strip_html | truncate: 500 }}</span>
+    {%- endif -%}
+
+  </div>
+
+</div>
+
+
+
+
+{:/}

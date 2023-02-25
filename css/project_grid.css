@@ -1,0 +1,7 @@
+
+.event_container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-gap: 10px;
+    grid-row-gap: 80px;
+}

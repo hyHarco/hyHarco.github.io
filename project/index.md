@@ -12,7 +12,7 @@ nav:
 
 ## <i class="fas fa-paper-plane"></i> *Ongoing Projects*
 {% include list.html 
-component="card-info" 
+component="project_grid" 
 data="posts" 
 filters="group: ongoing" %}
 
@@ -20,7 +20,7 @@ filters="group: ongoing" %}
 
 ## <i class="far fa-paper-plane"></i> *Past Projects*
 {% include list.html 
-component="card-info" 
+component="project_grid" 
 data="posts" 
 filters="group: past" %}
 
