@@ -13,6 +13,7 @@ fund: IITP
 date_start: 2020-04-01 
 date_end: 2023-12-31 
 role: Coordinator
+budget: 300,000,000 won
 ---
 
 

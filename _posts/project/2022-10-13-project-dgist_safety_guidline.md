@@ -10,6 +10,7 @@ fund: DGIST
 date_start: 2022.07.15
 date_end: 2022.10.13
 role: Coordinator
+budget: 20,000,000 won
 ---
 
 ***    

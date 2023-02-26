@@ -12,6 +12,7 @@ fund: Hyundai Mobis
 date_start: 2022-08-01
 date_end: 2024-04-30
 role: Coordinator
+budget: 240,000,000 won
 ---
 **<i class="fas fa-sync"></i> Period : 2022-08-01 ~ 2024-04-30**   
 **<i class="fas fa-won-sign"></i> Total Budget : 240,000,000 원**     

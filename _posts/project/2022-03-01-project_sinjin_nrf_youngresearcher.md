@@ -13,6 +13,7 @@ fund: NRF
 date_start: 2022-03-01
 date_end: 2027-02-28
 role: Coordinator
+budget: 247,312,000 won
 ---
 
 **<i class="fas fa-sync"></i> Period : 2022-03-01 ~ 2027-02-28**   
