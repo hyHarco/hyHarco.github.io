@@ -1,0 +1,23 @@
+
+
+<link rel="stylesheet" href="/css/organizer_grid.css">
+
+<div class="organizer_container">
+  <a>
+    <img src="{{ include.image | relative_url }}" loading="lazy" style="height: auto; width: 100%;" />
+  </a>
+  <div class="item">
+    {%- if include.org_name -%}
+    <p style="font-family: sans-serif; font-size: 24px; line-height: 5px;"><strong>{{ include.org_name }}</strong></p>
+    {%- endif -%}
+    {%- if include.affilation -%}
+    <p style="font-family: sans-serif; font-size: 18px; line-height: 10px;"><strong>{{ include.affilation }}</strong></p>
+    {%- endif -%}
+    {%- if include.email -%}
+    <p style="font-family: sans-serif; font-size: 15px; line-height: 3px;"><strong> {{ include.email }} </strong></p>
+    {%- endif -%}
+
+    
+    {{ include.text | markdownify }}
+  </div>
+</div>

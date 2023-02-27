@@ -1,0 +1,21 @@
+<div class="item">
+  <br>
+  <br>
+
+  
+
+
+  {%- if include.spekerlink -%}
+  <p style="font-family: sans-serif; font-size: 24px; line-height: 10px;">-<a href="{{ include.spekerlink }}"> <strong>{{ include.speakername }}</strong></a></p>
+  {%- else -%}
+  <p style="font-family: sans-serif; font-size: 24px; line-height: 10px;">-<strong> {{ include.speakername }}</strong></p>
+  {%- endif -%}
+
+
+  
+  {%- if include.headline -%}
+  <p style="font-family: sans-serif; font-size: 18px; line-height: 20px;"><strong> “ {{ include.headline }} ” </strong></p>
+  {%- endif -%}
+  
+  {{ include.text | markdownify }}
+</div>
