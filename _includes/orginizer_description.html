@@ -8,13 +8,14 @@
   </a>
   <div class="item">
     {%- if include.org_name -%}
-    <p style="font-family: sans-serif; font-size: 24px; line-height: 5px;"><strong>{{ include.org_name }}</strong></p>
+    <p><span style="font-family: sans-serif; font-size: 24px; line-height: 5px;"><strong>{{ include.org_name }}</strong></span>, <span style="font-family: sans-serif; font-size: 16px; line-height: 5px;"><strong>{{ include.position }}</strong></span>   </p>
     {%- endif -%}
     {%- if include.affilation -%}
     <p style="font-family: sans-serif; font-size: 18px; line-height: 10px;"><strong>{{ include.affilation }}</strong></p>
     {%- endif -%}
     {%- if include.email -%}
-    <p style="font-family: sans-serif; font-size: 15px; line-height: 3px;"><strong> {{ include.email }} </strong></p>
+    {% assign email = include.email %}
+    <p style="font-family: sans-serif; font-size: 15px; line-height: 3px;"><strong> <a href="mailto: {{ email }}">{{ email }}</a> </strong></p>
     {%- endif -%}
 
     
