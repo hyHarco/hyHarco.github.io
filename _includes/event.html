@@ -41,7 +41,7 @@
     
     <br>
     {%- if include.date_start && include.date_end -%}
-      <i class="far fa-calendar-alt"></i> &nbsp;{{- include.date_start | date: "%B, %Y" -}}&nbsp;~ &nbsp;{{- include.date_end | date: "%B, %Y" -}}
+      <i class="far fa-calendar-alt"></i> &nbsp;{{ include.date_start }}&nbsp;~ &nbsp;{{ include.date_end }}
     {%- endif -%}
 
     <br>
