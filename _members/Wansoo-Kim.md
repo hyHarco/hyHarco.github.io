@@ -37,6 +37,16 @@ Wansoo Kim received the B.S. degree in mechanical engineering from Hanyang Unive
 - Collaborative Robot
 - Mobile Manipulator
 
+# Academic Activities
+## Reviewer
+- IEEE/RSJ IROS, IEEE ICRA, ICORR, UR, RSS 
+- IEEE T-RO, IEEE RA-L, IEEE T-ASE, IEEE T-H, IEEE T-IE, IEEE T-NSRE, IJRR, RCIM 
+
+## Associated Editor
+- (*Jan 2023 - present*) IJRR: Human-Centered Robotics and Automation
+- (*Oct 2022 - present*) Mechatronics
+- (*Oct 2022 - present*) Frontier in Robotics and AI 
+
 # Awards
 - (*Sept. 2020*) Best Paper Award Finalist, IEEE ROMAN 2020  
 - (*Mar. 2020*) Premio Innovazione Robotica 2019 (Solution Award in Robotics 2019) Winner, Comitato Tecnico Scientifico, Italy
