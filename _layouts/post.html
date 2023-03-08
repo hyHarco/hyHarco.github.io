@@ -2,23 +2,59 @@
 layout: default
 ---
 
+{%- if page.group=="event" and page.titleimg -%}
+<link rel="stylesheet" href="/css/workshop_titleimg.css">
+  <div class="workshop">
+    <img src="{{ page.titleimg }}" style="float: center; width: 100%; height: auto;">
+  </div>
+  <i class="text"><p style="font-family: sans-serif; font-size: 30px; text-align: center;"><strong>{{ page.title }}</strong></p></i>
 
-<p style="font-family: sans-serif; font-size: 30px; text-align: center;"><strong>{{ page.title }}</strong></p>
 
-{%-
-  include post-info.html
-  author=page.author
-  member=page.member
-  date=page.date
-  date_start=page.date_start
-  date_end=page.date_end
-  tags=page.tags
--%}
+  {%-
+    include post-info.html
+    author=page.author
+    member=page.member
+    date=page.date
+    date_start=page.date_start
+    date_end=page.date_end
+    tags=page.tags
+  -%}
 
-{% include section.html %}
+  {% include section.html %}
 
-{{ content }}
+  {{ content }}
 
-{% include section.html %}
+  {% include section.html %}
+
+
+
+
+
+{%- else -%}
+  <p style="font-family: sans-serif; font-size: 30px; text-align: center;"><strong>{{ page.title }}</strong></p>
+
+
+  {%-
+    include post-info.html
+    author=page.author
+    member=page.member
+    date=page.date
+    date_start=page.date_start
+    date_end=page.date_end
+    tags=page.tags
+  -%}
+
+  {% include section.html %}
+
+  {{ content }}
+
+  {% include section.html %}
+
+
+
+
+
+
+{%- endif -%}
 
 <!-- {%- include post-nav.html post=page -%} -->
