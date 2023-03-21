@@ -16,6 +16,8 @@
   {%- assign title = site.title -%}
 {%- endif -%}
 
+
+<link rel="stylesheet" href="/css/subnav.css">
 <header {% if background %}class="background"{% endif %} {% if background %}style="--background: url('{{ background | relative_url }}')"{% endif %} data-dark="{{ dark }}">
   <a
     href="{{ '/' | relative_url }}"
@@ -27,13 +29,13 @@
       <span class="logo_text">{{ title }}</span>
     {% endif %}
   </a>
-  <nav class="nav_row">
+  <div class="navbar">
     {%- assign pages = site.pages | where_exp: "page", "page.nav" | sort: "nav.order" -%}
     {%- for page in pages -%}
       {%- if page.nav -%}
         {%- include link.html type="link" text=page.title tooltip=page.nav.tooltip link=page.dir -%}
       {%- endif -%}
     {%- endfor -%}
-  </nav>  
+  </div>
 </header>
 

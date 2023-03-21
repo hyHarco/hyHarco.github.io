@@ -2,7 +2,6 @@
 title: Lectures
 nav:
   order: 7
-  tooltip: W. Kim's Lecture
 ---
 
 # <i class="fas fa-chalkboard-teacher"></i> **Lectures**
