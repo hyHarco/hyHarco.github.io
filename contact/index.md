@@ -1,8 +1,7 @@
 ---
 title: Contact
 nav:
-  order: 5
-  tooltip: Email, address, and location
+  order: 4
 ---
 
 # <i class="fas fa-envelope"></i> **Contact**

@@ -1,8 +1,7 @@
 ---
 title: Members
 nav:
-  order: 1
-  tooltip: HARCO Lab's People
+  order: 5
 ---
 # <i class="fas fa-user-friends"></i>**Harco Lab Members**
 

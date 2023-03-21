@@ -1,8 +1,7 @@
 ---
 title: Projects
 nav:
-  order: 3
-  tooltip: HARCO Lab's Project
+  order: 2
 ---
 
 # <i class="fas fa-lightbulb"></i> **Projects**

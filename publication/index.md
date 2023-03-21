@@ -1,8 +1,7 @@
 ---
 title: Publications
 nav:
-  order: 4
-  tooltip: Journals
+  order: 3
 ---
 
 # <i class="fas fa-inbox"></i> **Journal**
