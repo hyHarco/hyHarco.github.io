@@ -1,7 +1,7 @@
 ---
 title: Projects
 nav:
-  order: 3
+  order: 2
 ---
 
 # <i class="fas fa-lightbulb"></i> **Projects**

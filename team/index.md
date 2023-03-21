@@ -1,7 +1,7 @@
 ---
 title: Members
 nav:
-  order: 1
+  order: 5
 ---
 # <i class="fas fa-user-friends"></i>**Harco Lab Members**
 

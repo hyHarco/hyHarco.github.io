@@ -1,7 +1,7 @@
 ---
 title: Research
 nav:
-  order: 2
+  order: 1
 ---
 
 # <i class="fas fa-robot"></i> **Research**

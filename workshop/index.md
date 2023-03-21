@@ -1,10 +1,10 @@
 ---
 title: Workshops
 nav:
-  order: 8
+  order: 6
 ---
 
-# <i class="fa fa-sitemap"></i> **Workshops**
+# <i class="fa fa-cube" aria-hidden="true"></i> **Workshops**
 
 {% include section.html %}
 

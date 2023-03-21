@@ -1,7 +1,7 @@
 ---
 title: Lectures
 nav:
-  order: 7
+  order: 8
 ---
 
 # <i class="fas fa-chalkboard-teacher"></i> **Lectures**

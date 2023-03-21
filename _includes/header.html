@@ -16,7 +16,6 @@
   {%- assign title = site.title -%}
 {%- endif -%}
 
-
 <link rel="stylesheet" href="/css/subnav.css">
 <header {% if background %}class="background"{% endif %} {% if background %}style="--background: url('{{ background | relative_url }}')"{% endif %} data-dark="{{ dark }}">
   <a
@@ -29,13 +28,49 @@
       <span class="logo_text">{{ title }}</span>
     {% endif %}
   </a>
-  <div class="navbar">
-    {%- assign pages = site.pages | where_exp: "page", "page.nav" | sort: "nav.order" -%}
-    {%- for page in pages -%}
-      {%- if page.nav -%}
-        {%- include link.html type="link" text=page.title tooltip=page.nav.tooltip link=page.dir -%}
-      {%- endif -%}
-    {%- endfor -%}
+  
+
+
+
+
+
+  {%- assign pages = site.pages | where_exp: "page", "page.nav" | sort: "nav.order" -%}
+  <div class="navbar">  
+    
+  {%- for page in pages -%}
+    {%- if page.nav.order <=3 -%}
+    <a href="{{ page.dir | relative_url }}">{{ page.title }}</a>
+    {% endif %}
+  {%- endfor -%}
+  <div class="subnav">
+    <button class="subnavbtn">Team <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      {%- for page in pages -%}
+        {%- if 4 <= page.nav.order and page.nav.order <= 5 -%}
+            <a href="{{ page.dir | relative_url }}">{{ page.title }}</a>
+            {% endif %}
+        {%- endfor -%}
+    </div>
+  </div>
+
+
+  <div class="subnav">
+    <button class="subnavbtn">Event <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      {%- for page in pages -%}
+        {%- if 6 <= page.nav.order and page.nav.order <= 8 -%}
+            <a href="{{ page.dir | relative_url }}">{{ page.title }}</a>
+            {% endif %}
+        {%- endfor -%}
+    </div>
+  </div>
+
+  
+
+
   </div>
 </header>
+
+
+
 

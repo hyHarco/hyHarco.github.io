@@ -1,7 +1,9 @@
 /* The navigation menu */
 .navbar {
-    overflow: hidden;
     background-color: #333;
+    position: absolute;
+    top: 4%;
+    right: 10px;
   }
   
   /* Navigation links */
@@ -12,12 +14,12 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
   }
   
   /* The subnavigation menu */
   .subnav {
     float: left;
-    overflow: hidden;
   }
   
   /* Subnav button */
@@ -34,15 +36,15 @@
   
   /* Add a red background color to navigation links on hover */
   .navbar a:hover, .subnav:hover .subnavbtn {
-    background-color: rgb(17, 1, 1);
+    background-color: rgb(1, 7, 65);
   }
   
   /* Style the subnav content - positioned absolute */
   .subnav-content {
     display: none;
     position: absolute;
-    left: 0;
-    background-color: rgb(7, 66, 126);
+    right:  0%;
+    background-color: rgb(26, 26, 26);
     width: 100%;
     z-index: 1;
   }
