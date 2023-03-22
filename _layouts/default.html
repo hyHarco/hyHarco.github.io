@@ -15,7 +15,7 @@
 
       function makeSnowflakes() {
           const el = document.createElement("div");
-          const delay = Math.random() * 10;
+          const delay = Math.random() * 4;
           const initialOpacity = Math.random();
           const duration = Math.random()*20 + MIN_DURATION;
 
@@ -34,7 +34,7 @@
           }, (duration + delay) * 1000);
       }
 
-      for (let index =0; index<100; index++){
+      for (let index =0; index<50; index++){
           setTimeout(makeSnowflakes,500*index);
       }
     </script>
