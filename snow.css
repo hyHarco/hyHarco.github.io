@@ -2,7 +2,7 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: whitesmoke;
+    background-color: rgb(214, 247, 227);
     position: absolute;
     top: -8px;
     animation: fall 10s linear infinite;
