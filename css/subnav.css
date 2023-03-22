@@ -1,6 +1,6 @@
 /* The navigation menu */
 .navbar {
-    background-color: #333;
+    background-color: rgb(26, 26, 26);
     position: absolute;
     top: 4%;
     right: 10px;
@@ -14,7 +14,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    
+    font-size: 18px;
   }
   
   /* The subnavigation menu */
@@ -32,11 +32,12 @@
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    font-size: 18px;
   }
   
   /* Add a red background color to navigation links on hover */
   .navbar a:hover, .subnav:hover .subnavbtn {
-    background-color: rgb(1, 7, 65);
+    background-color: rgb(3, 45, 134);
   }
   
   /* Style the subnav content - positioned absolute */
