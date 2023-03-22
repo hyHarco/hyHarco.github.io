@@ -38,6 +38,7 @@
   /* Add a red background color to navigation links on hover */
   .navbar a:hover, .subnav:hover .subnavbtn {
     background-color: rgb(3, 45, 134);
+    color:  white;
   }
   
   /* Style the subnav content - positioned absolute */
@@ -60,7 +61,7 @@
   /* Add a grey background color on hover */
   .subnav-content a:hover {
     background-color: #eee;
-    color: black;
+    color:  rgb(3, 55, 167);
   }
   
   /* When you move the mouse over the subnav container, open the subnav content */
