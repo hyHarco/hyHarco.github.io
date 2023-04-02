@@ -14,14 +14,10 @@
     
     
     
-    <script>
-      $(window).load(function () {
-          $('body').sakura();
-      });
-    </script>
 
-<!-- 
-    <script>
+
+
+    <!-- <script>
       const MIN_DURATION = 10;
 
       function makeSnowflakes() {
@@ -43,11 +39,17 @@
             document.body.removeChild(el);
             makeSnowflakes()
           }, (duration + delay) * 1000);
-      } -->
-
+      }
       for (let index =0; index<50; index++){
           setTimeout(makeSnowflakes,500*index);
       }
+    </script> -->
+
+
+    <script>
+      $(window).load(function () {
+          $('body').sakura();
+      });
     </script>
   </body>
 </html>
