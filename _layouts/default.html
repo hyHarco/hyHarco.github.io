@@ -8,8 +8,19 @@
     {% include footer.html %}
     {% include tooltip.html %}
 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/flower.js"></script>
+    <link rel="stylesheet" href="/css/flower.css">
+    
+    
+    
+    <script>
+      $(window).load(function () {
+          $('body').sakura();
+      });
+    </script>
 
-
+<!-- 
     <script>
       const MIN_DURATION = 10;
 
@@ -32,7 +43,7 @@
             document.body.removeChild(el);
             makeSnowflakes()
           }, (duration + delay) * 1000);
-      }
+      } -->
 
       for (let index =0; index<50; index++){
           setTimeout(makeSnowflakes,500*index);
