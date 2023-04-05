@@ -4,7 +4,7 @@
     border-radius: 50%;
     background-color: rgb(214, 247, 227);
     position: absolute;
-    top: -8px;
+    top: +10px;
     animation: fall 10s linear infinite;
 }
 

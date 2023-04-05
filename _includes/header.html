@@ -32,34 +32,33 @@
 
 
   {%- assign pages = site.pages | where_exp: "page", "page.nav" | sort: "nav.order" -%}
-  <div class="navbar">  
+  <div class="navbar">
     <a href="{{ '/' | relative_url }}">Home</a>
-  {%- for page in pages -%}
-    {%- if page.nav.order <=3 -%}
-    <a href="{{ page.dir | relative_url }}">{{ page.title }}</a>
-    {% endif %}
-  {%- endfor -%}
-  <div class="subnav">
-    <button class="subnavbtn">Team <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      {%- for page in pages -%}
-        {%- if 4 <= page.nav.order and page.nav.order <= 5 -%}
-            <a href="{{ page.dir | relative_url }}">{{ page.title }}</a>
-            {% endif %}
-        {%- endfor -%}
+    
+    {%- for page in pages -%}
+      {% include in_range.html value=page.nav.order min=1 max=3 %}
+      {%- if in_range -%}
+        <a href="{{ page.dir | relative_url }}">{{ page.title }}</a>
+      {%- endif -%}
+    {%- endfor -%}
+  
+    <div class="subnav">
+      <button class="subnavbtn">Team <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        {%- assign team_pages = pages | where_exp: "page", "4 <= page.nav.order and page.nav.order <= 5" -%}
+        {% include render_pages.html pages=team_pages %}
+      </div>
+    </div>
+  
+    <div class="subnav">
+      <button class="subnavbtn">Event <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        {%- assign event_pages = pages | where_exp: "page", "6 <= page.nav.order and page.nav.order <= 8" -%}
+        {% include render_pages.html pages=event_pages %}
+      </div>
     </div>
   </div>
-  <div class="subnav">
-    <button class="subnavbtn">Event <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      {%- for page in pages -%}
-        {%- if 6 <= page.nav.order and page.nav.order <= 8 -%}
-            <a href="{{ page.dir | relative_url }}">{{ page.title }}</a>
-            {% endif %}
-        {%- endfor -%}
-    </div>
-  </div>
-  </div>
+  
 </header>
 
 

@@ -1,0 +1,3 @@
+{% for page in include.pages %}
+  <a href="{{ page.dir | relative_url }}">{{ page.title }}</a>
+{% endfor %}
