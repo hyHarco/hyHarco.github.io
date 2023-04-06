@@ -45,7 +45,7 @@
     <div class="subnav">
       <button class="subnavbtn">Team <i class="fa fa-caret-down"></i></button>
       <div class="subnav-content">
-        {%- assign team_pages = pages | where_exp: "page", "4 <= page.nav.order and page.nav.order <= 5" -%}
+        {%- assign team_pages = pages | where_exp: "page", "4<=page.nav.order and page.nav.order<=5" -%}
         {% include render_pages.html pages=team_pages %}
       </div>
     </div>
@@ -53,7 +53,7 @@
     <div class="subnav">
       <button class="subnavbtn">Event <i class="fa fa-caret-down"></i></button>
       <div class="subnav-content">
-        {%- assign event_pages = pages | where_exp: "page", "6 <= page.nav.order and page.nav.order <= 8" -%}
+        {%- assign event_pages = pages | where_exp: "page", "6<=page.nav.order and page.nav.order<=8" -%}
         {% include render_pages.html pages=event_pages %}
       </div>
     </div>
