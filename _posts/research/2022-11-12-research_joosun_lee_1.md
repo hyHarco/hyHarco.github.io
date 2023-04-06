@@ -1,6 +1,6 @@
 ---
 title: Collision-Free Target Grasping Motion Planning
-image: images/js_lee_research1_3.jpg
+image: images/js_lee_research1_3.png
 tags:
   - Lower-limb Exoskeleton robot
   - H / W Modeling
@@ -28,20 +28,20 @@ The robot updates the path through the RRT algorithm in every step while moving 
 
 {%
   include figure.html
-  image="images/js_lee_research1_3.jpg"
+  image="images/js_lee_research1_3.png"
 %}
 
 
 {% capture col1 %}
 {%
   include figure.html
-  image="images/js_lee_research1_1.jpg"
+  image="images/js_lee_research1_1.png"
 %}
 {% endcapture %}
 {% capture col2 %}
 {%
   include figure.html
-  image="images/js_lee_research1_2.jpg"
+  image="images/js_lee_research1_2.png"
 %}
 {% endcapture %}
 {% include two-col.html col1=col1 col2=col2 %}
