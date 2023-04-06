@@ -36,8 +36,8 @@
     <a href="{{ '/' | relative_url }}">Home</a>
     
     {%- for page in pages -%}
-      {% include in_range.html value=page.nav.order min=1 max=3 %}
-      {%- if in_range -%}
+      {%- assign order = page.nav.order -%}
+      {%- if order >= 1 and order <= 3 -%}
         <a href="{{ page.dir | relative_url }}">{{ page.title }}</a>
       {%- endif -%}
     {%- endfor -%}
@@ -45,20 +45,28 @@
     <div class="subnav">
       <button class="subnavbtn">Team <i class="fa fa-caret-down"></i></button>
       <div class="subnav-content">
-        {%- assign team_pages = pages | where_exp: "page", "4<=page.nav.order and page.nav.order<=5" -%}
-        {% include render_pages.html pages=team_pages %}
+        {%- for page in pages -%}
+          {%- assign order = page.nav.order -%}
+          {%- if order >= 4 and order <= 5 -%}
+            <a href="{{ page.dir | relative_url }}">{{ page.title }}</a>
+          {%- endif -%}
+        {%- endfor -%}
       </div>
     </div>
   
     <div class="subnav">
       <button class="subnavbtn">Event <i class="fa fa-caret-down"></i></button>
       <div class="subnav-content">
-        {%- assign event_pages = pages | where_exp: "page", "6<=page.nav.order and page.nav.order<=8" -%}
-        {% include render_pages.html pages=event_pages %}
+        {%- for page in pages -%}
+          {%- assign order = page.nav.order -%}
+          {%- if order >= 6 and order <= 8 -%}
+            <a href="{{ page.dir | relative_url }}">{{ page.title }}</a>
+          {%- endif -%}
+        {%- endfor -%}
       </div>
     </div>
   </div>
-  
+
 </header>
 
 
