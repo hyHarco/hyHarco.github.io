@@ -1,8 +1,0 @@
-{% assign value = include.value %}
-{% assign min = include.min %}
-{% assign max = include.max %}
-{% if min <= value and value <= max %}
-  {% assign in_range = true %}
-{% else %}
-  {% assign in_range = false %}
-{% endif %}
