@@ -5,12 +5,13 @@ nav:
 ---
 
 # <i class="fas fa-robot"></i> **Research**
+<text class="animate__animated animate__fadeIn">
+Our laboratory has <b>Mobile Manipulators</b> and <b>Exoskeleton Robots</b> as our main research themes, and we have a variety of equipment necessary for this. We can provide various support for research with these equipment.
+</text>
 
-Our laboratory has **Mobile Manipulators** and **Exoskeleton Robots** as our main research themes, and we have a variety of equipment necessary for this. We can provide various support for research with these equipment.
-{%
-  include figure.html
-  image="images/Equipment_list.png"
-%}
+
+<h1 class="animate__animated animate__fadeIn"><img src="/images/Equipment_list.png" loading="lazy" style="width: 90%"/></h1>
+
 
 
 
