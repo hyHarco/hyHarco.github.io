@@ -1,8 +1,5 @@
 ---
 title: IROS 2022 WS-Ergonomic Human-Robot Collaboration- How Cognitive and Physical Aspects Come Together
-tags:
-  - workshop
-  - ergonomics
 author: Wansoo Kim
 member: Wansoo-Kim
 group: news

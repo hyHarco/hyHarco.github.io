@@ -1,8 +1,5 @@
 ---
 title: Presentation On KSPE (Korean Society for Precision Engineering) Conference
-tags:
-  - conference
-  - exoskeleton
 author: Joonhyun Kim
 member: Joonhyun-Kim
 group: news

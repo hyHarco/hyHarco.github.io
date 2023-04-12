@@ -1,8 +1,5 @@
 ---
 title: Presentation on International Conference ICCAS 2022
-tags:
-  - conference
-  - Mobile Robot
 author: Kai Li
 member: Kai-Li
 group: news

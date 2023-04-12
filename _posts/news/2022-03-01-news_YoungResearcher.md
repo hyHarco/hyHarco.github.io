@@ -1,8 +1,5 @@
 ---
 title: Young Researcher Program
-tags:
-  - project
-  - ergonomics
 author: Wansoo Kim
 member: Wansoo-Kim
 group: news
