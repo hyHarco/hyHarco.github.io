@@ -42,16 +42,6 @@ defaults:
     values:
       layout: post
 
-
-
-analytics:
-  provider: "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id: "G-FWJ59PK76H"
-    anonymize_ip: # true, false (default)
-
-
-
 # collections
 collections:
   members:
