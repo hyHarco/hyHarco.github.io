@@ -1,12 +1,15 @@
 ---
-title: Paper Acceptance Decision Final Announcement
+title: Submitted Paper Acceptance News
 author: Joonhyun Kim
 member: Joonhyun-Kim
 group: news
 ---
 
-The paper submitted by our lab researchers, [Joonhyun Kim](/members/Joonhyun-Kim.html) and [Le Bao](/members/Le-Bao.html),    
-was finally **accepted** into this [IEEE ROMAN 2023](https://ro-man2023.org/main) and [IJCAS](https://ijcas.com/IJCAS_default.asp)!
+The paper from our lab researchers, [Joonhyun Kim](/members/Joonhyun-Kim.html) and [Le Bao](/members/Le-Bao.html),    
+has been accepted by the [IEEE ROMAN 2023](https://ro-man2023.org/main) Conference and [IJCAS](https://ijcas.com/IJCAS_default.asp) Journal!
+
+
+
 
 
 ***
