@@ -12,7 +12,8 @@ tier: fourth
 ---
 
 
-I'm interested in AI and BCI.
+I'm interested in AI and BCI. 
+I'm in the process of proficiently studying the force and impedance control of a robotic arm using brain waves.
    
    
     
