@@ -1,5 +1,5 @@
 ---
-title: Tendon Driven Actuator for Exoskeleton Robot
+title: Twisted String Actuator(TSA) with extended variable stiffness
 image: images/dongcheol_shin_research1_hw.png
 tags:
   - Tendon Mechanism
@@ -8,15 +8,16 @@ author: Dongcheol Shin
 member: Dongcheol-Shin
 group: research_1
 ---
-**Goal** : Development of an actuator using a device that widens the width of stiffness change through modeling of a twisted string actuator (TSA) and variation of the distance of the thread
+**Goal** : Expanding the fixed variable stiffness of the TSA through variation of offset between strings. 
 
 ***
 
 **Summary**
-The TSA system is an actuator that can produce linear motion through twisting of the thread, which converts the rotational motion of the motor into linear motion.     
-It does not take up much space, and it can be used as an actuator suitable for exoskeleton robots because it can generate a lot of power even with a small and weak motor.    
+Twisted String Actuator(TSA) is an actuator that can produce linear motion through twisting of strings, which converts the rotational motion of a motor into linear motion. 
 
-Researcher [*Dongcheol Shin*](http://harco.hanyang.ac.kr/members/Dongcheol-Shin.html) is is currently developing mathematical modeling through Hook's law by measuring the change in stiffness according to the motor rotation of TSA, and Additionally, based on the experimental results that the change in stiffness depends on the spacing of the threads, he would like to create a device that controls the change in stiffness according to the spacing of the threads.
+It does not require large space, and it can be used as an actuator suitable for exoskeletons because it can generate a lot of power even with small and weak motor. 
+
+Researcher [*Dongcheol Shin*](http://harco.hanyang.ac.kr/members/Dongcheol-Shin.html) made a TSA with expanded variable stiffness using expanding mechanism and planetary gear structure. The variable stiffness range is extended through variation of offset between strings of TSA, and it is controlled by an analytical model of the proposed device. There is a future plan to make an exoskeleton that can respond to changes in the movement range due to the applied load through the device.
 
 
 ***
@@ -40,6 +41,7 @@ Researcher [*Dongcheol Shin*](http://harco.hanyang.ac.kr/members/Dongcheol-Shin.
   include figure.html
   image="images/dongcheol_shin_research1_setting.png"
   caption="Experimental Setting for Tendon Mechanism"
+  width=10px
 %}
 {% endcapture %}
 {% capture col2 %}
