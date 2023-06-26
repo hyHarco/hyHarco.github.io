@@ -45,7 +45,8 @@ approach. He compared the accuracy of the proposed TC model against other TC bas
 
 **<i class="fas fa-play-circle"></i> Video**
 
-Multitask Model Online Test Video to simultaneously Recognize Gait Phase and Terrrain
+Multitask Model Online Test Video to simultaneously Re
+ognize Gait Phase and Terrrain
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vQQiFxAiJ_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 

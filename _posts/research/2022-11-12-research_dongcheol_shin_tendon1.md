@@ -36,26 +36,54 @@ Researcher [*Dongcheol Shin*](http://harco.hanyang.ac.kr/members/Dongcheol-Shin.
    
 ***
 
-{% capture col1 %}
 {%
   include figure.html
   image="images/dongcheol_shin_research1_setting.png"
   caption="Experimental Setting for Tendon Mechanism"
-  width=10px
+  width="40%"
+%}
+
+{% capture col1 %}
+{%
+  include figure.html
+  image="images/dc_research_3.png"
+  caption="TSA Mechanism Illustration 1"
+  width="52%"
 %}
 {% endcapture %}
 {% capture col2 %}
 {%
   include figure.html
-  image="images/dongcheol_shin_research1_hw.png"
-  caption="Tendon Mechanism H/W Modeling"
+  image="images/dc_research_4.png"
+  caption="TSA Mechanism Illustration 2"
+  width="70%"
+%}
+{% endcapture %}
+{% include two-col.html col1=col1 col2=col2 %}    
+
+
+
+<br><br>
+
+
+
+
+{% capture col1 %}
+{%
+  include figure.html
+  image="images/dc_research_2.png"
+  caption="Changes in Displacement with Variation of the offset between Strings"
+  width="100%"
+%}
+{% endcapture %}
+{% capture col2 %}
+{%
+  include figure.html
+  image="images/dc_research_8.png"
+  caption="Comparison of Experimental and Analytical Modelings"
+  width="100%"
 %}
 {% endcapture %}
 {% include two-col.html col1=col1 col2=col2 %}
 
 
-{%
-  include figure.html
-  image="images/dongcheol_shin_research1_graph.png"
-  caption="Displacement Graph"
-%}
