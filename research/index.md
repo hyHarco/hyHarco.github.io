@@ -13,7 +13,12 @@ Our laboratory has <b>Mobile Manipulators</b> and <b>Exoskeleton Robots</b> as o
 <h1 class="animate__animated animate__fadeIn"><img src="/images/Equipment_list.png" loading="lazy" style="width: 90%"/></h1>
 
 
-
+{%
+  include image_slider.html
+  data="members"
+  component="portrait"
+  filters="tier: fourth " 
+%}
 
 
 {% include section.html %}
