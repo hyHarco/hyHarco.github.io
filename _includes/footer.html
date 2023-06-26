@@ -11,17 +11,12 @@
   {%- assign dark = true -%}
 {%- endif -%}
 
-<footer {% if background %}class="background"{% endif %} {% if background %}style="--background: url('{{ background | relative_url }}')"{% endif %} data-dark="{{ dark }}">
+<footer {% if background %}class="background"{% endif %} {% if background %}style="--background: url('{{ background | relative_url }}')"{% endif %} data-dark="{{ dark }}">  
   <div class="footer_row">
-    {%- for entry in site.links -%}
-      {%- assign key = entry[0] -%}
-      {%- assign value = entry[1] -%}
-      {%- include link.html type=key icon="" tooltip="" link=value -%}
-    {%- endfor -%}
-  </div>
-  <!--
-  <div class="footer_row">
-    &copy; {{ site.time | date: '%Y' }} {{ site.title }}
-  </div>
-  -->
+
+    <a href="https://www.youtube.com/@HARCOLAB" class="btn-social btn-outline"><i class="fab fa-youtube fa-2x"></i></a> &nbsp;
+    &copy; {{ site.time | date: '%Y' }} {{ site.title }} 
+    
+  </div>  
+ 
 </footer>

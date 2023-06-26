@@ -66,5 +66,15 @@ plugins:
   # - jekyll-relative-links
   # - jemoji
 
+
+social:
+  - title: fa-brands fa-fw fa-github
+    url: http://github.com/krex4715
+  - title: fa fa-bold
+    url: https://roboharco12.tistory.com/
+  - title: fa-brands fa-fw fa-instagram
+    url: https://www.instagram.com/anvry_jh/
+
+
 # jekyll theme
 theme: null
