@@ -9,6 +9,11 @@ links:
 tier: alumni
 ---
 
+#### **<i class="fas fa-paper-plane"></i> Current Affiliation : [HUAWEI Co.](https://www.huawei.com/en/)**
+
+
+
+
 Using Lidar to Realize Mapping, Positioning and Path Planning of Mobile Robots
 
 #### **Research intersts**
