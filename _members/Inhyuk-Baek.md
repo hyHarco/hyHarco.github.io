@@ -6,9 +6,12 @@ aliases:
   - Back
 links:
   email: bih0702@hanyang.ac.kr
-tier: second
+tier: alumni
 
 ---
+
+#### **<i class="fas fa-paper-plane"></i> Current Affiliation : [Hyundai Robotics Co.](https://www.hyundai-robotics.com/)**
+
 #### **Research intersts**
 - *Manipulation planning* 
 - *Robot motion*  

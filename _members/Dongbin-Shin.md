@@ -6,6 +6,12 @@ links:
   email: sdbin225@hanyang.ac.kr
 tier: alumni
 ---
+
+
+#### **<i class="fas fa-paper-plane"></i> Current Affiliation : [Hexar Humancare Co.](https://hexarhc.com/?lang=en)**
+
+
+
 #### **Research intersts**
 - *Exoskeleton robot*
 - *Artificial Intelligence* 
