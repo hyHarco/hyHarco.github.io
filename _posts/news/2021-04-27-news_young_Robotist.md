@@ -36,4 +36,4 @@ Major areas of interest include cooperative robots or physical human-robot inter
 
 
 <!-- data/tools.yaml -->
-{% include list.html component="card" data="tools" filters="group: character" %} 
+{% include list.html component="card" data="tools" filters="group: Kim_News_Tools" %} 
