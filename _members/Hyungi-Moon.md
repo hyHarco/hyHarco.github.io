@@ -4,9 +4,13 @@ image: images/문현기.png
 description: Ph.D. Researcher
 links:
   email: ahskem@naver.com
-tier: third
+tier: alumni
 
 ---
+#### **<i class="fas fa-paper-plane"></i> Current Affiliation : [Hexar Humancare Co.](https://hexarhc.com/?lang=en)**
+
+
+
 #### **Research intersts**
 - *Upper Limb Exoskeleton*
 - *Human Robot Interaction*

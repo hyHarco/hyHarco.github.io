@@ -60,11 +60,8 @@ budget: 240,000,000 won
 ***    
 #### **<i class="fas fa-user-circle"></i> Participating Researchers**
 * [**Wansoo Kim**](http://harco.hanyang.ac.kr/members/Wansoo-Kim.html)   : **_Principal Investigator_**  
-* [**Inhyuk Baek**](http://harco.hanyang.ac.kr/members/Inhyuk-Baek.html)   : *(S/W) Whole Body Control, Task Planning*
 * [**Joonkyu No**](http://harco.hanyang.ac.kr/members/Joonkyu-No.html)   :    *(S/W) Mobile Robot Control*
 * [**Joonhyung Heo**](http://harco.hanyang.ac.kr/members/Junhyung-Heo.html)   :   *(H/W) Instrumental Part Design*
-* [**Joosun Lee**](http://harco.hanyang.ac.kr/members/Joosun-Lee.html)   :   *(S/W) Motion Planning*
-* [**Taeyhang Lim**](http://harco.hanyang.ac.kr/members/Taeyhang-Lim.html)   :   *(S/W) Human Intention Recognition*
 * [**Seongmin Ha**](http://harco.hanyang.ac.kr/members/Seongmin-Ha.html)   :   *(H/W) Electrical Part Design*
 * [**Seungmin Choi**](http://harco.hanyang.ac.kr/members/Seungmin-Choi.html)   :   *(S/W) Whole Body Control, Task Planning*
 
