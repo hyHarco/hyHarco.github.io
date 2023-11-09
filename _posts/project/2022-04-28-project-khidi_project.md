@@ -52,7 +52,8 @@ To solve this problem, we will conduct a joint project with overseas institution
 #### **<i class="fas fa-user-circle"></i> Participating Researchers**
 * [**Wansoo Kim**](http://harco.hanyang.ac.kr/members/Wansoo-Kim.html)
 * [**Seoyeon Ham**](http://harco.hanyang.ac.kr/members/Seoyeon-Ham.html)
-
+* [**Taeyhang Lim**](http://harco.hanyang.ac.kr/members/Taeyhang-Lim.html)
+* [**Joosun Lee**](http://harco.hanyang.ac.kr/members/Joosun-Lee.html)
 
 ***
 #### **<i class="fas fa-money-bill-wave-alt"></i> Funding**
