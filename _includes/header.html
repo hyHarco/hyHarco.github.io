@@ -17,15 +17,15 @@
 {%- endif -%}
 
 <link rel="stylesheet" href="/css/subnav.css">
-<header {% if background %}class="background"{% endif %} {% if background %}style="--background: url('{{ background | relative_url }}')"{% endif %} data-dark="{{ dark }}">
+<header {% if background %}class="background"{% endif %} {% if background %}style="--background: url('{{ background | relative_url }}'); height: 135px;"{% endif %} data-dark="{{ dark }}">
   <a
     href="{{ '/' | relative_url }}"
     class="logo_row"
     data-tooltip="Home"
   >
-    <img src="{{ site.logo | relative_url }}" class="logo" />
+    <img src="{{ site.logo | relative_url }}" class="logo" style="width: 60px; height: auto;"/>
     {% if title and title != "" %}
-      <span class="logo_text">{{ title }}</span>
+      <span class="logo_text" style="font-size: 30px;">{{ title }}</span>
     {% endif %}
   </a>
 
