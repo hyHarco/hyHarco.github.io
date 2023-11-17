@@ -4,7 +4,7 @@ nav:
   order: 1
 ---
 
-# <i class="fas fa-robot"></i> **Research**
+# **Research**
 <text class="animate__animated animate__fadeIn">
 Our laboratory has <b>Mobile Manipulators</b> and <b>Exoskeleton Robots</b> as our main research themes, and we have a variety of equipment necessary for this. We can provide various support for research with these equipment.
 </text>

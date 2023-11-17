@@ -3,7 +3,7 @@ title: Members
 nav:
   order: 5
 ---
-# <i class="fas fa-user-friends"></i>**Harco Lab Members**
+# **Harco Lab Members**
 
 {% include section.html %}
 

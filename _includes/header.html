@@ -33,35 +33,54 @@
 
   {%- assign pages = site.pages | where_exp: "page", "page.nav" | sort: "nav.order" -%}
   <div class="navbar">
-    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/' | relative_url }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <a href="https://youtube.com/@HARCOLAB?si=Rfsy8015JEwoklbW"><i class="fab fa-youtube"></i> YouTube</a>
+    
     
     {%- for page in pages -%}
       {%- assign order = page.nav.order -%}
-      {%- if order >= 1 and order <= 3 -%}
-        <a href="{{ page.dir | relative_url }}">{{ page.title }}</a>
+      {%- if order == 1 -%}
+        <a href="{{ page.dir | relative_url }}"><i class='fas fa-book-reader'></i> {{ page.title }}</a>
+      {%- endif -%}
+      {%- if order == 2 -%}
+        <a href="{{ page.dir | relative_url }}"><i class="fa fa-flask" aria-hidden="true"></i> {{ page.title }} </a>
+      {%- endif -%}
+      {%- if order == 3 -%}
+        <a href="{{ page.dir | relative_url }}"><i class="fas fa-inbox"></i> {{ page.title }}</a>
       {%- endif -%}
     {%- endfor -%}
   
     <div class="subnav">
-      <button class="subnavbtn">Team <i class="fa fa-caret-down"></i></button>
+      <button class="subnavbtn"><i class='fas fa-leaf'></i> Team <i class="fa fa-caret-down"></i></button>
       <div class="subnav-content">
         {%- for page in pages -%}
           {%- assign order = page.nav.order -%}
-          {%- if order >= 4 and order <= 5 -%}
-            <a href="{{ page.dir | relative_url }}">{{ page.title }}</a>
+          {%- if order ==4 -%}
+            <a href="{{ page.dir | relative_url }}"><i class="fas fa-user-friends"></i> {{ page.title }}</a>
           {%- endif -%}
+          {%- if order ==5 -%}
+            <a href="{{ page.dir | relative_url }}"><i class="fas fa-envelope"></i> {{ page.title }}</a>
+          {%- endif -%}
+
         {%- endfor -%}
       </div>
     </div>
   
     <div class="subnav">
-      <button class="subnavbtn">Event <i class="fa fa-caret-down"></i></button>
+      <button class="subnavbtn"><i class='fas fa-carrot'></i> Event <i class="fa fa-caret-down"></i></button>
       <div class="subnav-content">
         {%- for page in pages -%}
           {%- assign order = page.nav.order -%}
-          {%- if order >= 6 and order <= 8 -%}
-            <a href="{{ page.dir | relative_url }}">{{ page.title }}</a>
+          {%- if order == 6 -%}
+            <a href="{{ page.dir | relative_url }}"><i class="fa fa-cube" aria-hidden="true"></i> {{ page.title }}</a>
           {%- endif -%}
+          {%- if order == 7 -%}
+            <a href="{{ page.dir | relative_url }}"><i class="fas fa-bell"></i> {{ page.title }}</a>
+          {%- endif -%}
+          {%- if order == 8 -%}
+            <a href="{{ page.dir | relative_url }}"><i class="fas fa-chalkboard-teacher"></i> {{ page.title }}</a>
+          {%- endif -%}
+
         {%- endfor -%}
       </div>
     </div>

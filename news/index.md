@@ -4,7 +4,7 @@ nav:
   order: 7
 ---
 
-# <i class="fas fa-bell"></i> **HARCO LAB News**
+# **HARCO LAB News**
 {% include search-info.html %}
 {% include section.html %}
 

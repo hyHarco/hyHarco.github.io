@@ -4,7 +4,7 @@ nav:
   order: 4
 ---
 
-# <i class="fas fa-envelope"></i> **Contact**
+# **Contact**
 <h2 class="animate__animated animate__fadeInDown" style="font-size: 19px; text-align:center">waiting for your talent</h2>
 
 <div class="animate__animated animate__fadeInDown" style="font-size: 19px; text-align:center">

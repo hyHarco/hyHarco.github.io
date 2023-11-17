@@ -4,7 +4,7 @@ nav:
   order: 2
 ---
 
-# <i class="fas fa-lightbulb"></i> **Projects**
+# **Projects**
 
 
 {% include section.html %}

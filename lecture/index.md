@@ -4,9 +4,9 @@ nav:
   order: 8
 ---
 
-# <i class="fas fa-chalkboard-teacher"></i> **Lectures**
+# **Lectures**
 
-<i class="fas fa-book-reader"></i>  **_professor_ [_W. Kim_](http://harco.hanyang.ac.kr/members/Wansoo-Kim.html)_'s Lectures_**         
+<i class='fas fa-chalkboard'></i> **_professor_ [_W. Kim_](http://harco.hanyang.ac.kr/members/Wansoo-Kim.html)_'s Lectures_**         
 in [Hanyang University | Department of Robot Engineering](https://robot.hanyang.ac.kr/front/people/prof).
 
 {% include section.html %}

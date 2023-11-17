@@ -4,7 +4,7 @@ nav:
   order: 6
 ---
 
-# <i class="fa fa-cube" aria-hidden="true"></i> **Workshops**
+# **Workshops**
 
 {% include section.html %}
 
