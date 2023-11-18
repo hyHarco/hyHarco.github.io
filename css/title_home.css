@@ -1,0 +1,21 @@
+/* 기본 스타일 */
+.responsive_text {
+    font-size: 16px; /* 기본 글자 크기 */
+    color: black; /* 기본 글자 색상 */
+    font-family: Arial, sans-serif; /* 기본 글꼴 */
+}
+
+/* 화면 너비가 600px 미만일 때 */
+@media screen and (max-width: 600px) {
+    .responsive_text {
+        font-size: 14px; /* 더 작은 화면에서는 작은 글자 크기 */
+    }
+}
+
+/* 화면 너비가 900px 이상일 때 */
+@media screen and (min-width: 900px) {
+    .responsive_text {
+        font-size: 20px; /* 더 큰 화면에서는 큰 글자 크기 */
+        color: blue; /* 다른 색상 */
+    }
+}

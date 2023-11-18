@@ -25,11 +25,9 @@
   >
     <img src="{{ site.logo | relative_url }}" class="logo" />
     {% if title and title != "" %}
-      <span class="logo_text">{{ title }}</span>
+    <div class="animate__animated animate__headShake" style="font-size: 25px; font-weight: 500;">&nbsp {{ title }}</div>
     {% endif %}
   </a>
-
-
 
   {%- assign pages = site.pages | where_exp: "page", "page.nav" | sort: "nav.order" -%}
   <div class="navbar">
