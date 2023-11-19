@@ -2,19 +2,18 @@
 .navbar {
     background-color: rgba(26, 26, 26,0.0);
     position: absolute;
-    top: 4%;
-    right: 10px;
+    top: 1%;
+    right: 1vh;
   }
   
   /* Navigation links */
   .navbar a {
     float: left;
-    font-size: 16px;
+    font-size: 1.1vw;
     color: white;
     text-align: center;
-    padding: 10px 12px;
+    padding: 0.7vw 0.9vw;
     text-decoration: none;
-    font-size: 16px;
   }
   
   /* The subnavigation menu */
@@ -24,15 +23,14 @@
   
   /* Subnav button */
   .subnav .subnavbtn {
-    font-size: 16px;
+    font-size: 1.1vw;
     border: none;
     outline: none;
     color: white;
-    padding: 10px 12px;
+    padding: 0.7vw 0.9vw;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
-    font-size: 16px;
   }
   
   /* Add a red background color to navigation links on hover */
@@ -56,6 +54,8 @@
     float: right;
     color: white;
     text-decoration: none;
+    font-size: 1.1vw;
+    padding: 0.5vw 0.8vw;
   }
   
   /* Add a grey background color on hover */
