@@ -9,10 +9,10 @@
   /* Navigation links */
   .navbar a {
     float: left;
-    font-size: 1.1vw;
+    font-size: 1.05vw;
     color: white;
     text-align: center;
-    padding: 0.7vw 0.9vw;
+    padding: 0.5vw 0.9vw;
     text-decoration: none;
   }
   
@@ -23,11 +23,11 @@
   
   /* Subnav button */
   .subnav .subnavbtn {
-    font-size: 1.1vw;
+    font-size: 1.05vw;
     border: none;
     outline: none;
     color: white;
-    padding: 0.7vw 0.9vw;
+    padding: 0.5vw 0.9vw;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -54,7 +54,7 @@
     float: right;
     color: white;
     text-decoration: none;
-    font-size: 1.1vw;
+    font-size: 1.05vw;
     padding: 0.5vw 0.8vw;
   }
   
