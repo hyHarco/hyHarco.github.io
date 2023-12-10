@@ -54,10 +54,10 @@
         {%- for page in pages -%}
           {%- assign order = page.nav.order -%}
           {%- if order ==4 -%}
-            <a href="{{ page.dir | relative_url }}"><i class="fas fa-user-friends"></i> {{ page.title }}</a>
+            <a href="{{ page.dir | relative_url }}"><i class="fas fa-envelope"></i> {{ page.title }}</a>
           {%- endif -%}
           {%- if order ==5 -%}
-            <a href="{{ page.dir | relative_url }}"><i class="fas fa-envelope"></i> {{ page.title }}</a>
+            <a href="{{ page.dir | relative_url }}"><i class="fas fa-user-friends"></i> {{ page.title }}</a>
           {%- endif -%}
 
         {%- endfor -%}
