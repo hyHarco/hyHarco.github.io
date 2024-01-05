@@ -68,3 +68,38 @@
   .subnav:hover .subnav-content {
     display: block;
   }
+
+
+
+  .subnav_reseach-content {
+    display: none;
+    position: absolute;
+    right: 35%;
+    background-color: rgba(26, 26, 26,0.0);
+    width: 100%;
+    z-index: 1;
+  }
+  
+  /* Style the subnav links */
+  .subnav_reseach-content a {
+    float: right;
+    color: white;
+    text-decoration: none;
+    font-size: 1.05vw;
+    padding: 0.5vw 0.8vw;
+  }
+  
+  /* Add a grey background color on hover */
+  .subnav_reseach-content a:hover {
+    background-color: rgba(255,255,255,0.8);
+    color:  rgb(3, 55, 167);
+  }
+  
+  /* When you move the mouse over the subnav container, open the subnav content */
+  .subnav:hover .subnav_reseach-content {
+    display: block;
+  }
+
+
+
+

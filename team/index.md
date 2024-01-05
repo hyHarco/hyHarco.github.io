@@ -1,7 +1,7 @@
 ---
 title: Members
 nav:
-  order: 5
+  order: 6
 ---
 # **Harco Lab Members**
 

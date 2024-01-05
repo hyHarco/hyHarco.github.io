@@ -1,7 +1,7 @@
 ---
-title: research
+title: Etc
 nav:
-  order: 11
+  order: 3
 ---
 
 # **Research**

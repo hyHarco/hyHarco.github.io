@@ -1,7 +1,7 @@
 ---
 title: Workshops
 nav:
-  order: 6
+  order: 10
 ---
 
 # **Workshops**

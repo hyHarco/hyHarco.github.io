@@ -1,7 +1,7 @@
 ---
-title: research
+title: Mobile Manipulator
 nav:
-  order: 11
+  order: 2
 ---
 
 # **Research**
