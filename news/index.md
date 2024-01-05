@@ -1,7 +1,7 @@
 ---
 title: News
 nav:
-  order: 9
+  order: 7
 ---
 
 # **HARCO LAB News**

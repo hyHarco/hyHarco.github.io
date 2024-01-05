@@ -1,7 +1,7 @@
 ---
 title: Contact
 nav:
-  order: 7
+  order: 4
 ---
 
 # **Contact**

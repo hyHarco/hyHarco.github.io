@@ -1,7 +1,7 @@
 ---
 title: Projects
 nav:
-  order: 4
+  order: 2
 ---
 
 # **Projects**
