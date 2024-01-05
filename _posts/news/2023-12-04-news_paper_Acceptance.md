@@ -5,7 +5,7 @@ member: Joonhyun-Kim
 group: news
 ---
 
-The paper from our lab researcher, [Seoyeon Ham](/members/Joonhyun-Kim.html)   
+The paper from our lab researcher, [Seoyeon Ham](/members/Seoyeon-Ham.html)   
 has been accepted by the [IEEE Robotics and Automation Letters](https://ieeexplore.ieee.org/abstract/document/10339840) Journal!
 
 
