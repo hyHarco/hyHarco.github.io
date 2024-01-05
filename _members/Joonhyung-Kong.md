@@ -1,5 +1,5 @@
 ---
-name: joonhyoung Kong
+name: Joonhyoung Kong
 image: images/공준형.png
 description: M.S. Researcher
 aliases:

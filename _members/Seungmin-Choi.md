@@ -16,15 +16,16 @@ The ultimate goal of my research is not to specialize in specific tasks, but to 
 
 
 #### **Research interests**
-- *Physical Human Robot Interaction* 
-- *Robotics*
+- *Physical Human Robot Collaboration* 
 - *Robot Dynamics*
-- *Control theory* 
-- *Mobile Manipulator*
+- *Optimal Control theory* 
+- *Mobile Manipulation*
+- *Safety-Aware Impedance Control*
 
 
 #### **Education**
-- *(2017~present))B.S Robotics Engineering, Hanyang University*
+- *(2017~2023.02)B.S Robotics Engineering, Hanyang University(ERICA)*
+- *(2023.03~present) B.S. Dept. of Convergence Robot System, Hanyang University(Seoul)*
 
 #### **Projects**
 - *Whole-body cooperate control algorithm development for mobile collaborative robot workplace safety guideline development*
