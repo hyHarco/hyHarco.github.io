@@ -5,15 +5,14 @@ description: M.S. Researcher
 aliases:
   - lpigeon
 links:
-  email: dlwjdtn7083@gmail.com
+  email: lpigeon@hanyang.ac.kr
   home-page: https://lpigeon.github.io/
   github: lpigeon
 tier: fourth
 ---
 
 
-I'm interested in AI and BCI. 
-I'm in the process of proficiently studying the force and impedance control of a robotic arm using brain waves.
+I'm interested in AI and Robotics.
    
    
     
@@ -21,7 +20,6 @@ I'm in the process of proficiently studying the force and impedance control of a
 #### **Research interests**
 - *Machine/Deep Learning*
 - *Reinforcement Learning*
-- *BCI*
 
 
 
