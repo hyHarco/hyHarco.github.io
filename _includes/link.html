@@ -20,15 +20,22 @@
   {%- endif -%}
 
   {%- assign link = type.link | replace: "$LINK", link -%}
+  
 
   <a class="link" href="{{ link | relative_url }}" {% if tooltip %}data-tooltip="{{ tooltip }}"{% endif %} {% if icon %}data-icon="true"{% endif %} {% if text %}data-text="true"{% endif %} data-style="{{ include.style | default: '' }}">
     {%- if icon contains "fa-" -%}
       <i class="{{ icon }} fa-lg {% if text == nil %}fa-fw{% endif %}"></i>
+    {%- elsif icon contains "mm_robot"-%}
+      <i class="fa fa-cogs" style="font-size: 19px;" aria-hidden="true"></i>
+    {%- elsif icon contains "ex_robot"-%}
+      <i class="fas fa-robot" style="font-size: 19px;" aria-hidden="true"></i>
+    {%- elsif icon contains "soft_robot"-%}
+    <i class="fa fa-bars" aria-hidden="true"></i>
     {%- elsif icon -%}
       {% include {{ icon }} %}
     {%- endif -%}
     {%- if text -%}
-      <span class="truncate">{{ text }}</span>
+      <span class="truncate" style="font-size: 19px;">{{ text }}</span>
     {%- endif -%}
   </a>
 {%- endif -%}
