@@ -13,7 +13,6 @@ nav:
 # **Research**
 
 
-<text class="animate__animated animate__fadeIn">
 <div style="display: flex; justify-content: center; gap: 10px;">
 {%
   include link.html
@@ -32,7 +31,6 @@ nav:
   style="button_research"
 %}
 </div>
-</text>
 
 
 {% include section.html %}
