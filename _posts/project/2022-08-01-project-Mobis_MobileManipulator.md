@@ -25,15 +25,14 @@ budget: 240,000,000 won
 ***    
 #### <i class="far fa-edit"></i>  **Project Contents**   
 
-**_Full-body control of mobile manipulator for dynamic stability implementation_**    
-- Corner module-based mobile manipulator (manifulator 6 or 7 degrees of freedom)
-- Full body control using the Redundancy of mobile manipulator to perform work stably
+**_Whole-body control of mobile manipulator for dynamic stability implementation_**    
+- Corner module-based mobile manipulator (manipulator 6 degrees of freedom , mobile 12 degrees of freedom)
+- hole body optimal control  framework using the redundancy of mobile manipulator to perform multitasks 
 - Control to mitigate impact in case of contact with environment
 
 
 **_Task configuration techniques for implementing Environment adaptability_**
-- Behavior determination algorithms in which the order of tasks is determined
-- An algorithm that determines the robot's behavior according to human willingness to work or changes in the environment
+- Task priority determination algorithms that change the robot’s task priorities according to human willingness to work or changes in the environment
 
 {%
   include figure.html
@@ -61,8 +60,7 @@ budget: 240,000,000 won
 #### **<i class="fas fa-user-circle"></i> Participating Researchers**
 * [**Wansoo Kim**](http://harco.hanyang.ac.kr/members/Wansoo-Kim.html)   : **_Principal Investigator_**  
 * [**Joonkyu No**](http://harco.hanyang.ac.kr/members/Joonkyu-No.html)   :    *(S/W) Mobile Robot Control*
-* [**Joonhyung Heo**](http://harco.hanyang.ac.kr/members/Junhyung-Heo.html)   :   *(H/W) Instrumental Part Design*
-* [**Seongmin Ha**](http://harco.hanyang.ac.kr/members/Seongmin-Ha.html)   :   *(H/W) Electrical Part Design*
+* [**Jaepil Jang**](http://harco.hanyang.ac.kr/members/Jaepil-Jang.html)   :   *(S/W) Whole Body Control, Task Planning*
 * [**Seungmin Choi**](http://harco.hanyang.ac.kr/members/Seungmin-Choi.html)   :   *(S/W) Whole Body Control, Task Planning*
 
 ***

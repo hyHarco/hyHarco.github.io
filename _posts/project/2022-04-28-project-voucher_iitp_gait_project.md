@@ -78,7 +78,7 @@ budget: 300,000,000 won
 ***    
 #### **<i class="fas fa-user-circle"></i> Participating Researchers**
 * [**Wansoo Kim**](http://harco.hanyang.ac.kr/members/Wansoo-Kim.html)  : **_Principal Investigator_**  
-* [**Dongbin Shin**](http://harco.hanyang.ac.kr/members/Dongbin-Shin.html)  : *Project Manager*
+* [**Seongmin Ha**](http://harco.hanyang.ac.kr/members/Seongmin-Ha.html)   :   *(H/W) Electrical Part Design*
 * [**Joonhyun Kim**](http://harco.hanyang.ac.kr/members/Joonhyun-Kim.html)   : *(S/W) AI Engineering, Optization, Data collection*
 * [**Joonhyung Kong**](http://harco.hanyang.ac.kr/members/Joonhyung-Kong.html)   : *(H/W) Setting up experimental environments, building embedded systems*
 * [**Dongcheol Shin**](http://harco.hanyang.ac.kr/members/Dongcheol-Shin.html)   : *(H/W) Setting up terrain and experimental environment equipment*
