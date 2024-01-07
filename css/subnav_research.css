@@ -1,70 +1,52 @@
-/* The navigation menu */
-.navbar {
-    background-color: rgba(26, 26, 26,0.0);
-    position: absolute;
-    top: 1%;
-    right: 1vh;
-  }
-  
-  /* Navigation links */
-  .navbar a {
-    float: left;
-    font-size: 1.05vw;
-    color: white;
-    text-align: center;
-    padding: 0.5vw 0.9vw;
-    text-decoration: none;
-  }
-  
-  /* The subnav_researchigation menu */
-  .subnav_research {
-    float: left;
-  }
-  
-  /* Subnav_research button */
-  .subnav_research .subnav_research_btn {
-    font-size: 1.05vw;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 0.5vw 0.9vw;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  /* Add a red background color to navigation links on hover */
-  .navbar a:hover, .subnav_research:hover .subnav_research_btn {
-    background-color: rgba(3, 45, 134, 0.4);
-    color:  white;
-  }
-  
-  /* Style the subnav_research content - positioned absolute */
-  .subnav_research-content {
-    display: none;
-    position: absolute;
-    right:  50%;
-    background-color: rgba(26, 26, 26,0.0);
-    width: 100%;
-    z-index: 1;
-  }
-  
-  /* Style the subnav_research links */
-  .subnav_research-content a {
-    float: right;
-    color: white;
-    text-decoration: none;
-    font-size: 1.05vw;
-    padding: 0.5vw 0.8vw;
-  }
-  
-  /* Add a grey background color on hover */
-  .subnav_research-content a:hover {
-    background-color: rgba(255,255,255,0.8);
-    color:  rgb(3, 55, 167);
-  }
-  
-  /* When you move the mouse over the subnav_research container, open the subnav_research content */
-  .subnav_research:hover .subnav_research-content {
-    display: block;
-  }
+/* The subnavigation menu for Research */
+.subnav-research {
+  float: left;
+}
+
+/* Subnav button for Research */
+.subnav-research .subnavbtn-research {
+  font-size: 1.05vw;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0.5vw 0.9vw;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  cursor: pointer;
+}
+
+.navbar a:hover, .subnav-research:hover .subnavbtn-research {
+  background-color: rgba(3, 45, 134, 0.4);
+  color:  white;
+}
+
+/* Style the subnav content for Research - positioned absolute */
+.subnav-research-content {
+  display: none;
+  position: absolute;
+  right: 40%;
+  background-color: rgba(26, 26, 26,0.0);
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links for Research */
+.subnav-research-content a {
+  float: right;
+  color: white;
+  text-decoration: none;
+  font-size: 1.05vw;
+  padding: 0.5vw 0.8vw;
+}
+
+/* Add a grey background color on hover for Research links */
+.subnav-research-content a:hover {
+  background-color: rgba(255,255,255,0.8);
+  color: rgb(3, 55, 167);
+}
+
+/* When you move the mouse over the subnav-research container, open the subnav content */
+.subnav-research:hover .subnav-research-content {
+  display: block;
+}

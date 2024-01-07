@@ -17,6 +17,14 @@
 {%- endif -%}
 
 <link rel="stylesheet" href="/css/subnav.css">
+<link rel="stylesheet" href="/css/subnav_research.css">
+<script>
+  function redirectToResearch() {
+    window.location.href = '/research/index.html';
+  }
+</script>
+
+
 <header {% if background %}class="background"{% endif %} {% if background %}style="--background: url('{{ background | relative_url }}')"{% endif %} data-dark="{{ dark }}">
   <a
     href="{{ '/' | relative_url }}"
@@ -34,7 +42,16 @@
     <a href="{{ '/' | relative_url }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
     <a href="https://youtube.com/@HARCOLAB?si=Rfsy8015JEwoklbW"><i class="fab fa-youtube"></i> YouTube</a>
 
-    <a href="/research/index.html"><i class='fas fa-book-reader'></i> Researches</a>
+    <div class="subnav-research">
+      <button class="subnavbtn-research" onclick="redirectToResearch()"><i class='fas fa-book-reader'></i> Researches</button>
+      <div class="subnav-research-content">
+        <a href="/research_exoskeleton_robot/"><i class="fas fa-robot" style="font-size: 19px;" aria-hidden="true"></i> Exoskeleton Robot</a>
+        <a href="/research_mobile_manipulator/index.html"><i class="fa fa-cogs" style="font-size: 19px;" aria-hidden="true"></i> Mobile Manipulator</a>
+      </div>
+    </div>
+
+
+
     <a href="/project/index.html"><i class="fas fa-flask"></i> Projects</a>
     <a href="/publication/index.html"><i class="fas fa-inbox"></i> Publications</a>
     
