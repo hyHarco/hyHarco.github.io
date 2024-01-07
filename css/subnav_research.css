@@ -16,7 +16,7 @@
   cursor: pointer;
 }
 
-.navbar a:hover, .subnav-research:hover .subnavbtn-research {
+.navbar .subnav-research:hover .subnavbtn-research {
   background-color: rgba(3, 45, 134, 0.4);
   color:  white;
 }
