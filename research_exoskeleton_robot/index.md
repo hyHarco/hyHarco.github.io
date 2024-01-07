@@ -6,31 +6,6 @@ nav:
 
 
 
-# **Research**
-
-
-<div style="display: flex; justify-content: center; gap: 10px;">
-{%
-  include link.html
-  icon="mm_robot"
-  text="Mobile Manipulators"
-  tooltip="mobile manipulator researches"
-  link= "/research_mobile_manipulator/index.html"
-  style="button_research"
-%}
-{%
-  include link.html
-  icon="ex_robot"
-  text="Exoskeleton Robots"
-  tooltip="exoskeleton robot researches"
-  link= "/research_exoskeleton_robot/index.html"
-  style="button_research"
-%}
-</div>
-
-
-
-{% include section.html %}
 
 # <i class="fas fa-crosshairs"></i> **Exoskeleton Robot Research**
 
