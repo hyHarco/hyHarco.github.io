@@ -88,4 +88,4 @@ flat surface and a 4.2m long staircase with a 29.05°angle."
 
 ***
 **related project** 
-- [**_Development of Solution Technology for Personalized Gait Control and Performance Evaluation of Lower-limb Robotic Exoskeleton through Artificial Intelligence/Big Data_**](http://harco.hanyang.ac.kr/2022/04/28/project-voucher_iitp_gait_project.html)
+- [**_Development of Solution Technology for Personalized Gait Control and Performance Evaluation of Lower-limb Robotic Exoskeleton through Artificial Intelligence/Big Data_**](/2022/04/28/project-voucher_iitp_gait_project.html)
