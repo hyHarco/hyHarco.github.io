@@ -1,9 +1,9 @@
 ---
-name: Hwangseok Hwan
+name: Seokhwan Hwang
 image: images/황석환.png
 description: M.S. Researcher
 aliases:
-  - hwangseok
+  - seokhwan
 links:
   email: pop0479@hanyang.ac.kr
 tier: fourth

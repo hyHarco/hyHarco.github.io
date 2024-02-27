@@ -11,10 +11,13 @@ links:
 tier: fourth
 ---
 #### **Research intersts**
-- *Impedance Control* 
-- *Motor / Manipulation*
-- *Stability Analysis*
+- *Whole Body Control* 
+- *Hierarchical Control*
+- *Quadratic Programming*
+- *Model Predictive Control*
 - *Modern Control Theory*
+- *Mobile Manipulator*
+
 
 
 #### **Education**
@@ -24,3 +27,4 @@ tier: fourth
 
 #### **Projects**
 - *Development of Solution FOR Personalized GAIT Control and Performance Evaluation of Lower-limb Robotic Exoskeleton Through Artificial Intelligence / Big Data*
+- *Whole body control of legged mobile manipulator(hyundai mobis), Development of an Extended Reality-Based Avatar Platform for Extreme Remote Maintenance Utilizing Remote Interaction and Experience Sharing Technologies(alchemist), Neuromeka*

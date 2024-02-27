@@ -24,10 +24,7 @@ and based on these, I am working on a project to apply them to Robot Control and
 #### **Research interests**
 - *Machine/Deep Learning*
 - *Reinforcement Learning*
-- *Impedence Control*
-- *Wearable Robot*
-- *GAIT Analysis*
-
+- *Robot Control Theory*
 
 
 #### **Education**
@@ -41,3 +38,5 @@ and based on these, I am working on a project to apply them to Robot Control and
 - *Development of the Stewart Platform Suspension Algorithm for Automobile*
 - *Development of Solution FOR Personalized GAIT Control and Performance Evaluation of Lower-limb Robotic Exoskeleton Through Artificial Intelligence / Big Data*
 - *Development of the IMU Based GAIT Phase Prediction Model using CNN Model*
+- *Vision Sensor-based Golf Swing Motion Estimation*
+- *3D point cloud human object detection algorithm using 2D lidar*

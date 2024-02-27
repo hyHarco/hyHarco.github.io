@@ -5,7 +5,7 @@ member: Joonhyun-Kim
 group: news
 ---
 At [IEEE ROMAN 2023](https://ro-man2023.org/main) Conference (Paradise Hotel Busan, Korea), [Joonhyun Kim](/members/Joonhyun-Kim.html) made a oral presentation on "Multitask Learning for Multiple Recognition Tasks: A Framework for Lower-limb Exoskeleton Robot Applications" 
-by **_Kim J.H., Ha S.M., D.B Shin, Ham S.Y, Jang J.P., Kim W. et al._**
+by **_J.H. Kim , S.M. Ha , D.B. Shin, S.Y. Ham, J.P. Jang and W. Kim et al._**
 
 
 ***
