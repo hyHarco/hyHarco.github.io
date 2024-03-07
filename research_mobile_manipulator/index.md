@@ -55,6 +55,7 @@ filters="group: research_2" %}
 <br>
 <div style="display: flex; justify-content: center; align-items: center;">
   <iframe style="margin-right: 5px;" width="560px" height="250px" src="https://www.youtube.com/embed/0ccDCx7WnF4?si=pDPY-I-4sX4fPjjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe style="margin-right: 5px;" width="560px" height="250px" src="https://www.youtube.com/embed/h8tAaJgv630?si=DqdPq72EeQB0kLLV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 
