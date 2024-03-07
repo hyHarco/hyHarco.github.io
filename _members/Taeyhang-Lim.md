@@ -4,7 +4,7 @@ image: images/임태양.png
 description: M.S. Researcher
 links:
   email: jennetlim98@gmail.com
-tier: fourth
+tier: alumni
 
 ---
 #### **Research intersts**
