@@ -13,9 +13,7 @@ tier: fourth
 
 
 I'm interested in AI and Robotics.
-   
-   
-    
+
 
 #### **Research interests**
 - *Machine/Deep Learning*
@@ -31,3 +29,5 @@ I'm interested in AI and Robotics.
 
 
 #### **Projects**
+- *Development of an Extended Reality-Based Avatar Platform for Extreme Remote Maintenance Utilizing Remote Interaction and Experience Sharing Technologies (Alchemist)*
+- *3D point cloud human object detection algorithm using 2D lidar*

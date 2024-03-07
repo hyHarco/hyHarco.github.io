@@ -1,7 +1,7 @@
 ---
 name: Wansoo Kim
 image: images/김완수교수님.png
-description: Principal Investigator
+description: Associate Professor
 aliases:
   - Wansoo Kim
 links:

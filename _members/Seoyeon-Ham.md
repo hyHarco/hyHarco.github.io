@@ -9,7 +9,7 @@ links:
   google-scholar: https://scholar.google.com/citations?user=a9M6nYgAAAAJ&hl=ko
   cv: https://sites.google.com/hanyang.ac.kr/hamseoyeoncv/%ED%99%88
 
-tier: fourth
+tier: alumni
 
 ---
 

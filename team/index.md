@@ -7,7 +7,7 @@ nav:
 
 {% include section.html %}
 
-## **Team Leader**
+## **Principal Investigator**
 {%
   include list.html
   data="members"
@@ -42,7 +42,7 @@ nav:
   filters="tier: fourth " 
 %}
 
-<!-- 
+
 ***
 ## **B.S. Student**
 {%
@@ -50,7 +50,7 @@ nav:
   data="members"
   component="portrait"
   filters="tier: fifth " 
-%} -->
+%}
 
 
 

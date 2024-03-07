@@ -4,7 +4,7 @@ image: images/신동철.png
 description: M.S. Researcher
 links:
   email: rpdlqk96@gmail.com 
-tier: fourth
+tier: alumni
 
 ---
 #### **Research interests** 
