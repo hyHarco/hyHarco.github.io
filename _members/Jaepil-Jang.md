@@ -7,7 +7,7 @@ aliases:
 links:
   email: jaepill9@naver.com
   github: jangjaepil
-  home-page: https://sites.google.com/hanyang.ac.kr/jaepil-jang/about
+  home-page: https://sites.google.com/view/jaepil-jang?usp=sharing
 tier: fourth
 ---
 #### **Research intersts**
