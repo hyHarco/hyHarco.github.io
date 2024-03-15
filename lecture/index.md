@@ -6,8 +6,8 @@ nav:
 
 # **Lectures**
 
-<i class='fas fa-chalkboard'></i> **_professor_ [_W. Kim_](http://harco.hanyang.ac.kr/members/Wansoo-Kim.html)_'s Lectures_**         
-in [Hanyang University | Department of Robot Engineering](https://robot.hanyang.ac.kr/front/people/prof).
+<i class='fas fa-chalkboard'></i> **_professor_ [_W. Kim_](/members/Wansoo-Kim.html)_'s Lectures_**         
+in [Hanyang University | Department of Robot Engineering](https://robot.hanyang.ac.kr/-41).
 
 {% include section.html %}
 
