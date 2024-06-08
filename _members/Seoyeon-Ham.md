@@ -12,6 +12,10 @@ links:
 tier: alumni
 
 ---
+#### **<i class="fas fa-paper-plane"></i> Current Affiliation : [University of Illinois Urbana-Champaign (uiuc)](https://illinois.edu/)**
+
+
+
 
 #### **Research intersts**
 - *Soft Robotics*
