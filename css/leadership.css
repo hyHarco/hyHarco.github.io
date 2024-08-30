@@ -1,0 +1,44 @@
+/* Targeting the PI specifically */
+.leadership-member.pi {
+    font-size: 1.2em; /* Increase the font size for the PI */
+}
+
+.leadership-member.pi .portrait_image {
+    width: calc(var(--width) * 1.1); /* Increase the image size by 20% */
+    height: calc(var(--width) * 1.1); /* Keep the height proportional */
+}
+
+.leadership-member.pi .portrait_name {
+    font-size: 1.1em; /* Increase the name font size */
+    font-weight: bold; /* Make the name bold */
+}
+
+.leadership-member.pi .portrait_description {
+    font-size: 1.0em; /* Slightly increase the description font size */
+}
+
+.leadership-flex-container {
+    display: flex;
+    justify-content: center; /* Center the items within the container */
+    align-items: center; /* Center items vertically */
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the space between items */
+    margin: 0 auto; /* Center the container itself */
+    max-width: 800px; /* Optional: set a max-width to keep it from stretching too wide */
+}
+
+.leadership-member {
+    display: flex; /* Make each leadership-member a flex container */
+    flex-direction: column; /* Stack image and text vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    width: 45%; /* Adjust the width for each item */
+    box-sizing: border-box; /* Ensure padding/border are included in width */
+    text-align: center; /* Center the text within each member */
+}
+
+@media (max-width: 768px) {
+    .leadership-member {
+        width: 100%; /* Stack items on smaller screens */
+    }
+}

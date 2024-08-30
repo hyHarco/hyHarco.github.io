@@ -31,13 +31,16 @@
   {%- assign items = items | sort: "date" | reverse -%}
 {%- endif -%}
 
+{%- if include.filters contains 'tier: pi' or include.filters contains 'tier: research_professor' -%}
+  <div class="leadership-flex-container">
+{%- endif -%}
+
 {%- for d in items -%}
 
   {%- assign link = d.link | default: d.url -%}
   {%- assign style = d.style | default: include.style -%}
 
-  {%-
-    include {{ component }}
+  {%- include {{ component }}
     author=d.author
     caption=d.caption
     content=d.content
@@ -73,5 +76,9 @@
   -%}
 
 {%- endfor -%}
+
+{%- if include.filters contains 'tier: pi' or include.filters contains 'tier: research_professor' -%}
+  </div>
+{%- endif -%}
 
 {%- endfor -%}

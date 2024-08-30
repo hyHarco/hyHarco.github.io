@@ -9,20 +9,21 @@ links:
   email: wansookim@hanyang.ac.kr
   cv: ../asset/WansooKim_CV.pdf
 #  github: harco-wansookim
-tier: first
+tier: pi
 
 ---
 # Personal Data
 - Name: Wansoo Kim, Ph.D.
 - Affilitation: Robotics Department Hanyang Univ. ERICA 
-- Position: Assistant professor, Team Leader of Harco LAB  
+- Position: Associate professor, Team Leader of Harco LAB  
 
 # Scientific Education
 - (*Mar.2008 - Feb.2015*) Doctor of Philosophy in Mechanical Engineering, Hanyang University, Seoul, Republic of Korea
 - (*Mar.2004 - Feb.2008*) Bachelor of Science in Mechanical Engineering Hanyang University ERICA, Ansan-si, Gyeonggi-do, Republic of Korea
 
 # Research Experiences
-- (*Since Mar. 2021*) Assistant Professor at Robotics Department,Hanyang University ERICA, Republic of Korea
+- (*Since Mar. 2024*) Associate Professor at Robotics Department,Hanyang University ERICA, Republic of Korea
+- (*Mar.2021 - Feb.2024*) Assistant Professor at Robotics Department,Hanyang University ERICA, Republic of Korea
 - (*May 2016 - Feb.2021*) Post-Doc. at Human-Robot Interface and Physical Interaction(HRI^2) Lab, Istituto Italiano di Tecnologia (IIT), Italy
 - (*Mar.2015 - May 2016*) Post-Doc. at Research Institute of Engineering & Technology, Hanyang University ERICA, Republic of Korea
 - (*Mar.2008 - Feb.2015*) Research Assistant at Cim & Robotics Lab, Hanyang University, Republic of Korea

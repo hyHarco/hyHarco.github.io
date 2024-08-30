@@ -6,10 +6,10 @@ aliases:
   - Soonwoong Hwang
 links:
   email: hswfile@hanyang.ac.kr
-tier: first
+tier: research_professor
 
 ---
-#### **Research intersts** 
+#### **Research intersts**
 - *Complex Human and Robot Dynamics in Constrained Environment (nonholonomic, contact, etc.)*
 - *Lie Group Representations*
 - *Motion Planning in Constrained Environment*

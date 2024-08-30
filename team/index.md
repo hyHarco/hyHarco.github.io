@@ -7,16 +7,32 @@ nav:
 
 {% include section.html %}
 
-## **Principal Investigator**
-{%
-  include list.html
-  data="members"
-  component="portrait"
-  filters="tier: first" 
-%}
+## **Leadership**
+
+<div class="leadership-flex-container">
+  <div class="leadership-member pi">
+    <h3>PI / Lab Director</h3>
+    {%
+      include list.html
+      data="members"
+      component="portrait-spc"
+      filters="tier: pi"
+    %}
+  </div>
+  <div class="leadership-member">
+    <h3>Research Professor</h3>
+    {%
+      include list.html
+      data="members"
+      component="portrait-spc"
+      filters="tier: research_professor"
+    %}
+  </div>
+</div>
 
 ***
-## **Post-doc Reasearcher**
+
+## **Postdoctoral Researcher**
 {%
   include list.html
   data="members"
@@ -25,34 +41,34 @@ nav:
 %}
 
 ***
+
 ## **Ph.D. Student**
 {%
   include list.html
   data="members"
   component="portrait"
-  filters="tier: third " 
+  filters="tier: third" 
 %}
 
 ***
+
 ## **M.S. Student**
 {%
   include list.html
   data="members"
   component="portrait"
-  filters="tier: fourth " 
+  filters="tier: fourth" 
 %}
 
-
 ***
+
 ## **B.S. Student**
 {%
   include list.html
   data="members"
   component="portrait"
-  filters="tier: fifth " 
+  filters="tier: fifth" 
 %}
-
-
 
 {% include section.html %}
 
@@ -63,7 +79,6 @@ nav:
   component="portrait"
   filters="tier: alumni" 
 %}
-
 
 {% include section.html background="images/WantedYOU.png" dark=true%}
 
@@ -78,4 +93,3 @@ We are actively looking for top talents.
 {:.center}
 
 {% include section.html %}
-

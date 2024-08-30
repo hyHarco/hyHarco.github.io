@@ -11,6 +11,7 @@ Welcome to the <b>HumAn-Robot COllaboration (HARCO)</b> Research Lab! <br>
 Our research interests include
 Physical Human-Robot Interaction (pHRI), 
 Human-Robot Collaboration, Shared Control, 
+Whole-body Control,
 Ergonomics, Human Modeling, Feedback Devices,  
 Powered Exoskeleton Robots.
 <br>

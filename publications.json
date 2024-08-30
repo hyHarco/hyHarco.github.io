@@ -1,0 +1,122 @@
+[
+    {
+        "title": "The technical trend of the exoskeleton robot system for human power assistance",
+        "authors": null,
+        "year": 2012,
+        "journal": "H Lee, W Kim, J Han, C Han"
+    },
+    {
+        "title": "Anticipatory robot assistance for the prevention of human static joint overloading in human\u2013robot collaboration",
+        "authors": null,
+        "year": 2017,
+        "journal": "W Kim, J Lee, L Peternel, N Tsagarakis, A Ajoudani"
+    },
+    {
+        "title": "Human\u2013robot cooperation control based on a dynamic model of an upper limb exoskeleton for human power amplification",
+        "authors": null,
+        "year": 2014,
+        "journal": "HD Lee, BK Lee, WS Kim, JS Han, KS Shin, CS Han"
+    },
+    {
+        "title": "Towards ergonomic control of human-robot co-manipulation and handover",
+        "authors": null,
+        "year": 2017,
+        "journal": "L Peternel, W Kim, J Babi\u010d, A Ajoudani"
+    },
+    {
+        "title": "Adaptable workstations for human-robot collaboration: A reconfigurable framework for improving worker ergonomics and productivity",
+        "authors": null,
+        "year": 2019,
+        "journal": "W Kim, M Lorenzini, P Balatti, PDH Nguyen, U Pattacini, V Tikhanoff, ..."
+    },
+    {
+        "title": "A Teleoperation Interface for Loco-Manipulation Control of Mobile Collaborative Robotic Assistant",
+        "authors": null,
+        "year": 2019,
+        "journal": "Y Wu, P Balatti, M Lorenzini, F Zhao, W Kim, A Ajoudani"
+    },
+    {
+        "title": "A Human-Robot Collaboration Framework for Improving Ergonomics During Dexterous Operation of Power Tools",
+        "authors": null,
+        "year": 2021,
+        "journal": "W Kim, L Peternel, M Lorenzini, J Babi\u010d, A Ajoudani"
+    },
+    {
+        "title": "Human-robot cooperative control based on pHRI (Physical Human-Robot Interaction) of exoskeleton robot for a human upper extremity",
+        "authors": null,
+        "year": 2012,
+        "journal": "H Lee, B Lee, W Kim, M Gil, J Han, C Han"
+    },
+    {
+        "title": "Mechanical design of the Hanyang Exoskeleton Assistive Robot (HEXAR)",
+        "authors": null,
+        "year": 2014,
+        "journal": "W Kim, H Lee, D Kim, J Han, C Han"
+    },
+    {
+        "title": "Development of real-time gait phase detection system for a lower extremity exoskeleton robot",
+        "authors": null,
+        "year": 2017,
+        "journal": "DH Lim, WS Kim, HJ Kim, CS Han"
+    },
+    {
+        "title": "A New Overloading Fatigue Model for Ergonomic Risk Assessment with Application to Human-Robot Collaboration",
+        "authors": null,
+        "year": 2019,
+        "journal": "M Lorenzini, W Kim, E De Momi, A Ajoudani"
+    },
+    {
+        "title": "ErgoTac: A Tactile Feedback Interface for Improving Human Ergonomics in Workplaces",
+        "authors": null,
+        "year": 2018,
+        "journal": "W Kim, M Lorenzini, K Kap\u0131c\u0131o\u011flu, A Ajoudani"
+    },
+    {
+        "title": "Development of a lower extremity exoskeleton robot with a quasi-anthropomorphic design approach for load carriage",
+        "authors": null,
+        "year": 2015,
+        "journal": "D Lim, W Kim, H Lee, H Kim, K Shin, T Park, JY Lee, C Han"
+    },
+    {
+        "title": "Design of an Under-Actuated Exoskeleton System for Walking Assist While Load Carrying",
+        "authors": null,
+        "year": 2012,
+        "journal": "SN Yu, HD Lee, SH Lee, WS Kim, JS Han, CS Han"
+    },
+    {
+        "title": "Towards an intelligent collaborative robotic system for mixed case palletizing",
+        "authors": null,
+        "year": 2020,
+        "journal": "E Lamon, M Leonori, W Kim, A Ajoudani"
+    },
+    {
+        "title": "Development of the heavy load transferring task oriented exoskeleton adapted by lower extremity using qausi-Active joints",
+        "authors": null,
+        "year": 2009,
+        "journal": "W Kim, S Lee, H Lee, S Yu, J Han, C Han"
+    },
+    {
+        "title": "Development of a muscle circumference sensor to estimate torque of the human elbow joint",
+        "authors": null,
+        "year": 2014,
+        "journal": "WS Kim, HD Lee, DH Lim, JS Han, KS Shin, CS Han"
+    },
+    {
+        "title": "MOCA-MAN: A MObile and reconfigurable Collaborative Robot Assistant for conjoined huMAN-robot actions",
+        "authors": null,
+        "year": 2020,
+        "journal": "W Kim, P Balatti, E Lamon, A Ajoudani"
+    },
+    {
+        "title": "Towards ergonomic control of collaborative effort in multi-human mobile-robot teams",
+        "authors": null,
+        "year": 2019,
+        "journal": "W Kim, M Lorenzini, P Balatti, Y Wu, A Ajoudani"
+    },
+    {
+        "title": "Towards ergonomic control of collaborative effort in multi-human mobile-robot teams",
+        "authors": null,
+        "year": 2019,
+        "journal": "W Kim, M Lorenzini, P Balatti, Y Wu, A Ajoudani"
+    }
+]
