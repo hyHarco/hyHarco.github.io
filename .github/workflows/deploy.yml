@@ -19,6 +19,18 @@ jobs:
         ruby-version: '3.0' # Use the appropriate Ruby version
         bundler-cache: true
 
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install Python dependencies
+      run: |
+        pip install requests beautifulsoup4
+
+    - name: Run Scraper
+      run: python scrape_scholar.py
+
     - name: Install dependencies
       run: bundle install
 
