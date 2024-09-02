@@ -29,7 +29,7 @@ jobs:
         pip install requests beautifulsoup4
 
     - name: Run Scraper
-      run: python scrape_scholar.py
+      run: python scripts/scrape_scholar.py
 
     - name: Install dependencies
       run: bundle install
