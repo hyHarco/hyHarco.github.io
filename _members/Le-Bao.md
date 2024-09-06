@@ -1,7 +1,7 @@
 ---
 name: Le Bao
 image: images/바오러.jpg
-description: Ph.D. Researcher
+description: Post-doc Researcher
 aliases:
   - BaoLe
 links:
