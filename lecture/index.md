@@ -2,83 +2,132 @@
 title: Lectures
 nav:
   order: 8
+core_courses:
+  - icon: "robot"
+    code: "CSE4201"
+    name: "로봇공학"
+    english_name: "Robotics"
+    level: "Core Robotics"
+    credits: "3"
+    additional_info: '<i class="fas fa-globe"></i> English only Course and SMART-F'
+    semesters: ["2022-1", "2023-1", "2024-1"]
+    department: "Department of Robotics"
+
+  - icon: "robot"
+    code: "ROB1001"
+    name: "기초로봇공학개론"
+    english_name: "Basic Introduction to Robotics"
+    level: "Beginner"
+    credits: "3"
+    additional_info: "Omnibus Lecture"
+    semesters: ["2022-1", "2024-1"]
+    department: "Department of Robotics"
+
+  - icon: "flask"
+    code: "ROB1002"
+    name: "기초로봇공학실험"
+    english_name: "Basic Robotics Experiment"
+    level: "Beginner"
+    credits: "3"
+    additional_info: '<i class="fas fa-tools"></i> Lab Course with IC-PBL'
+    semesters: ["2021-2", "2022-2", "2023-2", "2024-2"]
+    department: "Department of Robotics"
+
+  - icon: "tools"
+    code: "ROB401"
+    name: "로봇캡스톤디자인 1, 2"
+    english_name: "Robot Capstone Design 1 and 2"
+    level: "Core Robotics"
+    credits: "3"
+    additional_info: '<i class="fas fa-tools"></i> Capstone Project'
+    semesters: ["2021", "2022", "2023", "2024"]
+    department: "Department of Robotics"
+
+  - icon: "sliders-h"
+    code: "ELE3004"
+    name: "제어공학"
+    english_name: "Control Engineering"
+    level: "Core Robotics"
+    credits: "3"
+    additional_info: ""
+    semesters: ["2021-1", "2023-1", "2024-1"]
+    department: "Division of Smart Convergence Engineering (Major in Robotics & Convergence)"
+
+  - icon: "file-contract"
+    code: "VCC4002"
+    name: "취업진로세미나"
+    english_name: "Career Development Seminar"
+    level: "Career Development"
+    credits: "1"
+    additional_info: ""
+    semesters: ["2022-1", "2023-1", "2024-1"]
+    department: "Department of Robotics"
+  
+  - icon: "calculator"
+    code: "COE3052"
+    name: "공업수학 2"
+    english_name: "Engineering Mathematics 2"
+    level: "Core Robotics"
+    credits: "3"
+    additional_info: '<i class="fas fa-globe"></i> English only Course'
+    semesters: ["2021-1"]
+    department: "Department of Robotics"
+
+  - icon: "tools"
+    code: "ROB3001"
+    name: "로봇공학입문"
+    credits: "3"
+    english_name: "Introduction to Robotics"
+    level: "Core Robotics"
+    additional_info: "(closed)"
+    semesters: ["2021-1"]
+    department: "Department of Robotics"
+
+graduate_courses:
+  - icon: "users-cog"
+    code: "IES6001"
+    name: "HMI개론"
+    credits: "3"
+    english_name: "Introduction to Human-Machine Interaction"
+    level: "Graduate"
+    additional_info: "Omnibus Lecture"
+    semesters: ["2021-1", "2022-1", "2023-1", "2024-1"]
+    department: "Department of Interdisciplinary Robot Engineering Systems"
+
+  - icon: "network-wired"
+    code: "IES6008"
+    name: "융합시스템논문연구"
+    credits: "3"
+    english_name: "Thesis Research in Convergent Systems"
+    level: "Graduate"
+    additional_info: '<i class="fas fa-globe"></i> English only Course'
+    semesters: ["2022-2", "2022-2", "2023-2", "2024-2"]
+    department: "Department of Interdisciplinary Robot Engineering Systems"
+
+  - icon: "robot"
+    code: "IIE0001"
+    name: "로보틱스"
+    credits: "3"
+    english_name: "Robotics"
+    level: "Graduate"
+    additional_info: "IC-PBL+"
+    semesters: ["2023-1"]
+    department: "Department of Intelligence and Information Engineering"
+
+  - icon: "lightbulb"
+    code: "KIT6006"
+    name: "HYU-KITECH연구방법론"
+    english_name: "HYU-KITECH Research Methodology"
+    level: "Graduate"
+    credits: "3"
+    additional_info: "Omnibus Lecture"
+    semesters: ["2023-1", "2024-1"]
+    department: "HYU-KITECH Joint Department"
 ---
 
 # **Lectures**
 
 <i class='fas fa-chalkboard'></i> **_professor_ [_W. Kim_](/members/Wansoo-Kim.html)_'s Lectures_**         
-in [Hanyang University | Department of Robot Engineering](https://robot.hanyang.ac.kr/-41).
+in [Hanyang University | Department of Robotics](https://robot.hanyang.ac.kr/-41).
 
-{% include section.html %}
-
-## <i class="fas fa-chalkboard"></i> 2022   
-   
-   
-<i class="fas fa-thumbtack"></i> **2nd Semester**     
-
-- **_[ROB1002]_** **기초 로봇공학 실험 (Korean, IC-PBL), Basic Robotics Experiment**      
-_<Group 1>_   
-15:00 - 20:00 Wed.      
-_<Group 2>_   
-13:00 - 18:00 Fri.      
-- **_[ROB3009]_** **로봇공학과 연구실 심화실습 II (Korean), Robotics Lab Practice II**    
- Time not specified Lecture    
-- **_[ROB4013]_** **로봇공학과 연구실 심화실습 IV (Korean), Robotics Lab Practice IV**    
-Time not specified Lecture    
-- **_[ROB3005]_** **로봇 캡스톤 디자인 I (Korean), Robot Capstone Design I**    
-Time not specified Lecture    
-
-
-***
-<i class="fas fa-thumbtack"></i> **1st Semester**     
-
-- **_[VCC4002]_** **취업진로 세미나 (Korean), Career development seminar**     
-15:00 - 16:00 Tue.   
-- **_[CSE4021]_** **로봇공학 (Korean), Robotics**     
-13:00 - 14:30 Thu.     
-13:00 - 14:30 Fri.     
-- **_[ROB1001]_** **기초 로봇공학 개론(English), Basic Introduction to Robotics**    
-13:00 - 17:00 Mon.     
-- **_[VCC1001]_** **IC-PBL과 비전설계 (Korean), IC-PBL and Visioning**    
-11:00 - 12:00 Sat.            
-- **_[ROB3008]_** **로봇공학과 연구실 심화실습 I (Korean), Robotics Lab Practice I**    
-12:00 - 13:00 Sat.           
-- **_[ROB4012]_** **로봇공학과 연구실 심화실습 III (Korean), Robotics Lab Practice III**    
-13:00 - 14:00 Sat.              
-- **_[ROB4010]_** **로봇 캡스톤 디자인 II (Korean), Robot Capstone Design II**      
-Time not specified Lecture    
-
-
-***   
-
-## <i class="fas fa-chalkboard"></i> 2021
-
-<i class="fas fa-thumbtack"></i> **2nd Semester**     
-
-- **_[ROB1002]_** **기초 로봇공학 실험 (Korean, IC-PBL), Basic Robotics Experiment**    
-_<Group 1>_   
-13:00 - 18:00 Tue.      
-_<Group 2>_   
-13:00 - 18:00 Wed.      
-- **_[ROB3005]_** **로봇 캡스톤 디자인 I (Korean), Robot Capstone Design I**    
-13:00 - 14:00 Sat.   
-14:00 - 18:00 Sat.   
-- **_[ROB3009]_** **로봇공학과 연구실 심화실습 II (Korean), Robotics Lab Practice II**    
-8:00 - 9:00 Sat.   
-- **_[ROB4013]_** **로봇공학과 연구실 심화실습 IV (Korean), Robotics Lab Practice IV**    
-9:00 - 10:00 Sat.   
-
-***   
-
-<i class="fas fa-thumbtack"></i> **1st Semester**     
-
-- **_[COE3052]_** **공업수학 II (English), Engineering Mathematics II**    
-10:30 - 12:00, Mon. and Wed.   
-- **_[ROB3001]_** **로봇공학 입문 (Korean), Introduction to Robotics**    
-15:00 - 16:30, Mon. and Wed.   
-- **_[ELE3004]_** **제어공학 (Korean), Control Engineering**    
-19:00 - 20:30, Thu.     
-20:30 - 22:00, Fri.   
-
-
-{% include section.html %}
+{% include lecture.html %}
