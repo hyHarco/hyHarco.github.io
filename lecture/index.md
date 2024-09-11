@@ -73,7 +73,7 @@ core_courses:
     semesters: ["2021-1"]
     department: "Department of Robotics"
 
-  - icon: "tools"
+  - icon: "robot"
     code: "ROB3001"
     name: "로봇공학입문"
     credits: "3"
