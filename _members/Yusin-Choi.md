@@ -7,8 +7,10 @@ aliases:
 links:
   email: yougod0728@gmail.com
   github : yougod6
-tier: fourth
+tier: alumni
 ---
+#### **<i class="fas fa-paper-plane"></i> Current Affiliation : [LIG NEX 1](https://www.lignex1.com/main.do)**
+
 #### **Research intersts**
 - *Impedance Control* 
 - *Human Robot Interaction & Control*

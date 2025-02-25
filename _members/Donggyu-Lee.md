@@ -1,13 +1,13 @@
 ---
 name: Donggyu Lee
 image: images/이동규.jpg
-description: M.S. Researcher
+description: Ph.D. Researcher
 aliases:
   - dong dong
 links:
   email: dong2391@hanyang.ac.kr
   cv: ../asset/DonggyuLee_cv.pdf
-tier: fourth
+tier: third
 ---
 
 

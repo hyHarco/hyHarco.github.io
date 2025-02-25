@@ -1,7 +1,7 @@
 ---
 name: Seungmin Choi
 image: images/최승민.png
-description: M.S. Researcher
+description: Ph.D. Researcher
 aliases:
   - seungmini
 links:
@@ -9,7 +9,7 @@ links:
   github: sm3304love
   home-page: https://sites.google.com/hanyang.ac.kr/seungminchoi/main-page
   github: sm3304love
-tier: fourth
+tier: third
 ---
 I am interested in Physical Human Robot Interaction (PHRI), which utilizes control theory and robotics. Using Robotics and classical control theory, we are working on a project to implement force control of robots and apply various control techniques.    
      
