@@ -1,12 +1,12 @@
 ---
-name: Inho Gil
+name: Inho Gil 
 image: images/길인호.png
-description: B.S. Researcher
+description: M.S. Researcher
 aliases:
   - Inho
 links:
   email: inho7685@hanyang.ac.kr
-tier: fifth
+tier: fourth
 ---
 #### **Research intersts**
 - *Exoskeleton Robot*

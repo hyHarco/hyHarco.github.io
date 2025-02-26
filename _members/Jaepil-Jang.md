@@ -8,8 +8,10 @@ links:
   email: jaepill9@naver.com
   github: jangjaepil
   home-page: https://sites.google.com/view/jaepil-jang?usp=sharing
-tier: fourth
+tier: alumni
 ---
+#### **<i class="fas fa-paper-plane"></i> Current Affiliation : [Korea Institute of Science and  Technology (KIST)](https://www.kist.re.kr/ko/index.do)**
+
 #### **Research intersts**
 - *Whole Body Control* 
 - *Hierarchical Control*

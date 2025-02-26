@@ -1,4 +1,4 @@
----
+<!-- ---
 name: Joosun Lee
 image: images/이주선.jpg
 description: Ph.D. Researcher
@@ -15,5 +15,5 @@ tier: third
 - *(2019.02) B.S. Department of Avionic electronics engineering, Kyungwoon university*
 - *(2020.09~present) M.S. Mechatronics Engineering, Hanyang University*
 
-    
+     -->
      

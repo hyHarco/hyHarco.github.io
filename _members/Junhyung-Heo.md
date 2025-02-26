@@ -1,7 +1,7 @@
 ---
 name: Junhyung Heo
 image: images/허준형.png
-description: PH.D. Researcher
+description: Ph.D. Researcher
 links:
   email: wnsgud606@hanyang.ac.kr
 tier: third

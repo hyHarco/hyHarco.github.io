@@ -1,12 +1,12 @@
 ---
 name: Juhyeon Lee
 image: images/이주현.png
-description: B.S. Researcher
+description: M.S. Researcher
 aliases:
   - Juhyeon
 links:
   email: wngus0908@hanyang.ac.kr
-tier: fifth
+tier: fourth
 ---
 
 

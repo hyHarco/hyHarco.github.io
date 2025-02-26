@@ -10,7 +10,6 @@ tier: fifth
 #### **Research intersts**
 - *Mobile Manipulator Control*
 - *Human Robot Interaction*
-- *Machine/Deep Learning*
 
 
 #### **Education**
