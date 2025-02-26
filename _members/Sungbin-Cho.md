@@ -1,6 +1,6 @@
 ---
 name: Sungbin Cho
-image: images/조성빈.PNG
+image: images/조성빈.jpg
 description: B.S. Researcher
 aliases:
 links:
