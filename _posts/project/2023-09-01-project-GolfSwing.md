@@ -2,7 +2,7 @@
 title: Development of a Vision Sensor-based Human Motion Estimation Techinque for Golf Swing Dataset Construction in Indoor and Outdoor Environments
 mintitle : Vision Sensor-based Human Motion Estimation
 image: images/golf_caddy_concept.png
-group: ongoing  # Use filter tags as 'ongoing', 'past', 'etc'
+group: past  # Use filter tags as 'ongoing', 'past', 'etc'
 tags:
   - PROJECT
   - Golf Motion

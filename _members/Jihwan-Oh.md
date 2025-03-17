@@ -1,5 +1,5 @@
 ---
-name: Jihwan-Oh 
+name: Jihwan Oh 
 image: images/오지환.jpg
 description: M.S. Researcher
 aliases:

@@ -2,7 +2,7 @@
 title: Development of Solution Technology for Personalized Gait Control and Performance Evaluation of Lower-limb Robotic Exoskeleton through Artificial Intelligence/Big Data
 mintitle : Personalized Gait Control Exoskeleton Robot
 image: images/iitp_research.png
-group: ongoing 
+group: past 
 tags: 
   - Exoskeleton robot
   - Robot control
