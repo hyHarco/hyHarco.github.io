@@ -2,7 +2,7 @@
 title: Hyundai Mobis Mobile Manipulator Whole Body Control
 mintitle: Mobile Manipulator Whole Body Control
 image: images/mobis_project.png
-group: ongoing  # Use filter tags as 'ongoing', 'past', 'etc'
+group: past  # Use filter tags as 'ongoing', 'past', 'etc'
 tags:
   - PROJECT
   - Ergonomics
