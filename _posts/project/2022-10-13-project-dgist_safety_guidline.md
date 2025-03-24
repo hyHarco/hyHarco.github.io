@@ -1,7 +1,7 @@
 ---
 title: Development Service of Systemic Control Algorithm for Development of Safety Guidelines for Mobile Cooperative Robot Workshop
 mintitle : Safety Guidelines for Mobile Cooperative Robot Workshop
-image: images/dgist_image.png
+image: images/project/dgist_image.png
 group: past 
 tags: 
   - Human Robot Collaborate
@@ -53,14 +53,14 @@ budget: 20,000,000 won
 {% capture col1 %}
 {%
   include figure.html
-  image="images/dgist_project_2.png"
+  image="images/project/dgist_project_2.png"
   caption="Ex1 ) Following sine wave"
 %}
 {% endcapture %}
 {% capture col2 %}
 {%
   include figure.html
-  image="images/dgist_project_3.png"
+  image="images/project/dgist_project_3.png"
   caption = "Ex2 ) Keeping the distal end at the same point"
 %}
 {% endcapture %}
@@ -83,7 +83,7 @@ budget: 20,000,000 won
 
 {%
   include feature.html
-  image="images/dgist_support.png"
+  image="images/project/dgist_support.png"
   link='https://www.dgist.ac.kr/kr/'
 %}   
 ***   

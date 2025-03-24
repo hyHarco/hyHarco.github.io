@@ -20,14 +20,14 @@ Major areas of interest include cooperative robots or physical human-robot inter
 {% capture col1 %}
 {%
   include figure.html
-  image="images/young_robotist1.png"
+  image="images/P_NEWS/young_robotist1.png"
   caption="Ergonomic human-robot collaboration control"
 %}
 {% endcapture %}
 {% capture col2 %}
 {%
   include figure.html
-  image="images/kuka_innovation.png"
+  image="images/P_NEWS/kuka_innovation.png"
   caption="After winning the KUKA INNOVATION AWARD 2018"
 %}
 {% endcapture %}

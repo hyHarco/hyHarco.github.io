@@ -1,6 +1,6 @@
 <!-- ---
 name: Joosun Lee
-image: images/이주선.jpg
+image: images/members/이주선.jpg
 description: Ph.D. Researcher
 links:
   email: km01049@hanyang.ac.kr

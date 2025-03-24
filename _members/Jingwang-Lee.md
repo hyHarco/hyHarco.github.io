@@ -1,6 +1,6 @@
 ---
 name: Jingwang Lee
-image: images/이진광.jpg
+image: images/members/이진광.jpg
 description: B.S. Researcher
 aliases:
   - Jingwang

@@ -1,7 +1,7 @@
 ---
 title: Towards Ergonomics-based Human-Robot Collaboration with Intelligent Anticipatory Behaviours
 mintitle : Towards Ergonomics Based HRI
-image: images/sinjin_project_2.png
+image: images/project/sinjin_project_2.png
 group: ongoing  # Use filter tags as 'ongoing', 'past', 'etc'
 tags:
   - PROJECT
@@ -47,7 +47,7 @@ Building an open database with sensor data.
 ***    
 {%
   include figure.html
-  image="images/sinjin_project_1.png"
+  image="images/project/sinjin_project_1.png"
   caption="by Monitoring the joint load variation and Providing Feedback to guide towards erogonics pose,    
   robot can control the robotic partner's Assistive behavior to minimize the overloading Effects"
 %}     
@@ -55,14 +55,14 @@ Building an open database with sensor data.
 {% capture col1 %}
 {%
   include figure.html
-  image="images/sinjin_project_2.png"
+  image="images/project/sinjin_project_2.png"
   caption="Overloading Torque Detection"
 %}
 {% endcapture %}
 {% capture col2 %}
 {%
   include figure.html
-  image="images/sinjin_project_3.png"
+  image="images/project/sinjin_project_3.png"
   caption="Multi-human mobile-robot ergonomic control framework"
 %}
 {% endcapture %}
@@ -82,7 +82,7 @@ Building an open database with sensor data.
 
 {%
   include feature.html
-  image="images/sinjin_support.png"
+  image="images/project/sinjin_support.png"
   link='https://www.nrf.re.kr/index'
 %}
 

@@ -1,6 +1,6 @@
 ---
 name: Junhyung Heo
-image: images/허준형.png
+image: images/members/허준형.png
 description: Ph.D. Researcher
 links:
   email: wnsgud606@hanyang.ac.kr

@@ -1,6 +1,6 @@
 ---
 name: Wang Yueru
-image: images/왕월여.jpg
+image: images/members/왕월여.jpg
 description: M.S. Researcher
 aliases:
   - Wang-Yueru

@@ -1,6 +1,6 @@
 ---
 name: Seunghoon Han
-image: images/한승훈.jpg
+image: images/members/한승훈.jpg
 description: B.S. Researcher
 aliases:
 links:

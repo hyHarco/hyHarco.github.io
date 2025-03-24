@@ -65,6 +65,14 @@ We can provide various support to fuel your passion <i class="fas fa-hands"></i>
     <b>NeuroMeka Moby</b> <br>
     <a href="https://www.neuromeka.com/" style="font-size: 12px;"><b>NeuroMeka</b></a>
     </div>
+    <div class="animate__animated animate__fadeIn" style="width: 32%; padding-right: 10px;"><img src="/images/equipments/piper.png" loading="lazy" style="width: 100%"/>
+    <b>PiPER Robotic Arm</b> <br>
+    <a href="https://global.agilex.ai/" style="font-size: 12px;"><b>AGILE X</b></a>
+    </div>
+    <div class="animate__animated animate__fadeIn" style="width: 30%; padding-right: 10px;"><img src="/images/equipments/go2.png" loading="lazy" style="width: 100%"/>
+    <b>Go2</b> <br>
+    <a href="https://www.unitree.com/go2" style="font-size: 12px;"><b>UNITREE</b></a>
+    </div>
     <div class="animate__animated animate__fadeIn" style="width: 26%;"><img src="/images/equipments/h30a.png" loading="lazy" style="width: 100%"/>
     <b>H30A</b> <br>
     <a href="https://hexarhc.com/?lang=en" style="font-size: 12px;"><b>Hexar Humancare</b></a>

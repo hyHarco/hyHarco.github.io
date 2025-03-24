@@ -1,6 +1,6 @@
 ---
 title: Multitask Learning for Multiple Recognition Tasks in Lower-limb Exoskeleton robot
-image: images/jh_research_model_structure.png
+image: images/research/jh_research_model_structure.png
 tags:
   - Lower-Limb Exoskeleton Robot
   - Multitask Learning
@@ -53,14 +53,14 @@ ognize Gait Phase and Terrrain
 
 {%
   include figure.html
-  image="images/jh_research_inputpipelining.png"
+  image="images/research/jh_research_inputpipelining.png"
   caption="Input Pipelining Algorithm"
   width="80%"
 %}
 
 {%
   include figure.html
-  image="images/jh_research_model_structure.png"
+  image="images/research/jh_research_model_structure.png"
   caption="Multitask Model Structure"
   width="80%"
 %}
@@ -69,14 +69,14 @@ ognize Gait Phase and Terrrain
 {% capture col1 %}
 {%
   include figure.html
-  image="images/jh_research_sensor.png"
+  image="images/research/jh_research_sensor.png"
   caption="Data Collecting Sensors"
 %}
 {% endcapture %}
 {% capture col2 %}
 {%
   include figure.html
-  image="images/jh_research_terrain_img.png"
+  image="images/research/jh_research_terrain_img.png"
   caption="Illustration of the terrains used in our experiments, and Data collected on a 35m long
 flat surface and a 4.2m long staircase with a 29.05°angle."
 %}

@@ -1,6 +1,6 @@
 ---
 title: Target tracking mobile robot
-image: images/baoleo_research_1.png
+image: images/research/baoleo_research_1.png
 tags:
   - HRI
   - Hololens
@@ -36,14 +36,14 @@ This study includes the use of ultra-wideband sensors to identify the 3D traject
 {% capture col1 %}
 {%
   include figure.html
-  image="images/baoleo_research_1.png"
+  image="images/research/baoleo_research_1.png"
   caption="Indoor 3D Localization System and Result"
 %}
 {% endcapture %}
 {% capture col2 %}
 {%
   include figure.html
-  image="images/baoleo_research_2.png"
+  image="images/research/baoleo_research_2.png"
   caption="Skid-Steering Mobile Robot System"
 %}
 {% endcapture %}

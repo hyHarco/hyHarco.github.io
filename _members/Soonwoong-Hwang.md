@@ -1,6 +1,6 @@
 ---
 name: Soonwoong Hwang
-image: images/황순웅.jpg
+image: images/members/황순웅.jpg
 description: Research Associate Professor
 aliases:
   - Soonwoong Hwang

@@ -1,6 +1,6 @@
 ---
 name: Seongmin Ha
-image: images/하성민.png
+image: images/members/하성민.png
 description: Ph.D. Researcher
 aliases:
   - doge

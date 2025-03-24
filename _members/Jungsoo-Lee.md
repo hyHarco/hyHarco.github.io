@@ -1,6 +1,6 @@
 ---
 name: Jungsoo Lee
-image: images/이정수.png
+image: images/members/이정수.png
 description: M.S. Researcher
 aliases:
   - lpigeon

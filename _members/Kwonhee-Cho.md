@@ -1,6 +1,6 @@
 <!-- ---
 name: Kwonhee Cho
-image: images/조권희.png
+image: images/members/조권희.png
 description: B.S. Researcher
 aliases:
   - Kwonhee

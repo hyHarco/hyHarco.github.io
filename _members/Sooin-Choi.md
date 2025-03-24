@@ -1,6 +1,6 @@
 ---
 name: Sooin Choi
-image: images/최수인.jpg
+image: images/members/최수인.jpg
 description: B.S. Researcher
 aliases:
   - name: Sooin Choi

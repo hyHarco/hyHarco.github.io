@@ -1,7 +1,7 @@
 ---
 title: Hyundai Mobis Mobile Manipulator Whole Body Control
 mintitle: Mobile Manipulator Whole Body Control
-image: images/mobis_project.png
+image: images/project/mobis_project.png
 group: past  # Use filter tags as 'ongoing', 'past', 'etc'
 tags:
   - PROJECT
@@ -36,21 +36,21 @@ budget: 240,000,000 won
 
 {%
   include figure.html
-  image="images/mobis_project_1.png"
+  image="images/project/mobis_project_1.png"
 %}
 **_demo Scenario_**
 
 {% capture col1 %}
 {%
   include figure.html
-  image="images/mobis_project_2.png"
+  image="images/project/mobis_project_2.png"
   caption="Scenario 1) Reliable transport of loaded or gripped objects, even in unstructured terrain (e.g., slope, fine ground, etc.). Also, avoid collisions with the environment during transport and generate motion to stably transport objects in the event of a collision."
 %}
 {% endcapture %}
 {% capture col2 %}
 {%
   include figure.html
-  image="images/mobis_project_3.png"
+  image="images/project/mobis_project_3.png"
   caption = "Scenario 2) If the mobile robot cannot access the target due to the surrounding environment, the system is stabilized by Whole Body control using the robot's Redundancy while grasping the target."
 %}
 {% endcapture %}
@@ -68,7 +68,7 @@ budget: 240,000,000 won
 #### **<i class="fas fa-money-bill-wave-alt"></i> Funding**
 {%
   include feature.html
-  image="images/mobis_support.png"
+  image="images/project/mobis_support.png"
   link='https://www.mobis.co.kr/kr/index.do'
 %}   
 ***   

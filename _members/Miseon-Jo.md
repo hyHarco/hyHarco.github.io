@@ -1,6 +1,6 @@
 ---
 name: Miseon Jo
-image: images/조미선.png
+image: images/members/조미선.png
 description: M.S. Researcher
 aliases:
   - miseon

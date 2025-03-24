@@ -15,14 +15,14 @@ At The 2023 6th IEEE-RAS International Conference on Soft Robotics (RoboSoft 202
 {% capture col1 %}
 {%
   include figure.html
-  image="images/seoyeon_robosoft_1.jpg"
+  image="images/P_NEWS/seoyeon_robosoft_1.jpg"
   caption=""
 %}
 {% endcapture %}
 {% capture col2 %}
 {%
   include figure.html
-  image="images/seoyeon_robosoft_2.jpg"
+  image="images/P_NEWS/seoyeon_robosoft_2.jpg"
   caption=""
 %}
 {% endcapture %}

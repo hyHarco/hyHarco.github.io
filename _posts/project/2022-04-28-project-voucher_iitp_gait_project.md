@@ -1,7 +1,7 @@
 ---
 title: Development of Solution Technology for Personalized Gait Control and Performance Evaluation of Lower-limb Robotic Exoskeleton through Artificial Intelligence/Big Data
 mintitle : Personalized Gait Control Exoskeleton Robot
-image: images/iitp_research.png
+image: images/project/iitp_research.png
 group: past 
 tags: 
   - Exoskeleton robot
@@ -59,14 +59,14 @@ budget: 300,000,000 won
 {% capture col1 %}
 {%
   include figure.html
-  image="images/h30a_hkafo.png"
+  image="images/project/h30a_hkafo.png"
   caption="H30A & HKAFO Robot Platform"
 %}
 {% endcapture %}
 {% capture col2 %}
 {%
   include figure.html
-  image="images/h30a_sensor.png"
+  image="images/project/h30a_sensor.png"
 %}
 {% endcapture %}
 {% include two-col.html col1=col1 col2=col2 %}    
@@ -89,7 +89,7 @@ budget: 300,000,000 won
 
 {%
   include feature.html
-  image="images/iitp_support.png"
+  image="images/project/iitp_support.png"
   link='https://www.iitp.kr/main.it'
 %}
 

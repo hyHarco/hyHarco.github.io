@@ -1,6 +1,6 @@
 ---
 name: Geunwoo Kwon
-image: images/권근우.jpg
+image: images/members/권근우.jpg
 description: M.S. Researcher
 aliases:
   - name: Geunwoo Kwon
