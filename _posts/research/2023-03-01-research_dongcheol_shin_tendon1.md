@@ -1,6 +1,6 @@
 ---
 title: Twisted String Actuator(TSA) with extended variable stiffness
-image: images/dongcheol_shin_research1_hw.png
+image: images/research/dongcheol_shin_research1_hw.png
 tags:
   - Tendon Mechanism
   - H / W Modeling
@@ -38,7 +38,7 @@ Researcher [*Dongcheol Shin*](http://harco.hanyang.ac.kr/members/Dongcheol-Shin.
 
 {%
   include figure.html
-  image="images/dongcheol_shin_research1_setting.png"
+  image="images/research/dongcheol_shin_research1_setting.png"
   caption="Experimental Setting for Tendon Mechanism"
   width="40%"
 %}
@@ -46,7 +46,7 @@ Researcher [*Dongcheol Shin*](http://harco.hanyang.ac.kr/members/Dongcheol-Shin.
 {% capture col1 %}
 {%
   include figure.html
-  image="images/dc_research_3.png"
+  image="images/research/dc_research_3.png"
   caption="TSA Mechanism Illustration 1"
   width="52%"
 %}
@@ -54,7 +54,7 @@ Researcher [*Dongcheol Shin*](http://harco.hanyang.ac.kr/members/Dongcheol-Shin.
 {% capture col2 %}
 {%
   include figure.html
-  image="images/dc_research_4.png"
+  image="images/research/dc_research_4.png"
   caption="TSA Mechanism Illustration 2"
   width="70%"
 %}
@@ -71,7 +71,7 @@ Researcher [*Dongcheol Shin*](http://harco.hanyang.ac.kr/members/Dongcheol-Shin.
 {% capture col1 %}
 {%
   include figure.html
-  image="images/dc_research_2.png"
+  image="images/research/dc_research_2.png"
   caption="Changes in Displacement with Variation of the offset between Strings"
   width="100%"
 %}
@@ -79,7 +79,7 @@ Researcher [*Dongcheol Shin*](http://harco.hanyang.ac.kr/members/Dongcheol-Shin.
 {% capture col2 %}
 {%
   include figure.html
-  image="images/dc_research_8.png"
+  image="images/research/dc_research_8.png"
   caption="Comparison of Experimental and Analytical Modelings"
   width="100%"
 %}

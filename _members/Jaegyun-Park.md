@@ -1,6 +1,6 @@
 ---
 name: Jaegyun Park
-image: images/박재균.jpg
+image: images/members/박재균.jpg
 description: B.S. Researcher
 aliases:
   - name: Jaegyun Park

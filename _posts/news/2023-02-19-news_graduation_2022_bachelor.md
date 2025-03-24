@@ -12,7 +12,7 @@ Graduated and Enter as Master Researchers.
 
 {%
   include figure.html
-  image="images/graduated_2022_b.jpg"
+  image="images/P_NEWS/graduated_2022_b.jpg"
 %}
 
 

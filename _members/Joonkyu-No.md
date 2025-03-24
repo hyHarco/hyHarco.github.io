@@ -1,6 +1,6 @@
 ---
 name: Joonkyu No
-image: images/노준규.png
+image: images/members/노준규.png
 description: Post-doc Researcher
 links:
   email: nojkyu@gmail.com

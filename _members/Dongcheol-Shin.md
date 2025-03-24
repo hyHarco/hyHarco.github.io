@@ -1,6 +1,6 @@
 ---
 name: Dongcheol Shin
-image: images/신동철.png
+image: images/members/신동철.png
 description: M.S. Researcher
 links:
   email: rpdlqk96@gmail.com 

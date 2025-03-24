@@ -1,6 +1,6 @@
 ---
 name: Jeongmok Kim
-image: images/김정목.jpg
+image: images/members/김정목.jpg
 description: M.S. Researcher
 aliases:
   - name: Jeongmok Kim

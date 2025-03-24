@@ -1,6 +1,6 @@
 ---
 title: Design and Validation of Soft Sliding Actuator
-image: images/seoyeon_research_1.png
+image: images/research/seoyeon_research_1.png
 tags:
   - Soft robot applications
   - Soft sensors and actuators
@@ -39,19 +39,19 @@ The gradual sliding of the structure’s layer resulted in an increase in stiffn
 {% capture col1 %}
 {%
   include figure.html
-  image="images/seoyeon_research_2.png"
+  image="images/research/seoyeon_research_2.png"
 %}
 {% endcapture %}
 {% capture col2 %}
 {%
   include figure.html
-  image="images/seoyeon_research_3.png"
+  image="images/research/seoyeon_research_3.png"
 %}
 {% endcapture %}
 {% include two-col.html col1=col1 col2=col2 %}
 {%
   include figure.html
-  image="images/seoyeon_research_4.png"
+  image="images/research/seoyeon_research_4.png"
 %}
 
 ***

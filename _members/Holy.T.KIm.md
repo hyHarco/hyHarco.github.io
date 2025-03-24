@@ -1,6 +1,6 @@
 ---
 name: Holy. T. Kim
-image: images/김영성.jpg
+image: images/members/김영성.jpg
 description: B.S. Researcher
 aliases:
   - name: Holy. T. Kim

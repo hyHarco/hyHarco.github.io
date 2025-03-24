@@ -1,6 +1,6 @@
 ---
 name: Joonhyun Kim
-image: images/김준현.png
+image: images/members/김준현.png
 description: M.S. Researcher
 aliases:
   - krex

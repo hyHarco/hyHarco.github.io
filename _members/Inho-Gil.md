@@ -1,6 +1,6 @@
 ---
 name: Inho Gil 
-image: images/길인호.png
+image: images/members/길인호.png
 description: M.S. Researcher
 aliases:
   - Inho

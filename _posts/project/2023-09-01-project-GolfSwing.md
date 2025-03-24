@@ -1,7 +1,7 @@
 ---
 title: Development of a Vision Sensor-based Human Motion Estimation Techinque for Golf Swing Dataset Construction in Indoor and Outdoor Environments
 mintitle : Vision Sensor-based Human Motion Estimation
-image: images/golf_caddy_concept.png
+image: images/project/golf_caddy_concept.png
 group: past  # Use filter tags as 'ongoing', 'past', 'etc'
 tags:
   - PROJECT
@@ -57,7 +57,7 @@ budget: 22,500,000 won
 ***    
 {%
   include figure.html
-  image="images/golf_caddy_concept.png"
+  image="images/project/golf_caddy_concept.png"
   caption="Picture Source : Zhongyu Jiang외 3, “GOLFPOSE: GOLF SWING ANALYSES WITH A 
 MONOCULAR CAMERA BASED HUMAN POSE ESTIMATION"
 %}     
@@ -65,7 +65,7 @@ MONOCULAR CAMERA BASED HUMAN POSE ESTIMATION"
 {% capture col1 %}
 {%
   include figure.html
-  image="images/유소현_swing.gif"
+  image="images/project/유소현_swing.gif"
   caption="유소현 프로 Golf Swing [Video Source](https://www.youtube.com/watch?v=pOjEvVIoYBM&t=140s)"
   width="100%"
 %}
@@ -73,7 +73,7 @@ MONOCULAR CAMERA BASED HUMAN POSE ESTIMATION"
 {% capture col2 %}
 {%
   include figure.html
-  image="images/유소현_grid.gif"
+  image="images/project/유소현_grid.gif"
   caption="[YOLO-v8x](https://github.com/ultralytics/ultralytics) based Key Point Detection"
   width="100%"
 %}
@@ -82,7 +82,7 @@ MONOCULAR CAMERA BASED HUMAN POSE ESTIMATION"
 
 {%
   include figure.html
-  image="images/유소현프로_dtw_results2.png"
+  image="images/project/유소현프로_dtw_results2.png"
   caption="Golf Pose Estimation Results by DTW (Dynamic Time Warping)"
   width="60%"
 %}     
@@ -102,14 +102,14 @@ MONOCULAR CAMERA BASED HUMAN POSE ESTIMATION"
 {% capture col1 %}
 {%
   include feature.html
-  image="images/에리카산학협력단.png"
+  image="images/project/에리카산학협력단.png"
   link='http://ericaresearch.hanyang.ac.kr/'
 %}
 {% endcapture %}
 {% capture col2 %}
 {%
   include feature.html
-  image="images/콜리테크놀로지.jpg"
+  image="images/project/콜리테크놀로지.jpg"
   link='https://www.colliegolf.com/'
 %}
 {% endcapture %}

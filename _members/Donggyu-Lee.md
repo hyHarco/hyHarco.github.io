@@ -1,6 +1,6 @@
 ---
 name: Donggyu Lee
-image: images/이동규.jpg
+image: images/members/이동규.jpg
 description: Ph.D. Researcher
 aliases:
   - dong dong

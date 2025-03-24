@@ -1,7 +1,7 @@
 ---
 title: Development of Healthcare Service and Medical Robot using Artificial Intelligence
 mintitle : AI Healthcare Service Robot
-image: images/khidi_research.png 
+image: images/project/khidi_research.png 
 group: past  
 tags: 
   - Medical Robot
@@ -28,7 +28,7 @@ To solve this problem, we will conduct a joint project with overseas institution
 
 {%
   include figure.html
-  image="images/khidi_research_1.png"
+  image="images/project/khidi_research_1.png"
 %}
 
 *** 
@@ -43,7 +43,7 @@ To solve this problem, we will conduct a joint project with overseas institution
 
 <!-- {%
   include figure.html
-  image="images/khidi_research_2.png"
+  image="images/project/khidi_research_2.png"
 %} -->
 
 
@@ -59,6 +59,6 @@ To solve this problem, we will conduct a joint project with overseas institution
 #### **<i class="fas fa-money-bill-wave-alt"></i> Funding**
 {%
   include feature.html
-  image="images/khidi_support.png"
+  image="images/project/khidi_support.png"
   link='https://www.khidi.or.kr/kps'
 %}

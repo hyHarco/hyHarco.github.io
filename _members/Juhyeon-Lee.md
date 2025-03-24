@@ -1,6 +1,6 @@
 ---
 name: Juhyeon Lee
-image: images/이주현.png
+image: images/members/이주현.png
 description: M.S. Researcher
 aliases:
   - Juhyeon

@@ -1,6 +1,6 @@
 ---
 name: Seoyeon Ham
-image: images/함서연.jpg
+image: images/members/함서연.jpg
 description: M.S. Researcher
 aliases:
   - Hamsy

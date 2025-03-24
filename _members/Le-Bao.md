@@ -1,6 +1,6 @@
 ---
 name: Le Bao
-image: images/바오러.jpg
+image: images/members/바오러.jpg
 description: Post-doc Researcher
 aliases:
   - BaoLe
