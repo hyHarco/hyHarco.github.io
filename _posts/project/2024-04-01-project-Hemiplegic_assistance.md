@@ -1,7 +1,7 @@
 ---
 title: Development of a portable powered assistance device and service to provide assistive force to a passive leg support, enhancing mobility.
 mintitle : Hemiplegic Assistance
-image: images/project/Hemiplegic.png
+image: images/project/hemiplegic.png
 group: ongoing  # Use filter tags as 'ongoing', 'past', 'etc'
 tags:
   - PROJECT
@@ -13,13 +13,13 @@ fund: National Rehabilitation Center
 date_start: 2024-04-01
 date_end: 2027-12-31
 role: Coordinator
-budget: 330,000,000 won
+# budget: 330,000,000 won
 ---
 ***
 
 **<i class="fas fa-sync"></i> Period : 2024-04-01 ~ 2027-12-31**
 
-**<i class="fas fa-won-sign"></i> Total Budget : 330,000,000 KRW**    
+<!-- **<i class="fas fa-won-sign"></i> Total Budget : 330,000,000 KRW**     -->
 
 ***     
 #### <i class="fas fa-edit"></i>  **Goal of This Project**

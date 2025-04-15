@@ -41,38 +41,87 @@ def get_publications(url):
         print(f"Number of publication rows found on page {start // 100 + 1}: {len(publication_rows)}")
         valid_publications_found = False
         
+        # for item in publication_rows:
+        #     title_tag = item.select_one('.gsc_a_at')
+        #     title = title_tag.text if title_tag else None
+        #     authors = item.select_one('.gs_gray').text if item.select_one('.gs_gray') else None
+        #     year_tag = item.select_one('.gsc_a_y')
+        #     year = year_tag.text if year_tag else None
+        #     journal = item.select('.gs_gray')[-1].text if len(item.select('.gs_gray')) > 1 else None
+        #     link = "https://scholar.google.com" + title_tag['href'] if title_tag else None
+
+        #     if not title or not authors or not year or not journal:
+        #         print("Incomplete data found, skipping this entry.")
+        #         continue  # Skip this entry if any essential information is missing
+
+        #     # Categorize as either conference or journal based on the presence of certain keywords
+        #     category = "conference" if "conference" in journal.lower() or "proceedings" in journal.lower() else "journal"
+
+        #     # Only include publications from 2015 onwards
+        #     if int(year.strip()) < 2015:
+        #         continue
+
+            # publication = {
+            #     'title': title,
+            #     'authors': authors,
+            #     'year': int(year.strip()) if year.strip().isdigit() else 0,
+            #     'journal': journal,
+            #     'link': link,
+            #     'category': category
+            # }
+            # print(f"Processed publication: {publication}")
+            # publications.append(publication)
+            # valid_publications_found = True
         for item in publication_rows:
+            # Title 처리: a 태그 또는 span 태그 fallback
             title_tag = item.select_one('.gsc_a_at')
-            title = title_tag.text if title_tag else None
-            authors = item.select_one('.gs_gray').text if item.select_one('.gs_gray') else None
+            if title_tag:
+                title = title_tag.text
+                link = "https://scholar.google.com" + title_tag['href']
+            else:
+                title_span = item.select_one('.gsc_a_t span')
+                title = title_span.text if title_span else None
+                link = None  # 링크는 없음
+
+            # Authors 및 Journal
+            gray_texts = item.select('.gs_gray')
+            authors = gray_texts[0].text if len(gray_texts) > 0 else None
+            journal = gray_texts[1].text if len(gray_texts) > 1 else None
+
+            # Year 파싱
             year_tag = item.select_one('.gsc_a_y')
-            year = year_tag.text if year_tag else None
-            journal = item.select('.gs_gray')[-1].text if len(item.select('.gs_gray')) > 1 else None
-            link = "https://scholar.google.com" + title_tag['href'] if title_tag else None
-
-            if not title or not authors or not year or not journal:
-                print("Incomplete data found, skipping this entry.")
-                continue  # Skip this entry if any essential information is missing
-
-            # Categorize as either conference or journal based on the presence of certain keywords
-            category = "conference" if "conference" in journal.lower() or "proceedings" in journal.lower() else "journal"
-
-            # Only include publications from 2015 onwards
-            if int(year.strip()) < 2015:
+            year_text = year_tag.text.strip() if year_tag else None
+            try:
+                pub_year = int(year_text)
+            except (ValueError, TypeError):
+                print(f"[SKIP] Invalid year: {year_text} → title={title}")
                 continue
 
+            # 필수 정보 누락 시 skip
+            if not title or not authors or not journal:
+                print(f"[SKIP] Incomplete data → title={title}, authors={authors}, journal={journal}, year={year_text}")
+                continue
+
+            # 2015 이후만 포함
+            if pub_year < 2015:
+                continue
+
+            # 카테고리 분류
+            category = "conference" if "conference" in journal.lower() or "proceedings" in journal.lower() else "journal"
+
+            # 논문 저장
             publication = {
                 'title': title,
                 'authors': authors,
-                'year': int(year.strip()) if year.strip().isdigit() else 0,
+                'year': pub_year,
                 'journal': journal,
                 'link': link,
                 'category': category
             }
-            print(f"Processed publication: {publication}")
+            print(f"[OK] Added publication: {title}")
             publications.append(publication)
             valid_publications_found = True
-
+    
         if not valid_publications_found:
             invalid_pages += 1
             print(f"Invalid data found on page {start // 100 + 1}. Incrementing invalid page counter to {invalid_pages}.")

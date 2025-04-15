@@ -10,12 +10,12 @@ fund: DGIST
 date_start: 2022.07.15
 date_end: 2022.10.13
 role: Coordinator
-budget: 20,000,000 won
+# budget: 20,000,000 won
 ---
 
 ***    
 **<i class="fas fa-sync"></i> Period : 2022.07.15 ~ 2022.10.13**   
-**<i class="fas fa-won-sign"></i> Total Budget : 20,000,000 원**    
+<!-- **<i class="fas fa-won-sign"></i> Total Budget : 20,000,000 원**     -->
 
 ***     
 #### <i class="fas fa-edit"></i>  **Goal of This Project**

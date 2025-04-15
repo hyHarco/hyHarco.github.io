@@ -14,11 +14,11 @@ fund: Collie Technologies Inc.
 date_start: 2023-09-01
 date_end: 2023-12-31
 role: Coordinator
-budget: 22,500,000 won
+# budget: 22,500,000 won
 ---
 
 **<i class="fas fa-sync"></i> Period : 2023-09-01 ~ 2023-12-31**
-**<i class="fas fa-won-sign"></i> Total Budget : 22,500,000 원**    
+<!-- **<i class="fas fa-won-sign"></i> Total Budget : 22,500,000 원**     -->
 
 ***     
 #### <i class="fas fa-edit"></i>  **Goal of This Project**
