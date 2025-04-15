@@ -14,13 +14,13 @@ fund: Electronics and Telecommunications Research Institute
 date_start: 2024-04-01
 date_end: 2024-12-31
 role: Coordinator
-budget: 22,500,000 won
+# budget: 22,500,000 won
 ---
 ***
 
 **<i class="fas fa-sync"></i> Period : 2024-04-01 ~ 2024-12-31**
 
-**<i class="fas fa-won-sign"></i> Total Budget : 80,000,000 KRW**    
+<!-- **<i class="fas fa-won-sign"></i> Total Budget : 80,000,000 KRW**     -->
 
 ***     
 #### <i class="fas fa-edit"></i>  **Goal of This Project**

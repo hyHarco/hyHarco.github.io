@@ -13,13 +13,13 @@ fund: IITP
 date_start: 2020-04-01 
 date_end: 2023-12-31 
 role: Coordinator
-budget: 300,000,000 won
+# budget: 300,000,000 won
 ---
 
 
 ***    
 **<i class="fas fa-sync"></i> Period : 2020-04-01 ~ 2023-12-31**   
-**<i class="fas fa-won-sign"></i> Total Budget : 300,000,000 원**    
+<!-- **<i class="fas fa-won-sign"></i> Total Budget : 300,000,000 원**     -->
 
 ***     
 #### <i class="fas fa-edit"></i>  **Goal of This Project**

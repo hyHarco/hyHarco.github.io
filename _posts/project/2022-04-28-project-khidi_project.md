@@ -12,11 +12,11 @@ fund: KHIDI
 date_start: 2019-09-01 
 date_end: 2023-12-31
 role: Co-investigator
-budget: 616,000,000 won
+# budget: 616,000,000 won
 ---
 
 **<i class="fas fa-sync"></i> Period : 2022-03-01 ~ 2023-12-31**   
-**<i class="fas fa-won-sign"></i> Total Budget : 616,000,000 원**   
+<!-- **<i class="fas fa-won-sign"></i> Total Budget : 616,000,000 원**    -->
 
 *** 
 #### <i class="fas fa-edit"></i>  **Goal of This Project**
