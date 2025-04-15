@@ -8,6 +8,38 @@
         "category": "journal"
     },
     {
+        "title": "A Multi-Task Energy-Aware Impedance Controller for Enhanced Safety in Physical Human-Robot Interaction",
+        "authors": "S Choi, S Ha, W Kim",
+        "year": 2024,
+        "journal": "IEEE Robotics and Automation Letters, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:BrmTIyaxlBUC",
+        "category": "journal"
+    },
+    {
+        "title": "Interactive Robot Trajectory Planning With Augmented Reality for Non-expert Users",
+        "authors": "J Lee, T Lim, W Kim",
+        "year": 2024,
+        "journal": "International Journal of Control, Automation and Systems, 1-10, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:fQNAKQ3IYiAC",
+        "category": "journal"
+    },
+    {
+        "title": "Dual UWB Anchors-Based Target Tracking Strategy for an Omnidirectional Mobile Robot",
+        "authors": "L Bao, K Li, W Dong, W Li, K Shin, C Han, W Kim",
+        "year": 2024,
+        "journal": "2024 24th International Conference on Control, Automation and Systems (ICCAS\u00a0\u2026, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:eflP2zaiRacC",
+        "category": "conference"
+    },
+    {
+        "title": "Transferable Convolutional Neural Networks for IMU-based Motion Gesture Recognition in Human-Machine Interaction",
+        "authors": "J Kim, J Lee, W Kim",
+        "year": 2024,
+        "journal": "2024 24th International Conference on Control, Automation and Systems (ICCAS\u00a0\u2026, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:D_sINldO8mEC",
+        "category": "conference"
+    },
+    {
         "title": "Twisted String Actuator mechanism with adjustable offset of strings for continuous variable transmission system",
         "authors": "D Shin, BB Kang, W Kim",
         "year": 2024,
@@ -32,14 +64,6 @@
         "category": "journal"
     },
     {
-        "title": "Interactive Robot Trajectory Planning With Augmented Reality for Non-expert Users",
-        "authors": "J Lee, T Lim, W Kim",
-        "year": 2024,
-        "journal": "International Journal of Control, Automation and Systems, 1-10, 2024",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:fQNAKQ3IYiAC",
-        "category": "journal"
-    },
-    {
         "title": "Investigating the Usability of Collaborative Robot Control Through Hands-Free Operation Using Eye Gaze and Augmented Reality",
         "authors": "J Lee, T Lim, W Kim",
         "year": 2023,
@@ -48,11 +72,11 @@
         "category": "conference"
     },
     {
-        "title": "A Power-Aware Control Strategy for an Elbow Effort-Compensation Device",
-        "authors": "E Mobedi, S Hjorth, W Kim, E De Momi, NG Tsagarakis, A Ajoudani",
+        "title": "Adaptive Online Steering Efficiency Coefficient Estimation for Enhanced Terrain Motion Control in Four-wheeled Skid-steering Mobile Robots",
+        "authors": "L Bao, K Li, C Han, K Shin, W Kim",
         "year": 2023,
-        "journal": "IEEE Robotics and Automation Letters, 2023",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:l7t_Zn2s7bgC",
+        "journal": "International Journal of Control, Automation and Systems 21 (8), 2444-2454, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:4fKUyHm3Qg0C",
         "category": "journal"
     },
     {
@@ -61,6 +85,14 @@
         "year": 2023,
         "journal": "IEEE/ASME Transactions on Mechatronics, 2023",
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:tOudhMTPpwUC",
+        "category": "journal"
+    },
+    {
+        "title": "A Power-Aware Control Strategy for an Elbow Effort-Compensation Device",
+        "authors": "E Mobedi, S Hjorth, W Kim, E De Momi, NG Tsagarakis, A Ajoudani",
+        "year": 2023,
+        "journal": "IEEE Robotics and Automation Letters 8 (7), 4330-4337, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:l7t_Zn2s7bgC",
         "category": "journal"
     },
     {
@@ -96,14 +128,6 @@
         "category": "conference"
     },
     {
-        "title": "Adaptive Online Steering Efficiency Coefficient Estimation for Enhanced Terrain Motion Control in Four-wheeled Skid-steering Mobile Robots",
-        "authors": "L Bao, K Li, C Han, K Shin, W Kim",
-        "year": 2023,
-        "journal": "International Journal of Control, Automation and Systems 21 (8), 2444-2454, 2023",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:4fKUyHm3Qg0C",
-        "category": "journal"
-    },
-    {
         "title": "An online multi-index approach to human ergonomics assessment in the workplace",
         "authors": "M Lorenzini, W Kim, A Ajoudani",
         "year": 2022,
@@ -128,14 +152,6 @@
         "category": "journal"
     },
     {
-        "title": "Development of a Prototype Overground Pelvic Obliquity Support Robot for Rehabilitation of Hemiplegia Gait",
-        "authors": "S Hwang, S Lee, D Shin, I Baek, S Ham, W Kim",
-        "year": 2022,
-        "journal": "Sensors 22 (7), 2462, 2022",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:p2g8aNsByqUC",
-        "category": "journal"
-    },
-    {
         "title": "A sensor fusion strategy for indoor target three-dimensional localization based on ultra-wideband and barometric altimeter measurements",
         "authors": "L Bao, K Li, W Li, K Shin, W Kim",
         "year": 2022,
@@ -144,12 +160,12 @@
         "category": "conference"
     },
     {
-        "title": "IMU-based Online Kinematic Model Parameter Estimation for Four-Wheeled Skid-Steering Mobile Robot Desired Motion Tracking on Different Terrains",
-        "authors": "K Li, L Bao, C Han, K Shin, W Kim",
+        "title": "Development of a Prototype Overground Pelvic Obliquity Support Robot for Rehabilitation of Hemiplegia Gait",
+        "authors": "S Hwang, S Lee, D Shin, I Baek, S Ham, W Kim",
         "year": 2022,
-        "journal": "2022 22nd International Conference on Control, Automation and Systems (ICCAS\u00a0\u2026, 2022",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:sSrBHYA8nusC",
-        "category": "conference"
+        "journal": "Sensors 22 (7), 2462, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:p2g8aNsByqUC",
+        "category": "journal"
     },
     {
         "title": "Development of soft variable stiffness actuator with tendon-driven layer jamming mechanism",
@@ -157,6 +173,14 @@
         "year": 2022,
         "journal": "2022 9th IEEE RAS/EMBS International Conference for Biomedical Robotics and\u00a0\u2026, 2022",
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:738O_yMBCRsC",
+        "category": "conference"
+    },
+    {
+        "title": "IMU-based Online Kinematic Model Parameter Estimation for Four-Wheeled Skid-Steering Mobile Robot Desired Motion Tracking on Different Terrains",
+        "authors": "K Li, L Bao, C Han, K Shin, W Kim",
+        "year": 2022,
+        "journal": "2022 22nd International Conference on Control, Automation and Systems (ICCAS\u00a0\u2026, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:sSrBHYA8nusC",
         "category": "conference"
     },
     {
@@ -272,14 +296,6 @@
         "category": "conference"
     },
     {
-        "title": "An Online Method to Detect and Locate an External Load on the Human Body with Applications in Ergonomics Assessment",
-        "authors": "M Lorenzini, W Kim, E De Momi, A Ajoudani",
-        "year": 2020,
-        "journal": "Sensors 20 (16), 4471, 2020",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:abG-DnoFyZgC",
-        "category": "journal"
-    },
-    {
         "title": "An Adaptive Control Approach to Robotic Assembly with Uncertainties in Vision and Dynamics",
         "authors": "E Mobedi, N Villa, W Kim, A Ajoudani",
         "year": 2020,
@@ -288,11 +304,11 @@
         "category": "conference"
     },
     {
-        "title": "Adaptable workstations for human-robot collaboration: A reconfigurable framework for improving worker ergonomics and productivity",
-        "authors": "W Kim, M Lorenzini, P Balatti, PDH Nguyen, U Pattacini, V Tikhanoff, ...",
-        "year": 2019,
-        "journal": "IEEE Robotics & Automation Magazine 26 (3), 14-26, 2019",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:rO6llkc54NcC",
+        "title": "An Online Method to Detect and Locate an External Load on the Human Body with Applications in Ergonomics Assessment",
+        "authors": "M Lorenzini, W Kim, E De Momi, A Ajoudani",
+        "year": 2020,
+        "journal": "Sensors 20 (16), 4471, 2020",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:abG-DnoFyZgC",
         "category": "journal"
     },
     {
@@ -304,19 +320,19 @@
         "category": "journal"
     },
     {
+        "title": "Adaptable workstations for human-robot collaboration: A reconfigurable framework for improving worker ergonomics and productivity",
+        "authors": "W Kim, M Lorenzini, P Balatti, PDH Nguyen, U Pattacini, V Tikhanoff, ...",
+        "year": 2019,
+        "journal": "IEEE Robotics & Automation Magazine 26 (3), 14-26, 2019",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:rO6llkc54NcC",
+        "category": "journal"
+    },
+    {
         "title": "A New Overloading Fatigue Model for Ergonomic Risk Assessment with Application to Human-Robot Collaboration",
         "authors": "M Lorenzini, W Kim, E De Momi, A Ajoudani",
         "year": 2019,
         "journal": "2019 International Conference on Robotics and Automation (ICRA), 1962-1968, 2019",
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:4OULZ7Gr8RgC",
-        "category": "conference"
-    },
-    {
-        "title": "Towards ergonomic control of collaborative effort in multi-human mobile-robot teams",
-        "authors": "W Kim, M Lorenzini, P Balatti, Y Wu, A Ajoudani",
-        "year": 2019,
-        "journal": "2019 IEEE/RSJ International Conference on Intelligent Robots and Systems\u00a0\u2026, 2019",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:XiSMed-E-HIC",
         "category": "conference"
     },
     {
