@@ -13,9 +13,9 @@ tier: pi
 
 ---
 # Personal Data
-- Name: Wansoo Kim, Ph.D.
-- Affilitation: Robotics Department Hanyang Univ. ERICA 
-- Position: Associate professor, Team Leader of Harco LAB  
+- **Name:** Wansoo Kim, Ph.D.
+- **Affilitation:** Robotics Department Hanyang Univ. ERICA 
+- **Position:** Associate professor, Team Leader of Harco LAB  
 
 # Scientific Education
 - (*Mar.2008 - Feb.2015*) Doctor of Philosophy in Mechanical Engineering, Hanyang University, Seoul, Republic of Korea

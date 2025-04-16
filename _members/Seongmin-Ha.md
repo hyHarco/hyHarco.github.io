@@ -3,9 +3,10 @@ name: Seongmin Ha
 image: images/members/하성민.png
 description: Ph.D. Researcher
 aliases:
-  - doge
+  - seongmin
 links:
   email: gktjdals9416@hanyang.ac.kr
+  github: hsm9416
 
 tier: third
 ---
