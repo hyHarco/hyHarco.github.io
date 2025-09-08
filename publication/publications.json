@@ -85,6 +85,11 @@
         "year": 2024,
         "journal": "\ud55c\uad6d\uc815\ubc00\uacf5\ud559\ud68c \ud559\uc220\ubc1c\ud45c\ub300\ud68c \ub17c\ubb38\uc9d1, 43-44, 2024",
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:5ugPr518TE4C",
+        "title": "Interactive Robot Trajectory Planning With Augmented Reality for Non-expert Users",
+        "authors": "J Lee, T Lim, W Kim",
+        "year": 2024,
+        "journal": "International Journal of Control, Automation and Systems, 1-10, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:fQNAKQ3IYiAC",
         "category": "journal"
     },
     {
@@ -93,6 +98,14 @@
         "year": 2024,
         "journal": "2024 24th International Conference on Control, Automation and Systems (ICCAS\u00a0\u2026, 2024",
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:eflP2zaiRacC",
+        "category": "conference"
+    },
+    {
+        "title": "Transferable Convolutional Neural Networks for IMU-based Motion Gesture Recognition in Human-Machine Interaction",
+        "authors": "J Kim, J Lee, W Kim",
+        "year": 2024,
+        "journal": "2024 24th International Conference on Control, Automation and Systems (ICCAS\u00a0\u2026, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:D_sINldO8mEC",
         "category": "conference"
     },
     {
@@ -136,19 +149,19 @@
         "category": "conference"
     },
     {
-        "title": "Design and Control of an Assistive Device for Elbow Effort-Compensation",
-        "authors": "E Mobedi, W Kim, M Leonori, NG Tsagarakis, A Ajoudani",
-        "year": 2023,
-        "journal": "IEEE/ASME Transactions on Mechatronics, 2023",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:tOudhMTPpwUC",
-        "category": "journal"
-    },
-    {
         "title": "Adaptive Online Steering Efficiency Coefficient Estimation for Enhanced Terrain Motion Control in Four-wheeled Skid-steering Mobile Robots",
         "authors": "L Bao, K Li, C Han, K Shin, W Kim",
         "year": 2023,
         "journal": "International Journal of Control, Automation and Systems 21 (8), 2444-2454, 2023",
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:4fKUyHm3Qg0C",
+        "category": "journal"
+    },
+    {
+        "title": "Design and Control of an Assistive Device for Elbow Effort-Compensation",
+        "authors": "E Mobedi, W Kim, M Leonori, NG Tsagarakis, A Ajoudani",
+        "year": 2023,
+        "journal": "IEEE/ASME Transactions on Mechatronics, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:tOudhMTPpwUC",
         "category": "journal"
     },
     {
