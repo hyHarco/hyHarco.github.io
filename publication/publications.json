@@ -1,11 +1,67 @@
 [
     {
+        "title": "\uc560\ub2c8\ubc14\ub514 \ubaa8\ub378\ub9c1 \uc2dc\uc2a4\ud15c\uc744 \ud65c\uc6a9\ud55c \uc9c0\ud615 \ud2b9\ud654 \uc218\uc815 \ubcf4\ud589 \uc9c0\uc218 \uac1c\ubc1c",
+        "authors": "\uae40\uc724\uc11c\uff0c \ud558\uc131\ubbfc\uff0c \ub178\uc900\uaddc\uff0c \ud669\uc21c\uc6c5\uff0c \uae40\uc644\uc218",
+        "year": 2025,
+        "journal": "\uc81c\uc5b4\ub85c\ubd07\uc2dc\uc2a4\ud15c\ud559\ud68c \ub17c\ubb38\uc9c0 31 (8), 900-905, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:olpn-zPbct0C",
+        "category": "journal"
+    },
+    {
+        "title": "\uc774\uae30\uc885 \ubaa8\ubc14\uc77c \ub9e4\ub2c8\ud4f0\ub808\uc774\ud130 \uac04 \ud611\ub3d9 \uc6b4\ubc18\uc744 \uc704\ud55c \ube44\uc120\ud615 \ucd5c\uc801\ud654 \uae30\ubc18 \uc2e4\uc2dc\uac04 \uacbd\ub85c \uacc4\ud68d",
+        "authors": "\ud669\uc11d\ud658\uff0c \uc624\uc9c0\ud658\uff0c \uc774\uc815\uc218\uff0c \ud669\uc21c\uc6c5\uff0c \uae40\uc644\uc218",
+        "year": 2025,
+        "journal": "\uc81c\uc5b4\ub85c\ubd07\uc2dc\uc2a4\ud15c\ud559\ud68c \ub17c\ubb38\uc9c0 31 (8), 914-920, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:XiVPGOgt02cC",
+        "category": "journal"
+    },
+    {
+        "title": "Geo-LSTM: A Geometry and Temporal Feature Fusion Algorithm for Multi-Sensor 3D Localization",
+        "authors": "K Li, L Bao, W Kim",
+        "year": 2025,
+        "journal": "IEEE Robotics and Automation Letters, 1-8, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:J-pR_7NvFogC",
+        "category": "journal"
+    },
+    {
+        "title": "Design of a Rope-Driven Finger Exoskeleton System with a Universal Double Grooved Roller for Adaptive Rehabilitation",
+        "authors": "W Li, L Bao, W Kim",
+        "year": 2025,
+        "journal": "2025 International Conference On Rehabilitation Robotics (ICORR), 289-294, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:wbdj-CoPYUoC",
+        "category": "conference"
+    },
+    {
+        "title": "\uc218\ub3d9\uc801\uc73c\ub85c \uc5f0\uacb0\ub41c \ubbf8\uc9c0\uc758 \ubb3c\uccb4\uc758 \uc6b4\ub3d9\ub7c9 \uad00\ub9ac \ud1b5\ud569\uc744 \ud1b5\ud55c \uad00\uc808\ud615 \ub2e4\ub9ac-\ud314 \ub85c\ubd07\uc758 \uade0\ud615\uc720\uc9c0 \uc804\uc2e0\uc81c\uc5b4",
+        "authors": "\ucd5c\uc720\uc2e0\uff0c \uc7a5\uc7ac\ud544\uff0c \ud558\uc131\ubbfc\uff0c \ud669\uc21c\uc6c5\uff0c \uae40\uc644\uc218",
+        "year": 2025,
+        "journal": "\ub85c\ubd07\ud559\ud68c \ub17c\ubb38\uc9c0 20 (1), 112-119, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:mvPsJ3kp5DgC",
+        "category": "journal"
+    },
+    {
+        "title": "Whole-Body Control for Balancing an Articulated Legged-Arm Robot with the Integration of Momentum Management and a Passively Connected Unknown Object",
+        "authors": "Y Choi, J Jang, S Ha, S Hwang, W Kim",
+        "year": 2025,
+        "journal": "The Journal of Korea Robotics Society 20 (1), 112-119, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:kRWSkSYxWN8C",
+        "category": "journal"
+    },
+    {
         "title": "An Enhanced Indoor Three-Dimensional Localization System with Sensor Fusion Based on Ultra-Wideband Ranging and Dual Barometer Altimetry",
         "authors": "L Bao, K Li, J Lee, W Dong, W Li, K Shin, W Kim",
         "year": 2024,
         "journal": "Sensors 24 (11), 3341, 2024",
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:eJXPG6dFmWUC",
         "category": "journal"
+    },
+    {
+        "title": "Transferable Convolutional Neural Networks for IMU-based Motion Gesture Recognition in Human-Machine Interaction",
+        "authors": "J Kim, J Lee, W Kim",
+        "year": 2024,
+        "journal": "2024 24th International Conference on Control, Automation and Systems (ICCAS\u00a0\u2026, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:D_sINldO8mEC",
+        "category": "conference"
     },
     {
         "title": "A Multi-Task Energy-Aware Impedance Controller for Enhanced Safety in Physical Human-Robot Interaction",
@@ -16,6 +72,19 @@
         "category": "journal"
     },
     {
+        "title": "Personalized Usability Evaluation of Lower Limb Exoskeleton for the Elderly based on the Characteristics of pHRI",
+        "authors": "P Lim, S Hwang, W Kim",
+        "year": 2024,
+        "journal": "\ub300\ud55c\uae30\uacc4\ud559\ud68c \ucd98\ucd94\ud559\uc220\ub300\ud68c, 1095-1095, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:bnK-pcrLprsC",
+        "category": "journal"
+    },
+    {
+        "title": "\uc218\ub3d9\uc801\uc73c\ub85c \uc5f0\uacb0\ub41c \ubbf8\uc9c0\uc758 \ubb3c\uccb4\uc640 \ud568\uaed8 \uade0\ud615\uc744 \uc720\uc9c0\ud558\uae30 \uc704\ud55c \uad00\uc808\ud615 \ub2e4\ub9ac-\ud314 \ub85c\ubd07\uc758 \uc804\uc2e0\uc81c\uc5b4",
+        "authors": "\ucd5c\uc720\uc2e0\uff0c \ud669\uc21c\uc6c5\uff0c \uae40\uc644\uc218",
+        "year": 2024,
+        "journal": "\ud55c\uad6d\uc815\ubc00\uacf5\ud559\ud68c \ud559\uc220\ubc1c\ud45c\ub300\ud68c \ub17c\ubb38\uc9d1, 43-44, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:5ugPr518TE4C",
         "title": "Interactive Robot Trajectory Planning With Augmented Reality for Non-expert Users",
         "authors": "J Lee, T Lim, W Kim",
         "year": 2024,
@@ -45,6 +114,14 @@
         "year": 2024,
         "journal": "Mechatronics 102, 103227, 2024",
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:8AbLer7MMksC",
+        "category": "journal"
+    },
+    {
+        "title": "\uc778\uac04 \uc790\uc138 \ucd94\uc815 \uae30\ubc18 \uace8\ud504 \uc2a4\uc719 \uc790\uc138 \ud310\ubcc4 \uc790\ub3d9\ud654 \uc54c\uace0\ub9ac\uc998 \uac1c\ubc1c",
+        "authors": "\ucd5c\uc218\uc778\uff0c \uc774\uc9c4\uad11\uff0c \uae40\uc900\ud604\uff0c \uae40\uc644\uc218",
+        "year": 2024,
+        "journal": "\uc81c\uc5b4\ub85c\ubd07\uc2dc\uc2a4\ud15c\ud559\ud68c \uad6d\ub0b4\ud559\uc220\ub300\ud68c \ub17c\ubb38\uc9d1, 1066-1067, 2024",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:V3AGJWp-ZtQC",
         "category": "journal"
     },
     {
@@ -104,14 +181,6 @@
         "category": "conference"
     },
     {
-        "title": "Towards Natural and Intuitive Human-Robot Collaboration based on Goal-Oriented Human Gaze Intention Recognition",
-        "authors": "T Lim, J Lee, W Kim",
-        "year": 2023,
-        "journal": "2023 Seventh IEEE International Conference on Robotic Computing (IRC), 115-120, 2023",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:geHnlv5EZngC",
-        "category": "conference"
-    },
-    {
         "title": "Design and Validation of Soft Sliding Structure with Adjustable Stiffness for Ankle Sprain Prevention",
         "authors": "S Ham, SL Paing, BB Kang, H Lee, W Kim",
         "year": 2023,
@@ -120,12 +189,28 @@
         "category": "journal"
     },
     {
+        "title": "Towards Natural and Intuitive Human-Robot Collaboration based on Goal-Oriented Human Gaze Intention Recognition",
+        "authors": "T Lim, J Lee, W Kim",
+        "year": 2023,
+        "journal": "2023 Seventh IEEE International Conference on Robotic Computing (IRC), 115-120, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:geHnlv5EZngC",
+        "category": "conference"
+    },
+    {
         "title": "Multitask Learning for Multiple Recognition Tasks: A Framework for Lower-limb Exoskeleton Robot Applications",
         "authors": "J Kim, S Ha, D Shin, S Ham, J Jang, W Kim",
         "year": 2023,
         "journal": "2023 32nd IEEE International Conference on Robot and Human Interactive\u00a0\u2026, 2023",
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:tS2w5q8j5-wC",
         "category": "conference"
+    },
+    {
+        "title": "\uc6d0\uaca9 \uc870\uc791\uc790\uc758 \ud604\uc7a5\uac10\uc744 \uc704\ud55c \uc2e4\uc2dc\uac04 \uac00\uc0c1\uacf5\uac04 \uc735\ud569\ud615 \uc6d0\uaca9 \uc81c\uc5b4 \uad6c\uc870",
+        "authors": "\uc7a5\uc7ac\ud544\uff0c \ucd5c\uc2b9\ubbfc\uff0c \ucd5c\uc720\uc2e0\uff0c \uc774\uc815\uc218\uff0c \ud669\uc21c\uc6c5\uff0c \uae40\uc644\uc218",
+        "year": 2023,
+        "journal": "\ud55c\uad6d\uc815\ubc00\uacf5\ud559\ud68c, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:q3oQSFYPqjQC",
+        "category": "journal"
     },
     {
         "title": "An online multi-index approach to human ergonomics assessment in the workplace",
@@ -192,6 +277,14 @@
         "category": "conference"
     },
     {
+        "title": "IMU \uc13c\uc11c \uae30\ubc18 \uc9c0\ud615 \ubc0f \uc18d\ub3c4\ubcc0\ud654\uc5d0 \uac15\uc778\ud55c GAIT Phase Detection \uc54c\uace0\ub9ac\uc998 \uac1c\ubc1c",
+        "authors": "\uae40\uc900\ud604\uff0c \uc7a5\uc7ac\ud544\uff0c \uc2e0\ub3d9\ube48\uff0c \uae40\uc644\uc218",
+        "year": 2022,
+        "journal": "\ud55c\uad6d\uc815\ubc00\uacf5\ud559\ud68c, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:1qzjygNMrQYC",
+        "category": "journal"
+    },
+    {
         "title": "A Human-Robot Collaboration Framework for Improving Ergonomics During Dexterous Operation of Power Tools",
         "authors": "W Kim, L Peternel, M Lorenzini, J Babi\u010d, A Ajoudani",
         "year": 2021,
@@ -200,19 +293,19 @@
         "category": "journal"
     },
     {
-        "title": "Unified Approach for Hybrid Motion Control of MOCA Based on Weighted Whole-Body Cartesian Impedance Formulation",
-        "authors": "Y Wu, E Lamon, F Zhao, W Kim, A Ajoudani",
-        "year": 2021,
-        "journal": "IEEE Robotics and Automation Letters 6 (2), 3505-3512, 2021",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:dshw04ExmUIC",
-        "category": "journal"
-    },
-    {
         "title": "Gait pattern generation algorithm for lower-extremity rehabilitation\u2013exoskeleton robot considering wearer\u2019s condition",
         "authors": "SH Hwang, DI Sun, J Han, WS Kim",
         "year": 2021,
         "journal": "Intelligent Service Robotics 14 (3), 345-355, 2021",
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:Tiz5es2fbqcC",
+        "category": "journal"
+    },
+    {
+        "title": "Unified Approach for Hybrid Motion Control of MOCA Based on Weighted Whole-Body Cartesian Impedance Formulation",
+        "authors": "Y Wu, E Lamon, F Zhao, W Kim, A Ajoudani",
+        "year": 2021,
+        "journal": "IEEE Robotics and Automation Letters 6 (2), 3505-3512, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:dshw04ExmUIC",
         "category": "journal"
     },
     {
@@ -500,7 +593,7 @@
         "authors": "\uc784\ub3d9\ud658\uff0c \uae40\uc644\uc218\uff0c \ubbf8\uc548\uff0c \uc544\uc26c\ud30d\uff0c \uc54c\ub9ac\uff0c \ud55c\ucc3d\uc218",
         "year": 2015,
         "journal": "\ud55c\uad6d\uc815\ubc00\uacf5\ud559\ud68c\uc9c0 32 (12), 1065-1072, 2015",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:-f6ydRqryjwC",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&cstart=100&pagesize=100&citation_for_view=o7u_E8wAAAAJ:-f6ydRqryjwC",
         "category": "journal"
     },
     {
@@ -508,7 +601,7 @@
         "authors": "\uae40\uc644\uc218",
         "year": 2015,
         "journal": "\ud55c\uc591\ub300\ud559\uad50, 2015",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:NhqRSupF_l8C",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&cstart=100&pagesize=100&citation_for_view=o7u_E8wAAAAJ:NhqRSupF_l8C",
         "category": "journal"
     }
 ]

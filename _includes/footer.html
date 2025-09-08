@@ -11,12 +11,18 @@
   {%- assign dark = true -%}
 {%- endif -%}
 
-<footer {% if background %}class="background"{% endif %} {% if background %}style="--background: url('{{ background | relative_url }}')"{% endif %} data-dark="{{ dark }}">  
-  <div class="footer_row">
-
-    <!-- <a href="https://www.youtube.com/@HARCOLAB" class="btn-social btn-outline"><i class="fab fa-youtube fa-2x"></i></a> &nbsp; -->
-    &copy; {{ site.time | date: '%Y' }} {{ site.title }} 
+<footer {% if background %}class="background"{% endif %} {% if background %}style="--background: url('{{ background | relative_url }}')"{% endif %} data-dark="{{ dark }}" style="padding: 0; margin: 0; height: auto;">
+  <div class="footer_row" style="display: flex; justify-content: space-between; align-items: center; padding: 18px 30px; font-size: 18px; color: #ccc; flex-wrap: wrap;">
     
-  </div>  
- 
+    <!-- 왼쪽 -->
+    <div style="font-weight: bold;">
+      &copy; {{ site.time | date: '%Y' }} Hanyang HARCO LAB
+    </div>
+
+    <!-- 오른쪽 -->
+    <div style="text-align: right;">
+      경기도 안산시 상록구 한양대학로 55, 5공학관 522호 Tel : 031-400-4062 &nbsp; | &nbsp; Fax : 031-406-6398
+    </div>
+
+  </div>
 </footer>
