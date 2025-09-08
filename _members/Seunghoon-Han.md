@@ -1,4 +1,4 @@
----
+<!-- ---
 name: Seunghoon Han
 image: images/members/한승훈.jpg
 description: B.S. Researcher
@@ -18,4 +18,4 @@ tier: fifth
 
 #### **Education**
 - *(2020.03~) B.S. Electronics Engineering, Hanyang University ERICA*
-
+ -->

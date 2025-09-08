@@ -1,10 +1,10 @@
 ### basic settings
 # site properties and page defaults
-title: Hanyang HARCO LAB
+title: Human Robot Collaboration LAB
 description: Webpage of HARCO
-logo: images/blueHY_mark.png
+logo: images/harcologo.png
 header: images/upper.png
-footer: images/down.png
+footer: images/down_2.png
 baseurl: 
 
 
