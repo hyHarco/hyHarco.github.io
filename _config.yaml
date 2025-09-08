@@ -2,7 +2,7 @@
 # site properties and page defaults
 title: Human Robot Collaboration LAB
 description: Webpage of HARCO
-logo:
+logo: images/HYlogo.png
 header: images/upper.png
 footer: images/down_2.png
 baseurl: 
