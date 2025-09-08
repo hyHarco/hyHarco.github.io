@@ -8,8 +8,11 @@ links:
   email: baole@hanyang.ac.kr
   google-scholar: https://scholar.google.co.kr/citations?user=zWfmTmgAAAAJ&hl
   
-tier: second
+tier: alumni
 ---
+
+#### **<i class="fas fa-paper-plane"></i> Current Affiliation : Professor at [JIANGSU UNIVERSITY OF TECHNOLOGY ](https://english.jsut.edu.cn)**
+
 
 #### **Research intersts**
 - *Robot control*

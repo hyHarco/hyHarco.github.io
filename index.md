@@ -8,21 +8,38 @@ layout: default
   <img src="images/harc.png" loading="lazy" style="width: 60%" />
 </h1>
 
-<!-- Swiper 슬라이드 배너 -->
 <!-- Swiper CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
-<div class="swiper mySwiper" style="width: 100%; max-height: 450px; margin: 30px 0;">
+<style>
+  .mySwiper {
+    width: 100%;
+    margin: 30px 0;
+    aspect-ratio: 16 / 9;  /* 원하는 비율로 고정 */
+    max-height: 70vh;      /* 너무 높아지지 않게 상한 */
+    min-height: 280px;     /* 너무 낮아지지 않게 하한 */
+    overflow: hidden;
+    min-height: 0;
+  }
+  .mySwiper .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    /* 꽉 채우기(잘림 감수) */
+    display: block;
+  }
+</style>
+
+<div class="swiper mySwiper">
   <div class="swiper-wrapper">
-    <div class="swiper-slide"><img src="/images/lab_2.png" style="width: 100%; height: 100%; object-fit: cover;"></div>
-    <div class="swiper-slide"><img src="/images/lab_1.png" style="width: 100%; height: 100%; object-fit: cover;"></div>
-    <div class="swiper-slide"><img src="/images/lab_3.png" style="width: 100%; height: 100%; object-fit: cover;"></div>
+    <div class="swiper-slide"><img src="/images/lab_2.png" alt="lab_2"></div>
+    <div class="swiper-slide"><img src="/images/lab_1.png" alt="lab_1"></div>
+    <div class="swiper-slide"><img src="/images/lab_3.png" alt="lab_3"></div>
   </div>
 
   <!-- 화살표 -->
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
-  <!-- 페이지네이션 (점) -->
+  <!-- 페이지네이션 -->
   <div class="swiper-pagination"></div>
 </div>
 
@@ -31,14 +48,8 @@ layout: default
 <script>
   const swiper = new Swiper(".mySwiper", {
     loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
+    pagination: { el: ".swiper-pagination", clickable: true },
+    navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
   });
 </script>
 
