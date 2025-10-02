@@ -1,6 +1,6 @@
 ---
 title: Develop soft actuator
-image: images/research/juhyeon_lee_research_title.png
+image: images/research/juhyeon_1_main.png
 tags:
   - Soft Exoskeleton
   - H / W Modeling

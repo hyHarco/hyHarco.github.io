@@ -30,7 +30,7 @@ This study attempted to solve these problems by conducting learning based on dat
 ***
 **Conference**   
 - 
-[**_kspe (Korean Society for Precision Engineering) Conference)_**](https://drive.google.com/file/d/1p5hMve-M4tQ8fD1xHreyuUOgk3CVtTga/view)
+[**2024 21st International Conference on Ubiquitous Robots(UR)**](https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:5Ul4iDaHHb8C)
 
 
 ***

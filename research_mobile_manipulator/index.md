@@ -5,11 +5,6 @@ nav:
 ---
 
 
-
-
-
-  
-  
   
 # <i class="fas fa-crosshairs"></i> **Mobile Manipulator Research**
 
@@ -20,24 +15,22 @@ Working with mobile manipulator robots and workers can make it easier to perform
 
 ***
    
-#### <i class="fas fa-archive"></i> *Our Researches*       
+### <i class="fas fa-archive"></i> *Our Researches*       
 {% include list.html 
 component="card-info_2"
 data="posts" 
 filters="group: research_2" %}   
 
-
-
 ***
 
 
-#### <i class="fas fa-code-branch"></i> *related project*     
+### <i class="fas fa-code-branch"></i> *related project*     
 - **[Hyundai Mobis Mobile Manipulator Whole Body Control](http://harco.hanyang.ac.kr/2022/08/01/project_Mobis_MobileManipulator.html)**    
 - **[Towards Ergonomics-based Human-Robot Collaboration with Intelligent Anticipatory Behaviours](http://harco.hanyang.ac.kr/2022/03/01/project_nrf_youngresearcher.html)**     
 - **[Development Service of Systemic Control Algorithm for Development of Safety Guidelines for Mobile Cooperative Robot Workshop](http://harco.hanyang.ac.kr/2022/10/13/project-dgist_safety_guidline.html)**   
 
 
-***   
+<!-- ***   
 
 
 **<i class="fas fa-play-circle"></i> Video**
@@ -59,18 +52,7 @@ filters="group: research_2" %}
 </div>
 
 
-***
-
-
-
-
-
-
-
-
-
-
-
+*** -->
 
 
 {% include section.html %}
