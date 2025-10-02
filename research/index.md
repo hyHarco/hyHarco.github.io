@@ -27,6 +27,14 @@ nav:
   link= "/research_exoskeleton_robot/index.html"
   style="button_research"
 %}
+{%
+  include link.html
+  icon="ai_robot"
+  text="Artificial Intelligence"
+  tooltip="Artificial Intelligence researches"
+  link= "/research_artificial_intelligence/index.html"
+  style="button_research"
+%}
 </div>
 </text>
 
@@ -36,7 +44,7 @@ nav:
 
 
 <text class="animate__animated animate__fadeIn">
-Our laboratory has <b>Mobile Manipulators</b> and <b>Exoskeleton Robots</b> as our main research themes,<br>
+Our laboratory has <b>Mobile Manipulators</b> ,<b>Exoskeleton Robots</b>,and <b>Artificial Intelligence</b> as our main research themes,<br>
 And we have a variety of equipment necessary for this.<br><br>
 
 We can provide various support to fuel your passion <i class="fas fa-hands"></i>
@@ -72,10 +80,6 @@ We can provide various support to fuel your passion <i class="fas fa-hands"></i>
     <div class="animate__animated animate__fadeIn" style="width: 30%; padding-right: 10px;"><img src="/images/equipments/go2.png" loading="lazy" style="width: 100%"/>
     <b>Go2</b> <br>
     <a href="https://www.unitree.com/go2" style="font-size: 12px;"><b>UNITREE</b></a>
-    </div>
-    <div class="animate__animated animate__fadeIn" style="width: 26%;"><img src="/images/equipments/h30a.png" loading="lazy" style="width: 100%"/>
-    <b>H30A</b> <br>
-    <a href="https://hexarhc.com/?lang=en" style="font-size: 12px;"><b>Hexar Humancare</b></a>
     </div>
   </div>
 
