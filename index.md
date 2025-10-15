@@ -62,5 +62,5 @@ Our research interests include Physical Human-Robot Interaction (pHRI), Human-Ro
 
 <div class="animate__animated animate__fadeInDown" style="font-size: 19px; text-align:left">
 If you are interested in joining our team, please send your CV to:
-<a href='mailto:wansookim@hanyang.ac.kr'>wansookim@hanyang.ac.kr</a>
+<a href='mailto:wansookim+app@hanyang.ac.kr'>wansookim+app@hanyang.ac.kr</a>
 </div>
