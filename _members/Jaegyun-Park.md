@@ -1,11 +1,11 @@
 ---
 name: Jaegyun Park
 image: images/members/박재균.jpg
-description: B.S. Researcher
+description: M.S. Researcher
 aliases:
   - name: Jaegyun Park
 links:
-tier: fifth
+tier: fourth
 ---
 #### **Research intersts**
 - *Manipulator Control*

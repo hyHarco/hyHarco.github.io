@@ -6,7 +6,7 @@ aliases:
   - yoonseo
 links:
   email: hyrladbstj@gmail.com
-tier: fourth
+tier: alumni
 ---
 
     

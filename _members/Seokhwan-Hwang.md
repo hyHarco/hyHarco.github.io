@@ -6,7 +6,7 @@ aliases:
   - seokhwan
 links:
   email: pop0479@hanyang.ac.kr
-tier: fourth
+tier: alumni
 ---
 
     

@@ -1,11 +1,11 @@
 ---
 name: Sungbin Cho
 image: images/members/조성빈.jpg
-description: B.S. Researcher
+description: M.S. Researcher
 aliases:
 links:
   email: csb011023@hanyang.ac.kr
-tier: fifth
+tier: fourth
 ---
 
 
