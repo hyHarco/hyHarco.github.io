@@ -1,11 +1,11 @@
 ---
 name: Sooin Choi
 image: images/members/최수인.jpg
-description: B.S. Researcher
+description: M.S. Researcher
 aliases:
   - name: Sooin Choi
 links:
-tier: fifth
+tier: fourth
 ---
 #### **Research intersts**
 - *Mobile Manipulator Control*

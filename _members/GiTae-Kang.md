@@ -1,11 +1,11 @@
 ---
 name: Gi Tae Kang
 image: images/members/강기태.png
-description: B.S. Researcher
+description: M.S. Researcher
 aliases:
 links:
   email: keviny01@naver.com
-tier: fifth
+tier: fourth
 ---
 
 

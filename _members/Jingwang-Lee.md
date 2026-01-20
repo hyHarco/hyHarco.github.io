@@ -1,13 +1,13 @@
 ---
 name: Jingwang Lee
 image: images/members/이진광.jpg
-description: B.S. Researcher
+description: M.S. Researcher
 aliases:
   - Jingwang
 links:
   email: jingwang1203@hanyang.ac.kr
   github: https://github.com/JeiSS1203
-tier: fifth
+tier: fourth
 ---
 #### **Research intersts**
 - *Human Robot Cooperation*

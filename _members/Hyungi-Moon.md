@@ -1,4 +1,4 @@
----
+<!-- ---
 name: Hyungi Moon
 image: images/members/문현기.png
 description: Ph.D. Researcher
@@ -33,4 +33,4 @@ tier: alumni
 - *Development of Integrated Control System in Special Purpose Machinery for the Application for Disaster*  
   *Haptic Device System Design*    
 - *Integrated motion control technology of high-payload upper and lower extremity muscle strengthening robot*   
-  *Lower limb exoskeleton modeling and simulation*  
+  *Lower limb exoskeleton modeling and simulation*   -->

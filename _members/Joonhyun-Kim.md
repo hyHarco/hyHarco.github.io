@@ -10,7 +10,7 @@ links:
   home-page: https://krex4715.github.io/
   github: krex4715
   cv: https://sites.google.com/view/joonhyun-kim-cv/%ED%99%88
-tier: fourth
+tier: alumni
 ---
 
 

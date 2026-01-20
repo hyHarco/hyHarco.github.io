@@ -6,7 +6,7 @@ aliases:
   - miseon
 links:
   email: whaltjs32@hanyang.ac.kr
-tier: fourth
+tier: alumni
 ---
 
     

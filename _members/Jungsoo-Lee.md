@@ -1,14 +1,14 @@
 ---
 name: Jungsoo Lee
 image: images/members/이정수.png
-description: M.S. Researcher
+description: Ph.D. Researcher
 aliases:
   - lpigeon
 links:
   email: lpigeon@hanyang.ac.kr
   home-page: https://lpigeon.github.io/
   github: lpigeon
-tier: fourth
+tier: third
 ---
 
 

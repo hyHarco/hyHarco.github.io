@@ -1,10 +1,10 @@
 ---
 name: Joonkyu No
 image: images/members/노준규.png
-description: Post-doc Researcher
+description: Research Assistant Professor
 links:
-  email: nojkyu@gmail.com
-tier: second
+  email: njkonly@hanyang.ac.kr
+tier: research_professor
 
 ---
 #### **Research intersts** 
