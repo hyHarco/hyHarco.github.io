@@ -31,9 +31,9 @@ layout: default
 
 <div class="swiper mySwiper">
   <div class="swiper-wrapper">
-    <div class="swiper-slide"><img src="/images/lab_2.png" alt="lab_2"></div>
-    <div class="swiper-slide"><img src="/images/lab_1.png" alt="lab_1"></div>
-    <div class="swiper-slide"><img src="/images/lab_3.png" alt="lab_3"></div>
+    <div class="swiper-slide"><img src="/images/lab/lab_2.png" alt="lab_2"></div>
+    <div class="swiper-slide"><img src="/images/lab/lab_1.png" alt="lab_1"></div>
+    <div class="swiper-slide"><img src="/images/lab/lab_3.png" alt="lab_3"></div>
   </div>
 
   <!-- 화살표 -->

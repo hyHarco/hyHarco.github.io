@@ -17,7 +17,7 @@ The seminar offered valuable insights into cutting-edge research at the intersec
 
 
 <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-top: 1em; margin-bottom: 1em;">
-  <img src="/images/P_NEWS/jinohlee_1.png" style="width: 80%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="/images/news/jinohlee_1.png" style="width: 80%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 
 </div>
 ***

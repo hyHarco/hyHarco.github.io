@@ -15,7 +15,7 @@ This paper received the ['Best Student Paper Award Finalists'](https://2022.icca
 ***
 {%
   include figure.html
-  image="images/P_NEWS/ICCAS 2022 Finalists.png"
+  image="images/news/ICCAS 2022 Finalists.png"
 %}
 
 

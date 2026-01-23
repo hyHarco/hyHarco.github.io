@@ -52,11 +52,11 @@ We can provide various support to fuel your passion <i class="fas fa-hands"></i>
 {% include section.html %}
 <!-- <h1 class="animate__animated animate__fadeIn"><img src="/images/Equipment_list.png" loading="lazy" style="width: 90%"/></h1> -->
 
-<!-- <h1 class="animate__animated animate__fadeIn"><img src="/images/equipments/Robot Platform.png" loading="lazy" style="width: 90%"/></h1>
+<!-- <h1 class="animate__animated animate__fadeIn"><img src="/images/equipment/Robot Platform.png" loading="lazy" style="width: 90%"/></h1>
 
-<h1 class="animate__animated animate__fadeIn"><img src="/images/equipments/Motion Capture.png" loading="lazy" style="width: 90%"/></h1>
+<h1 class="animate__animated animate__fadeIn"><img src="/images/equipment/Motion Capture.png" loading="lazy" style="width: 90%"/></h1>
 
-<h1 class="animate__animated animate__fadeIn"><img src="/images/equipments/Sensors.png" loading="lazy" style="width: 90%"/></h1> -->
+<h1 class="animate__animated animate__fadeIn"><img src="/images/equipment/Sensors.png" loading="lazy" style="width: 90%"/></h1> -->
 
 
 
@@ -65,19 +65,19 @@ We can provide various support to fuel your passion <i class="fas fa-hands"></i>
 
 <i class="fa fa-caret-right" aria-hidden="true"></i> <b> Robot Platform</b>
   <div style="display: flex; justify-content: space-between; padding: 5px;">
-    <div class="animate__animated animate__fadeIn" style="width: 33%; padding-right: 10px;"><img src="/images/equipments/moca.png" loading="lazy" style="width: 100%"/>
+    <div class="animate__animated animate__fadeIn" style="width: 33%; padding-right: 10px;"><img src="/images/equipment/moca.png" loading="lazy" style="width: 100%"/>
     <b>MOCA Mobile Maipulator</b> <br>
     <a href="https://franka.de/" style="font-size: 12px;"><b>Franka Panda</b></a> | <a href="https://robotnik.eu/" style="font-size: 12px;"><b>Robot Nik</b></a> | <a href="https://qbrobotics.com/" style="font-size: 12px;"><b>qb robotics</b></a>
     </div>
-    <div class="animate__animated animate__fadeIn" style="width: 25%; padding-right: 10px;"><img src="/images/equipments/Neuromek.png" loading="lazy" style="width: 100%"/>
+    <div class="animate__animated animate__fadeIn" style="width: 25%; padding-right: 10px;"><img src="/images/equipment/Neuromek.png" loading="lazy" style="width: 100%"/>
     <b>NeuroMeka Moby</b> <br>
     <a href="https://www.neuromeka.com/" style="font-size: 12px;"><b>NeuroMeka</b></a>
     </div>
-    <div class="animate__animated animate__fadeIn" style="width: 32%; padding-right: 10px;"><img src="/images/equipments/piper.png" loading="lazy" style="width: 100%"/>
+    <div class="animate__animated animate__fadeIn" style="width: 32%; padding-right: 10px;"><img src="/images/equipment/piper.png" loading="lazy" style="width: 100%"/>
     <b>PiPER Robotic Arm</b> <br>
     <a href="https://global.agilex.ai/" style="font-size: 12px;"><b>AGILE X</b></a>
     </div>
-    <div class="animate__animated animate__fadeIn" style="width: 30%; padding-right: 10px;"><img src="/images/equipments/go2.png" loading="lazy" style="width: 100%"/>
+    <div class="animate__animated animate__fadeIn" style="width: 30%; padding-right: 10px;"><img src="/images/equipment/go2.png" loading="lazy" style="width: 100%"/>
     <b>Go2</b> <br>
     <a href="https://www.unitree.com/go2" style="font-size: 12px;"><b>UNITREE</b></a>
     </div>
@@ -87,19 +87,19 @@ We can provide various support to fuel your passion <i class="fas fa-hands"></i>
 
 <i class="fa fa-caret-right" aria-hidden="true"></i> <b>Motion Capture & Analysis</b>
   <div style="display: flex; justify-content: space-between; padding: 5px;">
-    <div class="animate__animated animate__fadeIn" style="width: 22%; padding-right: 10px;"><img src="/images/equipments/xsens_motioncapture.png" loading="lazy" style="width: 100%"/>
+    <div class="animate__animated animate__fadeIn" style="width: 22%; padding-right: 10px;"><img src="/images/equipment/xsens_motioncapture.png" loading="lazy" style="width: 100%"/>
     <b>Xsens MTW<br> Motion Capture System</b> <br>
     <a href="https://www.movella.com/" style="font-size: 12px;"><b>Movella</b></a>
     </div>
-    <div class="animate__animated animate__fadeIn" style="width: 22%; padding-right: 10px;"><img src="/images/equipments/optitrack_motioncapture.png" loading="lazy" style="width: 100%"/>
+    <div class="animate__animated animate__fadeIn" style="width: 22%; padding-right: 10px;"><img src="/images/equipment/optitrack_motioncapture.png" loading="lazy" style="width: 100%"/>
     <b>Optitrack<br> Motion Capture System</b> <br>
     <a href="https://optitrack.com/" style="font-size: 12px;"><b>Optitrack</b></a>
     </div>
-    <div class="animate__animated animate__fadeIn" style="width: 21%; padding-right: 10px;"><img src="/images/equipments/perneuron_motioncapture.png" loading="lazy" style="width: 100%"/>
+    <div class="animate__animated animate__fadeIn" style="width: 21%; padding-right: 10px;"><img src="/images/equipment/perneuron_motioncapture.png" loading="lazy" style="width: 100%"/>
     <b>Perception Neuron<br> Motion Capture System</b> <br>
     <a href="https://neuronmocap.com/" style="font-size: 12px;"><b>Perception Neuron</b></a>
     </div>
-    <div class="animate__animated animate__fadeIn" style="width: 25%; padding-right: 10px;"><img src="/images/equipments/anybody.png" loading="lazy" style="width: 100%"/>
+    <div class="animate__animated animate__fadeIn" style="width: 25%; padding-right: 10px;"><img src="/images/equipment/anybody.png" loading="lazy" style="width: 100%"/>
     <b>AnyBody<br> Motion Analysis System</b> <br>
     <a href="https://www.anybodytech.com/" style="font-size: 12px;"><b>AnyBody Technology</b></a>
   </div>
@@ -111,19 +111,19 @@ We can provide various support to fuel your passion <i class="fas fa-hands"></i>
 
 <i class="fa fa-caret-right" aria-hidden="true"></i> <b>AR/VR & Sensors</b>
   <div style="display: flex; justify-content: space-between; padding: 5px;">
-    <div class="animate__animated animate__fadeIn" style="width: 18%; padding-right: 10px;"><img src="/images/equipments/metaquest.png" loading="lazy" style="width: 100%"/>
+    <div class="animate__animated animate__fadeIn" style="width: 18%; padding-right: 10px;"><img src="/images/equipment/metaquest.png" loading="lazy" style="width: 100%"/>
     <b>MetaQuest<br> VR System</b> <br>
     <a href="https://www.metaquest.co.kr/" style="font-size: 12px;"><b>MetaQuest</b></a>
     </div>
-    <div class="animate__animated animate__fadeIn" style="width: 23%; padding-right: 10px;"><img src="/images/equipments/hololens.png" loading="lazy" style="width: 100%"/>
+    <div class="animate__animated animate__fadeIn" style="width: 23%; padding-right: 10px;"><img src="/images/equipment/hololens.png" loading="lazy" style="width: 100%"/>
     <b>HoloLens<br> AR System</b> <br>
     <a href="https://www.microsoft.com/en-us/hololens" style="font-size: 12px;"><b>Microsoft</b></a>
     </div>
-    <div class="animate__animated animate__fadeIn" style="width: 30%; padding-right: 10px;"><img src="/images/equipments/delsysemg.png" loading="lazy" style="width: 100%"/>
+    <div class="animate__animated animate__fadeIn" style="width: 30%; padding-right: 10px;"><img src="/images/equipment/delsysemg.png" loading="lazy" style="width: 100%"/>
     <b>Delsys<br> EMG System</b> <br>
     <a href="https://delsys.com/trigno-emg/" style="font-size: 12px;"><b>Delsys</b></a>
     </div>
-    <div class="animate__animated animate__fadeIn" style="width: 25%; padding-right: 10px;"><img src="/images/equipments/amtiforceplate.png" loading="lazy" style="width: 100%"/>
+    <div class="animate__animated animate__fadeIn" style="width: 25%; padding-right: 10px;"><img src="/images/equipment/amtiforceplate.png" loading="lazy" style="width: 100%"/>
     <b>AMTI Force Plate</b> <br>
     <a href="https://amti.biz/" style="font-size: 12px;"><b>AMTI</b></a>
     </div>

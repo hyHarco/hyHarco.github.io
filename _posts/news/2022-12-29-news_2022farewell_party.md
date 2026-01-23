@@ -10,7 +10,7 @@ On December 29, **_A Year-End Party_** was held to wrap up 2022. <i class="fas f
 
 {%
   include figure.html
-  image="images/P_NEWS/farewell_2022.png"
+  image="images/news/farewell_2022.png"
 %}
 
 
