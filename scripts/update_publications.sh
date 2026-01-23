@@ -19,7 +19,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "✅ Scraping complete. Showing recent publications:"
-jq '.[0:3]' publication/publications.json
+jq '.[0:3]' _data/publications.json
 
 # 🆕 브랜치 만들기
 BRANCH_NAME="update_publications"
@@ -27,7 +27,7 @@ echo "🌿 Creating new branch: $BRANCH_NAME"
 git checkout -b "$BRANCH_NAME"
 
 # 커밋 및 푸시
-git add publication/publications.json
+git add _data/publications.json
 git commit -m "Update publications.json ($(date '+%Y-%m-%d'))"
 git push -u origin "$BRANCH_NAME"
 
