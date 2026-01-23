@@ -50,6 +50,7 @@ collections:
 # sass settings
 sass:
   sass_dir: css
+  style: compressed
 
 # syntax highlighting
 highlighter: rouge
