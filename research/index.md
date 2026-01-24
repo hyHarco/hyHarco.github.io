@@ -16,7 +16,7 @@ nav:
   icon="mm_robot"
   text="Mobile Manipulators"
   tooltip="mobile manipulator researches"
-  link= "/research_mobile_manipulator/index.html"
+  link= "/research/mobile-manipulator/"
   style="button_research"
 %}
 {%
@@ -24,7 +24,7 @@ nav:
   icon="ex_robot"
   text="Exoskeleton Robots"
   tooltip="exoskeleton robot researches"
-  link= "/research_exoskeleton_robot/index.html"
+  link= "/research/exoskeleton-robot/"
   style="button_research"
 %}
 {%
@@ -32,7 +32,7 @@ nav:
   icon="ai_robot"
   text="Artificial Intelligence"
   tooltip="Artificial Intelligence researches"
-  link= "/research_artificial_intelligence/index.html"
+  link= "/research/artificial-intelligence/"
   style="button_research"
 %}
 </div>
