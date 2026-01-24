@@ -13,7 +13,7 @@ nav:
 <div id="publications-list"></div>
 
 <script>
-    fetch('/_data/publications.json')
+    fetch('/publication/publications.json')
         .then(response => response.json())
         .then(data => {
             let publicationsList = document.getElementById('publications-list');
