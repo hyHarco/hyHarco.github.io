@@ -8,6 +8,7 @@ on:
 jobs:
   push-to-gitlab:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -15,11 +16,11 @@ jobs:
 
       - name: Set remote repository
         env:
-          GITLAB_URL: ${{ secrets.gitlab_url }}
-          GITLAB_USERNAME: ${{ secrets.gitlab_username }}
-          GITLAB_TOKEN: ${{ secrets.gitlab_token }}
+          GITLAB_URL: ${{ secrets.GITLAB_URL }}
+          GITLAB_USERNAME: ${{ secrets.GITLAB_USERNAME }}
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
         run: |
-          # normalize: ensure .git suffix
+          # Ensure .git suffix
           if [[ "${GITLAB_URL}" != *.git ]]; then
             GITLAB_URL="${GITLAB_URL}.git"
           fi
