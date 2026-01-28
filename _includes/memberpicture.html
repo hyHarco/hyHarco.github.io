@@ -42,17 +42,17 @@
 
 {%- endif -%}
 
-<figure class="figure">
-  <a 
+<figure class="figure member_picture">
+  <a
     {% if include.link %}href="{{ include.link | relative_url }}"{% endif %}
-    class="figure_image"
+    class="figure_image member_picture_link"
     style="{{ link }}"
   >
     <img
       src="{{ include.image | relative_url }}"
       alt="{{ include.caption }}"
       title="{{ include.caption }}"
-      style="width: 70%;"
+      style="max-width: 350px; max-height: 350px; width: auto; height: auto; object-fit: contain;"
       loading="lazy"
     />
   </a>
