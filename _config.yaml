@@ -2,7 +2,7 @@
 # site properties and page defaults
 title: Human Robot Collaboration LAB
 description: Webpage of HARCO
-logo: images/HYlogo.png
+logo: images/common/logos/HYlogo.png
 header: images/upper.png
 footer: images/down_2.png
 baseurl: 
@@ -50,6 +50,7 @@ collections:
 # sass settings
 sass:
   sass_dir: css
+  style: compressed
 
 # syntax highlighting
 highlighter: rouge

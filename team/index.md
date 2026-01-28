@@ -80,7 +80,7 @@ nav:
   filters="tier: alumni" 
 %}
 
-{% include section.html background="images/WantedYOU.png" dark=true%}
+{% include section.html dark=true%}
 
 We are actively looking for top talents.
 {%

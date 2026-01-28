@@ -11,7 +11,7 @@ J. H. Kim conducted a poster presentation on an algorithm that determines a pers
 
 {%
   include figure.html
-  image="images/P_NEWS/daegu_exco_kspe.png"
+  image="images/news/daegu_exco_kspe.png"
 %}
 
 

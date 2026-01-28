@@ -6,7 +6,7 @@ aliases:
   - dong dong
 links:
   email: dong2391@hanyang.ac.kr
-  cv: ../asset/DonggyuLee_cv.pdf
+  cv: ../assets/documents/cv/DonggyuLee_cv.pdf
 tier: third
 ---
 

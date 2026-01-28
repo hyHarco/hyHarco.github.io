@@ -1,7 +1,49 @@
+# Jekyll
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Temporary directories
+temp/
+tmp/
+
+# Temporary files
+*~
+*.bak
+*.swp
+*.tmp
+
+# Logs
+*.log
 debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
 __pycache__/
+venv/
+env/
+ENV/
+
+# Editors
+.vscode/
+.idea/
+*.sublime-*
+
+# Build
+dist/
+build/
+
+# Temporary images
+images/temp/
+images/*_temp.*
+images/**/*_temp.*

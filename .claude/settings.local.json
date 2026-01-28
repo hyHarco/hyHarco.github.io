@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(bundle exec jekyll build:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nClean up repository: remove temporary files and update .gitignore\n\nQuick Clean optimization phase:\n- Remove all .DS_Store files \\(4 files\\)\n- Delete temp/ directory with unused research draft\n- Remove _____________form/ directory with template files\n- Delete temporary image files \\(voucher_temp.png, banner_temp.png, mobis_temp.png\\)\n- Update .gitignore with comprehensive rules for:\n  - macOS system files\n  - Temporary directories and files\n  - Log files\n  - Python virtual environments\n  - Editor configurations\n  - Temporary images\n\nThis cleanup improves repository hygiene and prevents unwanted files \nfrom being tracked in version control.\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git mv:*)",
+      "Bash(git commit:*)",
+      "Bash(find:*)"
+    ]
+  }
+}

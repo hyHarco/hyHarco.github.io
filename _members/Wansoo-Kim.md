@@ -7,7 +7,7 @@ aliases:
 links:
   google-scholar: https://scholar.google.co.kr/citations?user=o7u_E8wAAAAJ&hl=ko
   email: wansookim@hanyang.ac.kr
-  cv: ../asset/WansooKim_CV.pdf
+  cv: ../assets/documents/cv/WansooKim_CV.pdf
 #  github: harco-wansookim
 tier: pi
 
