@@ -12,12 +12,10 @@ tier: alumni
     
 
 #### **Research interests**
-- *Exoskeleton Robot*
-- *Human Robot Interaction*
-- *Gait Analysis*
+- Exoskeleton Robot
+- Human Robot Interaction
+- Gait Analysis
 
 #### **Education**
-- *(2019.03~2024.02) B.S Rehabilitation biomedical engineering, Korea Nazarene University*
-- *(2024.03~present) M.S Candidate Convergence Robot System, Hanyang University*
-
-#### **Projects**
+- (Mar. 2019 - Feb. 2024) B.S in Rehabilitation biomedical engineering, Korea Nazarene University
+- (Mar. 2024 - Feb. 2026) M.S in Convergence Robot System, Hanyang University

@@ -18,7 +18,8 @@ tier: alumni
 
 
 #### **Education**
-- *(2017~present) B.S. Robotics Engineering, Hanyang University*
+- *(2017~2023) B.S. Robotics Engineering, Hanyang University(ERICA)*
+- *(2023~2025) M.S. in Intelligent Information Convergence Engineering, Hanyang University*
 
 
 
