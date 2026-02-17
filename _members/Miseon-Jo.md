@@ -12,12 +12,10 @@ tier: alumni
     
 
 #### **Research interests**
-- *Soft Robotics & Actuator*
-- *Variable Stiffness*
-- *Wearable Robots*
+- Soft Robotics & Actuator
+- Variable Stiffness
+- Wearable Robots
 
 #### **Education**
-- *(2020.02~2024.2) B.S. Robotics Engineering, Hanyang University(ERICA)*
-- *(2024.03~present) M.S. Candidate Convergence Robot System, Hanyang University*
-
-#### **Projects**
+- (Mar. 2020 - Feb. 2024) B.S. in Robotics Engineering, Hanyang University(ERICA)
+- (Mar. 2024 - Feb. 2026) M.S. in Convergence Robot System, Hanyang University

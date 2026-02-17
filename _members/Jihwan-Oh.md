@@ -8,14 +8,14 @@ links:
 tier: fourth
 ---
 #### **Research intersts**
-- *Human Robot Interaction*
-- *Robot Control*
-- *Collaborative Robot*
+- Human Robot Interaction
+- Robot Control
+- Collaborative Robot
 
 
 #### **Education**
-- *(2021.03 ~ 2025.02) B.S. Mechanical Design Engineering, Intelligent Robot (Double major), Tech University of Korea*
-
+- (Mar. 2021 - Feb. 2025) B.S. Mechanical Design Engineering, Intelligent Robot (Double major), Tech University of Korea
+- (Mar. 2025 – Present) Integrated PhD program, Robotics Engineering, Hanyang University (Seoul)
 
 
 

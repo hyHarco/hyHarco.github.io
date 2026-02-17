@@ -24,3 +24,23 @@
     text-align: center;
   }
 }
+
+// Member picture specific styling
+.member_picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+
+  .member_picture_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      display: block;
+      border-radius: 8px;
+      box-shadow: $shadow;
+    }
+  }
+}

@@ -3,32 +3,36 @@ name: Seungmin Choi
 image: images/members/최승민.png
 description: Ph.D. Researcher
 aliases:
-  - seungmini
+ - min9317love
 links:
-  email: min9317love@hanyang.ac.kr
-  github: sm3304love
-  home-page: https://sites.google.com/hanyang.ac.kr/seungminchoi/main-page
-  github: sm3304love
+ email: min9317love@hanyang.ac.kr
+ home-page: https://sites.google.com/hanyang.ac.kr/seungminchoi/main-page
+ github: https://github.com/sm3304love
 tier: third
 ---
-I am interested in Physical Human Robot Interaction (PHRI), which utilizes control theory and robotics. Using Robotics and classical control theory, we are working on a project to implement force control of robots and apply various control techniques.    
-     
 
-The ultimate goal of my research is not to specialize in specific tasks, but to make robots capable of performing various tasks skillfully, and to that end, I am studying Robotics and classical and state-of-the-art control techniques.
 
+PhD student in Robotics at Hanyang University with research interests in pHRI, compliance control, and optimal control.
 
 #### **Research interests**
-- *Physical Human Robot Collaboration* 
-- *Robot Dynamics*
-- *Optimal Control theory* 
-- *Mobile Manipulation*
-- *Safety-Aware Impedance Control*
+- Physical Human-Robot Interaction
+- Compliance Control
+- Model Predictive Control
+- Optimal Control
+- Human-Robot Safety in Collaborationb
 
 
 #### **Education**
-- *(2017~2023.02)B.S Robotics Engineering, Hanyang University(ERICA)*
-- *(2023.03~present) B.S. Dept. of Convergence Robot System, Hanyang University(Seoul)*
+- (Mar. 2017 – Feb. 2023) B.S. in Robotics Engineering, Hanyang University (ERICA)
+- (Mar. 2022 – Aug. 2023) Undergraduate Research Assistant, Harco Lab, Hanyang University (ERICA)
+- (Sep. 2023 – Present) Integrated M.S./Ph.D. in Robotics Engineering, Hanyang University (Seoul)
+
 
 #### **Projects**
-- *Whole-body cooperate control algorithm development for mobile collaborative robot workplace safety guideline development*
-- *Mobile Manipulator Whole Body control*
+- (Jul. 2022 – Oct. 2022) Development of Safety Guidelines for a Mobile Cooperative Robot Workshop, DGIST
+- (Jun. 2023 – Jan. 2024) Development of an Extended Reality-Based Avatar Platform for Extreme Remote Maintenance Using Remote Interaction and Experience Sharing Technologies, Alchemist
+- (Aug. 2023 – Apr. 2024) Development of a Whole-Body Control Algorithm for a Mobile Manipulator, Hyundai Mobis
+- (Feb. 2024 – Jan. 2025) Implementation and Evaluation of Algorithms for Mobile Manipulators, ROBOE Technologies
+- (Apr. 2024 – Dec. 2028) Development of a Lightweight Hydraulic Manipulator, Carrier Platform, and Integrated Control System for Multi-Purpose High-Performance Timber Harvesting Machinery, Korea Forest Service (KFS)
+- (Apr. 2025 – Dec. 2029) Development of Autonomous Construction Site Operations and Multi-Robot Autonomous Driving Technology, South Korean Ministry of Trade, Industry and Energy (MOTIE)
+
