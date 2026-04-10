@@ -1,20 +1,20 @@
 ---
-title: Paper
+title: Patent
 nav:
   order: 3
 ---
 
 
-# **Journal & Conferenece Papers**
+# **Patents**
 
-<!-- <script src="https://bibbase.org/show?bib=https://hyHarco.github.io/Journal.bib&theme=side&jsonp=1&folding=1&fullnames=1&showSearch=true&commas=true"></script> -->
+<!-- <script src="https://bibbase.org/show?bib=https://hyHarco.github.io/Patent.bib&theme=side&jsonp=1&folding=1&fullnames=1&showSearch=true&commas=true"></script> -->
 
 <!-- ## Publications -->
 
 <div id="publications-list"></div>
 
 <script>
-    fetch('/publication/publications.json')
+    fetch('/publication/patents.json')
         .then(response => response.json())
         .then(data => {
             let publicationsList = document.getElementById('publications-list');
@@ -40,8 +40,8 @@ nav:
                 publicationItem.innerHTML = `
                     <div class="publication-details">
                         <strong><a href="${pub.link}" target="_blank">${pub.title}</a></strong><br>
-                        ${pub.authors}<br>
-                        <em>${pub.journal}</em><br>
+                        ${pub.inventors}<br>
+                        <em>${pub.app_no}</em><br>
                         <span class="publication-category ${pub.category.toLowerCase()}">${pub.category.charAt(0).toUpperCase() + pub.category.slice(1)}</span>
                     </div>
                 `;
@@ -90,6 +90,6 @@ nav:
         background-color: #28a745; /* Green for conferences */
     }
     .publication-category.journal {
-        background-color: #007BFF; /* Blue for journals */
+        background-color: #ff9d00; /* Blue for journals */
     }
 </style>
