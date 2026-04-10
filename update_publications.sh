@@ -25,11 +25,3 @@ jq '.[0:3]' _data/publications.json
 BRANCH_NAME="update_publications"
 echo "🌿 Creating new branch: $BRANCH_NAME"
 git checkout -b "$BRANCH_NAME"
-
-# 커밋 및 푸시
-git add _data/publications.json
-git commit -m "Update publications.json ($(date '+%Y-%m-%d'))"
-git push -u origin "$BRANCH_NAME"
-
-echo "🚀 Pushed to branch $BRANCH_NAME"
-echo "➡️ Go to GitHub and create a Pull Request to merge into main"
