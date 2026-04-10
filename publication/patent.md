@@ -5,7 +5,7 @@ nav:
 ---
 
 
-# **Journal & Confernece Papers**
+# **Patents**
 
 <!-- <script src="https://bibbase.org/show?bib=https://hyHarco.github.io/Patent.bib&theme=side&jsonp=1&folding=1&fullnames=1&showSearch=true&commas=true"></script> -->
 
