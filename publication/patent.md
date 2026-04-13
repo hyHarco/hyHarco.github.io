@@ -7,10 +7,6 @@ nav:
 
 # **Patents**
 
-<!-- <script src="https://bibbase.org/show?bib=https://hyHarco.github.io/Patent.bib&theme=side&jsonp=1&folding=1&fullnames=1&showSearch=true&commas=true"></script> -->
-
-<!-- ## Publications -->
-
 <div id="publications-list"></div>
 
 <script>
@@ -19,33 +15,39 @@ nav:
         .then(data => {
             let publicationsList = document.getElementById('publications-list');
             
-            // Sort by year, then by title within the same year
+            // Sort by year descending, then by title within the same year
             data.sort((a, b) => b.year - a.year || a.title.localeCompare(b.title));
 
             let currentYear = null;
 
-            // Process each publication and append to the publications list
+            const statusLabel = {
+                'registered': 'Registered',
+                'applied': 'Applied',
+                'pending': 'Pending'
+            };
+
             data.forEach(pub => {
-                // Check if we need to insert a new year header
                 if (pub.year !== currentYear) {
                     currentYear = pub.year;
                     let yearHeader = document.createElement('h3');
-                    yearHeader.textContent = currentYear;
+                    yearHeader.textContent = currentYear ?? 'Pending';
                     publicationsList.appendChild(yearHeader);
                 }
 
                 let publicationItem = document.createElement('div');
                 publicationItem.classList.add('publication-item');
-                
+
+                const label = statusLabel[pub.status] ?? pub.status;
+
                 publicationItem.innerHTML = `
                     <div class="publication-details">
-                        <strong><a href="${pub.link}" target="_blank">${pub.title}</a></strong><br>
+                        <strong>${pub.title}</strong><br>
                         ${pub.inventors}<br>
-                        <em>${pub.app_no}</em><br>
-                        <span class="publication-category ${pub.category.toLowerCase()}">${pub.category.charAt(0).toUpperCase() + pub.category.slice(1)}</span>
+                        <em>${pub.app_no || pub.reg_no || ''}</em><br>
+                        <span class="publication-category ${pub.status}">${label}</span>
                     </div>
                 `;
-                
+
                 publicationsList.appendChild(publicationItem);
             });
         })
@@ -65,13 +67,6 @@ nav:
         text-align: left;
         padding-left: 10px;
     }
-    .publication-details a {
-        text-decoration: none;
-        color: #007BFF;
-    }
-    .publication-details a:hover {
-        text-decoration: underline;
-    }
     .publication-details em {
         color: #555;
     }
@@ -82,14 +77,16 @@ nav:
         font-size: 0.85em;
         font-weight: bold;
         color: white;
-        background-color: #007BFF;
         border-radius: 3px;
         margin-bottom: 5px;
     }
-    .publication-category.conference {
-        background-color: #28a745; /* Green for conferences */
+    .publication-category.registered {
+        background-color: #007BFF; /* Blue - Registered */
     }
-    .publication-category.journal {
-        background-color: #ff9d00; /* Blue for journals */
+    .publication-category.applied {
+        background-color: #28a745; /* Green - Applied */
+    }
+    .publication-category.pending {
+        background-color: #6c757d; /* Gray - Pending */
     }
 </style>
