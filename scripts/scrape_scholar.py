@@ -144,11 +144,11 @@ def get_publications(url):
 # Get the publications data
 publications = get_publications(url)
 
-# Ensure the "_data" directory exists
-os.makedirs('_data', exist_ok=True)
+# Ensure the "publication" directory exists
+os.makedirs('publication', exist_ok=True)
 
-# Save the publication data to a JSON file in the "_data" directory
-with open('_data/publications.json', 'w') as f:
+# Save the publication data to a JSON file in the "publication" directory
+with open('publication/publications.json', 'w') as f:
     json.dump(publications, f, indent=4)
 
-print("Data saved to _data/publications.json")
+print("Data saved to publication/publications.json")

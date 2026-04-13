@@ -1,5 +1,37 @@
 [
     {
+        "title": "\ubc29\ud638-\uc784\ubb34 \uc218\ud589\uc744 \uc704\ud55c \ud558\uc9c0 \uc678\uace8\uaca9\ub85c\ubd07\uc758 \uc790\uc138 \uc548\uc815 \uc81c\uc5b4 \uc6b4\uc6a9 \ud504\ub808\uc784\uc6cc\ud06c",
+        "authors": "\uc774\ub3d9\uaddc\uff0c \uae40\ud68c\uc9c4\uff0c \ucd5c\uc720\uc2e0\uff0c \ud558\uc131\ubbfc\uff0c \ub178\uc900\uaddc\uff0c \ud669\uc21c\uc6c5\uff0c \uc720\uc7ac\uad00\uff0c \uae40\uc644\uc218",
+        "year": 2026,
+        "journal": "\uc81c\uc5b4\ub85c\ubd07\uc2dc\uc2a4\ud15c\ud559\ud68c \ub17c\ubb38\uc9c0 32 (1), 75-81, 2026",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:JoZmwDi-zQgC",
+        "category": "journal"
+    },
+    {
+        "title": "Geo-LSTM: A Geometry and Temporal Feature Fusion Algorithm for Multi-Sensor 3D Localization",
+        "authors": "K Li, L Bao, W Kim",
+        "year": 2025,
+        "journal": "IEEE Robotics and Automation Letters 10 (9), 9128-9135, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:J-pR_7NvFogC",
+        "category": "journal"
+    },
+    {
+        "title": "Pelvic IMU-Based Gait Phase Classification using Kernel-Embedded ELM: A Preliminary Validation Framework for Future Hemiplegic Gait Applications",
+        "authors": "S Ha, J Lee, J No, S Hwang, W Kim",
+        "year": 2025,
+        "journal": "2025 25th International Conference on Control, Automation and Systems (ICCAS\u00a0\u2026, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:PELIpwtuRlgC",
+        "category": "conference"
+    },
+    {
+        "title": "Stable Variable Impedance Control via CLF-MPC for Physical Human-Robot Interaction",
+        "authors": "S Choi, S Hwang, W Kim",
+        "year": 2025,
+        "journal": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems\u00a0\u2026, 2025",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:_B80troHkn4C",
+        "category": "conference"
+    },
+    {
         "title": "Proactive Ergonomic Human Motion Generation for Human-Humanoid Collaboration",
         "authors": "D Lee, S Hwang, S Choi, Y Kim, W Kim",
         "year": 2025,
@@ -21,14 +53,6 @@
         "year": 2025,
         "journal": "\uc81c\uc5b4\ub85c\ubd07\uc2dc\uc2a4\ud15c\ud559\ud68c \ub17c\ubb38\uc9c0 31 (8), 914-920, 2025",
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:XiVPGOgt02cC",
-        "category": "journal"
-    },
-    {
-        "title": "Geo-LSTM: A Geometry and Temporal Feature Fusion Algorithm for Multi-Sensor 3D Localization",
-        "authors": "K Li, L Bao, W Kim",
-        "year": 2025,
-        "journal": "IEEE Robotics and Automation Letters 10 (9), 9128-9135, 2025",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:J-pR_7NvFogC",
         "category": "journal"
     },
     {
@@ -140,7 +164,7 @@
         "authors": "\ucd5c\uc720\uc2e0\uff0c \ud669\uc21c\uc6c5\uff0c \uae40\uc644\uc218",
         "year": 2024,
         "journal": "\ud55c\uad6d\uc815\ubc00\uacf5\ud559\ud68c \ud559\uc220\ubc1c\ud45c\ub300\ud68c \ub17c\ubb38\uc9d1, 43-44, 2024",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:5ugPr518TE4C",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&cstart=100&pagesize=100&citation_for_view=o7u_E8wAAAAJ:5ugPr518TE4C",
         "category": "journal"
     },
     {
@@ -148,7 +172,7 @@
         "authors": "L Bao, K Li, W Dong, W Li, K Shin, C Han, W Kim",
         "year": 2024,
         "journal": "2024 24th International Conference on Control, Automation and Systems (ICCAS\u00a0\u2026, 2024",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:eflP2zaiRacC",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&cstart=100&pagesize=100&citation_for_view=o7u_E8wAAAAJ:eflP2zaiRacC",
         "category": "conference"
     },
     {
@@ -156,7 +180,7 @@
         "authors": "\uc591\uc9c0\uc724\uff0c \uad8c\uadfc\uc6b0\uff0c \uae40\ub2e4\ud604\uff0c \uae40\uc815\ubaa9\uff0c \ub958\ud0dc\ud6c8\uff0c \ubc30\uc2b9\ud559\uff0c \uae40\uc644\uc218",
         "year": 2024,
         "journal": "\uc81c\uc5b4\ub85c\ubd07\uc2dc\uc2a4\ud15c\ud559\ud68c \uad6d\ub0b4\ud559\uc220\ub300\ud68c \ub17c\ubb38\uc9d1, 1135-1136, 2024",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:Y5dfb0dijaUC",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&cstart=100&pagesize=100&citation_for_view=o7u_E8wAAAAJ:Y5dfb0dijaUC",
         "category": "journal"
     },
     {
@@ -200,6 +224,14 @@
         "category": "journal"
     },
     {
+        "title": "A Power-Aware Control Strategy for an Elbow Effort-Compensation Device",
+        "authors": "E Mobedi, S Hjorth, W Kim, E De Momi, NG Tsagarakis, A Ajoudani",
+        "year": 2023,
+        "journal": "IEEE Robotics and Automation Letters 8 (7), 4330-4337, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:l7t_Zn2s7bgC",
+        "category": "journal"
+    },
+    {
         "title": "Adaptive Online Steering Efficiency Coefficient Estimation for Enhanced Terrain Motion Control in Four-wheeled Skid-steering Mobile Robots",
         "authors": "L Bao, K Li, C Han, K Shin, W Kim",
         "year": 2023,
@@ -208,11 +240,11 @@
         "category": "journal"
     },
     {
-        "title": "A Power-Aware Control Strategy for an Elbow Effort-Compensation Device",
-        "authors": "E Mobedi, S Hjorth, W Kim, E De Momi, NG Tsagarakis, A Ajoudani",
+        "title": "Design and Validation of Soft Sliding Structure With Adjustable Stiffness for Ankle Sprain Prevention",
+        "authors": "S Ham, SL Paing, BB Kang, H Lee, W Kim",
         "year": 2023,
-        "journal": "IEEE Robotics and Automation Letters 8 (7), 4330-4337, 2023",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:l7t_Zn2s7bgC",
+        "journal": "IEEE robotics and automation letters 9 (2), 947-954, 2023",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:B3FOqHPlNUQC",
         "category": "journal"
     },
     {
@@ -222,14 +254,6 @@
         "journal": "2023 IEEE International Conference on Soft Robotics (RoboSoft), 1-6, 2023",
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:vRqMK49ujn8C",
         "category": "conference"
-    },
-    {
-        "title": "Design and Validation of Soft Sliding Structure With Adjustable Stiffness for Ankle Sprain Prevention",
-        "authors": "S Ham, SL Paing, BB Kang, H Lee, W Kim",
-        "year": 2023,
-        "journal": "IEEE robotics and automation letters 9 (2), 947-954, 2023",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:B3FOqHPlNUQC",
-        "category": "journal"
     },
     {
         "title": "Towards Natural and Intuitive Human-Robot Collaboration based on Goal-Oriented Human Gaze Intention Recognition",
@@ -296,19 +320,19 @@
         "category": "conference"
     },
     {
-        "title": "Development of soft variable stiffness actuator with tendon-driven layer jamming mechanism",
-        "authors": "S Ham, BB Kang, J Kim, S Hwang, W Kim",
-        "year": 2022,
-        "journal": "2022 9th IEEE RAS/EMBS International Conference for Biomedical Robotics and\u00a0\u2026, 2022",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:738O_yMBCRsC",
-        "category": "conference"
-    },
-    {
         "title": "IMU-based Online Kinematic Model Parameter Estimation for Four-Wheeled Skid-Steering Mobile Robot Desired Motion Tracking on Different Terrains",
         "authors": "K Li, L Bao, C Han, K Shin, W Kim",
         "year": 2022,
         "journal": "2022 22nd International Conference on Control, Automation and Systems (ICCAS\u00a0\u2026, 2022",
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:sSrBHYA8nusC",
+        "category": "conference"
+    },
+    {
+        "title": "Development of soft variable stiffness actuator with tendon-driven layer jamming mechanism",
+        "authors": "S Ham, BB Kang, J Kim, S Hwang, W Kim",
+        "year": 2022,
+        "journal": "2022 9th IEEE RAS/EMBS International Conference for Biomedical Robotics and\u00a0\u2026, 2022",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:738O_yMBCRsC",
         "category": "conference"
     },
     {
@@ -336,14 +360,6 @@
         "category": "journal"
     },
     {
-        "title": "Gait pattern generation algorithm for lower-extremity rehabilitation\u2013exoskeleton robot considering wearer\u2019s condition",
-        "authors": "SH Hwang, DI Sun, J Han, WS Kim",
-        "year": 2021,
-        "journal": "Intelligent Service Robotics 14 (3), 345-355, 2021",
-        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:Tiz5es2fbqcC",
-        "category": "journal"
-    },
-    {
         "title": "Unified Approach for Hybrid Motion Control of MOCA Based on Weighted Whole-Body Cartesian Impedance Formulation",
         "authors": "Y Wu, E Lamon, F Zhao, W Kim, A Ajoudani",
         "year": 2021,
@@ -357,6 +373,14 @@
         "year": 2021,
         "journal": "IEEE Transactions on Haptics 15 (1), 200-211, 2021",
         "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:uWQEDVKXjbEC",
+        "category": "journal"
+    },
+    {
+        "title": "Gait pattern generation algorithm for lower-extremity rehabilitation\u2013exoskeleton robot considering wearer\u2019s condition",
+        "authors": "SH Hwang, DI Sun, J Han, WS Kim",
+        "year": 2021,
+        "journal": "Intelligent Service Robotics 14 (3), 345-355, 2021",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:Tiz5es2fbqcC",
         "category": "journal"
     },
     {
