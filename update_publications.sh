@@ -19,9 +19,4 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "✅ Scraping complete. Showing recent publications:"
-jq '.[0:3]' _data/publications.json
-
-# 🆕 브랜치 만들기
-BRANCH_NAME="update_publications"
-echo "🌿 Creating new branch: $BRANCH_NAME"
-git checkout -b "$BRANCH_NAME"
+jq '.[0:3]' publication/publications.json
