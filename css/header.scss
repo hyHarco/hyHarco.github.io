@@ -6,14 +6,20 @@
 @import "mixins";
 
 header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 1px;
-  color: $white;
-  background: $gray-800;
-  box-shadow: $shadow;
+  padding: 14px 36px;
+  color: $accent;
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: saturate(160%) blur(14px);
+  -webkit-backdrop-filter: saturate(160%) blur(14px);
+  border-bottom: 1px solid rgba(17, 35, 73, 0.08);
+  box-shadow: none;
 
   & * {
     font-family: $sans;
@@ -21,28 +27,35 @@ header {
 
   .logo_row {
     @include inline-flex-center;
+    gap: 12px;
 
     .logo {
       max-width: 100%;
-      height: 50px;
+      height: 1.5rem !important;
+      width: auto;
     }
 
-    .logo_text {
-      margin: 10px;
-      font-size: 1.5rem;
-      text-align: center;
+    .logo_text,
+    div {
+      margin: 0;
+      font-size: 1.25rem !important;
+      font-weight: $semi-bold;
+      letter-spacing: -0.01em;
+      line-height: 1.2;
+      text-align: left;
+      color: $accent;
     }
   }
 
   .nav_row {
     @include inline-flex-center;
-    font-size: 0.8rem;
-    font-weight: $regular;
-    text-transform: uppercase;
-    letter-spacing: 0.1px;
+    font-size: 0.85rem;
+    font-weight: $medium;
+    text-transform: none;
+    letter-spacing: 0.02em;
 
     &:hover .link {
-      opacity: 0.25;
+      opacity: 0.5;
     }
 
     .link:hover {
@@ -55,10 +68,26 @@ header {
     text-decoration: none;
   }
 
-  // screen width where nav bar wraps to under logo
-  // adjust based on length of your lab title and # of nav links
+  @media (max-width: 1100px) {
+    padding: 12px 20px;
+
+    .logo_row {
+      gap: 10px;
+
+      .logo {
+        height: 1.32rem !important;
+      }
+
+      .logo_text,
+      div {
+        font-size: 1.1rem !important;
+      }
+    }
+  }
+
   @media (max-width: 900px) {
     align-content: center;
+    padding: 10px 16px;
 
     .logo_row,
     .nav_row {
@@ -66,11 +95,10 @@ header {
     }
   }
 
-  // screen width where logo and nav bar go from horizontal to vertical
-  // adjust based on length of your lab title and # of nav links
   @media (max-width: 600px) {
     .logo_row {
       flex-direction: column;
+      gap: 8px;
     }
 
     .nav_row {

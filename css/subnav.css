@@ -1,72 +1,97 @@
-/* The navigation menu */
+/* Top navigation menu - white glass header with navy text */
 .navbar {
-    background-color: rgba(26, 26, 26,0.0);
-    position: absolute;
-    top: 1%;
-    right: 1vh;
-  }
-  
-  /* Navigation links */
-  .navbar a {
-    float: left;
-    font-size: 1.05vw;
-    color: white;
-    text-align: center;
-    padding: 0.5vw 0.9vw;
-    text-decoration: none;
-  }
-  
-  /* The subnavigation menu */
-  .subnav {
-    float: left;
-  }
-  
-  /* Subnav button */
-  .subnav .subnavbtn {
-    font-size: 1.05vw;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 0.5vw 0.9vw;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  /* Add a red background color to navigation links on hover */
-  .navbar a:hover, .subnav:hover .subnavbtn {
-    background-color: rgba(3, 45, 134, 0.4);
-    color:  white;
-  }
-  
-  /* Style the subnav content - positioned absolute */
-  .subnav-content {
-    display: none;
-    position: absolute;
-    right:  0%;
-    background-color: rgba(26, 26, 26,0.0);
-    width: 100%;
-    z-index: 1;
-  }
-  
-  /* Style the subnav links */
-  .subnav-content a {
-    float: right;
-    color: white;
-    text-decoration: none;
-    font-size: 1.05vw;
-    padding: 0.5vw 0.8vw;
-  }
-  
-  /* Add a grey background color on hover */
-  .subnav-content a:hover {
-    background-color: rgba(255,255,255,0.8);
-    color:  rgb(3, 55, 167);
-  }
-  
-  /* When you move the mouse over the subnav container, open the subnav content */
-  .subnav:hover .subnav-content {
-    display: block;
-  }
+  position: static;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: transparent;
+}
 
+/* Navigation links */
+.navbar a {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.92rem;
+  color: #1f3b6e;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
 
+/* Subnav container */
+.subnav {
+  position: relative;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 0.92rem;
+  border: none;
+  outline: none;
+  color: #1f3b6e;
+  padding: 10px 14px;
+  background-color: transparent;
+  font-family: inherit;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  margin: 0;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Hover: dark accent underline */
+.navbar a:hover,
+.subnav:hover .subnavbtn {
+  background-color: transparent;
+  color: #112349;
+  border-bottom-color: #1f3b6e;
+}
+
+/* Subnav dropdown */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: rgba(255, 255, 255, 0.92);
+  backdrop-filter: saturate(160%) blur(14px);
+  -webkit-backdrop-filter: saturate(160%) blur(14px);
+  min-width: 220px;
+  border: 1px solid rgba(17, 35, 73, 0.08);
+  border-top: 2px solid #1f3b6e;
+  z-index: 50;
+  box-shadow: 0 12px 28px rgba(17, 35, 73, 0.08);
+}
+
+/* Subnav links */
+.subnav-content a {
+  display: block;
+  float: none;
+  color: #1d1d1b;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 10px 14px;
+  border-bottom: 1px solid rgba(17, 35, 73, 0.06);
+  border-left: 0;
+  border-right: 0;
+}
+
+.subnav-content a:last-child {
+  border-bottom: none;
+}
+
+/* Hover row in dropdown */
+.subnav-content a:hover {
+  background-color: rgba(31, 59, 110, 0.06);
+  color: #1f3b6e;
+}
+
+/* Open dropdown on hover */
+.subnav:hover .subnav-content {
+  display: block;
+}

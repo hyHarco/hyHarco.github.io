@@ -8,7 +8,7 @@
   {%- assign dark = site.header-dark -%}
 {%- endif -%}
 {%- if dark == nil -%}
-  {%- assign dark = true -%}
+  {%- assign dark = false -%}
 {%- endif -%}
 
 {%- assign title = site.logo-text -%}
@@ -31,56 +31,51 @@
     class="logo_row"
     data-tooltip="Home"
   >
-    <img src="{{ site.logo | relative_url }}" class="logo" style="height: 120px" />
     {% if title and title != "" %}
-    <div class="animate__animated animate__headShake" style="font-size: 1.6vw; font-weight: 500;">&nbsp {{ title }}</div>
+    <div>{{ title }}</div>
     {% endif %}
   </a>
 
-  {%- assign pages = site.pages | where_exp: "page", "page.nav" | sort: "nav.order" -%}
   <div class="navbar">
-    <a href="{{ '/' | relative_url }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
-    <a href="https://youtube.com/@HARCOLAB?si=Rfsy8015JEwoklbW"><i class="fab fa-youtube"></i> YouTube</a>
+    <a href="{{ '/' | relative_url }}">Home</a>
 
     <div class="subnav-research">
-      <button class="subnavbtn-research" onclick="redirectToResearch()"><i class='fas fa-book-reader'></i> Researches</button>
+      <button class="subnavbtn-research" onclick="redirectToResearch()">Research</button>
       <div class="subnav-research-content">
-        <a href="/research/artificial_intelligence/"><i class="fa fa-share-alt" style="font-size: 19px;" aria-hidden="true"></i> Artificial Intelligence</a>
-        <a href="/research/exoskeleton_robot/"><i class="fas fa-robot" style="font-size: 19px;" aria-hidden="true"></i> Exoskeleton Robot</a>
-        <a href="/research/mobile_manipulator/"><i class="fa fa-cogs" style="font-size: 19px;" aria-hidden="true"></i> Mobile Manipulator</a>
+        <a href="/research/mobile_manipulator/">Mobile Manipulator</a>
+        <a href="/research/exoskeleton_robot/">Exoskeleton Robot</a>
+        <a href="/research/artificial_intelligence/">Artificial Intelligence</a>
       </div>
     </div>
 
-    <a href="/project/index.html"><i class="fas fa-flask"></i> Projects</a>
+    <a href="/equipment/">Robots &amp; Equipment</a>
 
-    <!-- <a href="/publication/index.html"><i class="fas fa-inbox"></i> Publications</a> -->
+    <a href="/project/index.html">Projects</a>
+
     <div class="subnav">
-      <button class="subnavbtn"><i class="fas fa-inbox"></i> Publications <i class="fa fa-caret-down"></i></button>
+      <button class="subnavbtn">Publications <i class="fa fa-caret-down"></i></button>
       <div class="subnav-content">
-        <a href="/publication/index.html"><i class="fas fa-file-alt"></i> Journal & Conference Papers</a>
-        <a href="/publication/patent.html"><i class="fas fa-lightbulb"></i></i> Patents</a>
-      </div>
-    </div>
-    
-    <div class="subnav">
-      <button class="subnavbtn"><i class='fas fa-leaf'></i> Team <i class="fa fa-caret-down"></i></button>
-      <div class="subnav-content">
-        <a href="/contact/index.html"><i class="fas fa-envelope"></i> Contact</a>
-        <a href="/team/index.html"><i class="fas fa-user-friends"></i> Members</a>
+        <a href="/publication/index.html">Journal &amp; Conference Papers</a>
+        <a href="/publication/patent.html">Patents</a>
       </div>
     </div>
 
     <div class="subnav">
-      <button class="subnavbtn"><i class='fas fa-carrot'></i> Event <i class="fa fa-caret-down"></i></button>
+      <button class="subnavbtn">People <i class="fa fa-caret-down"></i></button>
       <div class="subnav-content">
-        <a href="/workshop/index.html"><i class="fa fa-cube" aria-hidden="true"></i> Workshops</a>
-        <a href="/news/index.html"><i class="fas fa-bell"></i> News</a>
-        <a href="/lecture/index.html"><i class="fas fa-chalkboard-teacher"></i> Lectures</a>
+        <a href="/team/index.html">Members</a>
+        <a href="/contact/index.html">Contact</a>
       </div>
+    </div>
+
+    <div class="subnav">
+      <button class="subnavbtn">News &amp; Events <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="/news/index.html">News</a>
+        <a href="/workshop/index.html">Workshops</a>
+        <a href="/lecture/index.html">Lectures</a>
+      </div>
+    </div>
   </div>
 
 </header>
-
-
-
-
