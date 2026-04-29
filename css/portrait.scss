@@ -14,14 +14,27 @@
   text-align: center;
   line-height: $spacing;
   text-decoration: none;
+  color: $ink;
+  transition: transform 0.25s ease, color 0.2s ease;
+
+  &:hover {
+    color: $accent;
+    transform: translateY(-2px);
+
+    .portrait_image {
+      box-shadow: 0 8px 20px rgba(17, 35, 73, 0.12);
+    }
+  }
 
   .portrait_image {
     display: inline-block;
     width: var(--width);
     height: var(--width);
-    border-radius: 999px;
+    border-radius: 14px;
     overflow: hidden;
-    box-shadow: $shadow;
+    background: $surface-alt;
+    box-shadow: 0 2px 8px rgba(17, 35, 73, 0.08);
+    transition: box-shadow 0.25s ease;
 
     img {
       object-fit: cover;
@@ -33,15 +46,23 @@
   .portrait_name,
   .portrait_description {
     font-family: $sans;
-    font-size: 0.9rem;
+    font-size: 0.92rem;
+    letter-spacing: -0.005em;
   }
 
   .portrait_name {
-    font-weight: $medium;
+    font-weight: $semi-bold;
+    color: $ink;
+  }
+
+  .portrait_description {
+    font-weight: $regular;
+    color: $ink-soft;
+    font-size: 0.82rem;
   }
 
   .portrait_image + span {
-    margin-top: 10px;
+    margin-top: 12px;
   }
 
   .role {
@@ -55,9 +76,10 @@
     width: calc(0.25 * var(--width));
     height: calc(0.25 * var(--width));
     font-size: calc(16 * var(--width) / 150);
-    background: $white;
-    color: $gray-500;
+    background: $surface;
+    color: $accent;
     border-radius: 999px;
+    box-shadow: 0 1px 3px rgba(17, 35, 73, 0.12);
     transform: translate(-50%, -50%);
   }
 }
