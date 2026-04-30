@@ -8,41 +8,55 @@
 .card {
   display: inline-flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: stretch;
   flex-direction: column;
   width: var(--width);
   max-width: 100%;
-  margin: 20px;
+  margin: 16px;
+  background: $surface;
+  border: 1px solid $rule;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    border-color: $accent;
+  }
 
   .card_image {
     flex-shrink: 0;
-    width: var(--width);
+    width: 100%;
     height: calc(2 / 3 * var(--width));
-    max-width: 100%;
-    margin-bottom: 20px;
     overflow: hidden;
-    box-shadow: $shadow;
+    box-shadow: none;
+    background: $surface-alt;
 
     img {
-      object-fit: contain;
-      background: #fff;
+      object-fit: cover;
+      background: $surface-alt;
       width: 100%;
       height: 100%;
+      transition: transform 0.4s ease;
     }
+  }
+
+  &:hover .card_image img {
+    transform: scale(1.03);
   }
 
   .card_text {
     width: 100%;
+    padding: 14px 16px 18px;
 
     .card_name {
       display: block;
-      margin-bottom: 10px;
-      text-align: center;
+      margin-bottom: 8px;
+      text-align: left;
       font-weight: $semi-bold;
+      font-size: 0.95rem;
+      color: $ink;
     }
 
     .tags {
-      text-align: center;
+      text-align: left;
     }
   }
 }

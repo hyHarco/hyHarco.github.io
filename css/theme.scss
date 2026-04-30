@@ -1,14 +1,21 @@
-// colors for links, tags, etc.
-// see colors.scss for available colors
-$accent: $light-blue-500;
-$light-accent: $light-blue-200;
-$dark-accent: $light-blue-900;
+// Restrained institutional palette (RSL-inspired vibe, not a copy)
+// Cool navy that pairs with the Hanyang identity
+$accent: #1f3b6e;
+$light-accent: #7d92b6;
+$dark-accent: #112349;
+
+// neutral surfaces / text
+$ink: #1d1d1b; // primary text
+$ink-soft: #4a4a48; // secondary text
+$rule: #d6d6d4; // hairline borders
+$surface: #ffffff; // page background
+$surface-alt: #f7f9fc; // alt section background — cool, fresh tint
 
 // font types
 // also see /_includes/fonts.html to change fonts
-$serif: "Lora", serif; // font name, fallback font type
-$sans: "Poppins", sans-serif;
-$mono: "Cousine", monospace;
+$serif: "Source Serif 4", "Lora", serif;
+$sans: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$mono: "JetBrains Mono", "Cousine", monospace;
 
 // line spacing
 $spacing: 1.5;

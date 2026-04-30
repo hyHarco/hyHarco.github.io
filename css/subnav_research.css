@@ -1,52 +1,64 @@
-/* The subnavigation menu for Research */
+/* Research subnav - white glass header */
 .subnav-research {
-  float: left;
+  position: relative;
 }
 
-/* Subnav button for Research */
 .subnav-research .subnavbtn-research {
-  font-size: 1.05vw;
+  font-size: 0.92rem;
   border: none;
   outline: none;
-  color: white;
-  padding: 0.5vw 0.9vw;
-  background-color: inherit;
+  color: #1f3b6e;
+  padding: 10px 14px;
+  background-color: transparent;
   font-family: inherit;
+  font-weight: 500;
+  letter-spacing: 0.01em;
   margin: 0;
   cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
 }
 
 .navbar .subnav-research:hover .subnavbtn-research {
-  background-color: rgba(3, 45, 134, 0.4);
-  color:  white;
+  background-color: transparent;
+  color: #112349;
+  border-bottom-color: #1f3b6e;
 }
 
-/* Style the subnav content for Research - positioned absolute */
 .subnav-research-content {
   display: none;
   position: absolute;
-  right: 40%;
-  background-color: rgba(26, 26, 26,0.0);
-  width: 100%;
-  z-index: 1;
+  left: 0;
+  top: 100%;
+  background-color: rgba(255, 255, 255, 0.92);
+  backdrop-filter: saturate(160%) blur(14px);
+  -webkit-backdrop-filter: saturate(160%) blur(14px);
+  min-width: 240px;
+  border: 1px solid rgba(17, 35, 73, 0.08);
+  border-top: 2px solid #1f3b6e;
+  z-index: 50;
+  box-shadow: 0 12px 28px rgba(17, 35, 73, 0.08);
 }
 
-/* Style the subnav links for Research */
 .subnav-research-content a {
-  float: right;
-  color: white;
+  display: block;
+  float: none;
+  color: #1d1d1b;
   text-decoration: none;
-  font-size: 1.05vw;
-  padding: 0.5vw 0.8vw;
+  font-size: 0.9rem;
+  padding: 10px 14px;
+  border-bottom: 1px solid rgba(17, 35, 73, 0.06);
 }
 
-/* Add a grey background color on hover for Research links */
+.subnav-research-content a:last-child {
+  border-bottom: none;
+}
+
 .subnav-research-content a:hover {
-  background-color: rgba(255,255,255,0.8);
-  color: rgb(3, 55, 167);
+  background-color: rgba(31, 59, 110, 0.06);
+  color: #1f3b6e;
 }
 
-/* When you move the mouse over the subnav-research container, open the subnav content */
 .subnav-research:hover .subnav-research-content {
   display: block;
 }

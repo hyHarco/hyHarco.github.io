@@ -8,21 +8,52 @@
   {%- assign dark = site.footer-dark -%}
 {%- endif -%}
 {%- if dark == nil -%}
-  {%- assign dark = true -%}
+  {%- assign dark = false -%}
 {%- endif -%}
 
-<footer {% if background %}class="background"{% endif %} {% if background %}style="--background: url('{{ background | relative_url }}')"{% endif %} data-dark="{{ dark }}" style="padding: 0; margin: 0; height: auto;">
-  <div class="footer_row" style="display: flex; justify-content: space-between; align-items: center; padding: 18px 30px; font-size: 18px; color: #ccc; flex-wrap: wrap;">
-    
-    <!-- 왼쪽 -->
-    <div style="font-weight: bold;">
-      &copy; {{ site.time | date: '%Y' }} Hanyang HARCO LAB
+<footer {% if background %}class="background"{% endif %} {% if background %}style="--background: url('{{ background | relative_url }}')"{% endif %} data-dark="{{ dark }}">
+  <div class="footer_inner">
+
+    <div class="footer_col">
+      <h4>HARCO LAB</h4>
+      <p>Human-Robot Collaboration Lab<br/>
+      Department of Robot Engineering<br/>
+      Hanyang University ERICA</p>
     </div>
 
-    <!-- 오른쪽 -->
-    <div style="text-align: right;">
-      경기도 안산시 상록구 한양대학로 55, 5공학관 522호 Tel : 031-400-4062 &nbsp; | &nbsp; Fax : 031-406-6398
+    <div class="footer_col">
+      <h4>Contact</h4>
+      <p>경기도 안산시 상록구<br/>
+      한양대학로 55, 5공학관 522호<br/>
+      <span class="addr_en">55 Hanyangdaehak-ro, Sangnok-gu,<br/>
+      Ansan-si, Gyeonggi-do 15588, Republic of Korea<br/>
+      Engineering Bldg. 5, Room 522</span><br/>
+      Tel. 031-400-4062<br/>
+      Fax. 031-406-6398</p>
     </div>
 
+    <div class="footer_col footer_col_explore">
+      <h4>Explore</h4>
+      <ul class="footer_explore_grid">
+        <li><a href="{{ '/research/index.html' | relative_url }}">Research</a></li>
+        <li><a href="{{ '/equipment/' | relative_url }}">Robots &amp; Equipment</a></li>
+        <li><a href="{{ '/project/index.html' | relative_url }}">Projects</a></li>
+        <li><a href="{{ '/publication/index.html' | relative_url }}">Publications</a></li>
+        <li><a href="{{ '/team/index.html' | relative_url }}">Team</a></li>
+        <li><a href="{{ '/news/index.html' | relative_url }}">News</a></li>
+      </ul>
+    </div>
+
+    <div class="footer_col">
+      <h4>Follow</h4>
+      <ul class="footer_social">
+        <li><a href="https://youtube.com/@HARCOLAB" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> YouTube</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer_bottom">
+    <span>&copy; {{ site.time | date: '%Y' }} Hanyang HARCO LAB. All rights reserved.</span>
   </div>
 </footer>

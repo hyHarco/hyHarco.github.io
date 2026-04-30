@@ -1,0 +1,19 @@
+{%- assign news_posts = site.posts | where: "group", "news" | sort: "date" | reverse -%}
+
+<section class="home_news">
+  <div class="home_news_head">
+    <h2>Latest News</h2>
+    <a class="home_news_more" href="{{ '/news/index.html' | relative_url }}">See all news →</a>
+  </div>
+
+  <ul class="home_news_list">
+    {%- for post in news_posts limit: 5 -%}
+      <li>
+        <a href="{{ post.url | relative_url }}">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+          <span class="home_news_title">{{ post.title | strip_html }}</span>
+        </a>
+      </li>
+    {%- endfor -%}
+  </ul>
+</section>
