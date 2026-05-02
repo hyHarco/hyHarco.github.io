@@ -1,10 +1,10 @@
 """
-update_patents_json.py
+scripts/update_patents_json.py
 
 HARCO_patent_list.xlsx 파일을 읽어 특허 실적을 publication/patents.json에 추가합니다.
 
-사용법:
-    python update_patents_json.py \
+사용법 (repo root 에서 실행):
+    python scripts/update_patents_json.py \
         --xlsx  _data/HARCO_patent_list.xlsx \
         --json  publication/patents.json
 
