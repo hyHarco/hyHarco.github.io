@@ -8,7 +8,7 @@ tags:
 
 author: Seongmin-Ha
 member: Seongmin-Ha
-group: research_1
+group: exoskeleton
 ---
 **Goal** :  The primary goal is to design and validate a geometry-aware gait phase classification framework capable of real-time operation with only a single pelvic inertial measurement unit (IMU). By employing Symmetric Positive Definite (SPD) covariance representations, Gaussian kernel embeddings, and a lightweight Extreme Learning Machine (ELM) classifier, the framework seeks to achieve efficient and accurate recognition of bilateral gait dynamics. The long-term aim is to provide a practical foundation for wearable systems that monitor and support hemiplegic gait in rehabilitation and assistive robotics
 

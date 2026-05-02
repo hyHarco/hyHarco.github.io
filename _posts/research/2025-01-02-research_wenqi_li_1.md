@@ -8,7 +8,7 @@ tags:
 
 author: Wenqi-Li
 member: Wenqi-Li
-group: research_1
+group: exoskeleton
 ---
 **Goal** :  To develop a lightweight, tendon-driven hand exoskeleton that enhances grasping assistance and rehabilitation by incorporating a dual-safety mechanism and intuitive two-handed synergistic control, ensuring both user safety and operational comfort.
 

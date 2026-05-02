@@ -9,7 +9,7 @@ tags:
   - whole-body control  
 author: Seokhwan-Hwang
 member: Seokhwan-Hwang
-group: research_2
+group: mobile_manipulator
 ---
 **Goal** : 
  1. Collaborative Path Planning Optimization

@@ -9,7 +9,7 @@ tags:
   - Real-Time Robot Perception 
 author: Jeongmok-Kim
 member: Jeongmok-Kim
-group: research_2
+group: mobile_manipulator
 ---
 **Goal** : To develop a real-time classification system that can distinguish between intentional physical interactions and unintentional collisions during robot manipulation, enabling safer and more intelligent human-robot collaboration.
 

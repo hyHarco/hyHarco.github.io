@@ -8,7 +8,7 @@ tags:
   - Whole Body Control 
 author: Kai-Li
 member: Kai-Li
-group: research_2
+group: mobile_manipulator
 ---
 **Goal** :  Enhancing the dynamic adaptability of Mobile Manipulators, developing multiple motion strategies for human intent, ensuring human safety, and enhancing the naturalness of the collaboration process. 
 

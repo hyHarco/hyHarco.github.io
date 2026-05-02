@@ -7,7 +7,7 @@ tags:
   - Wearable robotics
 author: Seoyeon Ham
 member: Seoyeon-Ham
-group: research_1
+group: exoskeleton
 ---
 **Goal** :  This study presents the design and validation of a soft sliding stiffness structure with a soft-rigid layer sliding mechanism.
 

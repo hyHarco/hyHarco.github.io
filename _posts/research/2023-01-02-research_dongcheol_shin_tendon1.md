@@ -6,7 +6,7 @@ tags:
   - H / W Modeling
 author: Dongcheol Shin
 member: Dongcheol-Shin
-group: research_1
+group: exoskeleton
 ---
 **Goal** : Expanding the fixed variable stiffness of the TSA through variation of offset between strings. 
 

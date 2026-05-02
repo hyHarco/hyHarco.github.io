@@ -23,7 +23,7 @@ We study how to design and control exoskeletons that are both adaptive and light
 {% include list.html 
 component="card-info_2"
 data="posts" 
-filters="group: research_1" %}
+filters="group: exoskeleton" %}
 
 
 

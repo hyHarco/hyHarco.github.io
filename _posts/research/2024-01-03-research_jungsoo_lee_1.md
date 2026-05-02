@@ -8,7 +8,7 @@ tags:
 
 author: Jungsoo-Lee
 member: Jungsoo-Lee
-group: research_3
+group: ai
 
 ---
 **Goal** 

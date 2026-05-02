@@ -7,7 +7,7 @@ tags:
   - Few-Shot Learning
 author: Joonhyun Kim
 member: Joonhyun-Kim
-group: research_1
+group: exoskeleton
 ---
 **Goal** : This study shows that Gait Phase Recognition (GRP) and Terrain Classification (TC), the most conventional Recognition Tasks of Lower-limb Exoskeleton robots, can be effectively solved by introducing a Multi-task Learning.
 

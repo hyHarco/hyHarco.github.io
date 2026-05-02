@@ -9,7 +9,7 @@ tags:
   - Optimal Control 
 author: Geunwoo-Kwon
 member: Geunwoo-Kwon
-group: research_2
+group: mobile_manipulator
 ---
 **Goal** :  To develop adaptive control strategies that enable safe and efficient collaboration between humans and robots in shared workspaces.
 

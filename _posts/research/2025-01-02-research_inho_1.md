@@ -8,7 +8,7 @@ tags:
 
 author: Inho-Gil
 member: Inho-Gil
-group: research_1
+group: exoskeleton
 ---
 **Goal** 
 

@@ -8,7 +8,7 @@ tags:
 
 author: Jihwan-Oh
 member: Jihwan-Oh
-group: research_1
+group: exoskeleton
 ---
 **Goal** :  Design and implementation of a single actuator based HBPM that suppresses slack in Bowden cable transmission and provides stable bidirectional torque assistance for wearable robotics.
 

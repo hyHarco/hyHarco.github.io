@@ -6,7 +6,7 @@ tags:
   - H / W Modeling
 author: Juhyeon-Lee
 member: Juhyeon-Lee
-group: research_1
+group: exoskeleton
 ---
 <!-- 연구목표 -->
 **Goal**
