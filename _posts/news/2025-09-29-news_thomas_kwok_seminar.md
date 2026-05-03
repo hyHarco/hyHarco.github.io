@@ -3,18 +3,14 @@ layout: post
 title: "Invited Seminar by Dr. Thomas M. Kwok from the University of Waterloo"
 date: 2025-09-29
 group: news
-author: Seongmin-Ha
+author: Seongmin Ha
 member: All Member
 ---
 
 On September 29, 2025, **Dr. Thomas M. Kwok** from the University of Waterloo, Canada, delivered an invited seminar at **Hanyang University ERICA**, titled  
 “Beyond Motion: Human-Centered Design and Cognitive HRI in Healthcare Robotics.”
 
-Dr. Kwok shared his research on **human-centered design in healthcare robotics**, emphasizing how cognitive aspects of human–robot interaction (HRI) can enhance safety, adaptability, and engagement in rehabilitation and caregiving systems.  
-
-<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-top: 1em; margin-bottom: 1em;">
-  <img src="/images/news/ThomasMKwok_seminar.png" style="width: 80%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-</div>
+Dr. Kwok shared his research on **human-centered design in healthcare robotics**, emphasizing how cognitive aspects of human–robot interaction (HRI) can enhance safety, adaptability, and engagement in rehabilitation and caregiving systems.
 
 During the talk, he introduced several ongoing projects, including:
 - A **bimanual rehabilitation exoskeleton** with transparent human-in-the-loop control strategies.  

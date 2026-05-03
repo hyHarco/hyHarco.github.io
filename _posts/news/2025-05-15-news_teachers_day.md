@@ -1,6 +1,6 @@
 ---
 title: Celebrating Teacher’s Day at HARCO Lab
-author: Seongmin-Ha
+author: Seongmin Ha
 member: All Member
 group: news
 ---
