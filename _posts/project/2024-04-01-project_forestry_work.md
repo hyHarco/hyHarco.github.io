@@ -54,14 +54,14 @@ To achieve the scientific goals of this study, the following **Four Work Package
 
 #### **<i class="fas fa-user-circle"></i> Participating Researchers**
 
-* [**Wansoo Kim**](http://harco.hanyang.ac.kr/members/Wansoo-Kim.html)
-* [**Soonwoong Hwang**](http://harco.hanyang.ac.kr/members/Soonwoong-Hwang.html)
-* [**Seungmin Choi**](http://harco.hanyang.ac.kr/members/Seungmin-Choi.html)
-* [**Kai Li**](http://harco.hanyang.ac.kr/members/Kai-Li.html)
-* [**Geunwoo Kwon**](http://harco.hanyang.ac.kr/members/Geunwoo-Kwon.html)
-* [**Jeongmok Kim**](http://harco.hanyang.ac.kr/members/Jeongmok-Kim.html)
-* [**Seokhwan Hwang**](http://harco.hanyang.ac.kr/members/Seokhwan-Hwang.html)
-* [**Jingwang Lee**](http://harco.hanyang.ac.kr/members/Jingwang-Lee.html)
+* [**Wansoo Kim**](/members/wansoo_kim)
+* [**Soonwoong Hwang**](/members/soonwoong_hwang)
+* [**Seungmin Choi**](/members/seungmin_choi)
+* [**Kai Li**](/members/kai_li)
+* [**Geunwoo Kwon**](/members/geunwoo_kwon)
+* [**Jeongmok Kim**](/members/jeongmok_kim)
+* [**Seokhwan Hwang**](/members/seokhwan_hwang)
+* [**Jingwang Lee**](/members/jingwang_lee)
 
 ***
 

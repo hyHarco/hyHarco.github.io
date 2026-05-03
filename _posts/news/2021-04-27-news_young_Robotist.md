@@ -1,7 +1,7 @@
 ---
 title: Young Robot Engineer - W.Kim
 author: Wansoo Kim
-member: Wansoo-Kim
+member: wansoo_kim
 group: news
 ---
 

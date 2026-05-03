@@ -7,8 +7,8 @@ tags:
   - human-centric control
   - proactive safety
 
-author: Donggyu-Lee
-member: Donggyu-Lee
+author: Donggyu Lee
+member: donggyu_lee
 group: mobile_manipulator
 ---
 **Goal** :  To predict human ergonomic states and generate ergonomic human motion to reduce the risk of work-related musculoskeletal disorders (WMSDs).

@@ -1,7 +1,7 @@
 ---
 title: "Farewell Party for Dr. Baole"
 group: news
-author: Seongmin-Ha
+author: Seongmin Ha
 member: All Member
 ---
 

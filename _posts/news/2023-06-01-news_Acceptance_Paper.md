@@ -1,11 +1,11 @@
 ---
 title: Submitted Paper Acceptance News
 author: Joonhyun Kim
-member: Joonhyun-Kim
+member: joonhyun_kim
 group: news
 ---
 
-The paper from our lab researchers, [Joonhyun Kim](/members/Joonhyun-Kim.html) and [Le Bao](/members/Le-Bao.html),    
+The paper from our lab researchers, [Joonhyun Kim](/members/joonhyun_kim) and [Le Bao](/members/le_bao),    
 has been accepted by the [IEEE ROMAN 2023](https://ro-man2023.org/main) Conference and [IJCAS](https://ijcas.com/IJCAS_default.asp) Journal!
 
 

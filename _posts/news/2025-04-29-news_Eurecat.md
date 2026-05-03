@@ -1,6 +1,6 @@
 ---
 title: Visit from Eurecat Research Team
-author: Seongmin-Ha
+author: Seongmin Ha
 member: All Member
 group: news
 ---

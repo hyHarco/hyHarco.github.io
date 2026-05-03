@@ -63,13 +63,13 @@ role: Coordinator
    
 
 #### **<i class="fas fa-user-circle"></i> Participating Researchers**
-* [**Wansoo Kim**](http://harco.hanyang.ac.kr/members/Wansoo-Kim.html)
-* [**Joonkyu No**](http://harco.hanyang.ac.kr/members/Joonkyu-No.html)
-* [**Seongmin Ha**](http://harco.hanyang.ac.kr/members/Seongmin-Ha.html)
-* [**Donggyu Lee**](http://harco.hanyang.ac.kr/members/Donggyu-Lee.html)
-* [**Yoonseo Kim**](http://harco.hanyang.ac.kr/members/Yoonseo-Kim.html)
-* [**Jihwan Oh**](http://harco.hanyang.ac.kr/members/Jihwan-Oh.html)
-* [**Inho Gil**](http://harco.hanyang.ac.kr/members/Ingo-Gil.html)
+* [**Wansoo Kim**](/members/wansoo_kim)
+* [**Joonkyu No**](/members/joonkyu_no)
+* [**Seongmin Ha**](/members/seongmin_ha)
+* [**Donggyu Lee**](/members/donggyu_lee)
+* [**Yoonseo Kim**](/members/yoonseo_kim)
+* [**Jihwan Oh**](/members/jihwan_oh)
+* [**Inho Gil**](/members/inho_gil)
 
 
 ***
@@ -80,7 +80,7 @@ role: Coordinator
 {% capture col1 %}
 {%
   include feature.html
-  image="images/project/에리카산학협력단.png"
+  image="images/project/erica_iucf.png"
   link='http://ericaresearch.hanyang.ac.kr/'
 %}
 {% endcapture %}

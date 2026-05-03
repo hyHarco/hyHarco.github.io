@@ -6,7 +6,7 @@ tags:
   - Multitask Learning
   - Few-Shot Learning
 author: Joonhyun Kim
-member: Joonhyun-Kim
+member: joonhyun_kim
 group: exoskeleton
 ---
 **Goal** : This study shows that Gait Phase Recognition (GRP) and Terrain Classification (TC), the most conventional Recognition Tasks of Lower-limb Exoskeleton robots, can be effectively solved by introducing a Multi-task Learning.
@@ -16,7 +16,7 @@ group: exoskeleton
 **Summary**
 Multi-task learning, (or Transfer learning), is a concept derived from the field of computer vision, and is a learning method that enables better performances and data-efficient learning when learning is conducted by sharing a Feature Network (encoder) for related tasks.   
    
-Researcher [*Joon-hyun Kim*](http://harco.hanyang.ac.kr/members/Joonhyun-Kim.html) developed a model that predict Gait Phase Recognition (GRP) and Terrain Classification (TC), the most conventional Recognition Tasks of Lower-limb Exoskeleton robots, based on theses Multitask Learning Framework idea.
+Researcher [*Joon-hyun Kim*](/members/joonhyun_kim) developed a model that predict Gait Phase Recognition (GRP) and Terrain Classification (TC), the most conventional Recognition Tasks of Lower-limb Exoskeleton robots, based on theses Multitask Learning Framework idea.
     
 He first created a high-performing GPR model that achieved a Root mean square error (RMSE) value of 2.345 ±0.08 and then utilized its knowledge-sharing backbone
 feature network to learn a TC model with an extremely limited dataset. 

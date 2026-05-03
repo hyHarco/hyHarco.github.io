@@ -7,8 +7,8 @@ tags:
   - Human-Robot Physical Interaction
   - Adaptive Control
   - Optimal Control 
-author: Geunwoo-Kwon
-member: Geunwoo-Kwon
+author: Geunwoo Kwon
+member: geunwoo_kwon
 group: mobile_manipulator
 ---
 **Goal** :  To develop adaptive control strategies that enable safe and efficient collaboration between humans and robots in shared workspaces.

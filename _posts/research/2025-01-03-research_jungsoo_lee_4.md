@@ -6,8 +6,8 @@ tags:
   - Transformer-based Classification
   - Skeleton and RGB Data Fusion
   
-author: Jungsoo-Lee
-member: Jungsoo-Lee
+author: Jungsoo Lee
+member: jungsoo_lee
 group: ai
 
 ---

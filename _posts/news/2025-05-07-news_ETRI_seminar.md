@@ -1,6 +1,6 @@
 ---
 title: Seminar on AI Robotics by Dr. Dong-Hyung Kim from ETRI
-author: Seongmin-Ha
+author: Seongmin Ha
 member: All Member
 group: news
 ---

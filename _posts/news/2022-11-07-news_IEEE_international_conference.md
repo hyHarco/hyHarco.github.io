@@ -1,7 +1,7 @@
 ---
 title: CfP 19th IEEE International Conference on Advanced Robotics and Its Social Impacts (ARSO 2023)
 author: Wansoo Kim
-member: Wansoo-Kim
+member: wansoo_kim
 group: news
 ---
 

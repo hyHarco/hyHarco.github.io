@@ -1,7 +1,7 @@
 ---
 title: Presentation On KSPE (Korean Society for Precision Engineering) Conference
 author: Joonhyun Kim
-member: Joonhyun-Kim
+member: joonhyun_kim
 group: news
 ---
 

@@ -77,11 +77,11 @@ role: Coordinator
 
 ***    
 #### **<i class="fas fa-user-circle"></i> Participating Researchers**
-* [**Wansoo Kim**](http://harco.hanyang.ac.kr/members/Wansoo-Kim.html)  : **_Principal Investigator_**  
-* [**Seongmin Ha**](http://harco.hanyang.ac.kr/members/Seongmin-Ha.html)   :   *(H/W) Electrical Part Design*
-* [**Joonhyun Kim**](http://harco.hanyang.ac.kr/members/Joonhyun-Kim.html)   : *(S/W) AI Engineering, Optization, Data collection*
-* [**Joonhyung Kong**](http://harco.hanyang.ac.kr/members/Joonhyung-Kong.html)   : *(H/W) Setting up experimental environments, building embedded systems*
-* [**Dongcheol Shin**](http://harco.hanyang.ac.kr/members/Dongcheol-Shin.html)   : *(H/W) Setting up terrain and experimental environment equipment*
+* [**Wansoo Kim**](/members/wansoo_kim)  : **_Principal Investigator_**  
+* [**Seongmin Ha**](/members/seongmin_ha)   :   *(H/W) Electrical Part Design*
+* [**Joonhyun Kim**](/members/joonhyun_kim)   : *(S/W) AI Engineering, Optization, Data collection*
+* [**Joonhyung Kong**](/members/joonhyung_kong)   : *(H/W) Setting up experimental environments, building embedded systems*
+* [**Dongcheol Shin**](/members/dongcheol_shin)   : *(H/W) Setting up terrain and experimental environment equipment*
 
 ***    
 

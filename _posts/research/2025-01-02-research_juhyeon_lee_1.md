@@ -1,27 +1,24 @@
 ---
-title: Twisted String Actuator(TSA) with extended variable stiffness
-image: images/research/dongcheol_shin_research1_hw.png
+title: Develop soft actuator
+image: images/research/juhyeon_1_main.png
 tags:
-  - Tendon Mechanism
+  - Soft Exoskeleton
   - H / W Modeling
-author: Dongcheol Shin
-member: Dongcheol-Shin
+author: Juhyeon Lee
+member: juhyeon_lee
 group: exoskeleton
 ---
-**Goal** : Expanding the fixed variable stiffness of the TSA through variation of offset between strings. 
+<!-- 연구목표 -->
+**Goal** : 
 
 ***
-
+<!-- 연구내용 -->
 **Summary**
-Twisted String Actuator(TSA) is an actuator that can produce linear motion through twisting of strings, which converts the rotational motion of a motor into linear motion. 
-
-It does not require large space, and it can be used as an actuator suitable for exoskeletons because it can generate a lot of power even with small and weak motor. 
-
-Researcher [*Dongcheol Shin*](http://harco.hanyang.ac.kr/members/Dongcheol-Shin.html) made a TSA with expanded variable stiffness using expanding mechanism and planetary gear structure. The variable stiffness range is extended through variation of offset between strings of TSA, and it is controlled by an analytical model of the proposed device. There is a future plan to make an exoskeleton that can respond to changes in the movement range due to the applied load through the device.
 
 
 ***
 
+<!-- 연구키워드 -->
 **Topic**    
  * Tendon Mechanism
  * H / W Modeling

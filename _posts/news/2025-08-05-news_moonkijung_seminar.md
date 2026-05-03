@@ -1,7 +1,7 @@
 ---
 title: "Seminar by Prof. Moon Ki Jung from Keimyung University"
 group: news
-author: Seongmin-Ha
+author: Seongmin Ha
 member: All Member
 ---
 

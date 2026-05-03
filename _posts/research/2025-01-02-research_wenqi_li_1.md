@@ -6,8 +6,8 @@ tags:
   - rehabilitation robotics 
   - AHAP evaluation 
 
-author: Wenqi-Li
-member: Wenqi-Li
+author: Wenqi Li
+member: wenqi_li
 group: exoskeleton
 ---
 **Goal** :  To develop a lightweight, tendon-driven hand exoskeleton that enhances grasping assistance and rehabilitation by incorporating a dual-safety mechanism and intuitive two-handed synergistic control, ensuring both user safety and operational comfort.

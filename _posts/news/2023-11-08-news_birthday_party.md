@@ -1,11 +1,11 @@
 ---
 title: Birthday Celebration and Group Dinner
 author: Joonhyun Kim
-member: Joonhyun-Kim
+member: joonhyun_kim
 group: news
 ---
 On November 8, 2023,   
-we held a **_birthday celebration_** for the November birthdays of three lab members ([Jungsoo Lee](/members/Jungsoo-Lee.html), [Jaepill Jang](/members/JaePil-Jang.html), and *Byeon Seung-ri*), combined with a **_group dinner_** featuring meat dishes for the entire lab team. <i class="fas fa-glass-cheers"></i> 
+we held a **_birthday celebration_** for the November birthdays of three lab members ([Jungsoo Lee](/members/jungsoo_lee), [Jaepill Jang](/members/jaepil_jang), and *Byeon Seung-ri*), combined with a **_group dinner_** featuring meat dishes for the entire lab team. <i class="fas fa-glass-cheers"></i> 
 
 
 

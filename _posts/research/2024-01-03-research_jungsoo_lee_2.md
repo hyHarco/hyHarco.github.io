@@ -7,8 +7,8 @@ tags:
   - Human-Robot Interaction (HRI)
   - Convolutional Neural Networks (CNNs)
 
-author: Jungsoo-Lee
-member: Jungsoo-Lee
+author: Jungsoo Lee
+member: jungsoo_lee
 group: ai
 
 ---

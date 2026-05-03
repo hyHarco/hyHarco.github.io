@@ -5,7 +5,7 @@ tags:
   - HRI
   - Hololens
 author: Le Bao
-member: Le-Bao
+member: le_bao
 group: mobile_manipulator
 ---
 **Goal** :  This study uses wireless range sensors to estimate the 3D relative location between the target and the robot, and control the mobile robot by tracking control algorithms.

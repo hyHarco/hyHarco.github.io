@@ -1,6 +1,6 @@
 ---
 title: Participated in the Humanoids 2025 in Seoul
-author: Seongmin-Ha
+author: Seongmin Ha
 member: All Member
 group: news
 date: 2025-10-02
@@ -11,7 +11,7 @@ Members of the HARCO Lab participated in the <strong>IEEE-RAS International Conf
 </p>
 
 <p>
-During the conference, <a href="/members/Donggyu-Lee.html">Donggyu Lee</a> gave a presentation titled:<br>
+During the conference, <a href="/members/donggyu_lee">Donggyu Lee</a> gave a presentation titled:<br>
 <em>"Proactive Ergonomic Human Motion Generation for Human-Humanoid Collaboration."</em><br>
 The talk introduced ergonomic motion-generation strategies designed to support safe and cooperative interactions between humans and humanoid robots.
 </p>
@@ -22,7 +22,7 @@ The talk introduced ergonomic motion-generation strategies designed to support s
 </div>
 
 <p>
-In addition, <a href="/members/Wansoo-Kim.html">Prof. Wansoo Kim</a> delivered an invited talk at the workshop:<br>
+In addition, <a href="/members/wansoo_kim">Prof. Wansoo Kim</a> delivered an invited talk at the workshop:<br>
 <em>"Ergonomically Informed Shared Autonomy for Collaborative Coexistence."</em><br>
 This presentation was part of the:ARC: Assistive Robots for Caregiving through Shared Autonomy and Human-Aware Interaction (Workshop)
 highlighting human-aware shared autonomy frameworks for safer and more intuitive human–humanoid coexistence.

@@ -1,7 +1,7 @@
 ---
 title: Participated in the IROS 2022 International Conference in Kyoto
 author: Wansoo Kim
-member: Wansoo-Kim
+member: wansoo_kim
 group: news
 ---
 

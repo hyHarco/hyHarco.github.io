@@ -1,7 +1,7 @@
 ---
 title: Young Researcher Program
 author: Wansoo Kim
-member: Wansoo-Kim
+member: wansoo_kim
 group: news
 ---
 

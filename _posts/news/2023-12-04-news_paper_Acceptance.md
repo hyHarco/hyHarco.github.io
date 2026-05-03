@@ -1,11 +1,11 @@
 ---
 title: Submitted Paper Acceptance News
 author: Joonhyun Kim
-member: Joonhyun-Kim
+member: joonhyun_kim
 group: news
 ---
 
-The paper from our lab researcher, [Seoyeon Ham](/members/Seoyeon-Ham.html)   
+The paper from our lab researcher, [Seoyeon Ham](/members/seoyeon_ham)   
 has been accepted by the [IEEE Robotics and Automation Letters](https://ieeexplore.ieee.org/abstract/document/10339840) Journal!
 
 

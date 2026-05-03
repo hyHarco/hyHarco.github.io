@@ -1,7 +1,7 @@
 ---
 title: Presentation On International UR 2022
 author: Le Bao
-member: Le-Bao
+member: le_bao
 group: news
 ---
 
@@ -11,7 +11,7 @@ This work was supported by the National Research Foundation of Korea(NRF) grant 
 
 {%
   include figure.html
-  image="images/news/UR2022_회의현장.jpg"
+  image="images/news/ur2022_meeting.jpg"
 %}
 
 

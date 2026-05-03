@@ -58,10 +58,10 @@ role: Coordinator
 
 ***    
 #### **<i class="fas fa-user-circle"></i> Participating Researchers**
-* [**Wansoo Kim**](http://harco.hanyang.ac.kr/members/Wansoo-Kim.html)   : **_Principal Investigator_**  
-* [**Joonkyu No**](http://harco.hanyang.ac.kr/members/Joonkyu-No.html)   :    *(S/W) Mobile Robot Control*
-* [**Jaepil Jang**](http://harco.hanyang.ac.kr/members/Jaepil-Jang.html)   :   *(S/W) Whole Body Control, Task Planning*
-* [**Seungmin Choi**](http://harco.hanyang.ac.kr/members/Seungmin-Choi.html)   :   *(S/W) Whole Body Control, Task Planning*
+* [**Wansoo Kim**](/members/wansoo_kim)   : **_Principal Investigator_**  
+* [**Joonkyu No**](/members/joonkyu_no)   :    *(S/W) Mobile Robot Control*
+* [**Jaepil Jang**](/members/jaepil_jang)   :   *(S/W) Whole Body Control, Task Planning*
+* [**Seungmin Choi**](/members/seungmin_choi)   :   *(S/W) Whole Body Control, Task Planning*
 
 ***
 

@@ -6,8 +6,8 @@ tags:
   - Human Activity Recognition
   - On-device Efficiency
 
-author: Inho-Gil
-member: Inho-Gil
+author: Inho Gil
+member: inho_gil
 group: exoskeleton
 ---
 **Goal** 

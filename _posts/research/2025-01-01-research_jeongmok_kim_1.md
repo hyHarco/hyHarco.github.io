@@ -7,8 +7,8 @@ tags:
   - Contact Classification
   - Human Robot Interaction(HRI)
   - Real-Time Robot Perception 
-author: Jeongmok-Kim
-member: Jeongmok-Kim
+author: Jeongmok Kim
+member: jeongmok_kim
 group: mobile_manipulator
 ---
 **Goal** : To develop a real-time classification system that can distinguish between intentional physical interactions and unintentional collisions during robot manipulation, enabling safer and more intelligent human-robot collaboration.

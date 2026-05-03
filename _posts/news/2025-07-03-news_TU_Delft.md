@@ -3,7 +3,7 @@ layout: post
 title: "TU Delft Student Visit"
 date: 2025-07-03
 group: news
-author: Seongmin-Ha
+author: Seongmin Ha
 member: All Member
 ---
 

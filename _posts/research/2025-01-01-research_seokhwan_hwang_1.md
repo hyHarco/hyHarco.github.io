@@ -7,8 +7,8 @@ tags:
   - mobile manipulator
   - nonlinear optimization
   - whole-body control  
-author: Seokhwan-Hwang
-member: Seokhwan-Hwang
+author: Seokhwan Hwang
+member: seokhwan_hwang
 group: mobile_manipulator
 ---
 **Goal** : 

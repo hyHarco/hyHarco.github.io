@@ -65,7 +65,7 @@ MONOCULAR CAMERA BASED HUMAN POSE ESTIMATION"
 {% capture col1 %}
 {%
   include figure.html
-  image="images/project/유소현_swing.gif"
+  image="images/project/yusohyun_swing.gif"
   caption="유소현 프로 Golf Swing [Video Source](https://www.youtube.com/watch?v=pOjEvVIoYBM&t=140s)"
   width="100%"
 %}
@@ -73,7 +73,7 @@ MONOCULAR CAMERA BASED HUMAN POSE ESTIMATION"
 {% capture col2 %}
 {%
   include figure.html
-  image="images/project/유소현_grid.gif"
+  image="images/project/yusohyun_grid.gif"
   caption="[YOLO-v8x](https://github.com/ultralytics/ultralytics) based Key Point Detection"
   width="100%"
 %}
@@ -82,7 +82,7 @@ MONOCULAR CAMERA BASED HUMAN POSE ESTIMATION"
 
 {%
   include figure.html
-  image="images/project/유소현프로_dtw_results2.png"
+  image="images/project/yusohyun_dtw_results2.png"
   caption="Golf Pose Estimation Results by DTW (Dynamic Time Warping)"
   width="60%"
 %}     
@@ -91,8 +91,8 @@ MONOCULAR CAMERA BASED HUMAN POSE ESTIMATION"
 ***    
 
 #### **<i class="fas fa-user-circle"></i> Participating Researchers**
-* [**Wansoo Kim**](http://harco.hanyang.ac.kr/members/Wansoo-Kim.html)
-* [**Joonhyun Kim**](http://harco.hanyang.ac.kr/members/Joonhyun-Kim.html)
+* [**Wansoo Kim**](/members/wansoo_kim)
+* [**Joonhyun Kim**](/members/joonhyun_kim)
 
 ***
 
@@ -102,14 +102,14 @@ MONOCULAR CAMERA BASED HUMAN POSE ESTIMATION"
 {% capture col1 %}
 {%
   include feature.html
-  image="images/project/에리카산학협력단.png"
+  image="images/project/erica_iucf.png"
   link='http://ericaresearch.hanyang.ac.kr/'
 %}
 {% endcapture %}
 {% capture col2 %}
 {%
   include feature.html
-  image="images/project/콜리테크놀로지.jpg"
+  image="images/project/collie_technologies.jpg"
   link='https://www.colliegolf.com/'
 %}
 {% endcapture %}

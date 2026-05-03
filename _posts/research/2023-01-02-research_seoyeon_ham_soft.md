@@ -6,7 +6,7 @@ tags:
   - Soft sensors and actuators
   - Wearable robotics
 author: Seoyeon Ham
-member: Seoyeon-Ham
+member: seoyeon_ham
 group: exoskeleton
 ---
 **Goal** :  This study presents the design and validation of a soft sliding stiffness structure with a soft-rigid layer sliding mechanism.

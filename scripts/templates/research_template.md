@@ -6,7 +6,7 @@ tags:
   - Artificial Intelligence Application System
   - Model Context Protocol
   
-author: Jungsoo-Lee
+author: Jungsoo Lee
 member: Jungsoo-Lee
 group: ai
 

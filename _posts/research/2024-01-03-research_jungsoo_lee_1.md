@@ -6,8 +6,8 @@ tags:
   - IMU-based Robot Control
   - Body-part Comparison
 
-author: Jungsoo-Lee
-member: Jungsoo-Lee
+author: Jungsoo Lee
+member: jungsoo_lee
 group: ai
 
 ---

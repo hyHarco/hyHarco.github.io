@@ -1,6 +1,6 @@
 ---
 title: Seminar by Prof. Joohyung Kim (UIUC) - From Fictional Characters to Real Robots
-author: Seongmin-Ha
+author: Seongmin Ha
 member: All Member
 group: news
 date: 2025-10-28

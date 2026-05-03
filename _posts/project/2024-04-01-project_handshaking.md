@@ -67,13 +67,13 @@ s- Heavy weight in both wearable and haptic devices hampers user convenience. Th
    
 
 #### **<i class="fas fa-user-circle"></i> Participating Researchers**
-* [**Wansoo Kim**](http://harco.hanyang.ac.kr/members/Wansoo-Kim.html)
-* [**Joonkyu No**](http://harco.hanyang.ac.kr/members/Joonkyu-No.html)
-* [**Seongmin Ha**](http://harco.hanyang.ac.kr/members/Seongmin-Ha.html)
-* [**Wonki Lee**](http://harco.hanyang.ac.kr/members/Wonki-Lee.html)
-* [**Miseon Jo**](http://harco.hanyang.ac.kr/members/Miseon-Jo.html)
-* [**Yoonseo Kim**](http://harco.hanyang.ac.kr/members/Yoonseo-Kim.html)
-* [**Inho Gil**](http://harco.hanyang.ac.kr/members/Ingo-Gil.html)
+* [**Wansoo Kim**](/members/wansoo_kim)
+* [**Joonkyu No**](/members/joonkyu_no)
+* [**Seongmin Ha**](/members/seongmin_ha)
+* [**Wenqi Li**](/members/wenqi_li)
+* [**Miseon Jo**](/members/miseon_jo)
+* [**Yoonseo Kim**](/members/yoonseo_kim)
+* [**Inho Gil**](/members/inho_gil)
 
 
 ***
@@ -84,7 +84,7 @@ s- Heavy weight in both wearable and haptic devices hampers user convenience. Th
 {% capture col1 %}
 {%
   include feature.html
-  image="images/project/에리카산학협력단.png"
+  image="images/project/erica_iucf.png"
   link='http://ericaresearch.hanyang.ac.kr/'
 %}
 {% endcapture %}

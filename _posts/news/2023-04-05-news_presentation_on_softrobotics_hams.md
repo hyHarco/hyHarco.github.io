@@ -1,7 +1,7 @@
 ---
 title: Presentation on International Conference Robosoft 2023
 author: Seoyeon Ham
-member: Seoyeon-Ham
+member: seoyeon_ham
 group: news
 ---
 

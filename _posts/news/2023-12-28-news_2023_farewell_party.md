@@ -1,7 +1,7 @@
 ---
 title: A Farewell Party in 2023
 author: Joonhyun Kim
-member: Joonhyun-Kim
+member: joonhyun_kim
 group: news
 ---
 
