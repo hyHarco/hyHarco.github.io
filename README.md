@@ -200,12 +200,14 @@ sass:
 
 ## Content Management
 
+> See [CONVENTIONS.md](CONVENTIONS.md) for the full naming and placement rules.
+
 ### Adding a New Team Member
 
-1. Create a new file in `_members/` directory:
+1. Create a new file in `_members/` using the canonical slug `firstname_lastname.md` (lowercase ASCII, single underscore):
 
    ```bash
-   _members/firstname-lastname.md
+   _members/john_doe.md
    ```
 
 2. Add frontmatter:
@@ -213,7 +215,7 @@ sass:
    ```markdown
    ---
    name: John Doe
-   image: images/members/johndoe.jpg
+   image: images/members/john_doe.jpg
    description: Ph.D. Student
    aliases:
      - John Doe
@@ -228,11 +230,11 @@ sass:
    - Machine Learning
    ```
 
-3. Add member photo to `images/members/`
+3. Add member photo to `images/members/john_doe.jpg` (filename matches the slug).
 
 ### Adding a News Post
 
-1. Create a new file in `_posts/news/`:
+1. Create a new file in `_posts/news/` (lowercase, snake_case):
 
    ```bash
    _posts/news/YYYY-MM-DD-news_title.md
@@ -243,8 +245,8 @@ sass:
    ```markdown
    ---
    title: Your News Title
-   author: Author Name
-   member: Author-Name
+   author: Author Name        # display text
+   member: john_doe           # member slug — links the post to the member's page
    image: images/news/your-image.jpg
    tags:
      - Conference
@@ -255,12 +257,16 @@ sass:
    Your news content here...
    ```
 
+   For lab-wide posts use `member: All Member`.
+
 ### Adding Research/Project Posts
 
 Similar to news posts, but place in:
 
-- `_posts/research/` for research posts (set `group: research`)
+- `_posts/research/` for research posts (set `group:` to a research area like `mobile_manipulator`, `exoskeleton`, or `ai`)
 - `_posts/project/` for project posts (set `group: project`)
+
+For research posts about a single member, prefer the slug-prefixed filename: `YYYY-MM-DD-research_<member_slug>_<n>.md` (e.g. `2025-01-02-research_jungsoo_lee_1.md`).
 
 ### Updating Publications
 
