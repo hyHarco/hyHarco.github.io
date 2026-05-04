@@ -384,7 +384,7 @@ layout: default
 
 <div class="home_intro">
   <div class="home_intro_logo">
-    <img src="/images/harc.png" alt="HARCO Lab" loading="lazy" />
+    <img src="/images/common/harc.png" alt="HARCO Lab" loading="lazy" />
   </div>
 
   <div class="home_intro_text">

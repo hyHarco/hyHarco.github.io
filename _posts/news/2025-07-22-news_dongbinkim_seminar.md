@@ -1,7 +1,7 @@
 ---
 title: "Seminar by Prof. Dongbin Kim from the University of Hartford"
 group: news
-author: Seongmin-Ha
+author: Seongmin Ha
 member: All Member
 ---
 

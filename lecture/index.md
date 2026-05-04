@@ -127,7 +127,7 @@ graduate_courses:
 
 # **Lectures**
 
-<i class='fas fa-chalkboard'></i> **_professor_ [_W. Kim_](/members/Wansoo-Kim.html)_'s Lectures_**         
+<i class='fas fa-chalkboard'></i> **_professor_ [_W. Kim_](/members/wansoo_kim)_'s Lectures_**         
 in [Hanyang University | Department of Robotics](https://robot.hanyang.ac.kr/-41).
 
 {% include lecture.html %}

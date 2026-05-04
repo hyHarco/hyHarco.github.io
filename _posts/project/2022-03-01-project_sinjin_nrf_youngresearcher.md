@@ -70,10 +70,10 @@ Building an open database with sensor data.
 ***    
 
 #### **<i class="fas fa-user-circle"></i> Participating Researchers**
-* [**Wansoo Kim**](http://harco.hanyang.ac.kr/members/Wansoo-Kim.html)
-* [**Bao Leo**](http://harco.hanyang.ac.kr/members/LE-BAO.html)
-* [**Dongcheol Shin**](http://harco.hanyang.ac.kr/members/Dongcheol-Shin.html)
-* [**Joonhyung Kong**](http://harco.hanyang.ac.kr/members/Joonhyung-Kong.html)
+* [**Wansoo Kim**](/members/wansoo_kim)
+* [**Bao Leo**](/members/le_bao)
+* [**Dongcheol Shin**](/members/dongcheol_shin)
+* [**Joonhyung Kong**](/members/joonhyung_kong)
 
 ***
 

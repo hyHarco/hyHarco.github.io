@@ -6,8 +6,8 @@ tags:
   - Human-Robot Interaction (HRI)
   - Vision Control
 
-author: Jungsoo-Lee
-member: Jungsoo-Lee
+author: Jungsoo Lee
+member: jungsoo_lee
 group: ai
 
 ---
@@ -27,25 +27,7 @@ This study proposes a vision-based teleoperation framework that enables intuitiv
 **Publication Link** : 
 [**2024 24th International Conference on Control, Automation and Systems (ICCAS)**](https://scholar.google.com/citations?view_op=view_citation&hl=ko&user=o7u_E8wAAAAJ&pagesize=100&citation_for_view=o7u_E8wAAAAJ:D_sINldO8mEC) -->
 
-{% capture col1 %}
 {%
   include figure.html
   image="images/research/jungsoo_3_1.png"
-  
-%}
-{% endcapture %}
-{% capture col2 %}
-{%
-  include figure.html
-  image="images/research/jungsoo_3_2.png"
-  
-%}
-{% endcapture %}
-{% include two-col.html col1=col1 col2=col2 %}
-
-
-{%
-  include figure.html
-  image="images/research/jungsoo_3_3.png"
-  
 %}

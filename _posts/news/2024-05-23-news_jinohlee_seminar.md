@@ -1,6 +1,6 @@
 ---
 title: Seminar on High-Performance Torque-Controlled Humanoid Robots by Dr. Jinoh Lee (DLR) 
-author: Seongmin-Ha
+author: Seongmin Ha
 member: All Member
 group: news
 ---
