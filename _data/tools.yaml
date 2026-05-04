@@ -1,6 +1,6 @@
 - name: M0bile-manipulator Whole-body control
   group: ongoing
-  image: images/tools_yaml/mobile_Manipulator_Temp.png
+  image: images/tools_yaml/mobile_manipulator_temp.png
   link: https://github.com/AllenCell/image_classifier_3d
   description: The project aims to develop Whole-body control using Redundant Degree of Freedom in mobile manipulators so that workers can perform tasks reliably.  
 
@@ -27,7 +27,7 @@
 
 - name: Kuka Innovation Awards 2018
   group: research_mobile_manipulator
-  image: images/tools_yaml/research_Youtube.png
+  image: images/tools_yaml/research_youtube.png
   link: https://www.youtube.com/watch?v=qF8hS3q49YA
   description: 
 
