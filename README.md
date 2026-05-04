@@ -35,71 +35,76 @@ This is a Jekyll-based static website for HARCO LAB, featuring:
 
 ```text
 hyHarco.github.io/
-├── _config.yaml              # Jekyll configuration
-├── _data/                    # Data files
-│   ├── citations.yaml        # Auto-generated citations
-│   ├── links.yaml           # Social media links
-│   ├── publications.json    # Publication data
-│   ├── roles.yaml           # Member role definitions
-│   ├── sources.yaml         # Citation sources
-│   ├── tools.yaml           # Research tools
-│   └── bibliography/        # Bibliography files
-│       └── journal.bib      # BibTeX references
-├── _includes/               # Reusable HTML components (49 files)
-│   ├── header.html
-│   ├── footer.html
-│   ├── citation.html
-│   └── ...
-├── _layouts/                # Page layouts
+├── _config.yaml                  # Jekyll configuration
+├── CONVENTIONS.md                # File & directory naming rules
+├── _data/                        # Site data (consumed by Liquid)
+│   ├── citations.yaml            # Auto-generated citations
+│   ├── links.yaml                # Social media links
+│   ├── publications.json         # Publication data (Google Scholar)
+│   ├── roles.yaml                # Member role definitions
+│   ├── sources.yaml              # Citation sources
+│   ├── tools.yaml                # Research tools / news cards
+│   ├── youtube.json              # YouTube data (auto-scraped)
+│   └── bibliography/
+│       └── journal.bib           # BibTeX references
+├── _includes/                    # Reusable HTML components
+├── _layouts/                     # Page layouts
 │   ├── default.html
 │   ├── member.html
 │   └── post.html
-├── _members/                # Member profiles (39 members)
-│   └── *.md                # Individual member files
-├── _posts/                  # Blog posts (72 posts)
-│   ├── news/               # News posts (40)
-│   ├── research/           # Research posts (27)
-│   ├── project/            # Project posts (11)
-│   └── workshop/           # Workshop posts (4)
-├── assets/                  # Document assets
+├── _members/                     # Member profiles (37 members, slug = firstname_lastname)
+├── _posts/                       # Blog posts (76 total)
+│   ├── news/                     # News posts (41)
+│   ├── research/                 # Research posts (24)
+│   ├── project/                  # Project posts (9)
+│   └── workshop/                 # Workshop posts (2)
+├── assets/
 │   ├── documents/
-│   │   ├── cv/             # CV files
-│   │   └── papers/         # Research papers
-│   └── source/             # Design source files
-├── css/                     # Stylesheets (52 SCSS files)
-│   ├── all.scss            # Main stylesheet
-│   └── effects/            # Effect stylesheets
-│       └── snow.css
-├── images/                  # Image assets
-│   ├── common/             # Common images
-│   │   └── logos/          # Logo files
-│   ├── equipment/          # Equipment photos
-│   ├── lab/                # Laboratory photos
-│   ├── members/            # Member photos
-│   ├── news/               # News images
-│   ├── project/            # Project images
-│   └── research/           # Research images
-├── js/                      # JavaScript files
-│   ├── search.js
-│   ├── anchors.js
-│   └── tooltips.js
-├── scripts/                 # Automation scripts
-│   ├── cite.sh             # Run auto-cite
-│   ├── start.sh            # Start dev server
-│   ├── update_publications.sh  # Update publications
-│   └── scrape_scholar.py   # Scrape Google Scholar
-├── contact/                 # Contact page
-├── lecture/                 # Lecture page
-├── news/                    # News listing page
-├── project/                 # Project listing page
-├── publication/             # Publications page
-├── research/                # Research pages
-├── team/                    # Team page
-├── workshop/                # Workshop page
-├── index.md                 # Homepage
-├── 404.md                   # Error page
-└── README.md                # This file
+│   │   ├── cv/                   # CV files
+│   │   └── papers/               # Research papers
+│   └── source/                   # Design source files (xlsx, ai)
+├── css/                          # SCSS stylesheets (auto-loaded via _includes/styles.html)
+│   ├── all.scss                  # Site shell (palettes, theme, mixins)
+│   └── effects/
+├── images/                       # Image assets — see CONVENTIONS.md for naming
+│   ├── common/                   # Site chrome (logos, harc.png)
+│   ├── equipment/                # Equipment showcase
+│   ├── event_img/                # Event banners
+│   ├── frontimg/                 # Homepage carousel slides
+│   ├── lab/                      # Laboratory photos
+│   ├── main_img/                 # Homepage hero
+│   ├── members/                  # Member portraits (filename = slug)
+│   │   └── _archive/             # Disabled / unreferenced portraits (build-excluded)
+│   ├── news/                     # News images
+│   ├── project/                  # Project images
+│   ├── research/                 # Research images
+│   ├── tools_yaml/               # Tool card images
+│   └── _archive/                 # Unreferenced legacy images (build-excluded)
+├── js/                           # JavaScript files
+├── scripts/                      # Automation scripts
+│   ├── cite.sh                   # Run auto-cite
+│   ├── start.sh                  # Start dev server
+│   ├── scrape_scholar.py         # Scrape Google Scholar
+│   ├── scrape_youtube.py         # Scrape YouTube
+│   ├── update_publications.sh    # Update publications via Scholar
+│   ├── update_patents_json.py    # Update patent JSON
+│   └── templates/                # Post templates
+├── contact/                      # Contact page
+├── equipment/                    # Equipment page
+├── lecture/                      # Lecture page
+├── news/                         # News listing page
+├── project/                      # Project listing page
+├── publication/                  # Publications page
+├── research/                     # Research pages (mobile_manipulator, exoskeleton_robot, ai)
+├── team/                         # Team page
+├── workshop/                     # Workshop page
+├── favicons/                     # Site favicons / meta image
+├── index.md                      # Homepage
+├── 404.md                        # Error page
+└── README.md                     # This file
 ```
+
+> Folders prefixed with `_` (such as `images/_archive/`) are excluded from the Jekyll build output. They keep the files in source control without publishing them to the site.
 
 ---
 
@@ -317,10 +322,22 @@ Update publications from Google Scholar:
 ./scripts/update_publications.sh
 ```
 
+Wraps `scrape_scholar.py`. Creates a new branch, commits the
+regenerated `_data/publications.json`, and prompts for a PR.
+
+### `scrape_youtube.py`
+
+Refresh `_data/youtube.json` from the lab YouTube channel.
+
+### `update_patents_json.py`
+
+Convert the patent list in `assets/source/HARCO_patent_list.xlsx`
+into JSON for the publications page.
+
 **Requirements:**
 
 - Python 3
-- Virtual environment (automatically created)
+- Virtual environment (automatically created by `update_publications.sh`)
 - Dependencies: `requests`, `beautifulsoup4`
 
 ---
@@ -504,4 +521,4 @@ Robotics Department
 
 ---
 
-**Last Updated**: 2026-01-23
+**Last Updated**: 2026-05-04

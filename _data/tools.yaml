@@ -12,7 +12,7 @@
 
 - name: napari
   group: others
-  image: images/napari.png
+  image: https://raw.githubusercontent.com/napari/napari/main/resources/logo.png
   link: https://napari.org/
   description: A fast, interactive, multi-dimensional image viewer for Python, designed for browsing, annotating, and analyzing large multi-dimensional images
 
