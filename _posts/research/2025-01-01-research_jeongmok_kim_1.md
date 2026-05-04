@@ -10,6 +10,8 @@ tags:
 author: Jeongmok Kim
 member: jeongmok_kim
 group: mobile_manipulator
+redirect_from:
+  - /2025/01/01/research_jeongmok_1/
 ---
 **Goal** : To develop a real-time classification system that can distinguish between intentional physical interactions and unintentional collisions during robot manipulation, enabling safer and more intelligent human-robot collaboration.
 

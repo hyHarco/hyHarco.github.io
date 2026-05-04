@@ -3,6 +3,8 @@ title: Presentation On International UR 2022
 author: Le Bao
 member: le_bao
 group: news
+redirect_from:
+  - /2022/07/04/news_presentation_on_UR/
 ---
 
 At the 2022 19th International Conference on Ubiquitous Robots (UR) (Jeju, Korea), Le Bao presented the paper on “A Sensor Fusion Strategy for Indoor Target Three-dimensional Localization based on Ultra-Wideband and Barometric Altimeter Measurements” by Bao L., Li K., Kim W. et al.

@@ -7,6 +7,8 @@ tags:
 author: Juhyeon Lee
 member: juhyeon_lee
 group: exoskeleton
+redirect_from:
+  - /2025/01/02/research_juhyeon_lee/
 ---
 <!-- 연구목표 -->
 **Goal** : 

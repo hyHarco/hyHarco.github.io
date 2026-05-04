@@ -7,6 +7,8 @@ tags:
 author: Le Bao
 member: le_bao
 group: mobile_manipulator
+redirect_from:
+  - /2025/01/01/research_baoleo_1/
 ---
 **Goal** :  This study uses wireless range sensors to estimate the 3D relative location between the target and the robot, and control the mobile robot by tracking control algorithms.
 

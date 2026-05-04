@@ -3,6 +3,8 @@ title: Visit from Eurecat Research Team
 author: Seongmin Ha
 member: All Member
 group: news
+redirect_from:
+  - /2025/04/29/news_Eurecat/
 ---
 
 On April 29th, the Eurecat team visited the HARCO Lab at Hanyang University. The visit served as an opportunity to introduce each group’s research focus and explore potential areas of collaboration.

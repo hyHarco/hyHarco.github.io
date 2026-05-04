@@ -13,6 +13,8 @@ fund: NRF
 date_start: 2024-04-01
 date_end: 2028-12-31
 role: Coordinator
+redirect_from:
+  - /2024/04/01/project-forestry_work/
 ---
 
 **<i class="fas fa-sync"></i> Period : 2024-04-01 ~ 2028-12-31**

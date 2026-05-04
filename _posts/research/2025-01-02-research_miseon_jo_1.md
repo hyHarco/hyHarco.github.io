@@ -9,6 +9,8 @@ tags:
 author: Miseon Jo
 member: miseon_jo
 group: exoskeleton
+redirect_from:
+  - /2025/01/02/research_miseon_1/
 ---
 **Goal** :  This study aims to develop a novel soft actuator that combines a Twisted String Actuator (TSA) with a spiral layer jamming mechanism to achieve both tunable stiffness and multi-degree-of-freedom (DoF) motion capabilities, specifically designed for wearable back-support applications. Unlike conventional jamming mechanisms that rely on bulky pneumatic systems, the proposed actuator employs a motor-driven TSA to simultaneously induce axial contraction and rotational jamming of helically arranged flexible layers. This approach enables directional stiffness modulation across bending and axial axes through a compact, lightweight, and self-contained structure. To quantitatively characterize this hybrid mechanism, the study formulates analytical models for both bending and axial stiffness based on beam theory and TSA dynamics, and experimentally validates the actuator’s performance across multiple stiffness states. Ultimately, the goal is to demonstrate a feasible, scalable, and pneumatic-free actuation strategy that enhances the adaptability and functional range of soft wearable robots engaged in complex multi-directional human movement.
 

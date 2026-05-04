@@ -7,6 +7,8 @@ tags:
 author: Dongcheol Shin
 member: dongcheol_shin
 group: exoskeleton
+redirect_from:
+  - /2023/01/02/research_dongcheol_shin_tendon1/
 ---
 **Goal** : Expanding the fixed variable stiffness of the TSA through variation of offset between strings. 
 

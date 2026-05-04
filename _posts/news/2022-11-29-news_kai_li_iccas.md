@@ -3,6 +3,8 @@ title: Presentation on International Conference ICCAS 2022
 author: Kai Li
 member: kai_li
 group: news
+redirect_from:
+  - /2022/11/29/news_kai_li_ICCAS/
 ---
 
 

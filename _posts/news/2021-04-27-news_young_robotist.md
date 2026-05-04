@@ -3,6 +3,8 @@ title: Young Robot Engineer - W.Kim
 author: Wansoo Kim
 member: wansoo_kim
 group: news
+redirect_from:
+  - /2021/04/27/news_young_Robotist/
 ---
 
 /Excerpts from "Robot Newspaper"  

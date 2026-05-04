@@ -8,6 +8,8 @@ tags:
 author: Seoyeon Ham
 member: seoyeon_ham
 group: exoskeleton
+redirect_from:
+  - /2023/01/02/research_seoyeonham_soft/
 ---
 **Goal** :  This study presents the design and validation of a soft sliding stiffness structure with a soft-rigid layer sliding mechanism.
 

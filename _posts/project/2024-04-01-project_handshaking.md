@@ -15,6 +15,8 @@ date_start: 2024-04-01
 date_end: 2024-12-31
 role: Coordinator
 # budget: 22,500,000 won
+redirect_from:
+  - /2024/04/01/project-Handshaking/
 ---
 ***
 

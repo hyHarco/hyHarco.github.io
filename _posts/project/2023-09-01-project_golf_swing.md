@@ -15,6 +15,8 @@ date_start: 2023-09-01
 date_end: 2023-12-31
 role: Coordinator
 # budget: 22,500,000 won
+redirect_from:
+  - /2023/09/01/project-GolfSwing/
 ---
 
 **<i class="fas fa-sync"></i> Period : 2023-09-01 ~ 2023-12-31**

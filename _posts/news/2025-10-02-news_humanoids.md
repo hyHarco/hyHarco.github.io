@@ -4,6 +4,8 @@ author: Seongmin Ha
 member: All Member
 group: news
 date: 2025-10-02
+redirect_from:
+  - /2025/10/02/news_Humanoids/
 ---
 
 <p>

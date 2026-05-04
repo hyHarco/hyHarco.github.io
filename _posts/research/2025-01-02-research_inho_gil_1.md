@@ -9,6 +9,8 @@ tags:
 author: Inho Gil
 member: inho_gil
 group: exoskeleton
+redirect_from:
+  - /2025/01/02/research_inho_1/
 ---
 **Goal** 
 

@@ -3,6 +3,8 @@ title: "Merry HARCO-MAS!: 2025 Christmas Celebration with Robots"
 author: Seongmin Ha
 member: All Member
 group: news
+redirect_from:
+  - /2025/12/22/news_christmas_vedio/
 ---
 
 Celebrating Teacher’s Day at HARCO Lab

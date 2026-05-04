@@ -10,6 +10,8 @@ tags:
 author: Seokhwan Hwang
 member: seokhwan_hwang
 group: mobile_manipulator
+redirect_from:
+  - /2025/01/01/research_seokhwan_1/
 ---
 **Goal** : 
  1. Collaborative Path Planning Optimization

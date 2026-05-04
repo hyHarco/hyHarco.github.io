@@ -10,6 +10,8 @@ tags:
 author: Geunwoo Kwon
 member: geunwoo_kwon
 group: mobile_manipulator
+redirect_from:
+  - /2025/01/01/research_geunwoo_1/
 ---
 **Goal** :  To develop adaptive control strategies that enable safe and efficient collaboration between humans and robots in shared workspaces.
 

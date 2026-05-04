@@ -4,6 +4,8 @@ author: Seongmin Ha
 member: All Member
 group: news
 date: 2025-10-28
+redirect_from:
+  - /2025/10/28/news_Joohyungkim_seminar/
 ---
 
 On October 28th (Tuesday), Prof. **Joohyung Kim** from the University of Illinois Urbana-Champaign (UIUC) visited HARCO Lab to deliver an invited seminar titled:

@@ -3,6 +3,8 @@ title: 5th Full-day Workshop on Ergonomic Human-Robot Collaboration-How Cognitiv
 author: Wansoo Kim
 member: wansoo_kim
 group: news
+redirect_from:
+  - /2022/08/08/news_cfp_IROSworkshop/
 ---
 
 # *5th Full-day Workshop on Ergonomic Human-Robot Collaboration: How Cognitive and Physical Aspects Come Together*

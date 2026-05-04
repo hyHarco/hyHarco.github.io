@@ -9,6 +9,8 @@ tags:
 author: Kai Li
 member: kai_li
 group: mobile_manipulator
+redirect_from:
+  - /2025/01/01/research_likai_1/
 ---
 **Goal** :  Enhancing the dynamic adaptability of Mobile Manipulators, developing multiple motion strategies for human intent, ensuring human safety, and enhancing the naturalness of the collaboration process. 
 

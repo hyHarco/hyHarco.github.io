@@ -10,6 +10,8 @@ tags:
 author: Yoonseo Kim
 member: yoonseo_kim
 group: exoskeleton
+redirect_from:
+  - /2025/01/02/research_yoonseo_1/
 ---
 **Goal** :  This study aims to develop a quantitative evaluation formula for walking across various terrains and to use it to propose control strategies for wearable robots
 

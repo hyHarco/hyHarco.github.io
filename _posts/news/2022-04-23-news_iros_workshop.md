@@ -3,6 +3,8 @@ title: IROS 2022 WS-Ergonomic Human-Robot Collaboration- How Cognitive and Physi
 author: Wansoo Kim
 member: wansoo_kim
 group: news
+redirect_from:
+  - /2022/04/23/news_IROSworkshop/
 ---
 
 It is our pleasure to announce that the proposed workshop on Ergonomic Human-Robot Collaboration: How Cognitive and Physical Aspects Come Together has been accepted for 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), October 23rd, 2022, Kyoto, Japan.

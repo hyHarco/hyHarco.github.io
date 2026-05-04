@@ -14,6 +14,8 @@ date_start: 2020-04-01
 date_end: 2023-12-31 
 role: Coordinator
 # budget: 300,000,000 won
+redirect_from:
+  - /2022/04/28/project-voucher_iitp_gait_project/
 ---
 
 

@@ -3,6 +3,8 @@ title: Participated in the KROC 2024 Conference in Pyeongchang
 author: Joonhyun Kim
 member: joonhyun_kim
 group: news
+redirect_from:
+  - /2024/02/21/news_KROS_2024_presentation/
 ---
 
 **[Joonhyun Kim](/members/joonhyun_kim), [Jungsoo Lee](/members/jungsoo_lee), [Jaepil Jang](/members/jaepil_jang), [Donggyu Lee](/members/donggyu_lee)** and Professor **[Wansoo Kim](/members/wansoo_kim)** attended the **KROC 2024 Conference**.    

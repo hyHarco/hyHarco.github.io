@@ -3,6 +3,8 @@ title: Young Researcher Program
 author: Wansoo Kim
 member: wansoo_kim
 group: news
+redirect_from:
+  - /2022/03/01/news_YoungResearcher/
 ---
 
 

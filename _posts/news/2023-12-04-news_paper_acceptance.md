@@ -3,6 +3,8 @@ title: Submitted Paper Acceptance News
 author: Joonhyun Kim
 member: joonhyun_kim
 group: news
+redirect_from:
+  - /2023/12/04/news_paper_Acceptance/
 ---
 
 The paper from our lab researcher, [Seoyeon Ham](/members/seoyeon_ham)   

@@ -3,6 +3,8 @@ title: Seminar on AI Robotics by Dr. Dong-Hyung Kim from ETRI
 author: Seongmin Ha
 member: All Member
 group: news
+redirect_from:
+  - /2025/05/07/news_ETRI_seminar/
 ---
 
 On Wednesday, May 7th, Dr. Dong-Hyung Kim from the Electronics and Telecommunications Research Institute (ETRI) was invited to speak at the Department of Robotics Engineering’s Career Development Seminar.

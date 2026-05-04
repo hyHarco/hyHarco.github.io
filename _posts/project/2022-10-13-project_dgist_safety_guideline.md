@@ -11,6 +11,8 @@ date_start: 2022.07.15
 date_end: 2022.10.13
 role: Coordinator
 # budget: 20,000,000 won
+redirect_from:
+  - /2022/10/13/project-dgist_safety_guidline/
 ---
 
 ***    

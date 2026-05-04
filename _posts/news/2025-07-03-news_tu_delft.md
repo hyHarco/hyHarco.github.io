@@ -5,6 +5,8 @@ date: 2025-07-03
 group: news
 author: Seongmin Ha
 member: All Member
+redirect_from:
+  - /2025/07/03/news_TU_Delft/
 ---
 
 On July 3, 2025, a group of students from **TU Delft** visited Hanyang University ERICA Campus.  

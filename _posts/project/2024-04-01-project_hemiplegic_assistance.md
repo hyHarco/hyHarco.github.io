@@ -14,6 +14,8 @@ date_start: 2024-04-01
 date_end: 2027-12-31
 role: Coordinator
 # budget: 330,000,000 won
+redirect_from:
+  - /2024/04/01/project-Hemiplegic_assistance/
 ---
 ***
 
