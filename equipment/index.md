@@ -65,7 +65,7 @@ Hardware platforms and instrumentation supporting our research in human-robot co
     </div>
   </div>
   <div class="eq_item">
-    <div class="eq_thumb"><img src="/images/equipment/Neuromek.png" loading="lazy" alt="NeuroMeka Moby"/></div>
+    <div class="eq_thumb"><img src="/images/equipment/neuromek.png" loading="lazy" alt="NeuroMeka Moby"/></div>
     <div class="eq_caption"><b>NeuroMeka Moby</b>
       <span class="eq_links"><a href="https://www.neuromeka.com/">NeuroMeka</a></span>
     </div>
