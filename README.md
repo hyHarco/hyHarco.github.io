@@ -67,7 +67,7 @@ hyHarco.github.io/
 │   ├── all.scss                  # Site shell (palettes, theme, mixins)
 │   └── effects/
 ├── images/                       # Image assets — see CONVENTIONS.md for naming
-│   ├── common/                   # Site chrome (logos, harc.png)
+│   ├── common/                   # Site chrome (logos, harco.png)
 │   ├── equipment/                # Equipment showcase
 │   ├── event_img/                # Event banners
 │   ├── frontimg/                 # Homepage carousel slides
