@@ -1,0 +1,50 @@
+{%- assign videos = site.data.youtube -%}
+{%- if videos and videos.size > 0 -%}
+
+<section class="home_youtube">
+  <div class="home_youtube_head">
+    <h2>Latest Videos</h2>
+    <a class="home_youtube_more" href="https://youtube.com/@HARCOLAB" target="_blank" rel="noopener">YouTube channel →</a>
+  </div>
+
+  <div class="home_youtube_grid">
+    {%- for v in videos limit: 4 -%}
+      <div class="home_youtube_card" data-video-id="{{ v.id }}">
+        <div class="home_youtube_thumb">
+          <img src="{{ v.thumbnail }}" alt="{{ v.title | escape }}" loading="lazy" />
+          <span class="home_youtube_play" aria-hidden="true">▶</span>
+        </div>
+        <div class="home_youtube_meta">
+          <time datetime="{{ v.published }}">{{ v.date }}</time>
+          <a class="home_youtube_title" href="{{ v.url }}" target="_blank" rel="noopener">{{ v.title }}</a>
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+</section>
+
+<script>
+  (function () {
+    document.querySelectorAll('.home_youtube_card').forEach(function (card) {
+      var thumb = card.querySelector('.home_youtube_thumb');
+      if (!thumb) return;
+      thumb.style.cursor = 'pointer';
+      thumb.addEventListener('click', function () {
+        var id = card.getAttribute('data-video-id');
+        if (!id) return;
+        var iframe = document.createElement('iframe');
+        iframe.src = 'https://www.youtube.com/embed/' + id + '?autoplay=1&rel=0';
+        iframe.frameBorder = '0';
+        iframe.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+        iframe.allowFullscreen = true;
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.style.border = '0';
+        thumb.innerHTML = '';
+        thumb.appendChild(iframe);
+      });
+    });
+  })();
+</script>
+
+{%- endif -%}

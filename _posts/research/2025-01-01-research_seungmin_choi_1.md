@@ -6,9 +6,9 @@ tags:
   - pHRC,pHRI
   - Model predictive control
   - Stability
-author: Seungmin-Choi
-member: Seungmin-Choi
-group: research_2
+author: Seungmin Choi
+member: seungmin_choi
+group: mobile_manipulator
 ---
 **Goal** : Predicting impedance parameters to ensure the stability of variable impedance control via CLF-MPC
 ***

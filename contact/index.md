@@ -56,7 +56,9 @@ Office: 한양대학교 ERICA 5공학관 518호(교수 사무실), 522호(연구
 
 <!-- * 카카오맵 - 지도퍼가기 -->
 <!-- 1. 지도 노드 -->
-<div id="daumRoughmapContainer1640846049957" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <div id="daumRoughmapContainer1640846049957" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+</div>
 
 <!--
 	2. 설치 스크립트

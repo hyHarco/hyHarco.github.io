@@ -82,7 +82,9 @@ nav:
 
 {% include section.html dark=true%}
 
-We are actively looking for top talents.
+<p class="join_lead">We are actively looking for top talents.</p>
+
+<div class="join_cta">
 {%
   include link.html
   icon="fas fa-hands-helping"
@@ -90,6 +92,19 @@ We are actively looking for top talents.
   link="contact"
   style="button"
 %}
-{:.center}
+</div>
+
+<style>
+  .join_lead {
+    font-size: 1.35rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 0 0 20px;
+    text-align: center;
+  }
+  .join_cta {
+    text-align: center;
+  }
+</style>
 
 {% include section.html %}

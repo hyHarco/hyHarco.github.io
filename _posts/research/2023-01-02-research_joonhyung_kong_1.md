@@ -5,8 +5,8 @@ tags:
   - Lower-limb Exoskeleton robot
   - H / W Modeling
 author: Joonhyung Kong
-member: Joonhyung-Kong
-group: research_1
+member: joonhyung_kong
+group: exoskeleton
 ---
 **Goal** : This study is an algorithm that makes it easy to switch between active or passive gear mode changes through hardware design that combines planetary gear and gear break.    
 This will reduce the power consumption of exoskeleton robots by adjusting the control algorithm according to human behavior patterns.

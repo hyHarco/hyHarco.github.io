@@ -1,0 +1,41 @@
+name: Update YouTube Videos
+
+on:
+  schedule:
+    - cron: "37 19 * * *" # Daily at 04:37 KST
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-youtube.yml"
+      - "scripts/scrape_youtube.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  update-youtube:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run YouTube scraper
+        run: python scripts/scrape_youtube.py
+
+      - name: Commit updated YouTube data
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: _data/youtube.json
+          commit_message: "Update YouTube video data"

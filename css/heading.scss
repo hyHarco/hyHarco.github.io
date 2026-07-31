@@ -8,35 +8,43 @@
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   font-family: $sans;
-  font-weight: $medium;
-  line-height: $spacing - 0.3;
+  font-weight: $semi-bold;
+  line-height: 1.25;
   margin: 40px 0 20px 0;
   @include trim-v-margins;
-  padding: 10px 0;
+  padding: 0;
+  color: $ink;
 }
 
 h1 {
-  font-size: 1.4rem;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  text-align: center;
+  font-family: $sans;
+  font-size: 1.6rem;
+  font-weight: $semi-bold;
+  letter-spacing: -0.01em;
+  text-transform: none;
+  text-align: left;
+  line-height: 1.25;
 
   & + p {
-    margin-top: 40px;
+    margin-top: 24px;
   }
 }
 
 h2 {
-  font-size: 1.3rem;
-  letter-spacing: 1px;
-  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: -0.005em;
+  text-align: left;
+  padding-bottom: 12px;
+  border-bottom: 1px solid $rule;
 }
 
 h3 {
   font-size: 1.2rem;
-  text-align: center;
+  text-align: left;
 }
 
 h4 {

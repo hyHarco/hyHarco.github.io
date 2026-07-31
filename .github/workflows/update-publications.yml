@@ -1,0 +1,47 @@
+name: Update Publications
+
+on:
+  schedule:
+    - cron: "17 19 * * *" # Daily at 04:17 KST
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-publications.yml"
+      - "_data/publication_overrides.yaml"
+      - "scripts/publication_pipeline.py"
+      - "scripts/scrape_scholar.py"
+      - "scripts/update_publications.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  update-publications:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install publication pipeline dependencies
+        run: python -m pip install requests pyyaml manubot
+
+      - name: Run publication pipeline
+        run: python scripts/update_publications.py
+
+      - name: Commit updated publication data
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: publication/publications.json _data/publication_metadata_cache.json
+          commit_message: "Update publication data from the pipeline"

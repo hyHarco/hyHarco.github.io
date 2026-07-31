@@ -26,12 +26,12 @@
   }
 
   &[data-dark="false"] {
-    background: $gray-100;
-    color: $black;
+    background: $surface;
+    color: $ink;
   }
 
   &[data-dark="true"] {
-    background: $gray-900;
-    color: $white;
+    background: $dark-accent;
+    color: $surface;
   }
 }

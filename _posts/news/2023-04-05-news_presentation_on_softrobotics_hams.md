@@ -1,7 +1,7 @@
 ---
 title: Presentation on International Conference Robosoft 2023
 author: Seoyeon Ham
-member: Seoyeon-Ham
+member: seoyeon_ham
 group: news
 ---
 
@@ -15,14 +15,14 @@ At The 2023 6th IEEE-RAS International Conference on Soft Robotics (RoboSoft 202
 {% capture col1 %}
 {%
   include figure.html
-  image="images/news/seoyeon_robosoft_1.jpg"
+  image="images/news/230405_presentation_on_softrobotics_hams/seoyeon_robosoft_1.jpg"
   caption=""
 %}
 {% endcapture %}
 {% capture col2 %}
 {%
   include figure.html
-  image="images/news/seoyeon_robosoft_2.jpg"
+  image="images/news/230405_presentation_on_softrobotics_hams/seoyeon_robosoft_2.jpg"
   caption=""
 %}
 {% endcapture %}

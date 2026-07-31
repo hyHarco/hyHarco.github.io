@@ -10,7 +10,7 @@ nav:
 {% include section.html %}
 
 ## <i class="fas fa-paper-plane"></i> *Ongoing Projects*
-{% include list.html 
+{% include list_noyear.html 
 component="project_grid" 
 data="posts" 
 filters="group: ongoing" %}

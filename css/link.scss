@@ -39,13 +39,15 @@ a:hover {
     max-width: calc(100% - 10px - 10px);
     min-height: 40px;
     margin: 10px;
-    padding: 7.5px 15px;
-    border-radius: 5px;
+    padding: 8px 18px;
+    border-radius: 0;
     background: $accent;
     color: $white;
+    font-weight: $medium;
 
     &:hover {
-      background: $gray-500;
+      background: $dark-accent;
+      color: $white;
     }
   }
 
@@ -53,14 +55,17 @@ a:hover {
     max-width: calc(100% - 10px - 10px);
     min-height: 40px;
     margin: 10px;
-    padding: 7.5px 15px;
-    border-radius: 5px;
-    background: rgb(106, 107, 206);
-    color: rgb(255, 255, 255);
-    font-family: 'Courier New', Courier, monospace;
+    padding: 8px 18px;
+    border-radius: 0;
+    background: $surface;
+    color: $accent;
+    border: 1px solid $accent;
+    font-family: $sans;
+    font-weight: $medium;
 
     &:hover {
-      background: $gray-500;
+      background: $accent;
+      color: $white;
     }
   }
 }

@@ -2,10 +2,9 @@
 # site properties and page defaults
 title: Human Robot Collaboration LAB
 description: Webpage of HARCO
-logo: images/common/logos/HYlogo.png
-header: images/upper.png
-footer: images/down_2.png
-baseurl: 
+header-dark: false
+footer-dark: false
+baseurl:
 
 
 # site social media and other links
@@ -13,14 +12,6 @@ baseurl:
 #   email: wansookim@hanyang.ac.kr
 #   google-scholar: https://scholar.google.com/citations?user=07u_E8wAAAJ&hl=ko
 #   github: hyHarco
-
-# automatic citations
-auto-cite:
-  plugins:
-    - name: sources
-      input:
-        - ../_data/sources.yaml
-  output: ../_data/citations.yaml
 
 ### advanced settings
 

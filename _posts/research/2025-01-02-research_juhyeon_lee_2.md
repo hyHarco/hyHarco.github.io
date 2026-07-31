@@ -4,9 +4,9 @@ image: images/research/juhyeon_2_main.png
 tags:
   - Soft Exoskeleton
   - H / W Modeling
-author: Juhyeon-Lee
-member: Juhyeon-Lee
-group: research_1
+author: Juhyeon Lee
+member: juhyeon_lee
+group: exoskeleton
 ---
 <!-- 연구목표 -->
 **Goal**

@@ -6,9 +6,9 @@ tags:
   - Mechanism design
   - Tendon/wire mechanism
 
-author: Jihwan-Oh
-member: Jihwan-Oh
-group: research_1
+author: Jihwan Oh
+member: jihwan_oh
+group: exoskeleton
 ---
 **Goal** :  Design and implementation of a single actuator based HBPM that suppresses slack in Bowden cable transmission and provides stable bidirectional torque assistance for wearable robotics.
 

@@ -3,7 +3,7 @@
 // syntax: term1 term2 "full phrase 1" "full phrase 2" "tag: tag 1"
 
 // components to filter
-const componentQuery = ".card, .citation, .post_excerpt";
+const componentQuery = ".card, .post_excerpt";
 // search box element
 const boxQuery = ".search_box";
 // results info element

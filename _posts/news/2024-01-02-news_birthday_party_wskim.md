@@ -1,11 +1,11 @@
 ---
 title: Birthday Celebration for Professor Wansoo Kim
 author: Joonhyun Kim
-member: Joonhyun-Kim
+member: joonhyun_kim
 group: news
 ---
 On January 12, 2024,   
-we celebrated our professor[**Wansoo Kim**](/members/Wansoo-Kim.html)'s birthday in the lab :) <i class="fas fa-birthday-cake"></i> <i class="fas fa-glass-cheers"></i>
+we celebrated our professor[**Wansoo Kim**](/members/wansoo_kim)'s birthday in the lab :) <i class="fas fa-birthday-cake"></i> <i class="fas fa-glass-cheers"></i>
 
 
 
@@ -17,6 +17,6 @@ we celebrated our professor[**Wansoo Kim**](/members/Wansoo-Kim.html)'s birthday
 
 {%
   include figure.html
-  image="images/news/btd_24_01_02.jpg"
+  image="images/news/240102_birthday_party_wskim/btd_24_01_02.jpg"
 %}
 

@@ -47,3 +47,6 @@ build/
 images/temp/
 images/*_temp.*
 images/**/*_temp.*
+
+# Etc.
+.claude/
