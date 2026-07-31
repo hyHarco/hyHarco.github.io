@@ -12,7 +12,7 @@ _"February 21-24 , 2024, Phoenix Hotel & Resorts, Pyeongchang, Korea"_
 
 {%
   include figure.html
-  image="images/news/kroc2024.jpg"
+  image="images/news/240221_kros_2024_presentation/kroc2024.jpg"
   width="60%"
   caption="KROC 2024 Conference at Phoenix Hotel & Resorts, Pyeongchang, Korea"
 %}
@@ -27,9 +27,9 @@ And [Joonhyun Kim](/members/joonhyun_kim), [Jungsoo Lee](/members/jungsoo_lee), 
 
 
 
-<img src="/images/news/kros2024_presentation1.jpg" style="width: 33%">
-<img src="/images/news/kros2024_presentation3.jpg" style="width: 33%">
-<img src="/images/news/kros2024_presentation2.jpg" style="width: 33%">
+<img src="/images/news/240221_kros_2024_presentation/kros2024_presentation1.jpg" style="width: 33%">
+<img src="/images/news/240221_kros_2024_presentation/kros2024_presentation3.jpg" style="width: 33%">
+<img src="/images/news/240221_kros_2024_presentation/kros2024_presentation2.jpg" style="width: 33%">
 
 
 
@@ -45,14 +45,14 @@ And [Joonhyun Kim](/members/joonhyun_kim), [Jungsoo Lee](/members/jungsoo_lee), 
 <!-- {% capture col1 %}
 {%
   include figure.html
-  image="images/news/ro-man2023_1.png"
+  image="images/news/240221_kros_2024_presentation/ro-man2023_1.png"
   caption=""
 %}
 {% endcapture %}
 {% capture col2 %}
 {%
   include figure.html
-  image="images/news/ro-man2023_2.png"
+  image="images/news/240221_kros_2024_presentation/ro-man2023_2.png"
   caption=""
 %}
 {% endcapture %}

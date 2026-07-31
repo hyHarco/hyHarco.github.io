@@ -17,6 +17,6 @@ we celebrated our professor[**Wansoo Kim**](/members/wansoo_kim)'s birthday in t
 
 {%
   include figure.html
-  image="images/news/btd_24_01_02.jpg"
+  image="images/news/240102_birthday_party_wskim/btd_24_01_02.jpg"
 %}
 
