@@ -28,6 +28,8 @@ footer {
   }
 
   .footer_col {
+    min-width: 0;
+
     h4 {
       margin: 0 0 8px;
       font-size: 0.72rem;
@@ -81,6 +83,7 @@ footer {
     grid-template-columns: max-content max-content;
     gap: 4px 24px;
     justify-content: start;
+    max-width: 100%;
 
     li {
       white-space: nowrap;
@@ -118,6 +121,15 @@ footer {
   @media (max-width: 500px) {
     .footer_inner {
       grid-template-columns: 1fr;
+    }
+
+    .footer_explore_grid {
+      grid-template-columns: 1fr;
+      gap: 4px;
+
+      li {
+        white-space: normal;
+      }
     }
   }
 }

@@ -19,13 +19,86 @@
 <link rel="stylesheet" href="/css/subnav.css">
 <link rel="stylesheet" href="/css/subnav_research.css">
 <script>
-  function redirectToResearch() {
-    window.location.href = '/research/index.html';
-  }
+  document.addEventListener("DOMContentLoaded", function () {
+    const header = document.querySelector("header[data-mobile-menu]");
+    if (!header) return;
+
+    const menuButton = header.querySelector(".mobile_menu_toggle");
+    const navigation = header.querySelector("#site-navigation");
+    const mobileQuery = window.matchMedia("(max-width: 600px)");
+
+    function setSubnavOpen(container, open) {
+      const button = container.querySelector(".subnavbtn, .subnavbtn-research");
+
+      container.setAttribute("data-subnav-open", open ? "true" : "false");
+      if (button) button.setAttribute("aria-expanded", open ? "true" : "false");
+    }
+
+    function closeSubnavs(except) {
+      header.querySelectorAll(".subnav, .subnav-research").forEach(function (container) {
+        if (container !== except) setSubnavOpen(container, false);
+      });
+    }
+
+    function setMobileMenuOpen(open) {
+      header.setAttribute("data-mobile-menu-open", open ? "true" : "false");
+      if (menuButton) {
+        menuButton.setAttribute("aria-expanded", open ? "true" : "false");
+        menuButton.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
+      }
+      if (!open) closeSubnavs();
+    }
+
+    if (menuButton && navigation) {
+      menuButton.addEventListener("click", function () {
+        setMobileMenuOpen(header.getAttribute("data-mobile-menu-open") !== "true");
+      });
+
+      navigation.addEventListener("click", function (event) {
+        const link = event.target instanceof Element ? event.target.closest("a") : null;
+        if (link && mobileQuery.matches) setMobileMenuOpen(false);
+      });
+    }
+
+    header.querySelectorAll(".subnav, .subnav-research").forEach(function (container) {
+      const button = container.querySelector(".subnavbtn, .subnavbtn-research");
+      if (!button) return;
+
+      button.addEventListener("click", function () {
+        const target = button.getAttribute("data-nav-target");
+
+        if (!mobileQuery.matches) {
+          if (target) window.location.href = target;
+          return;
+        }
+
+        const nextOpen = container.getAttribute("data-subnav-open") !== "true";
+        closeSubnavs(container);
+        setSubnavOpen(container, nextOpen);
+      });
+    });
+
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") setMobileMenuOpen(false);
+    });
+
+    function handleViewportChange() {
+      if (!mobileQuery.matches) {
+        setMobileMenuOpen(false);
+        closeSubnavs();
+      }
+    }
+
+    if (mobileQuery.addEventListener) {
+      mobileQuery.addEventListener("change", handleViewportChange);
+    } else {
+      mobileQuery.addListener(handleViewportChange);
+    }
+  });
 </script>
 
 
-<header {% if background %}class="background"{% endif %} {% if background %}style="--background: url('{{ background | relative_url }}')"{% endif %} data-dark="{{ dark }}">
+<header {% if background %}class="background"{% endif %} {% if background %}style="--background: url('{{ background | relative_url }}')"{% endif %} data-dark="{{ dark }}" data-mobile-menu data-mobile-menu-open="false">
   <a
     href="{{ '/' | relative_url }}"
     class="logo_row"
@@ -37,12 +110,30 @@
     {% endif %}
   </a>
 
-  <div class="navbar">
+  <button
+    class="mobile_menu_toggle"
+    type="button"
+    aria-label="Open navigation"
+    aria-controls="site-navigation"
+    aria-expanded="false"
+  >
+    <i class="fa fa-bars" aria-hidden="true"></i>
+  </button>
+
+  <nav class="navbar" id="site-navigation" aria-label="Primary navigation">
     <a href="{{ '/' | relative_url }}">Home</a>
 
-    <div class="subnav-research">
-      <button class="subnavbtn-research" onclick="redirectToResearch()">Research</button>
-      <div class="subnav-research-content">
+    <div class="subnav-research" data-subnav-open="false">
+      <button
+        class="subnavbtn-research"
+        type="button"
+        data-nav-target="/research/index.html"
+        aria-haspopup="true"
+        aria-controls="research-subnav"
+        aria-expanded="false"
+      >Research</button>
+      <div class="subnav-research-content" id="research-subnav">
+        <a href="/research/index.html">Overview</a>
         <a href="/research/mobile_manipulator/">Mobile Manipulator</a>
         <a href="/research/exoskeleton_robot/">Exoskeleton Robot</a>
         <a href="/research/artificial_intelligence/">Artificial Intelligence</a>
@@ -53,30 +144,48 @@
 
     <a href="/project/index.html">Projects</a>
 
-    <div class="subnav">
-      <button class="subnavbtn">Publications <i class="fa fa-caret-down"></i></button>
-      <div class="subnav-content">
+    <div class="subnav" data-subnav-open="false">
+      <button
+        class="subnavbtn"
+        type="button"
+        aria-haspopup="true"
+        aria-controls="publications-subnav"
+        aria-expanded="false"
+      >Publications <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+      <div class="subnav-content" id="publications-subnav">
         <a href="/publication/index.html">Journal &amp; Conference Papers</a>
         <a href="/publication/patent.html">Patents</a>
       </div>
     </div>
 
-    <div class="subnav">
-      <button class="subnavbtn">Team <i class="fa fa-caret-down"></i></button>
-      <div class="subnav-content">
+    <div class="subnav" data-subnav-open="false">
+      <button
+        class="subnavbtn"
+        type="button"
+        aria-haspopup="true"
+        aria-controls="team-subnav"
+        aria-expanded="false"
+      >Team <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+      <div class="subnav-content" id="team-subnav">
         <a href="/team/index.html">Members</a>
         <a href="/contact/index.html">Contact</a>
       </div>
     </div>
 
-    <div class="subnav">
-      <button class="subnavbtn">News &amp; Events <i class="fa fa-caret-down"></i></button>
-      <div class="subnav-content">
+    <div class="subnav" data-subnav-open="false">
+      <button
+        class="subnavbtn"
+        type="button"
+        aria-haspopup="true"
+        aria-controls="news-subnav"
+        aria-expanded="false"
+      >News &amp; Events <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+      <div class="subnav-content" id="news-subnav">
         <a href="/news/index.html">News</a>
         <a href="/workshop/index.html">Workshops</a>
         <a href="/lecture/index.html">Lectures</a>
       </div>
     </div>
-  </div>
+  </nav>
 
 </header>

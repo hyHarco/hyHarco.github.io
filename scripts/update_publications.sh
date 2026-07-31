@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 echo "🐍 [STEP 0] Checking Python venv..."
 
@@ -8,15 +9,18 @@ if [ ! -d "venv" ]; then
 fi
 
 source venv/bin/activate
-pip install -q --disable-pip-version-check requests beautifulsoup4
 
-echo "📚 [STEP 1] Running publication scraper..."
-python3 scripts/scrape_scholar.py
+dependencies=(requests pyyaml)
+if [[ " $* " != *" --no-enrich "* ]]; then
+    dependencies+=(manubot)
+fi
 
-if [ $? -ne 0 ]; then
-    echo "❌ Scraper failed. Aborting."
+pip install -q --disable-pip-version-check "${dependencies[@]}"
+
+echo "📚 [STEP 1] Updating publication data..."
+if ! python3 scripts/update_publications.py "$@"; then
+    echo "❌ Publication update failed. Aborting."
     exit 1
 fi
 
-echo "✅ Scraping complete. Showing recent publications:"
-jq '.[0:3]' publication/publications.json
+echo "✅ Publication update complete."

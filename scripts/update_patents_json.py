@@ -5,11 +5,11 @@ HARCO_patent_list.xlsx 파일을 읽어 특허 실적을 publication/patents.jso
 
 사용법 (repo root 에서 실행):
     python scripts/update_patents_json.py \
-        --xlsx  _data/HARCO_patent_list.xlsx \
+        --xlsx  assets/source/HARCO_patent_list.xlsx \
         --json  publication/patents.json
 
 옵션:
-    --xlsx   엑셀 파일 경로 (기본값: _data/HARCO_patent_list.xlsx)
+    --xlsx   엑셀 파일 경로 (기본값: assets/source/HARCO_patent_list.xlsx)
     --json   JSON 파일 경로 (기본값: publication/patents.json)
     --dry-run  실제 파일을 수정하지 않고 결과만 출력
 """
@@ -18,15 +18,18 @@ import argparse
 import json
 import os
 import re
-import subprocess
-import sys
 
 try:
     from openpyxl import load_workbook
-except ModuleNotFoundError:
-    print("[setup] openpyxl 설치 중...")
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "openpyxl", "-q"])
-    from openpyxl import load_workbook
+except ModuleNotFoundError as exc:
+    raise SystemExit(
+        "Missing dependency: openpyxl. Install it with "
+        "`python3 -m pip install openpyxl` and rerun this script."
+    ) from exc
+
+
+DEFAULT_XLSX_PATH = "assets/source/HARCO_patent_list.xlsx"
+DEFAULT_JSON_PATH = "publication/patents.json"
 
 
 # ─────────────────────────────────────────────
@@ -174,10 +177,10 @@ def is_duplicate(existing, new_entry):
 
 def main():
     parser = argparse.ArgumentParser(description="HARCO 특허 목록을 patents.json에 업데이트합니다.")
-    parser.add_argument("--xlsx",    default="_data/HARCO_patent_list.xlsx",
-                        help="엑셀 파일 경로")
-    parser.add_argument("--json",    default="publication/patents.json",
-                        help="JSON 파일 경로")
+    parser.add_argument("--xlsx",    default=DEFAULT_XLSX_PATH,
+                        help=f"엑셀 파일 경로 (기본값: {DEFAULT_XLSX_PATH})")
+    parser.add_argument("--json",    default=DEFAULT_JSON_PATH,
+                        help=f"JSON 파일 경로 (기본값: {DEFAULT_JSON_PATH})")
     parser.add_argument("--dry-run", action="store_true",
                         help="파일을 수정하지 않고 결과만 출력")
     args = parser.parse_args()

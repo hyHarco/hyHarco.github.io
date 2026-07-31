@@ -1,0 +1,22 @@
+# Manual publication corrections and DOI enrichment hints.
+#
+# The Google Scholar scraper keeps the publication list broad. Add entries here
+# only when Scholar metadata needs a correction or when a DOI should enrich the
+# final publication/publications.json output.
+#
+# Example:
+# - match_title: Scholar title to match exactly
+#   title: Preferred display title
+#   doi: 10.1109/example.2026.1234567
+#   journal: Preferred venue name
+#   link: https://doi.org/10.1109/example.2026.1234567
+#   category: journal
+#
+# To add a publication that is not on Google Scholar yet:
+# - add: true
+#   title: New publication title
+#   authors: A Author, B Author, W Kim
+#   year: 2026
+#   journal: Conference or journal name
+#   link: https://example.com
+#   category: conference

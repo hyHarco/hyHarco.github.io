@@ -1,7 +1,28 @@
 
 .event_container {
     display: grid;
-    grid-template-columns: 40% 1fr;
+    grid-template-columns: minmax(0, 40%) minmax(0, 1fr);
     grid-gap: 10px;
+    max-width: 100%;
 
+}
+
+.event_container > * {
+    min-width: 0;
+}
+
+.event_container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.event_container .items {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 640px) {
+    .event_container {
+        grid-template-columns: 1fr;
+    }
 }

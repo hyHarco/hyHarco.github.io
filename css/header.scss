@@ -28,6 +28,7 @@ header {
   .logo_row {
     @include inline-flex-center;
     gap: 12px;
+    min-width: 0;
 
     .logo {
       max-width: 100%;
@@ -44,6 +45,27 @@ header {
       line-height: 1.2;
       text-align: left;
       color: $accent;
+    }
+  }
+
+  .mobile_menu_toggle {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    color: $accent;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(17, 35, 73, 0.12);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    line-height: 1;
+
+    &:focus-visible {
+      outline: 2px solid $accent;
+      outline-offset: 2px;
     }
   }
 
@@ -89,16 +111,38 @@ header {
     align-content: center;
     padding: 10px 16px;
 
-    .logo_row,
     .nav_row {
       width: 100%;
     }
   }
 
   @media (max-width: 600px) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 8px 12px;
+    padding: 10px 14px;
+
     .logo_row {
-      flex-direction: column;
+      justify-content: flex-start;
       gap: 8px;
+
+      .logo {
+        flex: 0 0 auto;
+        height: 1.2rem !important;
+      }
+
+      .logo_text,
+      div {
+        min-width: 0;
+        font-size: 0.98rem !important;
+        line-height: 1.15;
+        overflow-wrap: anywhere;
+      }
+    }
+
+    .mobile_menu_toggle {
+      display: inline-flex;
+      justify-self: end;
     }
 
     .nav_row {
@@ -109,6 +153,10 @@ header {
       .link {
         width: 100%;
       }
+    }
+
+    .navbar {
+      grid-column: 1 / -1;
     }
   }
 }

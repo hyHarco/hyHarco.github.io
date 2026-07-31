@@ -1,33 +1,5 @@
-- name: M0bile-manipulator Whole-body control
-  group: ongoing
-  image: images/tools_yaml/mobile_manipulator_temp.png
-  link: https://github.com/AllenCell/image_classifier_3d
-  description: The project aims to develop Whole-body control using Redundant Degree of Freedom in mobile manipulators so that workers can perform tasks reliably.  
-
-- name: ZeroCostDL4Mic
-  group: others
-  image: https://henriqueslab.github.io/images/ZeroCostDL4Mic.jpg
-  link: https://github.com/HenriquesLab/ZeroCostDL4Mic
-  description: A collection of self-explanatory Jupyter Notebooks for Google Colab that features an easy-to-use graphical user interface. A good resource for learning deep learning applications in microscopy image analysis.
-
-- name: napari
-  group: others
-  image: https://raw.githubusercontent.com/napari/napari/main/resources/logo.png
-  link: https://napari.org/
-  description: A fast, interactive, multi-dimensional image viewer for Python, designed for browsing, annotating, and analyzing large multi-dimensional images
-
-
-
-- name: The Young Robot Engineer  W.Kim
+- name: The Young Robot Engineer W. Kim
   group: Kim_News_Tools
   image: images/tools_yaml/wansoo_kim_news.png
   link: https://www.irobotnews.com/news/articleView.html?idxno=24716
-  description: 
-
-
-- name: Kuka Innovation Awards 2018
-  group: research_mobile_manipulator
-  image: images/tools_yaml/research_youtube.png
-  link: https://www.youtube.com/watch?v=qF8hS3q49YA
-  description: 
-
+  description: ""

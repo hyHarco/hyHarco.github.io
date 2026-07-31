@@ -1,9 +1,24 @@
 
 .organizer_container {
     display: grid;
-    grid-template-columns: 20% 1fr;
+    grid-template-columns: minmax(0, 20%) minmax(0, 1fr);
     grid-gap: 10px;
+    max-width: 100%;
+    overflow-wrap: anywhere;
 
 }
 
+.organizer_container > * {
+    min-width: 0;
+}
 
+.organizer_container img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 640px) {
+    .organizer_container {
+        grid-template-columns: 1fr;
+    }
+}

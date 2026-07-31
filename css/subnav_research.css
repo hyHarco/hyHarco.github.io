@@ -1,6 +1,7 @@
 /* Research subnav - white glass header */
 .subnav-research {
   position: relative;
+  min-width: 0;
 }
 
 .subnav-research .subnavbtn-research {
@@ -34,6 +35,8 @@
   backdrop-filter: saturate(160%) blur(14px);
   -webkit-backdrop-filter: saturate(160%) blur(14px);
   min-width: 240px;
+  max-width: calc(100vw - 32px);
+  box-sizing: border-box;
   border: 1px solid rgba(17, 35, 73, 0.08);
   border-top: 2px solid #1f3b6e;
   z-index: 50;
@@ -61,4 +64,42 @@
 
 .subnav-research:hover .subnav-research-content {
   display: block;
+}
+
+.subnav-research:focus-within .subnav-research-content,
+.subnav-research[data-subnav-open="true"] .subnav-research-content {
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .subnav-research,
+  .subnav-research .subnavbtn-research {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .subnav-research .subnavbtn-research {
+    text-align: center;
+  }
+
+  .subnav-research-content {
+    position: static;
+    min-width: 0;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: none;
+  }
+
+  .subnav-research:focus-within .subnav-research-content {
+    display: none;
+  }
+
+  .subnav-research[data-subnav-open="true"] .subnav-research-content {
+    display: block;
+  }
+
+  .subnav-research-content a {
+    padding-left: 28px;
+    text-align: center;
+  }
 }

@@ -1,5 +1,13 @@
 [
   {
+    "id": "Xh0JEdAZnTI",
+    "title": "[RAL] Geo-LSTM: A Geometry and Temporal Feature Fusion Algorithm for Multi-Sensor 3D Localization",
+    "published": "2026-05-19T08:51:57+00:00",
+    "date": "2026-05-19",
+    "url": "https://www.youtube.com/watch?v=Xh0JEdAZnTI",
+    "thumbnail": "https://i1.ytimg.com/vi/Xh0JEdAZnTI/hqdefault.jpg"
+  },
+  {
     "id": "dX_LIZv7LZA",
     "title": "Collision-Aware VR Teleoperation System and Human Demonstration Dataset for Dual-Arm Hand Robot",
     "published": "2026-01-29T04:35:00+00:00",
@@ -54,13 +62,5 @@
     "date": "2025-05-02",
     "url": "https://www.youtube.com/watch?v=9mDxs26xCeY",
     "thumbnail": "https://i2.ytimg.com/vi/9mDxs26xCeY/hqdefault.jpg"
-  },
-  {
-    "id": "gCXGfpSqTyw",
-    "title": "Research on Robotic Positioning Control for Magnetic Precision Radiation Therapy (MPRT)",
-    "published": "2025-05-01T07:31:45+00:00",
-    "date": "2025-05-01",
-    "url": "https://www.youtube.com/watch?v=gCXGfpSqTyw",
-    "thumbnail": "https://i4.ytimg.com/vi/gCXGfpSqTyw/hqdefault.jpg"
   }
 ]
