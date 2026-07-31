@@ -228,7 +228,7 @@ layout: default
   }
   .home_news_list a {
     display: grid;
-    grid-template-columns: 110px 1fr;
+    grid-template-columns: 110px minmax(0, 1fr);
     align-items: baseline;
     gap: 18px;
     padding: 8px 0;
@@ -237,6 +237,9 @@ layout: default
     transition: color 0.15s ease;
   }
   .home_news_list a:hover { color: #1f3b6e; }
+  .home_news_list a > * {
+    min-width: 0;
+  }
   .home_news_list time {
     font-family: "Inter", sans-serif;
     font-size: 0.85rem;
@@ -248,6 +251,7 @@ layout: default
   .home_news_list .home_news_title {
     font-size: 0.98rem;
     line-height: 1.4;
+    overflow-wrap: anywhere;
   }
 
   /* YouTube strip */
@@ -282,13 +286,14 @@ layout: default
   .home_youtube_more:hover { color: #112349; }
   .home_youtube_grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 22px;
     max-width: 880px;
   }
   .home_youtube_card {
     display: flex;
     flex-direction: column;
+    min-width: 0;
     text-decoration: none;
     color: #1d1d1b;
     transition: color 0.15s ease, transform 0.2s ease;
@@ -332,6 +337,7 @@ layout: default
     flex-direction: column;
     gap: 4px;
     padding: 10px 0 0;
+    min-width: 0;
   }
   .home_youtube_meta time {
     font-family: "Inter", sans-serif;
@@ -348,6 +354,7 @@ layout: default
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+    overflow-wrap: anywhere;
     overflow: hidden;
     transition: color 0.15s ease;
   }
@@ -360,11 +367,17 @@ layout: default
   }
   @media (max-width: 700px) {
     .home_title { font-size: 1.55rem; }
-    .home_news_list a { grid-template-columns: 92px 1fr; gap: 12px; }
+    .home_news_list a { grid-template-columns: 92px minmax(0, 1fr); gap: 12px; }
     .home_news_list .home_news_title { font-size: 0.92rem; }
     .home_youtube { padding: 24px 20px 16px; }
-    .home_youtube_grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+    .home_youtube_grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
     .home_youtube_title { font-size: 0.85rem; }
+  }
+  @media (max-width: 520px) {
+    .home_news { padding: 24px 20px 16px; }
+    .home_news_list a { grid-template-columns: 1fr; gap: 4px; }
+    .home_news_list time { white-space: normal; }
+    .home_youtube_grid { grid-template-columns: 1fr; }
   }
 </style>
 
