@@ -13,14 +13,6 @@ baseurl:
 #   google-scholar: https://scholar.google.com/citations?user=07u_E8wAAAJ&hl=ko
 #   github: hyHarco
 
-# automatic citations
-auto-cite:
-  plugins:
-    - name: sources
-      input:
-        - ../_data/sources.yaml
-  output: ../_data/citations.yaml
-
 ### advanced settings
 
 # default front matter parameters for markdown files
