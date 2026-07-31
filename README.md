@@ -38,11 +38,10 @@ hyHarco.github.io/
 ├── _config.yaml                  # Jekyll configuration
 ├── CONVENTIONS.md                # File & directory naming rules
 ├── _data/                        # Site data (consumed by Liquid)
-│   ├── citations.yaml            # Auto-generated citations
 │   ├── links.yaml                # Social media links
-│   ├── publications.json         # Publication data (Google Scholar)
+│   ├── publication_metadata_cache.json # DOI metadata cache
+│   ├── publication_overrides.yaml # Manual publication corrections / DOI hints
 │   ├── roles.yaml                # Member role definitions
-│   ├── sources.yaml              # Citation sources
 │   ├── tools.yaml                # Research tools / news cards
 │   ├── youtube.json              # YouTube data (auto-scraped)
 │   └── bibliography/
@@ -53,8 +52,8 @@ hyHarco.github.io/
 │   ├── member.html
 │   └── post.html
 ├── _members/                     # Member profiles (37 members, slug = firstname_lastname)
-├── _posts/                       # Blog posts (76 total)
-│   ├── news/                     # News posts (41)
+├── _posts/                       # Blog posts (79 total)
+│   ├── news/                     # News posts (44)
 │   ├── research/                 # Research posts (24)
 │   ├── project/                  # Project posts (9)
 │   └── workshop/                 # Workshop posts (2)
@@ -82,11 +81,12 @@ hyHarco.github.io/
 │   └── _archive/                 # Unreferenced legacy images (build-excluded)
 ├── js/                           # JavaScript files
 ├── scripts/                      # Automation scripts
-│   ├── cite.sh                   # Run auto-cite
 │   ├── start.sh                  # Start dev server
-│   ├── scrape_scholar.py         # Scrape Google Scholar
+│   ├── publication_pipeline.py   # Merge Scholar data, overrides, DOI metadata
+│   ├── scrape_scholar.py         # Fetch and parse Google Scholar
+│   ├── update_publications.py    # Build publication/publications.json
 │   ├── scrape_youtube.py         # Scrape YouTube
-│   ├── update_publications.sh    # Update publications via Scholar
+│   ├── update_publications.sh    # Local publication update wrapper
 │   ├── update_patents_json.py    # Update patent JSON
 │   └── templates/                # Post templates
 ├── contact/                      # Contact page
@@ -94,7 +94,9 @@ hyHarco.github.io/
 ├── lecture/                      # Lecture page
 ├── news/                         # News listing page
 ├── project/                      # Project listing page
-├── publication/                  # Publications page
+├── publication/                  # Publications page and data JSON
+│   ├── publications.json         # Publication data (Google Scholar)
+│   └── patents.json              # Patent data
 ├── research/                     # Research pages (mobile_manipulator, exoskeleton_robot, ai)
 ├── team/                         # Team page
 ├── workshop/                     # Workshop page
@@ -275,10 +277,12 @@ For research posts about a single member, prefer the slug-prefixed filename: `YY
 
 ### Updating Publications
 
-**Manual Update:**
-Edit `_data/publications.json` directly.
+**Manual Corrections:**
+Prefer editing `_data/publication_overrides.yaml` for corrections, DOI links,
+or publications that are not on Google Scholar yet. The generated site data
+still lives in `publication/publications.json`.
 
-**Automated Update (from Google Scholar):**
+**Automated Update (Google Scholar + overrides + DOI enrichment):**
 
 ```bash
 ./scripts/update_publications.sh
@@ -287,10 +291,36 @@ Edit `_data/publications.json` directly.
 This will:
 
 1. Scrape publications from Google Scholar
-2. Save to `_data/publications.json`
-3. Create a new branch
-4. Commit and push changes
-5. Prompt you to create a Pull Request
+2. Apply `_data/publication_overrides.yaml`
+3. Enrich DOI entries through Manubot when enrichment is enabled
+4. Save the final data to `publication/publications.json`
+
+To skip DOI enrichment for a faster local run:
+
+```bash
+./scripts/update_publications.sh --no-enrich
+```
+
+The GitHub Actions workflow `.github/workflows/update-publications.yml`
+also runs the same pipeline every day at 04:17 KST, or when related
+publication pipeline files are pushed to `main`, and commits generated
+publication data when it changes.
+
+### Updating YouTube Videos
+
+Homepage `Latest Videos` reads from `_data/youtube.json`.
+
+**Manual Update:**
+
+```bash
+python3 scripts/scrape_youtube.py
+```
+
+**Automated Update:**
+The GitHub Actions workflow `.github/workflows/update-youtube.yml`
+refreshes `_data/youtube.json` every day at 04:37 KST, or when the YouTube
+scraper workflow files are pushed to `main`, and commits the data when it
+changes.
 
 ---
 
@@ -306,28 +336,29 @@ Start local development server with live reload:
 ./scripts/start.sh
 ```
 
-### `cite.sh`
-
-Generate citations from sources:
-
-```bash
-./scripts/cite.sh
-```
-
 ### `update_publications.sh`
 
-Update publications from Google Scholar:
+Update publications from Google Scholar, manual overrides, and DOI metadata:
 
 ```bash
 ./scripts/update_publications.sh
 ```
 
-Wraps `scrape_scholar.py`. Creates a new branch, commits the
-regenerated `_data/publications.json`, and prompts for a PR.
+Wraps `scripts/update_publications.py` and regenerates
+`publication/publications.json`.
+
+### `scrape_scholar.py`
+
+Fetch and parse the HARCO Google Scholar profile. This is used by the
+publication pipeline and can still write raw Scholar data directly:
+
+```bash
+python3 scripts/scrape_scholar.py
+```
 
 ### `scrape_youtube.py`
 
-Refresh `_data/youtube.json` from the lab YouTube channel.
+Refresh `_data/youtube.json` from the lab YouTube channel RSS feed.
 
 ### `update_patents_json.py`
 
@@ -337,8 +368,8 @@ into JSON for the publications page.
 **Requirements:**
 
 - Python 3
-- Virtual environment (automatically created by `update_publications.sh`)
-- Dependencies: `requests`, `beautifulsoup4`
+- `update_publications.sh` creates a local virtual environment and installs `requests`, `pyyaml`, and `manubot`
+- `update_patents_json.py` requires `openpyxl`
 
 ---
 
@@ -348,7 +379,7 @@ into JSON for the publications page.
 
 The site is automatically deployed to GitHub Pages when changes are pushed to the `main` branch.
 
-**Workflow**: `.github/workflows/deploy.yml`
+Deployment is handled by the repository's GitHub Pages settings.
 
 ### Manual Deployment
 
@@ -360,7 +391,7 @@ The site is automatically deployed to GitHub Pages when changes are pushed to th
    git push origin main
    ```
 
-3. GitHub Actions will build and deploy automatically
+3. GitHub Pages will build and deploy automatically
 
 ---
 
@@ -521,4 +552,4 @@ Robotics Department
 
 ---
 
-**Last Updated**: 2026-05-04
+**Last Updated**: 2026-08-01

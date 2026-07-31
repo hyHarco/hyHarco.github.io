@@ -1,9 +1,9 @@
-<!-- 
+## Summary
 
-Read the Lab Website Template documentation BEFORE opening this pull request:
+-
 
-https://github.com/greenelab/lab-website-template/wiki/Get-Started#edit-your-site
+## Checks
 
-https://github.com/greenelab/lab-website-template/wiki/Basic-Editing
-
--->
+- [ ] I followed `CONVENTIONS.md` for new or renamed content files.
+- [ ] I ran `bundle exec jekyll build`, or documented why it could not run.
+- [ ] I checked updated links and image paths.
