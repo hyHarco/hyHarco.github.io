@@ -55,6 +55,14 @@ def update_publications(
         citation_cache=citation_cache,
     )
 
+    existing_publications = load_json_data(output_path, default=[])
+    if not publications:
+        existing_count = len(existing_publications) if isinstance(existing_publications, list) else 0
+        raise RuntimeError(
+            "Refusing to write empty publication data because the existing output contains "
+            f"{existing_count} publications. Check the Scholar fetch or parser before rerunning."
+        )
+
     write_json_data(output_path, publications)
     if citation_cache:
         write_json_data(cache_path, citation_cache)

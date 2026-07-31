@@ -213,6 +213,36 @@ class PublicationPipelineTest(unittest.TestCase):
             self.assertEqual(json.loads(output_path.read_text(encoding="utf-8"))[0]["title"], "Fetched Paper")
             self.assertFalse(cache_path.exists())
 
+    def test_update_publications_refuses_to_overwrite_existing_data_with_empty_results(self):
+        from scripts.update_publications import update_publications
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            output_path = Path(temp_dir) / "publications.json"
+            cache_path = Path(temp_dir) / "cache.json"
+            overrides_path = Path(temp_dir) / "missing_overrides.yaml"
+            existing_publications = [
+                {
+                    "title": "Existing Paper",
+                    "authors": "A Author",
+                    "year": 2025,
+                    "journal": "Robotics Journal, 2025",
+                    "link": "https://example.com/existing",
+                    "category": "journal",
+                }
+            ]
+            output_path.write_text(json.dumps(existing_publications, ensure_ascii=False), encoding="utf-8")
+
+            with self.assertRaisesRegex(RuntimeError, "Refusing to write empty publication data"):
+                update_publications(
+                    fetcher=lambda **kwargs: [],
+                    output_path=output_path,
+                    overrides_path=overrides_path,
+                    cache_path=cache_path,
+                    enrich=False,
+                )
+
+            self.assertEqual(json.loads(output_path.read_text(encoding="utf-8")), existing_publications)
+
 
 if __name__ == "__main__":
     unittest.main()
