@@ -13,7 +13,7 @@ This work was supported by the National Research Foundation of Korea(NRF) grant 
 
 {%
   include figure.html
-  image="images/news/ur2022_meeting.jpg"
+  image="images/news/220704_presentation_on_ur/ur2022_meeting.jpg"
 %}
 
 

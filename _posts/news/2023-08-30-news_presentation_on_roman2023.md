@@ -16,14 +16,14 @@ by **_J.H. Kim , S.M. Ha , D.B. Shin, S.Y. Ham, J.P. Jang and W. Kim et al._**
 {% capture col1 %}
 {%
   include figure.html
-  image="images/news/ro-man2023_1.png"
+  image="images/news/230830_presentation_on_roman2023/ro-man2023_1.png"
   caption=""
 %}
 {% endcapture %}
 {% capture col2 %}
 {%
   include figure.html
-  image="images/news/ro-man2023_2.png"
+  image="images/news/230830_presentation_on_roman2023/ro-man2023_2.png"
   caption=""
 %}
 {% endcapture %}
@@ -31,7 +31,7 @@ by **_J.H. Kim , S.M. Ha , D.B. Shin, S.Y. Ham, J.P. Jang and W. Kim et al._**
 
 {%
   include figure.html
-  image="images/news/ro-man2023_3.png"
+  image="images/news/230830_presentation_on_roman2023/ro-man2023_3.png"
   width="60%"
   caption="Session Chair W. Kim & Presenter J.H. Kim"
 %}

@@ -18,14 +18,14 @@ we held a **_birthday celebration_** for the November birthdays of three lab mem
 {% capture col1 %}
 {%
   include figure.html
-  image="images/news/btd_23_11_0.png"
+  image="images/news/231108_birthday_party/btd_23_11_0.png"
   caption=""
 %}
 {% endcapture %}
 {% capture col2 %}
 {%
   include figure.html
-  image="images/news/btd_23_11_1.png"
+  image="images/news/231108_birthday_party/btd_23_11_1.png"
   caption=""
 %}
 {% endcapture %}

@@ -16,14 +16,14 @@ At The Korean Society for Precision Engineering 2023 Spring Conference ([KSPE 20
 {% capture col1 %}
 {%
   include figure.html
-  image="images/news/dongcheol_pr1.jpg"
+  image="images/news/230511_presentation_on_kspe_shindc/dongcheol_pr1.jpg"
   caption=""
 %}
 {% endcapture %}
 {% capture col2 %}
 {%
   include figure.html
-  image="images/news/dongcheol_pr2.jpg"
+  image="images/news/230511_presentation_on_kspe_shindc/dongcheol_pr2.jpg"
   caption=""
 %}
 {% endcapture %}
