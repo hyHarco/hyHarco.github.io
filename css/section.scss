@@ -10,6 +10,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
+  max-width: 100%;
 }
 
 body {
@@ -26,15 +27,18 @@ body {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    min-width: 0;
   }
 
   section {
     .section {
-      box-sizing: content-box;
+      box-sizing: border-box;
+      width: 100%;
       max-width: $page;
       margin: 0 auto;
       padding: 32px 40px;
       text-align: left;
+      overflow-wrap: break-word;
     }
   }
 
@@ -44,5 +48,15 @@ body {
 
   section:last-of-type {
     flex-grow: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    section {
+      .section {
+        padding: 24px 20px;
+      }
+    }
   }
 }
