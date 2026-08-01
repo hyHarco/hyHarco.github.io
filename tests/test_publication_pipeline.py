@@ -184,6 +184,127 @@ class PublicationPipelineTest(unittest.TestCase):
 
         self.assertEqual([publication["title"] for publication in merged], ["Alpha Paper", "Beta Paper"])
 
+    def test_openalex_work_is_mapped_to_site_publication(self):
+        from scripts.fetch_openalex import map_openalex_work_to_publication
+
+        publication = map_openalex_work_to_publication(
+            {
+                "id": "https://openalex.org/W123",
+                "doi": "https://doi.org/10.1109/example.2026.1234567",
+                "display_name": "Stable Variable Impedance Control",
+                "publication_year": 2026,
+                "type": "conference-paper",
+                "authorships": [
+                    {
+                        "raw_author_name": "Seungmin Choi",
+                        "author": {"display_name": "Seung-Min Choi"},
+                    },
+                    {
+                        "raw_author_name": "Wansoo Kim",
+                        "author": {"display_name": "Wansoo Kim"},
+                    },
+                ],
+                "primary_location": {
+                    "landing_page_url": "https://doi.org/10.1109/example.2026.1234567",
+                    "raw_source_name": "2026 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+                    "source": {"display_name": "IROS", "type": "conference"},
+                    "raw_type": "proceedings-article",
+                },
+            }
+        )
+
+        self.assertEqual(
+            publication,
+            {
+                "title": "Stable Variable Impedance Control",
+                "authors": "Seungmin Choi, Wansoo Kim",
+                "year": 2026,
+                "journal": "2026 IEEE/RSJ International Conference on Intelligent Robots and Systems",
+                "link": "https://doi.org/10.1109/example.2026.1234567",
+                "category": "conference",
+                "doi": "10.1109/example.2026.1234567",
+            },
+        )
+
+    def test_openalex_retraction_work_is_skipped(self):
+        from scripts.fetch_openalex import map_openalex_work_to_publication
+
+        publication = map_openalex_work_to_publication(
+            {
+                "display_name": "Retraction Note: Some Paper",
+                "publication_year": 2026,
+                "type": "retraction",
+                "authorships": [{"author": {"display_name": "A Author"}}],
+                "primary_location": {"raw_source_name": "Some Journal"},
+            }
+        )
+
+        self.assertIsNone(publication)
+
+    def test_openalex_fetch_requires_target_author_affiliation_match(self):
+        sys.modules.pop("scripts.fetch_openalex", None)
+
+        response_payload = {
+            "meta": {"next_cursor": None},
+            "results": [
+                {
+                    "id": "https://openalex.org/W1",
+                    "display_name": "Correct Robotics Paper",
+                    "publication_year": 2026,
+                    "type": "article",
+                    "authorships": [
+                        {
+                            "author": {"id": "https://openalex.org/A5101430480", "display_name": "Wansoo Kim"},
+                            "raw_author_name": "Wansoo Kim",
+                            "institutions": [{"id": "https://openalex.org/I4575257"}],
+                        }
+                    ],
+                    "primary_location": {"raw_source_name": "IEEE Robotics and Automation Letters"},
+                },
+                {
+                    "id": "https://openalex.org/W2",
+                    "display_name": "Unrelated Biology Paper",
+                    "publication_year": 2026,
+                    "type": "article",
+                    "authorships": [
+                        {
+                            "author": {"id": "https://openalex.org/A5101430480", "display_name": "Wansoo Kim"},
+                            "raw_author_name": "Wansoo Kim",
+                            "institutions": [{"id": "https://openalex.org/I31419693"}],
+                            "raw_affiliation_strings": ["School of Life Science, Kyungpook National University"],
+                        },
+                        {
+                            "author": {"id": "https://openalex.org/A5026761651", "display_name": "Se-Hyeon Han"},
+                            "raw_author_name": "Se-Hyeon Han",
+                            "institutions": [{"id": "https://openalex.org/I4575257"}],
+                        },
+                    ],
+                    "primary_location": {"raw_source_name": "Life Sciences"},
+                },
+            ],
+        }
+
+        class FakeResponse:
+            status_code = 200
+
+            def json(self):
+                return response_payload
+
+        fake_requests = types.SimpleNamespace(get=lambda *args, **kwargs: FakeResponse())
+        previous_requests = sys.modules.get("requests")
+        sys.modules["requests"] = fake_requests
+        try:
+            from scripts.fetch_openalex import fetch_publications
+
+            publications = fetch_publications(author_ids=("A5101430480",), institution_ids=("I4575257",))
+        finally:
+            if previous_requests is None:
+                sys.modules.pop("requests", None)
+            else:
+                sys.modules["requests"] = previous_requests
+
+        self.assertEqual([publication["title"] for publication in publications], ["Correct Robotics Paper"])
+
     def test_update_publications_writes_merged_dataset(self):
         from scripts.update_publications import update_publications
 
@@ -213,7 +334,44 @@ class PublicationPipelineTest(unittest.TestCase):
             self.assertEqual(json.loads(output_path.read_text(encoding="utf-8"))[0]["title"], "Fetched Paper")
             self.assertFalse(cache_path.exists())
 
-    def test_update_publications_refuses_to_overwrite_existing_data_with_empty_results(self):
+    def test_update_publications_defaults_to_scholar_source(self):
+        import scripts.update_publications as module
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            output_path = Path(temp_dir) / "publications.json"
+            cache_path = Path(temp_dir) / "cache.json"
+            overrides_path = Path(temp_dir) / "missing_overrides.yaml"
+            original_fetchers = module.FETCHERS
+
+            def scholar_fetcher(**kwargs):
+                return [
+                    {
+                        "title": "Scholar Default Paper",
+                        "authors": "A Author",
+                        "year": 2026,
+                        "journal": "Robotics Journal, 2026",
+                        "link": "https://example.com/scholar",
+                        "category": "journal",
+                    }
+                ]
+
+            def openalex_fetcher(**kwargs):
+                raise AssertionError("OpenAlex should not be the default publication source")
+
+            module.FETCHERS = {"openalex": openalex_fetcher, "scholar": scholar_fetcher}
+            try:
+                publications = module.update_publications(
+                    output_path=output_path,
+                    overrides_path=overrides_path,
+                    cache_path=cache_path,
+                    enrich=False,
+                )
+            finally:
+                module.FETCHERS = original_fetchers
+
+            self.assertEqual(publications[0]["title"], "Scholar Default Paper")
+
+    def test_update_publications_merges_fetched_results_with_existing_dataset(self):
         from scripts.update_publications import update_publications
 
         with tempfile.TemporaryDirectory() as temp_dir:
@@ -232,7 +390,99 @@ class PublicationPipelineTest(unittest.TestCase):
             ]
             output_path.write_text(json.dumps(existing_publications, ensure_ascii=False), encoding="utf-8")
 
-            with self.assertRaisesRegex(RuntimeError, "Refusing to write empty publication data"):
+            publications = update_publications(
+                fetcher=lambda **kwargs: [
+                    {
+                        "title": "Fetched Paper",
+                        "authors": "B Author",
+                        "year": 2026,
+                        "journal": "Robotics Conference, 2026",
+                        "link": "https://example.com/fetched",
+                        "category": "conference",
+                    }
+                ],
+                output_path=output_path,
+                overrides_path=overrides_path,
+                cache_path=cache_path,
+                enrich=False,
+            )
+
+            self.assertEqual([publication["title"] for publication in publications], ["Fetched Paper", "Existing Paper"])
+            self.assertEqual(
+                [publication["title"] for publication in json.loads(output_path.read_text(encoding="utf-8"))],
+                ["Fetched Paper", "Existing Paper"],
+            )
+
+    def test_update_publications_keeps_existing_data_when_fetch_returns_empty_results(self):
+        from scripts.update_publications import update_publications
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            output_path = Path(temp_dir) / "publications.json"
+            cache_path = Path(temp_dir) / "cache.json"
+            overrides_path = Path(temp_dir) / "missing_overrides.yaml"
+            existing_publications = [
+                {
+                    "title": "Existing Paper",
+                    "authors": "A Author",
+                    "year": 2025,
+                    "journal": "Robotics Journal, 2025",
+                    "link": "https://example.com/existing",
+                    "category": "journal",
+                }
+            ]
+            output_path.write_text(json.dumps(existing_publications, ensure_ascii=False), encoding="utf-8")
+
+            publications = update_publications(
+                fetcher=lambda **kwargs: [],
+                output_path=output_path,
+                overrides_path=overrides_path,
+                cache_path=cache_path,
+                enrich=False,
+            )
+
+            self.assertEqual(publications, existing_publications)
+            self.assertEqual(json.loads(output_path.read_text(encoding="utf-8")), existing_publications)
+
+    def test_update_publications_can_require_successful_fetch(self):
+        from scripts.update_publications import update_publications
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            output_path = Path(temp_dir) / "publications.json"
+            cache_path = Path(temp_dir) / "cache.json"
+            overrides_path = Path(temp_dir) / "missing_overrides.yaml"
+            existing_publications = [
+                {
+                    "title": "Existing Paper",
+                    "authors": "A Author",
+                    "year": 2025,
+                    "journal": "Robotics Journal, 2025",
+                    "link": "https://example.com/existing",
+                    "category": "journal",
+                }
+            ]
+            output_path.write_text(json.dumps(existing_publications, ensure_ascii=False), encoding="utf-8")
+
+            with self.assertRaisesRegex(RuntimeError, "No publications were fetched"):
+                update_publications(
+                    fetcher=lambda **kwargs: [],
+                    output_path=output_path,
+                    overrides_path=overrides_path,
+                    cache_path=cache_path,
+                    enrich=False,
+                    require_fetch_success=True,
+                )
+
+            self.assertEqual(json.loads(output_path.read_text(encoding="utf-8")), existing_publications)
+
+    def test_update_publications_fails_empty_initial_dataset(self):
+        from scripts.update_publications import update_publications
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            output_path = Path(temp_dir) / "publications.json"
+            cache_path = Path(temp_dir) / "cache.json"
+            overrides_path = Path(temp_dir) / "missing_overrides.yaml"
+
+            with self.assertRaisesRegex(RuntimeError, "No publications were generated"):
                 update_publications(
                     fetcher=lambda **kwargs: [],
                     output_path=output_path,
@@ -240,8 +490,6 @@ class PublicationPipelineTest(unittest.TestCase):
                     cache_path=cache_path,
                     enrich=False,
                 )
-
-            self.assertEqual(json.loads(output_path.read_text(encoding="utf-8")), existing_publications)
 
 
 if __name__ == "__main__":

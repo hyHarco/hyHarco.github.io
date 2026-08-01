@@ -1,18 +1,16 @@
 name: Update Publications
 
 on:
-  schedule:
-    - cron: "17 19 * * *" # Daily at 04:17 KST
-  push:
-    branches:
-      - main
-    paths:
-      - ".github/workflows/update-publications.yml"
-      - "_data/publication_overrides.yaml"
-      - "scripts/publication_pipeline.py"
-      - "scripts/scrape_scholar.py"
-      - "scripts/update_publications.py"
   workflow_dispatch:
+    inputs:
+      source:
+        description: "Publication source for the manual GitHub-hosted run"
+        required: true
+        type: choice
+        default: openalex
+        options:
+          - openalex
+          - scholar
 
 permissions:
   contents: write
@@ -38,7 +36,7 @@ jobs:
         run: python -m pip install requests pyyaml manubot
 
       - name: Run publication pipeline
-        run: python scripts/update_publications.py
+        run: python scripts/update_publications.py --source "${{ inputs.source }}"
 
       - name: Commit updated publication data
         uses: stefanzweifel/git-auto-commit-action@v4
