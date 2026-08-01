@@ -266,6 +266,24 @@ class SiteHardeningTest(unittest.TestCase):
         self.assertIn("textContent", page)
         self.assertIn("rel = 'noopener'", page)
 
+    def test_patent_page_avoids_html_injection_from_patent_json(self):
+        page = read_repo_file("publication/patent.md")
+
+        self.assertNotIn("innerHTML", page)
+        self.assertIn("textContent", page)
+        self.assertIn("classList.add('publication-category', status)", page)
+
+    def test_publication_pages_use_bundled_styles_for_publication_lists(self):
+        for path in ("publication/index.md", "publication/patent.md"):
+            with self.subTest(path=path):
+                page = read_repo_file(path)
+                self.assertNotIn("<style>", page)
+
+        stylesheet = read_repo_file("_sass/publication.scss")
+        self.assertIn(".publication-category.registered", stylesheet)
+        self.assertIn(".publication-category.conference", stylesheet)
+        self.assertIn('@import "publication";', read_repo_file("css/all.scss"))
+
     def test_project_pages_with_date_ranges_render_body_content_as_visible_text(self):
         html = built_site_files()[Path("2024/04/01/project_forestry_work.html")]
         text = main_visible_text(html)
