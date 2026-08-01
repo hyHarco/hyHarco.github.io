@@ -27,7 +27,7 @@
   <div class="slider-container">
     {% for image in site.static_files %}
       {% if image.path contains 'images/equipments' %}
-        <img src="{{ image.path }}" alt="{{ image.name }}">
+        <img src="{{ image.path }}" alt="{{ image.name }}" loading="lazy" decoding="async">
       {% endif %}
     {% endfor %}
   </div>
@@ -44,7 +44,6 @@
         index = (index + 1) % imageElements.length;
         imageElements[index].classList.add('active');
     }
-  
+
     setInterval(changeImage, 5000);
   </script>
-  

@@ -15,12 +15,10 @@ The session concluded with an open discussion on future collaboration possibilit
 
 ***
 
-<!-- <img src="/images/news/250429_eurecat/eurecat_1.png" style="width: 40%">
-<img src="/images/news/250429_eurecat/eurecat_2.png" style="width: 40%"> -->
+
 <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-top: 1em; margin-bottom: 1em;">
-  <img src="/images/news/250429_eurecat/eurecat_1.png" style="width: 50%; max-width: 400px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-  <img src="/images/news/250429_eurecat/eurecat_2.png" style="width: 50%; max-width: 400px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+{% include figure.html image="images/news/250429_eurecat/eurecat_1.jpg" width="50%" %}
+{% include figure.html image="images/news/250429_eurecat/eurecat_2.jpg" width="50%" %}
 </div>
 ***
                       
-

@@ -1,0 +1,53 @@
+#publications-list h3 {
+  margin-top: 1.5em;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.publication-item {
+  margin-bottom: 1.5em;
+}
+
+.publication-details {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.publication-details a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.publication-details a:hover {
+  text-decoration: underline;
+}
+
+.publication-details em {
+  color: #555;
+}
+
+.publication-category {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 2px 8px;
+  font-size: 0.85em;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border-radius: 3px;
+}
+
+.publication-category.conference,
+.publication-category.applied {
+  background-color: #28a745;
+}
+
+.publication-category.journal,
+.publication-category.registered {
+  background-color: #007bff;
+}
+
+.publication-category.pending {
+  background-color: #6c757d;
+}

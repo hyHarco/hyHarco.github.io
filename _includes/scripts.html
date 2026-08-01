@@ -1,10 +1,16 @@
 <!-- third party scripts -->
-<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/@popperjs/core@2.11.8/dist/umd/popper.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" defer></script>
 
 <!-- site-wide javascript scripts -->
-{% for file in site.static_files %}
-  {%- if file.path contains "/js" -%}
-    <script src="{{ file.path | relative_url }}" defer></script>
-  {% endif -%}
+{% assign site_scripts = "
+  js/true-hide.js,
+  js/mobile-menu.js,
+  js/anchors.js,
+  js/search.js,
+  js/tooltips.js
+" | split: "," %}
+{% for script in site_scripts %}
+  {% assign path = script | strip %}
+  <script src="{{ path | relative_url }}" defer></script>
 {% endfor %}

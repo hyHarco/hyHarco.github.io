@@ -1,0 +1,30 @@
+
+.project_container {
+    display: grid;
+    grid-template-columns: minmax(0, 30%) minmax(0, 1fr);
+    grid-template-rows: 100%;
+    grid-gap: 10px;
+    max-width: 100%;
+
+}
+
+.project_container > * {
+    min-width: 0;
+}
+
+.project_container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project_container .items {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 640px) {
+    .project_container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}

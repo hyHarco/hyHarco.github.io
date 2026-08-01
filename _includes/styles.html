@@ -1,9 +1,2 @@
 <!-- site-wide css styles -->
-{%- for file in site.pages -%}
-  {%- if file.url contains "/css" -%}
-    {%- unless file.url contains ".map" -%}
-      {% assign path = file.path | replace: ".scss", ".css" %}
-      <link href="{{ path | relative_url }}" rel="stylesheet" />
-    {%- endunless -%}
-  {%- endif -%}
-{%- endfor -%}
+<link href="{{ 'css/all.css' | relative_url }}" rel="stylesheet" />

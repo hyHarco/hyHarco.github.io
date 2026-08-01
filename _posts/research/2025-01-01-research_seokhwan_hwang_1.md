@@ -48,14 +48,14 @@ This study presents a Nonlinear Optimization-Based Real-Time Trajectory Planning
 {% capture col2 %}
 {%
   include figure.html
-  image="images/research/seokhwan_2.png"
+  image="images/research/seokhwan_2.jpg"
   caption=""
 %}
 {% endcapture %}
 {% capture col3 %}
 {%
   include figure.html
-  image="images/research/seokhwan_3.png"
+  image="images/research/seokhwan_3.jpg"
   caption=""
 %}
 {% endcapture %}

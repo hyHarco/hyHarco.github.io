@@ -11,7 +11,7 @@
     {%- for v in videos limit: 4 -%}
       <div class="home_youtube_card" data-video-id="{{ v.id }}">
         <div class="home_youtube_thumb">
-          <img src="{{ v.thumbnail }}" alt="{{ v.title | escape }}" loading="lazy" />
+          <img src="{{ v.thumbnail }}" alt="{{ v.title | escape }}" loading="lazy" decoding="async" />
           <span class="home_youtube_play" aria-hidden="true">▶</span>
         </div>
         <div class="home_youtube_meta">
@@ -23,28 +23,6 @@
   </div>
 </section>
 
-<script>
-  (function () {
-    document.querySelectorAll('.home_youtube_card').forEach(function (card) {
-      var thumb = card.querySelector('.home_youtube_thumb');
-      if (!thumb) return;
-      thumb.style.cursor = 'pointer';
-      thumb.addEventListener('click', function () {
-        var id = card.getAttribute('data-video-id');
-        if (!id) return;
-        var iframe = document.createElement('iframe');
-        iframe.src = 'https://www.youtube.com/embed/' + id + '?autoplay=1&rel=0';
-        iframe.frameBorder = '0';
-        iframe.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
-        iframe.allowFullscreen = true;
-        iframe.style.width = '100%';
-        iframe.style.height = '100%';
-        iframe.style.border = '0';
-        thumb.innerHTML = '';
-        thumb.appendChild(iframe);
-      });
-    });
-  })();
-</script>
+<script src="{{ '/js/home-youtube.js' | relative_url }}" defer></script>
 
 {%- endif -%}

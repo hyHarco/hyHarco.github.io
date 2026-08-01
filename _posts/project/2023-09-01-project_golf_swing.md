@@ -105,7 +105,6 @@ MONOCULAR CAMERA BASED HUMAN POSE ESTIMATION"
 {%
   include feature.html
   image="images/project/erica_iucf.png"
-  link='http://ericaresearch.hanyang.ac.kr/'
 %}
 {% endcapture %}
 {% capture col2 %}

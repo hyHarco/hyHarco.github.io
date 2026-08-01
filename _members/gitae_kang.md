@@ -1,6 +1,6 @@
 ---
 name: Gi Tae Kang
-image: images/members/gitae_kang.png
+image: images/members/gitae_kang.jpg
 description: M.S. Researcher
 aliases:
 links:

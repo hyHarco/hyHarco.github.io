@@ -8,15 +8,21 @@ on:
 permissions:
   contents: read
 
+defaults:
+  run:
+    shell: bash
+
 jobs:
   push-to-gitlab:
     if: ${{ vars.ENABLE_GITLAB_SYNC == 'true' }}
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          persist-credentials: false
 
       - name: Validate GitLab sync configuration
         env:

@@ -1,7 +1,7 @@
 ---
 title: Development of Healthcare Service and Medical Robot using Artificial Intelligence
 mintitle : AI Healthcare Service Robot
-image: images/project/khidi_research.png 
+image: images/project/khidi_research.png
 group: past  
 tags: 
   - Medical Robot
@@ -55,7 +55,7 @@ To solve this problem, we will conduct a joint project with overseas institution
 * [**Wansoo Kim**](/members/wansoo_kim)
 * [**Seoyeon Ham**](/members/seoyeon_ham)
 * [**Taeyhang Lim**](/members/taeyhang_lim)
-* [**Joosun Lee**](http://harco.hanyang.ac.kr/members/joosun_lee.html)
+* **Joosun Lee**
 
 ***
 #### **<i class="fas fa-money-bill-wave-alt"></i> Funding**
