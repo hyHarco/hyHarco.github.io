@@ -82,11 +82,13 @@ hyHarco.github.io/
 ├── js/                           # JavaScript files
 ├── scripts/                      # Automation scripts
 │   ├── start.sh                  # Start dev server
-│   ├── publication_pipeline.py   # Merge Scholar data, overrides, DOI metadata
+│   ├── fetch_openalex.py         # Optional OpenAlex publication fetcher
+│   ├── local_publication_sync.py # Cross-platform Scholar check, sync, and push
+│   ├── publication_pipeline.py   # Merge fetched data, overrides, DOI metadata
 │   ├── scrape_scholar.py         # Fetch and parse Google Scholar
 │   ├── update_publications.py    # Build publication/publications.json
 │   ├── scrape_youtube.py         # Scrape YouTube
-│   ├── update_publications.sh    # Local publication update wrapper
+│   ├── update_publications.sh    # POSIX publication update wrapper
 │   ├── update_patents_json.py    # Update patent JSON
 │   └── templates/                # Post templates
 ├── contact/                      # Contact page
@@ -95,7 +97,7 @@ hyHarco.github.io/
 ├── news/                         # News listing page
 ├── project/                      # Project listing page
 ├── publication/                  # Publications page and data JSON
-│   ├── publications.json         # Publication data (Google Scholar)
+│   ├── publications.json         # Generated publication data
 │   └── patents.json              # Patent data
 ├── research/                     # Research pages (mobile_manipulator, exoskeleton_robot, ai)
 ├── team/                         # Team page
@@ -279,32 +281,45 @@ For research posts about a single member, prefer the slug-prefixed filename: `YY
 
 **Manual Corrections:**
 Prefer editing `_data/publication_overrides.yaml` for corrections, DOI links,
-or publications that are not on Google Scholar yet. The generated site data
-still lives in `publication/publications.json`.
+or publications that are not indexed by Google Scholar yet. The generated site
+data still lives in `publication/publications.json`.
 
-**Automated Update (Google Scholar + overrides + DOI enrichment):**
+**Local Update (Google Scholar + existing data + overrides + DOI enrichment):**
+
+To check Google Scholar access without changing repository files:
 
 ```bash
-./scripts/update_publications.sh
+python scripts/local_publication_sync.py --check --no-enrich
 ```
 
-This will:
+This check works from any branch and with pending local changes. It writes only
+temporary output and cache files.
 
-1. Scrape publications from Google Scholar
-2. Apply `_data/publication_overrides.yaml`
-3. Enrich DOI entries through Manubot when enrichment is enabled
-4. Save the final data to `publication/publications.json`
-
-To skip DOI enrichment for a faster local run:
+To update the production publication data:
 
 ```bash
-./scripts/update_publications.sh --no-enrich
+python scripts/local_publication_sync.py
+```
+
+The production update will:
+
+1. Require a clean working tree on `main`
+2. Pull the latest `main`
+3. Fetch publications from Google Scholar
+4. Merge those results with the existing `publication/publications.json`
+5. Apply `_data/publication_overrides.yaml`
+6. Commit and push generated publication changes when they exist
+
+To create the local commit but skip pushing:
+
+```bash
+python scripts/local_publication_sync.py --no-push
 ```
 
 The GitHub Actions workflow `.github/workflows/update-publications.yml`
-also runs the same pipeline every day at 04:17 KST, or when related
-publication pipeline files are pushed to `main`, and commits generated
-publication data when it changes.
+is manual-only and remains available as a fallback. Its default source is
+OpenAlex; Google Scholar scraping should run from a local machine or lab server
+because GitHub-hosted runners can be blocked by Google Scholar.
 
 ### Updating YouTube Videos
 
@@ -338,7 +353,7 @@ Start local development server with live reload:
 
 ### `update_publications.sh`
 
-Update publications from Google Scholar, manual overrides, and DOI metadata:
+Update publications from Google Scholar, existing site data, manual overrides, and DOI metadata:
 
 ```bash
 ./scripts/update_publications.sh
@@ -347,13 +362,27 @@ Update publications from Google Scholar, manual overrides, and DOI metadata:
 Wraps `scripts/update_publications.py` and regenerates
 `publication/publications.json`.
 
-### `scrape_scholar.py`
+### `local_publication_sync.py`
 
-Fetch and parse the HARCO Google Scholar profile. This is used by the
-publication pipeline and can still write raw Scholar data directly:
+Cross-platform local sync entrypoint for macOS, Windows, and Linux:
 
 ```bash
-python3 scripts/scrape_scholar.py
+python scripts/local_publication_sync.py --check --no-enrich
+python scripts/local_publication_sync.py
+```
+
+`--check --no-enrich` verifies Scholar access using temporary files only. The
+default sync mode creates the Python virtual environment when needed, runs the
+Scholar publication pipeline, commits generated publication data with an English
+commit message, and pushes the selected branch.
+
+### `scrape_scholar.py`
+
+Fetch and parse the HARCO Google Scholar profile. This is the primary local
+publication source and can still write raw Scholar data directly:
+
+```bash
+python scripts/scrape_scholar.py
 ```
 
 ### `scrape_youtube.py`
@@ -368,7 +397,8 @@ into JSON for the publications page.
 **Requirements:**
 
 - Python 3
-- `update_publications.sh` creates a local virtual environment and installs `requests`, `pyyaml`, and `manubot`
+- `local_publication_sync.py` creates a local virtual environment and installs `requests`, `pyyaml`, and `manubot`
+- `.sh` helper scripts are for POSIX shells; use the Python entrypoints for macOS, Windows, and Linux compatibility
 - `update_patents_json.py` requires `openpyxl`
 
 ---

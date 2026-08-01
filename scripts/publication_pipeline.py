@@ -1,4 +1,4 @@
-"""Merge Scholar publications with manual overrides and citation metadata."""
+"""Merge fetched publications with manual overrides and citation metadata."""
 
 from __future__ import annotations
 
@@ -31,7 +31,7 @@ CitationLookup = Callable[[str], dict[str, Any]]
 
 
 def normalize_title(title: Any) -> str:
-    """Return a stable key for matching Scholar titles to overrides."""
+    """Return a stable key for matching fetched titles to overrides."""
     return re.sub(r"\s+", " ", str(title or "").strip()).casefold()
 
 
@@ -157,7 +157,7 @@ def merge_publications(
     citation_lookup: CitationLookup | None = None,
     citation_cache: dict[str, Any] | None = None,
 ) -> list[dict[str, Any]]:
-    """Return final site publications from Scholar rows plus optional overrides."""
+    """Return final site publications from fetched rows plus optional overrides."""
     cache = citation_cache if citation_cache is not None else {}
     overrides_by_title = _overrides_by_title(overrides)
     seen: set[str] = set()
