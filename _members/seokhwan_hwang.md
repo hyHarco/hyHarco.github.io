@@ -1,6 +1,6 @@
 ---
 name: Seokhwan Hwang
-image: images/members/seokhwan_hwang.png
+image: images/members/seokhwan_hwang.jpg
 description: M.S. Researcher
 aliases:
   - seokhwan

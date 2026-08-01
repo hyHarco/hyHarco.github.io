@@ -1,6 +1,6 @@
 ---
 name: Dongbin Shin  
-image: images/members/dongbin_shin.png
+image: images/members/dongbin_shin.jpg
 description: Post-doc Researcher
 links:
   email: sdbin225@hanyang.ac.kr

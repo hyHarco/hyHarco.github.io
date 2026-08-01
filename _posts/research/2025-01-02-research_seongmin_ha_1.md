@@ -1,6 +1,6 @@
 ---
 title:  'Pelvic IMU-Based Gait Phase Classification using Kernel-Embedded Extreme Learning Machine'
-image: images/research/seongmin_1_main.png
+image: images/research/seongmin_1_main.jpg
 tags:
   - Gait Phase Classification
   - Symmetric Positive Definite(SPD) Manifold
@@ -39,5 +39,5 @@ The proposed framework introduces a minimal-sensor gait phase classification sys
 
 {%
   include figure.html
-  image="images/research/seongmin_1_main.png"
+  image="images/research/seongmin_1_main.jpg"
 %}

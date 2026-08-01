@@ -1,7 +1,7 @@
 ---
 title: Development of Healthcare Service and Medical Robot using Artificial Intelligence
 mintitle : AI Healthcare Service Robot
-image: images/project/khidi_research.png 
+image: images/project/khidi_research.png
 group: past  
 tags: 
   - Medical Robot

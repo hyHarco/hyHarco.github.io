@@ -384,10 +384,10 @@ layout: default
 <section class="home_hero">
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="/images/main_img/1.png" alt="HARCO Lab"></div>
-      <div class="swiper-slide cover"><img src="/images/main_img/2.png" alt="HARCO Lab"></div>
-      <div class="swiper-slide"><img src="/images/main_img/3.png" alt="HARCO Lab"></div>
-      <div class="swiper-slide"><img src="/images/main_img/4.png" alt="HARCO Lab"></div>
+      <div class="swiper-slide"><img src="/images/main_img/1.png" alt="HARCO Lab" fetchpriority="high" decoding="async"></div>
+      <div class="swiper-slide cover"><img src="/images/main_img/2.jpg" alt="HARCO Lab" loading="lazy" decoding="async"></div>
+      <div class="swiper-slide"><img src="/images/main_img/3.png" alt="HARCO Lab" loading="lazy" decoding="async"></div>
+      <div class="swiper-slide"><img src="/images/main_img/4.jpg" alt="HARCO Lab" loading="lazy" decoding="async"></div>
     </div>
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
@@ -397,7 +397,7 @@ layout: default
 
 <div class="home_intro">
   <div class="home_intro_logo">
-    <img src="/images/common/harco.png" alt="HARCO Lab" loading="lazy" />
+    <img src="/images/common/harco.png" alt="HARCO Lab" loading="lazy" decoding="async" />
   </div>
 
   <div class="home_intro_text">
