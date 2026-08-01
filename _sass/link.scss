@@ -1,0 +1,68 @@
+@import "palettes";
+@import "theme";
+@import "mixins";
+
+a {
+  color: $accent;
+  transition: color $fast;
+}
+
+a:hover {
+  color: currentColor;
+}
+
+.link {
+  @include inline-flex-center;
+  max-width: 100%;
+  padding: 10px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  vertical-align: bottom;
+  transition: background $fast, color $fast, opacity $fast;
+  
+  span {
+    text-align: center;
+    font-family: $sans;
+    font-weight: $medium;
+  }
+
+  &[data-icon][data-text] {
+    & > *:first-child {
+      margin-right: 0.75em;
+    }
+  }
+
+  &[data-style="button"] {
+    max-width: calc(100% - 10px - 10px);
+    min-height: 40px;
+    margin: 10px;
+    padding: 8px 18px;
+    border-radius: 0;
+    background: $accent;
+    color: $white;
+    font-weight: $medium;
+
+    &:hover {
+      background: $dark-accent;
+      color: $white;
+    }
+  }
+
+  &[data-style="button_research"] {
+    max-width: calc(100% - 10px - 10px);
+    min-height: 40px;
+    margin: 10px;
+    padding: 8px 18px;
+    border-radius: 0;
+    background: $surface;
+    color: $accent;
+    border: 1px solid $accent;
+    font-family: $sans;
+    font-weight: $medium;
+
+    &:hover {
+      background: $accent;
+      color: $white;
+    }
+  }
+}

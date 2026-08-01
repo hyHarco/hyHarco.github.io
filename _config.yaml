@@ -40,11 +40,31 @@ collections:
 
 # sass settings
 sass:
-  sass_dir: css
+  sass_dir: _sass
   style: compressed
 
 # syntax highlighting
 highlighter: rouge
+
+# files and folders that should never be published to _site
+exclude:
+  - .github
+  - .gitignore
+  - .ruby-version
+  - _site_check
+  - .jekyll-cache
+  - .sass-cache
+  - assets/source
+  - CONVENTIONS.md
+  - docs
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - scripts
+  - tests
+  - tmp
+  - temp
+  - venv
 
 # plugins
 plugins:
@@ -61,7 +81,7 @@ plugins:
 
 social:
   - title: fa-brands fa-fw fa-github
-    url: http://github.com/krex4715
+    url: https://github.com/krex4715
   - title: fa fa-bold
     url: https://roboharco12.tistory.com/
   - title: fa-brands fa-fw fa-instagram
