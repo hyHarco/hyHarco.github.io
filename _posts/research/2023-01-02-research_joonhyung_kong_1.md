@@ -31,7 +31,7 @@ The active/passive mode of the gearbox changes depending on the motor restraint,
 
 ***
 **related project** 
-- [**_Development of Solution Technology for Personalized Gait Control and Performance Evaluation of Lower-limb Robotic Exoskeleton through Artificial Intelligence/Big Data_**](http://harco.hanyang.ac.kr/2022/04/28/project-voucher_iitp_gait_project.html)    
+- [**_Development of Solution Technology for Personalized Gait Control and Performance Evaluation of Lower-limb Robotic Exoskeleton through Artificial Intelligence/Big Data_**](/2022/04/28/project-voucher_iitp_gait_project.html)
    
    
 ***

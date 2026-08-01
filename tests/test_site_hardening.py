@@ -307,6 +307,26 @@ class SiteHardeningTest(unittest.TestCase):
 
         self.assertEqual(short_pages, [])
 
+    def test_post_markdown_uses_image_includes_instead_of_raw_img_tags(self):
+        raw_image_tags = []
+
+        for path in (ROOT / "_posts").rglob("*.md"):
+            contents = path.read_text(encoding="utf-8")
+            if "<img" in contents:
+                raw_image_tags.append(path.relative_to(ROOT).as_posix())
+
+        self.assertEqual(raw_image_tags, [])
+
+    def test_post_markdown_does_not_use_plain_http_links(self):
+        plain_http_links = []
+
+        for path in (ROOT / "_posts").rglob("*.md"):
+            contents = path.read_text(encoding="utf-8")
+            if "http://" in contents:
+                plain_http_links.append(path.relative_to(ROOT).as_posix())
+
+        self.assertEqual(plain_http_links, [])
+
     def test_optimized_large_images_stay_within_web_sized_bounds(self):
         for path in (
             "images/equipment/equipments_1.png",

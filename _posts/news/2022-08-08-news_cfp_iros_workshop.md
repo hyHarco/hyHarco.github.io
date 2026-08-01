@@ -18,7 +18,7 @@ Website:
 
 ***
 ## Call for Contributions
-We would kindly like to invite you to participate in IROS 2022 Workshop on Ergonomic Human-Robot Collaboration: How Cognitive and Physical Aspects Come Together. We will welcome prospective participants to submit extended abstracts (up to 2 pages) to be presented as posters. The manuscripts should use the [IEEE IROS two-column format](http://ras.papercept.net/conferences/support/tex.php).
+We would kindly like to invite you to participate in IROS 2022 Workshop on Ergonomic Human-Robot Collaboration: How Cognitive and Physical Aspects Come Together. We will welcome prospective participants to submit extended abstracts (up to 2 pages) to be presented as posters. The manuscripts should use the [IEEE IROS two-column format](https://ras.papercept.net/conferences/support/tex.php).
 Each paper will receive a minimum of two reviews. The papers will be selected based on their originality, relevance to the workshop topics, contributions, technical clarity, and presentation. Accepted papers require that at least one of the authors register to the workshop.
 
 A PDF copy of the manuscript should be submitted, contributions may be sent by e-mail.
