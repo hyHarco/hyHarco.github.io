@@ -18,16 +18,14 @@
 
 
 
-<link rel="stylesheet" href="/css/project_grid.css">
-
-
-
-<div class="event_container">
+<div class="project_container">
 
   <a href="{{ include.link | relative_url }}" class="card_image">
     <img
       src="{{ include.image | relative_url }}"
       style="width: 100%;"
+      loading="lazy"
+      decoding="async"
     >
   </a>
 
