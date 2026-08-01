@@ -5,14 +5,39 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
 
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: bash
+
 jobs:
   push-to-gitlab:
+    if: ${{ vars.ENABLE_GITLAB_SYNC == 'true' }}
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          persist-credentials: false
+
+      - name: Validate GitLab sync configuration
+        env:
+          GITLAB_URL: ${{ secrets.GITLAB_URL }}
+          GITLAB_USERNAME: ${{ secrets.GITLAB_USERNAME }}
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+        run: |
+          missing=0
+          for variable in GITLAB_URL GITLAB_USERNAME GITLAB_TOKEN; do
+            if [[ -z "${!variable}" ]]; then
+              echo "::error::$variable secret is required when ENABLE_GITLAB_SYNC is true."
+              missing=1
+            fi
+          done
+          exit "$missing"
 
       - name: Set remote repository
         env:

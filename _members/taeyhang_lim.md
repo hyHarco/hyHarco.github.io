@@ -1,6 +1,6 @@
 ---
 name: Taeyhang Lim
-image: images/members/taeyhang_lim.png
+image: images/members/taeyhang_lim.jpg
 description: M.S. Researcher
 links:
   email: jennetlim98@gmail.com

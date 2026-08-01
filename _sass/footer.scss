@@ -1,0 +1,132 @@
+@import "palettes";
+@import "theme";
+@import "mixins";
+
+footer {
+  padding: 22px 36px 0;
+  color: rgba(255, 255, 255, 0.85);
+  background: #1d1d1b;
+  border-top: none;
+  text-align: left;
+  box-shadow: none;
+
+  & * {
+    font-family: $sans;
+  }
+
+  .footer_inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px 32px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .footer_col {
+    min-width: 0;
+
+    h4 {
+      margin: 0 0 8px;
+      font-size: 0.72rem;
+      font-weight: $semi-bold;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.55);
+      padding: 0;
+      border: none;
+    }
+
+    p {
+      margin: 0;
+      font-size: 0.82rem;
+      line-height: 1.45;
+      color: rgba(255, 255, 255, 0.78);
+    }
+
+    .addr_en {
+      display: inline-block;
+      margin-top: 4px;
+      font-size: 0.74rem;
+      line-height: 1.4;
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      margin: 0 0 4px;
+      font-size: 0.82rem;
+    }
+
+    a {
+      color: rgba(255, 255, 255, 0.78);
+      text-decoration: none;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: #ffffff;
+      }
+    }
+  }
+
+  .footer_explore_grid {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 4px 24px;
+    justify-content: start;
+    max-width: 100%;
+
+    li {
+      white-space: nowrap;
+    }
+  }
+
+  .footer_social a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .footer_bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0 12px;
+    font-size: 0.74rem;
+    color: rgba(255, 255, 255, 0.45);
+    text-align: center;
+  }
+
+  @media (max-width: 900px) {
+    padding: 18px 20px 0;
+
+    .footer_inner {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+
+    .footer_explore_grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 500px) {
+    .footer_inner {
+      grid-template-columns: 1fr;
+    }
+
+    .footer_explore_grid {
+      grid-template-columns: 1fr;
+      gap: 4px;
+
+      li {
+        white-space: normal;
+      }
+    }
+  }
+}

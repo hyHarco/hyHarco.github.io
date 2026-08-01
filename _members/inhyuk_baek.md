@@ -1,6 +1,6 @@
 ---
 name: Inhyuk Baek
-image: images/members/inhyuk_baek.png
+image: images/members/inhyuk_baek.jpg
 description: Post-doc Researcher
 aliases:
   - Back

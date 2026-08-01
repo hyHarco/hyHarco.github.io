@@ -1,6 +1,6 @@
 ---
 name: Inho Gil 
-image: images/members/inho_gil.png
+image: images/members/inho_gil.jpg
 description: M.S. Researcher
 aliases:
   - Inho

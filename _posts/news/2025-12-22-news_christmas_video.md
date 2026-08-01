@@ -12,7 +12,7 @@ Celebrating Teacher’s Day at HARCO Lab
 To celebrate the 2025 holiday season, members of **HARCO Lab** produced a special Christmas video titled **"MERRY HARCO MAS!"** featuring our latest robotic platforms.
 
 <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-top: 1em; margin-bottom: 1em;">
-  <img src="/images/news/251222_christmas_video/christmas_1.png" style="width: 80%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="/images/news/251222_christmas_video/christmas_1.jpg" style="width: 80%; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 </div>
 
 The video showcases a collaborative effort between humans and robots to decorate the lab for Christmas. The production highlights the integration of various technologies, including:

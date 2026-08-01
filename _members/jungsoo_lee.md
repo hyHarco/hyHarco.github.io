@@ -1,6 +1,6 @@
 ---
 name: Jungsoo Lee
-image: images/members/jungsoo_lee.png
+image: images/members/jungsoo_lee.jpg
 description: Ph.D. Researcher
 aliases:
   - lpigeon

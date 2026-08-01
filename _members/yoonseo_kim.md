@@ -1,6 +1,6 @@
 ---
 name: Yoonseo Kim
-image: images/members/yoonseo_kim.png
+image: images/members/yoonseo_kim.jpg
 description: M.S. Researcher
 aliases:
   - yoonseo

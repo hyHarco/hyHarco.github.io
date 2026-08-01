@@ -5,7 +5,7 @@ nav:
 ---
 
 
-# **Journal & Conferenece Papers**
+# **Journal & Conference Papers**
 
 <!-- <script src="https://bibbase.org/show?bib=https://hyHarco.github.io/Journal.bib&theme=side&jsonp=1&folding=1&fullnames=1&showSearch=true&commas=true"></script> -->
 
@@ -17,34 +17,57 @@ nav:
     fetch('/publication/publications.json')
         .then(response => response.json())
         .then(data => {
-            let publicationsList = document.getElementById('publications-list');
+            const publicationsList = document.getElementById('publications-list');
             
             // Sort by year, then by title within the same year
             data.sort((a, b) => b.year - a.year || a.title.localeCompare(b.title));
 
             let currentYear = null;
 
+            const appendBreak = element => element.appendChild(document.createElement('br'));
+
             // Process each publication and append to the publications list
             data.forEach(pub => {
                 // Check if we need to insert a new year header
                 if (pub.year !== currentYear) {
                     currentYear = pub.year;
-                    let yearHeader = document.createElement('h3');
+                    const yearHeader = document.createElement('h3');
                     yearHeader.textContent = currentYear;
                     publicationsList.appendChild(yearHeader);
                 }
 
-                let publicationItem = document.createElement('div');
+                const publicationItem = document.createElement('div');
                 publicationItem.classList.add('publication-item');
-                
-                publicationItem.innerHTML = `
-                    <div class="publication-details">
-                        <strong><a href="${pub.link}" target="_blank">${pub.title}</a></strong><br>
-                        ${pub.authors}<br>
-                        <em>${pub.journal}</em><br>
-                        <span class="publication-category ${pub.category.toLowerCase()}">${pub.category.charAt(0).toUpperCase() + pub.category.slice(1)}</span>
-                    </div>
-                `;
+
+                const details = document.createElement('div');
+                details.classList.add('publication-details');
+
+                const titleWrapper = document.createElement('strong');
+                const titleLink = document.createElement('a');
+                titleLink.href = pub.link || '#';
+                titleLink.target = '_blank';
+                titleLink.rel = 'noopener';
+                titleLink.textContent = pub.title || 'Untitled publication';
+                titleWrapper.appendChild(titleLink);
+                details.appendChild(titleWrapper);
+                appendBreak(details);
+
+                details.appendChild(document.createTextNode(pub.authors || ''));
+                appendBreak(details);
+
+                const journal = document.createElement('em');
+                journal.textContent = pub.journal || '';
+                details.appendChild(journal);
+                appendBreak(details);
+
+                const category = (pub.category || 'publication').toString();
+                const categoryLabel = category.charAt(0).toUpperCase() + category.slice(1);
+                const categoryBadge = document.createElement('span');
+                categoryBadge.classList.add('publication-category', category.toLowerCase());
+                categoryBadge.textContent = categoryLabel;
+                details.appendChild(categoryBadge);
+
+                publicationItem.appendChild(details);
                 
                 publicationsList.appendChild(publicationItem);
             });

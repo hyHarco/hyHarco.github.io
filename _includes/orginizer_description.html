@@ -1,10 +1,8 @@
 
 
-<link rel="stylesheet" href="/css/organizer_grid.css">
-
 <div class="organizer_container">
   <a>
-    <img src="{{ include.image | relative_url }}" loading="lazy" style="height: auto; width: 100%;" />
+    <img src="{{ include.image | relative_url }}" loading="lazy" decoding="async" style="height: auto; width: 100%;" />
   </a>
   <div class="item">
     {%- if include.org_name -%}
