@@ -12,6 +12,7 @@ Official website for the Human-Robot Collaboration (HARCO) Laboratory at Hanyang
 - [Development](#development)
 - [Content Management](#content-management)
 - [Scripts](#scripts)
+- [Quality Checks](#quality-checks)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
 
@@ -57,14 +58,14 @@ hyHarco.github.io/
 │   ├── research/                 # Research posts (24)
 │   ├── project/                  # Project posts (9)
 │   └── workshop/                 # Workshop posts (2)
+├── _sass/                        # SCSS partials bundled into css/all.css
 ├── assets/
 │   ├── documents/
 │   │   ├── cv/                   # CV files
 │   │   └── papers/               # Research papers
 │   └── source/                   # Design source files (xlsx, ai)
-├── css/                          # SCSS stylesheets (auto-loaded via _includes/styles.html)
-│   ├── all.scss                  # Site shell (palettes, theme, mixins)
-│   └── effects/
+├── css/
+│   └── all.scss                  # Public stylesheet entrypoint
 ├── images/                       # Image assets — see CONVENTIONS.md for naming
 │   ├── common/                   # Site chrome (logos, harco.png)
 │   ├── equipment/                # Equipment showcase
@@ -183,7 +184,7 @@ bundle exec jekyll serve
 
 This will:
 
-- Install/update dependencies
+- Install missing dependencies only when `bundle check` fails
 - Start Jekyll with live reload
 - Automatically open browser
 - Watch for file changes
@@ -196,14 +197,34 @@ bundle exec jekyll build
 
 Output is generated in `_site/` directory (ignored by git).
 
+To build into a disposable cross-platform check directory:
+
+```bash
+bundle exec jekyll build --destination _site_check
+```
+
+`_site_check/` is ignored by git.
+
 ### CSS Optimization
 
 CSS is automatically minified in production thanks to:
 ```yaml
 # _config.yaml
 sass:
+  sass_dir: _sass
   style: compressed
 ```
+
+`css/all.scss` is the only local stylesheet linked by the site shell. Keep
+shared and page-specific SCSS in `_sass/` and import it from `css/all.scss`
+instead of adding page-level `<link rel="stylesheet">` tags.
+
+### JavaScript Loading
+
+Site-wide JavaScript is listed explicitly in `_includes/scripts.html` so load
+order is deterministic and new files under `js/` are not published as active
+runtime code by accident. Keep reusable behavior in cacheable files under
+`js/` instead of repeating large inline scripts in shared includes.
 
 ---
 
@@ -276,6 +297,17 @@ Similar to news posts, but place in:
 - `_posts/project/` for project posts (set `group: project`)
 
 For research posts about a single member, prefer the slug-prefixed filename: `YYYY-MM-DD-research_<member_slug>_<n>.md` (e.g. `2025-01-02-research_jungsoo_lee_1.md`).
+
+### Image Asset Guidelines
+
+- Keep photo-like assets as `.jpg`; keep `.png` for graphics that need sharp edges or transparency.
+- Keep the file extension aligned with the real image format.
+- Keep large web images within a 2400px maximum dimension unless a page explicitly needs a larger inspection image.
+- Keep JPEG assets under 2 MB.
+- Keep referenced `.jpg`, `.jpeg`, and `.png` assets under 2.5 MB.
+- Keep referenced animated `.gif` assets under 5 MB.
+- Use `loading="lazy"` and `decoding="async"` for non-critical images.
+- Use `fetchpriority="high"` only for the first above-the-fold hero image.
 
 ### Updating Publications
 
@@ -403,6 +435,27 @@ into JSON for the publications page.
 
 ---
 
+## Quality Checks
+
+Run these before committing site optimization, security, workflow, or asset changes:
+
+```bash
+python3 -m unittest discover tests
+git diff --check
+bundle exec jekyll build --destination _site_check
+```
+
+The test suite checks mobile layout guardrails, publication pipeline behavior,
+workflow safety rules, image asset references, image format consistency, and
+web-sized image bounds. It also verifies that local CSS is served through the
+single `css/all.css` bundle and that third-party CDN assets use exact versions.
+
+Do not publish development files. `_config.yaml` excludes local automation,
+tests, source documents, build caches, and temporary directories from the Jekyll
+output.
+
+---
+
 ## Deployment
 
 ### GitHub Pages (Automatic)
@@ -472,8 +525,9 @@ Deployment is handled by the repository's GitHub Pages settings.
 Always test locally before committing:
 
 ```bash
-bundle exec jekyll build
-./scripts/start.sh
+python3 -m unittest discover tests
+git diff --check
+bundle exec jekyll build --destination _site_check
 ```
 
 Check for:
