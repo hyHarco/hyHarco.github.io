@@ -87,7 +87,6 @@ s- Heavy weight in both wearable and haptic devices hampers user convenience. Th
 {%
   include feature.html
   image="images/project/erica_iucf.png"
-  link='http://ericaresearch.hanyang.ac.kr/'
 %}
 {% endcapture %}
 {% capture col2 %}

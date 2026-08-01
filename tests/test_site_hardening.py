@@ -266,6 +266,24 @@ class SiteHardeningTest(unittest.TestCase):
         self.assertIn("textContent", page)
         self.assertIn("rel = 'noopener'", page)
 
+    def test_patent_page_avoids_html_injection_from_patent_json(self):
+        page = read_repo_file("publication/patent.md")
+
+        self.assertNotIn("innerHTML", page)
+        self.assertIn("textContent", page)
+        self.assertIn("classList.add('publication-category', status)", page)
+
+    def test_publication_pages_use_bundled_styles_for_publication_lists(self):
+        for path in ("publication/index.md", "publication/patent.md"):
+            with self.subTest(path=path):
+                page = read_repo_file(path)
+                self.assertNotIn("<style>", page)
+
+        stylesheet = read_repo_file("_sass/publication.scss")
+        self.assertIn(".publication-category.registered", stylesheet)
+        self.assertIn(".publication-category.conference", stylesheet)
+        self.assertIn('@import "publication";', read_repo_file("css/all.scss"))
+
     def test_project_pages_with_date_ranges_render_body_content_as_visible_text(self):
         html = built_site_files()[Path("2024/04/01/project_forestry_work.html")]
         text = main_visible_text(html)
@@ -288,6 +306,26 @@ class SiteHardeningTest(unittest.TestCase):
                 short_pages.append(f"{path}: {text[:120]}")
 
         self.assertEqual(short_pages, [])
+
+    def test_post_markdown_uses_image_includes_instead_of_raw_img_tags(self):
+        raw_image_tags = []
+
+        for path in (ROOT / "_posts").rglob("*.md"):
+            contents = path.read_text(encoding="utf-8")
+            if "<img" in contents:
+                raw_image_tags.append(path.relative_to(ROOT).as_posix())
+
+        self.assertEqual(raw_image_tags, [])
+
+    def test_post_markdown_does_not_use_plain_http_links(self):
+        plain_http_links = []
+
+        for path in (ROOT / "_posts").rglob("*.md"):
+            contents = path.read_text(encoding="utf-8")
+            if "http://" in contents:
+                plain_http_links.append(path.relative_to(ROOT).as_posix())
+
+        self.assertEqual(plain_http_links, [])
 
     def test_optimized_large_images_stay_within_web_sized_bounds(self):
         for path in (
