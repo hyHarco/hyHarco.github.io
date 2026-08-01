@@ -302,6 +302,7 @@ For research posts about a single member, prefer the slug-prefixed filename: `YY
 
 - Keep photo-like assets as `.jpg`; keep `.png` for graphics that need sharp edges or transparency.
 - Keep the file extension aligned with the real image format.
+- Keep image file extensions lowercase.
 - Keep large web images within a 2400px maximum dimension unless a page explicitly needs a larger inspection image.
 - Keep JPEG assets under 2 MB.
 - Keep referenced `.jpg`, `.jpeg`, and `.png` assets under 2.5 MB.

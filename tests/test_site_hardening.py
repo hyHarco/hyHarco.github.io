@@ -359,19 +359,35 @@ class SiteHardeningTest(unittest.TestCase):
             with self.subTest(path=str(relative_path)):
                 self.assertLessEqual(path.stat().st_size, MAX_REFERENCED_ANIMATED_IMAGE_BYTES)
 
-    def test_image_asset_paths_use_lowercase_names_without_spaces(self):
+    def test_image_asset_extensions_are_lowercase(self):
         for path in (ROOT / "images").rglob("*"):
             relative_path = path.relative_to(ROOT).as_posix()
             with self.subTest(path=relative_path):
-                self.assertEqual(relative_path, relative_path.lower())
-                self.assertNotIn(" ", relative_path)
+                self.assertEqual(path.suffix, path.suffix.lower())
 
-    def test_referenced_image_paths_use_lowercase_names_without_spaces(self):
+    def test_referenced_image_extensions_are_lowercase(self):
         for relative_path in referenced_image_paths():
             image_path = relative_path.as_posix()
             with self.subTest(path=image_path):
-                self.assertEqual(image_path, image_path.lower())
-                self.assertNotIn(" ", image_path)
+                self.assertEqual(relative_path.suffix, relative_path.suffix.lower())
+
+    def test_original_image_basenames_are_preserved_when_only_extensions_change(self):
+        for path in (
+            "images/event_img/icra2025/ICRA-ATL-logo.webp",
+            "images/event_img/icra2025/IROS-LOGO.svg",
+            "images/event_img/sample/IROS_thumbnail.png",
+            "images/news/210427_Young Robot Engineer/kuka_innovation.png",
+            "images/news/220822_biorob2022/Biorob2022_ws.jpg",
+            "images/news/221023_iros_2022_kyoto/IROS_2022_kyoto.jpg",
+            "images/news/250212_kroc2025/KRoC2025_1.jpg",
+            "images/news/250507_etri_seminar/ETRI_1.jpg",
+            "images/news/250703_tu_delft/TU_delft_1.jpg",
+            "images/news/251023_iros2025/IROS_2025_1.jpg",
+            "images/news/260203_kroc2026/Invitation_speaker_ProfKim.jpg",
+            "images/news/260203_kroc2026/Tutorial_Jaegyun-Park.jpg",
+        ):
+            with self.subTest(path=path):
+                self.assertTrue((ROOT / path).exists())
 
     def test_referenced_image_assets_exist(self):
         for relative_path in referenced_image_paths():
