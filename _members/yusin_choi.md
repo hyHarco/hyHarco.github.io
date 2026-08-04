@@ -9,7 +9,8 @@ links:
   github : yougod6
 tier: alumni
 ---
-#### **<i class="fas fa-paper-plane"></i> Current Affiliation : [LIG NEX 1](https://www.lignex1.com/main.do)**
+
+#### **<i class="fas fa-paper-plane"></i> Current Affiliation : [LIG Defense&Aerospace](https://www.ligdefenseaerospace.com/main.do)**
 
 #### **Research intersts**
 - *Impedance Control* 

@@ -9,7 +9,7 @@ links:
 tier: alumni
 ---
 
-    
+#### **<i class="fas fa-paper-plane"></i> Current Affiliation : [AIDIN ROBOTICS](https://www.aidinrobotics.co.kr/)**
 
 #### **Research interests**
 - Soft Robotics & Actuator
