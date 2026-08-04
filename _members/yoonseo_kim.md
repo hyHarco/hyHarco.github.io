@@ -9,7 +9,7 @@ links:
 tier: alumni
 ---
 
-    
+#### **<i class="fas fa-paper-plane"></i> Current Affiliation : [Angel Robotics](https://www.angel-robotics.com/ko)**
 
 #### **Research interests**
 - Exoskeleton Robot
