@@ -1,5 +1,21 @@
 [
   {
+    "id": "Hf3pkL9AmAg",
+    "title": "[ICROS 2026] IDEA Demo",
+    "published": "2026-10-19T06:39:46+00:00",
+    "date": "2026-10-19",
+    "url": "https://www.youtube.com/watch?v=Hf3pkL9AmAg",
+    "thumbnail": "https://i1.ytimg.com/vi/Hf3pkL9AmAg/hqdefault.jpg"
+  },
+  {
+    "id": "Cd5MkOcDuzA",
+    "title": "[AIM 2026] A Hybrid Bidirectional Pulley Module (HBPM) For Cable-Driven Soft Exosuits",
+    "published": "2026-10-19T06:33:04+00:00",
+    "date": "2026-10-19",
+    "url": "https://www.youtube.com/watch?v=Cd5MkOcDuzA",
+    "thumbnail": "https://i4.ytimg.com/vi/Cd5MkOcDuzA/hqdefault.jpg"
+  },
+  {
     "id": "Xh0JEdAZnTI",
     "title": "[RAL] Geo-LSTM: A Geometry and Temporal Feature Fusion Algorithm for Multi-Sensor 3D Localization",
     "published": "2026-05-19T08:51:57+00:00",
@@ -46,21 +62,5 @@
     "date": "2025-05-14",
     "url": "https://www.youtube.com/watch?v=hYBdPTzzrBg",
     "thumbnail": "https://i1.ytimg.com/vi/hYBdPTzzrBg/hqdefault.jpg"
-  },
-  {
-    "id": "eh7evVtldQI",
-    "title": "Multi-Task Energy-Aware Impedance Controller for Enhanced Safety in Physical Human-Robot Interaction",
-    "published": "2025-05-02T06:07:53+00:00",
-    "date": "2025-05-02",
-    "url": "https://www.youtube.com/watch?v=eh7evVtldQI",
-    "thumbnail": "https://i2.ytimg.com/vi/eh7evVtldQI/hqdefault.jpg"
-  },
-  {
-    "id": "9mDxs26xCeY",
-    "title": "Stable Variable Impedance Control via CLF-MPC for Physical Human-Robot Interaction",
-    "published": "2025-05-02T06:01:37+00:00",
-    "date": "2025-05-02",
-    "url": "https://www.youtube.com/watch?v=9mDxs26xCeY",
-    "thumbnail": "https://i2.ytimg.com/vi/9mDxs26xCeY/hqdefault.jpg"
   }
 ]
