@@ -1,5 +1,13 @@
 [
   {
+    "id": "gTStmzZYJjM",
+    "title": "Spatial and Semantic Reasoning for LLM-Driven Robot Navigation via MCP",
+    "published": "2026-10-21T12:42:03+00:00",
+    "date": "2026-10-21",
+    "url": "https://www.youtube.com/watch?v=gTStmzZYJjM",
+    "thumbnail": "https://i4.ytimg.com/vi/gTStmzZYJjM/hqdefault.jpg"
+  },
+  {
     "id": "Hf3pkL9AmAg",
     "title": "[ICROS 2026] IDEA Demo",
     "published": "2026-10-19T06:39:46+00:00",
@@ -54,13 +62,5 @@
     "date": "2025-09-10",
     "url": "https://www.youtube.com/watch?v=RW9_FgfxWzs",
     "thumbnail": "https://i3.ytimg.com/vi/RW9_FgfxWzs/hqdefault.jpg"
-  },
-  {
-    "id": "hYBdPTzzrBg",
-    "title": "Unitree Go2 Control via the Model Context Protocol (MCP)",
-    "published": "2025-05-14T04:41:56+00:00",
-    "date": "2025-05-14",
-    "url": "https://www.youtube.com/watch?v=hYBdPTzzrBg",
-    "thumbnail": "https://i1.ytimg.com/vi/hYBdPTzzrBg/hqdefault.jpg"
   }
 ]
